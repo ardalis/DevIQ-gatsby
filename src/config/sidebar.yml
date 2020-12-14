@@ -22,3 +22,39 @@
   items:
     - label: 'Github'
       link: https://github.com/rocketseat/gatsby-themes
+- label: Design Patterns
+  items:
+    - label: Adapter Design Pattern
+      link: /design-patterns/adapter-design-pattern
+- label: Practices
+  items:
+    - label: Code Readability
+      link: /practices/code-readability
+    - label: Collective Code Ownership
+      link: /practices/collective-code-ownership
+    - label: Continuous Integration
+      link: /practices/continuous-integration
+    - label: Dependency Injection
+      link: /practices/dependency-injection
+    - label: Dogfooding
+      link: /practices/dogfooding
+- label: Principles
+  items:
+    - label: Boy Scout Rule
+      link: /principles/boy-scout-rule
+    - label: Dependency Inversion
+      link: /principles/dependency-inversion-principle
+    - label: Don't Repeat Yourself
+      link: /principles/dont-repeat-yourself
+    - label: Explicit Dependencies
+      link: /principles/explicit-dependencies-principle
+- label: Antipatterns
+  items:
+    - label: Death March
+      link: /antipatterns/death-march
+- label: Values
+  items:
+    - label: Communication
+      link: /values/communication
+    - label: Courage
+      link: /values/courage
