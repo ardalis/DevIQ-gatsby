@@ -96,7 +96,7 @@ This class is clearly tightly coupled to the file system and the system clock, a
 
 ## Explicit Dependencies Example
 
-```csharp
+```csharp lineNumbers=true
 using System;
 using System.IO;
 using System.Linq;

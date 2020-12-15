@@ -38,6 +38,10 @@
       link: /practices/dependency-injection
     - label: Dogfooding
       link: /practices/dogfooding
+    - label: Know Where You Are Going
+      link: /practices/know-where-you-are-going
+    - label: Naming Things
+      link: /practices/naming-things
 - label: Principles
   items:
     - label: Boy Scout Rule
@@ -48,6 +52,14 @@
       link: /principles/dont-repeat-yourself
     - label: Explicit Dependencies
       link: /principles/explicit-dependencies-principle
+    - label: Hollywood
+      link: /principles/hollywood-principle
+    - label: Interface Segregation
+      link: /principles/interface-segregation
+    - label: Keep It Simple
+      link: /principles/keep-it-simple
+    - label: Liskov Substitution
+      link: /principles/liskov-substitution-principle
 - label: Antipatterns
   items:
     - label: Death March
@@ -58,3 +70,5 @@
       link: /values/communication
     - label: Courage
       link: /values/courage
+    - label: Feedback
+      link: /values/feedback
