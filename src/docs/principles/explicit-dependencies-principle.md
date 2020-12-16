@@ -20,7 +20,7 @@ Consider the PersonalizedResponse class in this Gist, which can be constructed w
 
 ## Implicit Dependencies Example
 
-```csharp lineNumbers=true
+```java lineNumbers=true
 using System;
 using System.IO;
 using System.Linq;
@@ -96,7 +96,7 @@ This class is clearly tightly coupled to the file system and the system clock, a
 
 ## Explicit Dependencies Example
 
-```csharp lineNumbers=true
+```java lineNumbers=true
 using System;
 using System.IO;
 using System.Linq;

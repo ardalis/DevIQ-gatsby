@@ -14,7 +14,7 @@ The simplest approach, especially with an existing system, is to create a new Re
 
 Another approach is to go ahead and create a simple, generic interface for your Repository. You can constrain what kind of types it works with to be of a certain type, or to implement a certain interface (e.g. ensuring it has an Id property, as is done below using a base class). An example of a generic C# repository interface might be:
 
-```csharp
+```java
 public interface IRepository<T> where T : EntityBase
 {
     T GetById(int id);
@@ -37,7 +37,7 @@ The advantage of this approach is that it ensures you have a common interface fo
 
 Assuming you create a Generic Repository Interface, you can implement the interface generically as well. Once this is done, you can easily create repositories for any given type without having to write any new code, and your classes the declare dependencies can simply specify `IRepository<Item>` as the type, and it's easy for your IoC container to match that up with a `Repository<Item>` implementation. You can see an example Generic Repository Implementation, using Entity Framework, here.
 
-```csharp
+```java
 public class Repository<T> : IRepository<T> where T : EntityBase
 {
     private readonly ApplicationDbContext \_dbContext;
@@ -92,7 +92,7 @@ Another common question with Repositories has to do with what they return. Shoul
 
 A problem with this approach is that it tends to result in business logic bleeding into higher application layers, and becoming duplicated there. If the rule for returning valid customers is that they're not disabled and they've bought something in the last year, it would be better to have a method ListValidCustomers() that encapsulates this logic rather than specifying these criteria in lambda expressions in multiple different UI layer references to the repository. Another common example in real applications is the use of "soft deletes" represented by an IsActive or IsDeleted property on an entity. Once an item has been deleted, 99% of the time it should be excluded from display in any UI scenario, so nearly every request will include something like
 
-```csharp
+```java
 .Where(foo => foo.IsActive)
 ```
 

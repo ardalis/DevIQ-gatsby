@@ -8,7 +8,7 @@ Magic strings are string values that are specified directly within application c
 
 Consider the following example, which uses a magic string several times to represent the key to a cache/dictionary resource:
 
-```csharp
+```java
 public SomeType GetValue()
 {
   var someValue = cache\["valueKey"\];
@@ -27,7 +27,7 @@ In order to follow the [DRY principle](/don-t-repeat-yourself/), strings within 
 
 In the case of the above example, a simple approach, assuming the cache key isn't used outside of the method shown, would be to assign the key value to a local variable before using it:
 
-```csharp
+```java
 public SomeType GetValue()
 {
   var cacheKey = "valueKey";

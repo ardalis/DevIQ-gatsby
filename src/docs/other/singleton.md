@@ -8,7 +8,7 @@ The Singleton design pattern is used to ensure an application never contains mor
 
 An example implementation:
 
-```csharp
+```java
 // Bad code! Do not use!
 // See http://csharpindepth.com/Articles/General/Singleton.aspx
 public sealed class Singleton

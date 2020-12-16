@@ -18,7 +18,7 @@ Structurally, the Stategy Design Pattern typically takes the shape of having an 
 
 Strategy is frequently employed as a means of Dependency Injection. In this example, the hard-coded references to the local entity framework dbcontext have been replaced with an interface, which in this case is using the [Repository pattern](http://deviq.com/repository-pattern). Note that the **new** keyword is almost entirely absent - it is only used in the "poor man's dependency injection" used by the default constructor. Even this can be removed once an IOC container is added to the project, which then has the responsibility of instantiating the objects needed for the application to execute. Remember, "[new is glue](http://ardalis.com/new-is-glue)" - you don't want to instantiate dependencies directly if you can avoid it. Prefer to have such dependencies passed into your class, thus following the [Explicit Dependencies Principle](http://deviq.com/explicit-dependencies-principle) (and frequently using the Strategy pattern to do so).
 
-```csharp
+```java
 public class MoviesController : Controller
 {
     private readonly IMovieRepository _movieRepository;

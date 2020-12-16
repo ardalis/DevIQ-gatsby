@@ -10,7 +10,7 @@ The Interface Segregation Principle (ISP) states that clients should not be forc
 
 In many languages, such as C#, interfaces can inherit from multiple other interfaces. Thus, if you need a larger interface in some parts of the application, but not in others, you may be able to compose it from two or more other interfaces. This is also a good approach to keep in mind if you find yourself refactoring a legacy codebase, which already has large interfaces that you can't break. Consider an interface like this one:
 
-```csharp lineNumbers=true
+```java lineNumbers=true
 public interface IMembership
 {
   bool Login(string username, string password);
@@ -22,7 +22,7 @@ public interface IMembership
 
 It's easy to [imagine such an interface growing completely out of control and having more functionality than any one class would ever require](https://msdn.microsoft.com/en-us/library/system.web.security.membershipprovider(v=vs.110).aspx). To keep, say, a login form from having more methods on it than it needs, you could create a login-specific interface, and have the existing interface extend from it:
 
-```csharp lineNumbers=true
+```java lineNumbers=true
 public interface ILogin
 {
   bool Login(string username, string password);
@@ -38,7 +38,7 @@ public interface IMembership : ILogin
 
 Of course, you can extend this further, as required, perhaps ending up with an original "fat" interface that only exists for legacy reasons, and is totally composed of other interfaces:
 
-```csharp lineNumbers=true
+```java lineNumbers=true
 public interface ILogin
 {
   bool Login(string username, string password);

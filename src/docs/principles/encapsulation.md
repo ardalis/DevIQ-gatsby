@@ -8,7 +8,7 @@ Encapsulation refers to the idea that objects should manage their own behavior a
 
 Objects should ideally be kept in valid states, controlling how their state is modified to avoid being placed into states that do not make sense. For example, a class representing a product might include some state representing that product's volume (let's say in Liters). This volume could be represented as a numeric type, such as double, but it would never make sense for the value to be negative. If the class exposes the data as a public field, then any code in the system could set that value to be negative:
 
-```csharp
+```java
 public class Product
 {
    public double Volume;
@@ -17,7 +17,7 @@ public class Product
 
 Most modern object-oriented languages support the notion of Properties, so many developers would improve upon this design slightly by using a property:
 
-```csharp
+```java
 public class Product
 {
   public double Volume { get; set; }
@@ -26,7 +26,7 @@ public class Product
 
 However, this still doesn't ensure the Product's volume remains positive. Only once a private backing field is explicitly introduced can we achieve this:
 
-```csharp
+```java
 public class Product
 {
   private double _volume;
@@ -48,7 +48,7 @@ This design is better, but still represents a bit of the [Primitive Obsession co
 
 As a simple example:
 
-```csharp
+```java
 public class Volume
 {
   private Volume(double amount, string unitOfMeasure)

@@ -6,7 +6,7 @@ description: Static Cling is a code smell used to describe the undesirable coupl
 
 Static Cling is a code smell used to describe the undesirable coupling introduced by accessing static (global) functionality, either as variables or methods. This coupling can make it difficult to test or modify the behavior of software systems. Consider the following example:
 
-```csharp
+```java
 public class CheckoutController
 {
     public void Checkout(Order order)
@@ -41,7 +41,7 @@ In the above code, any attempt to unit test the Checkout method will be made muc
 
 To refactor away from Static Cling, replace the static method call with an instance method call on an instance type (frequently implementing an interface), and use the [strategy design pattern](/strategy-design-pattern/) (also known as [dependency injection](/dependency-injection/)) to inject the dependency into the class that needs the functionality. In the case where the static functionality is not code you control, you can access it through an [Adapter](/adapter-design-pattern/). This approach is shown below:
 
-```csharp
+```java
 public class CheckoutController
 {
     private readonly IOrderLoggerAdapter _orderLoggerAdapter;

@@ -8,7 +8,7 @@ The Null Object Pattern was described in the [Gang of Four's Design Patterns boo
 
 For instance, consider a call center application that looks up customers based on their phone number:
 
-```csharp
+```java
 public Customer GetByPhoneNumber(string phoneNumber)
 {
   return _customerRepository
@@ -19,7 +19,7 @@ public Customer GetByPhoneNumber(string phoneNumber)
 
 Now imagine that elsewhere the application needs to display some details about the customer that was found, such as their total number of orders and amount spent. The application will need to be careful to check for null:
 
-```csharp
+```java
 var customer = GetByPhoneNumber(phone);
 
 int orderCount = customer != null ? customer.OrderCount : 0;
@@ -30,7 +30,7 @@ This kind of code gets even more verbose if full if blocks are used, and it's ve
 
 To implement the Null Object Pattern, an instance of Customer is created to represent the case of a "not found" customer:
 
-```csharp
+```java
 public class Customer
 {
   public static Customer NotFound =
@@ -42,7 +42,7 @@ public class Customer
 
 Then, wherever you would have a method that could return a null Customer, have it return the static instance instead:
 
-```csharp
+```java
 public Customer GetByPhoneNumber(string phoneNumber)
 {
  var customer = _customerRepository

@@ -8,7 +8,7 @@ A Value Object is an immutable type that is distinguishable only by the state of
 
 To produce an immutable type in C#, the type must have all of its state passed in at construction. Any properties must be read-only, which can be achieved using private setters, as in this example:
 
-```csharp
+```java
 public class SomeValue
 {
   public SomeValue(int value1, string value2)

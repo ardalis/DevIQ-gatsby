@@ -12,7 +12,7 @@ A guard clause is simply a check that immediately exits the function, either wit
 
 An example of a function that does not use guard clauses:
 
-```csharp
+```java
 public void Subscribe(User user, Subscription subscription, Term term)
 {
     if (user != null)
@@ -46,7 +46,7 @@ public void Subscribe(User user, Subscription subscription, Term term)
 
 This code can be refactored to eliminate the need for the else clauses. This is accomplished by simply inverting the logic of the if statements and putting the exception throwing statements inside of these if statements. The result looks like this:
 
-```csharp
+```java
 public void Subscribe2(User user, Subscription subscription, Term term)
 {
     if (user == null)
@@ -74,7 +74,7 @@ public void Subscribe2(User user, Subscription subscription, Term term)
 
 The checks for null and common behavior of throwing a particular type of exception is clearly a violation of the [DRY principle](/don-t-repeat-yourself/). This code can be pulled out into a helper method:
 
-```csharp
+```java
 public static class Guard
 {
     public static void AgainstNull(object argument, string argumentName)
@@ -98,7 +98,7 @@ public static class Guard
 
 These helper guard methods can then be called without the need to even include any if statements in the calling function, since if an exception occurs it will bubble up and out of the original function. Now the original function can be updated to look like this:
 
-```csharp
+```java
 public void Subscribe3(User user, Subscription subscription, Term term)
 {
     Guard.AgainstNull(user, nameof(user));

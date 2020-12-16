@@ -20,7 +20,7 @@ public interface ISpecification<T>
 
 ## Generic Specification Implementation (Base Class)
 
-```csharp
+```java
 // https://github.com/dotnet-architecture/eShopOnWeb
 public abstract class BaseSpecification<T> : ISpecification<T>
 {
@@ -48,7 +48,7 @@ public abstract class BaseSpecification<T> : ISpecification<T>
 
 The following specification will load a single basket entity given either the basket's ID or the ID of the buyer to whom the basket belongs. It will eager load the basket's Items collection.
 
-```csharp
+```java
 public class BasketWithItemsSpecification : BaseSpecification<Basket>
 {
     public BasketWithItemsSpecification(int basketId)
@@ -68,7 +68,7 @@ public class BasketWithItemsSpecification : BaseSpecification<Basket>
 
 Below is an example repository method that uses a specification to filter and eager load data related to a given generic entity type, T.
 
-```csharp
+```java
 // https://github.com/dotnet-architecture/eShopOnWeb
 public IEnumerable<T> List(ISpecification<T> spec)
 {

@@ -22,7 +22,7 @@ You can see from the sequence diagram two additional implementation details. Fir
 
 You can view a [complete example of the State pattern in C# with unit tests on GitHub](https://github.com/ardalis/StatePattern). The example uses an insurance Policy as its context object, with states as shown in the initial diagram above (Unwritten, Open, Closed, Cancelled, and Void). The IPolicyState interface defines all of the different operations that can be used to change the state of a policy:
 
-```csharp
+```java
 public interface IPolicyState
 {
     void Open(DateTime? writtenDate = null);
@@ -35,7 +35,7 @@ public interface IPolicyState
 
 The Policy class implements this interface (as do all of the individual state subtypes) and delegates all calls to its State property.
 
-```csharp
+```java
 public partial class Policy : IPolicyState
 {
     private Policy()
@@ -94,7 +94,7 @@ public partial class Policy : IPolicyState
 
 From the Unwritten state, the only valid operations that can be performed on a policy are Open and Void. This logic is represented in the UnwrittenState class, which implements the IPolicyStateCommands interface that includes all of IPolicyState as well as a list of valid commands (used to build the UI).
 
-```csharp
+```java
 public partial class Policy
 {
     public class UnwrittenState : IPolicyStateCommands

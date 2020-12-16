@@ -8,7 +8,7 @@ The Tell, Don't Ask (TDA) principle suggests that it is better to issue an objec
 
 ## Example
 
-``` csharp
+``` java
 // Violates TDA
 public class CpuMonitor
 {
@@ -30,7 +30,7 @@ public class Client
 }
 ```
 
-```csharp
+```java
 // Refactored
 public class CpuMonitor
 {
@@ -60,7 +60,7 @@ public class Client
 }
 ```
 
-```csharp
+```java
 // Refactored Further
 public class CpuMonitor
 {

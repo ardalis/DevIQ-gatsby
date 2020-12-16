@@ -20,7 +20,7 @@ A typical builder design (to create _SomeType_) has the following characteristic
 
 ## A simple example in C#
 
-```csharp
+```java
 public class AddressBuilder
 {
   private Address _address = new Address();
