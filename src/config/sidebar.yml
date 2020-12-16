@@ -24,24 +24,70 @@
       link: https://github.com/rocketseat/gatsby-themes
 - label: Design Patterns
   items:
-    - label: Adapter Design Pattern
+    - label: Overview
+      link: /design-patterns/design-patterns-overview
+    - label: Adapter
       link: /design-patterns/adapter-design-pattern
+    - label: Builder
+      link: /design-patterns/builder-pattern
+    - label: Guard Clause
+      link: /design-patterns/guard-clause
+    - label: Null Object
+      link: /design-patterns/null-object-pattern
+    - label: Repository
+      link: /design-patterns/repository-pattern
+    - label: Specification
+      link: /design-patterns/specification-pattern
+    - label: State
+      link: /design-patterns/state-design-pattern
+    - label: Strategy
+      link: /design-patterns/strategy-pattern
 - label: Practices
   items:
     - label: Code Readability
       link: /practices/code-readability
     - label: Collective Code Ownership
       link: /practices/collective-code-ownership
+    - label: Common Architectural Vision
+      link: /practices/common-architectural-vision
     - label: Continuous Integration
       link: /practices/continuous-integration
     - label: Dependency Injection
       link: /practices/dependency-injection
+    - label: Descriptive Error Messages
+      link: /practices/descriptive-error-messages
     - label: Dogfooding
       link: /practices/dogfooding
     - label: Know Where You Are Going
       link: /practices/know-where-you-are-going
     - label: Naming Things
       link: /practices/naming-things
+    - label: Pain Driven Development
+      link: /practices/pain-driven-development
+    - label: Pair Programming
+      link: /practices/pair-programming
+    - label: Read the Manual
+      link: /practices/read-the-manual
+    - label: Refactoring
+      link: /practices/refactoring
+    - label: Rubber Duck Debugging
+      link: /practices/rubber-duck-debugging
+    - label: Shipping Is A Feature
+      link: /practices/shipping-is-a-feature
+    - label: Simple Design
+      link: /practices/simple-design
+    - label: Technical Debt
+      link: /practices/technical-debt
+    - label: Test Driven Development
+      link: /practices/test-driven-development
+    - label: Update the Plan
+      link: /practices/update-the-plan
+    - label: Vertical Slices
+      link: /practices/vertical-slices
+    - label: Whole Team
+      link: /practices/whole-team
+    - label: Whole Team Activity
+      link: /practices/whole-team-activity
 - label: Principles
   items:
     - label: Boy Scout Rule
@@ -50,20 +96,38 @@
       link: /principles/dependency-inversion-principle
     - label: Don't Repeat Yourself
       link: /principles/dont-repeat-yourself
+    - label: Encapsulation
+      link: /principles/encapsulation
     - label: Explicit Dependencies
       link: /principles/explicit-dependencies-principle
     - label: Hollywood
       link: /principles/hollywood-principle
     - label: Interface Segregation
       link: /principles/interface-segregation
+    - label: Inversion of Control
+      link: /principles/inversion-of-control
     - label: Keep It Simple
       link: /principles/keep-it-simple
     - label: Liskov Substitution
       link: /principles/liskov-substitution-principle
-- label: Antipatterns
-  items:
-    - label: Death March
-      link: /antipatterns/death-march
+    - label: Once and Only Once
+      link: /principles/once-and-only-once
+    - label: Open-Closed
+      link: /principles/open-closed-principle
+    - label: Persistence Ignorance
+      link: /principles/persistence-ignorance
+    - label: Separation of Concerns
+      link: /principles/separation-of-concerns
+    - label: Single Responsibility
+      link: /principles/single-responsibility-principle
+    - label: SOLID
+      link: /principles/solid
+    - label: Stable Dependencies
+      link: /principles/stable-dependencies
+    - label: Tell, Don't Ask
+      link: /principles/tell-dont-ask
+    - label: YAGNI
+      link: /principles/yagni
 - label: Values
   items:
     - label: Communication
@@ -72,3 +136,95 @@
       link: /values/courage
     - label: Feedback
       link: /values/feedback
+    - label: Respect
+      link: /values/respect
+    - label: Simplicity
+      link: /values/simplicity
+- label: Antipatterns
+  items:
+    - label: Overview
+      link: /antipatterns/antipatterns-overview
+    - label: Assumption Driven Programming
+      link: /antipatterns/assumption-driven-programming
+    - label: The Blob
+      link: /antipatterns/blob
+    - label: Broken Windows
+      link: /antipatterns/broken-windows
+    - label: Calendar Coder
+      link: /antipatterns/calendar-coder
+    - label: Code Smells
+      link: /antipatterns/code-smells
+    - label: Copy Folder Versioning
+      link: /antipatterns/copy-folder-versioning
+    - label: Copy Paste Programming
+      link: /antipatterns/copy-paste-programming
+    - label: Death By Planning
+      link: /antipatterns/death-by-planning
+    - label: Death March
+      link: /antipatterns/death-march
+    - label: Duct Tape Coder
+      link: /antipatterns/duct-tape-coder
+    - label: Exposing Collection Properties
+      link: /antipatterns/exposing-collection-properties
+    - label: Fast Beats Right
+      link: /antipatterns/fast-beats-right
+    - label: Feature Creep
+      link: /antipatterns/feature-creep
+    - label: Flags Over Objects
+      link: /antipatterns/flags-over-objects
+    - label: Found on Internet
+      link: /antipatterns/found-on-internet
+    - label: Frankencode
+      link: /antipatterns/frankencode
+    - label: Golden Hammer
+      link: /antipatterns/golden-hammer
+    - label: Iceberg Class
+      link: /antipatterns/iceberg-class
+    - label: Magic Strings
+      link: /antipatterns/magic-strings
+    - label: Mushroom Management
+      link: /antipatterns/mushroom-management
+    - label: Not Invented Here
+      link: /antipatterns/not-invented-here
+    - label: One Thing To Rule Them All
+      link: /antipatterns/one-thing-to-rule-them-all
+    - label: Reinventing the Wheel
+      link: /antipatterns/reinventing-the-wheel
+    - label: Shiny Toy
+      link: /antipatterns/shiny-toy
+    - label: Smoke and Mirrors
+      link: /antipatterns/smoke-and-mirrors
+    - label: Spaghetti Code
+      link: /antipatterns/spaghetti-code
+    - label: Static Cling
+      link: /antipatterns/static-cling
+    - label: Walking Through a Minefield
+      link: /antipatterns/walking-through-a-minefield
+    - label: Waterfall
+      link: /antipatterns/waterfall
+- label: Domain Driven Design
+  items:
+    - label: Aggregate
+      link: /domain-driven-design/aggregate-pattern
+    - label: Anemic Model
+      link: /domain-driven-design/anemic-model
+    - label: Entity
+      link: /domain-driven-design/entity
+    - label: Ubiquitous Language
+      link: /domain-driven-design/ubiquitous-language
+    - label: Value Object
+      link: /domain-driven-design/value-object
+- label: Tools
+  items:
+    - label: Build Server
+      link: /tools/build-server
+    - label: Version Control
+      link: /tools/version-control
+- label: Other
+  items:
+    - label: Bus Factor
+      link: /other/bus-factor
+    - label: Kinds of Models
+      link: /other/kinds-of-models
+    - label: Singleton
+      link: /other/singleton
