@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: YAGNI, or "You Ain't Gonna Need It" (or "You Aren't Gonna Need It"), emerged as one of the key principles of Extreme Programming.
 ---
 
-![YAGNI](images/YAGNI-400x400-300x300.png)
+![YAGNI](images/yagni-400x400.png)
 
 YAGNI, or "You Ain't Gonna Need It" (or "You Aren't Gonna Need It"), emerged as one of the key principles of Extreme Programming.  Put another way, the principle states:
 
@@ -16,7 +16,7 @@ In some ways, you can think of YAGNI as being similar to Just-In-Time manufactur
 
 It follows that YAGNI is closely related to te Keep It Simple, Stupid principle.  By avoiding adding features and complexity until it's actually needed, the overall design of the system can remain simpler, longer.  And that feature you thought you would need?  Well, usually it it turns out that you either didn't actually need it, or that when you do need it, your understanding of how best to design it will be better than if you'd tried to divine how it would be used earlier in the project.
 
-![You-Arent-Gonna-Need-It-Oct-2013](images/You-Arent-Gonna-Need-It-Oct-2013-300x300.png)
+![You-Arent-Gonna-Need-It-Oct-2013](images/yagni2013-400x400.jpg)
 
 ## Quotes
 

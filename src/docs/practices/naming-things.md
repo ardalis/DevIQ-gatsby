@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: It is hard to overestimate the importance of choosing good names for source code elements in software development.
 ---
 
-![Naming-Things-Sep-2013](images/Naming-Things-Sep-2013-300x300.png)
+![Naming-Things-Sep-2013](images/Naming-Things-400x400.jpg)
 
 It is hard to overestimate the importance of choosing good names for source code elements in software development.  Much has been written on this topic, and it is often a source of great debate.  "What makes a name good, or better than another?"  "What about my favorite cryptic notation that I've been using since last century?"  "Everybody should always use my favorite prefixes/suffixes everywhere!"  The topic of naming things can frequently degrade into such discussions, but here we will discuss some principles that should inform your decisions when naming things that are generally accepted today by professional software developers.
 

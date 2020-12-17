@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: The SOLID principles of Object Oriented Design include these five principles.
 ---
 
-![SOLID-July-2013](images/SOLID-July-2013-300x300.png)
+![SOLID-July-2013](images/solid-400x400.jpg)
 
 The SOLID principles of Object Oriented Design include these five principles:
 

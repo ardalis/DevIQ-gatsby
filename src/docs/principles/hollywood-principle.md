@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: The Hollywood Principle states, "Don't Call Us, We'll Call You."
 ---
 
-![Dont-Call-Us-Well-Call-You-Jun-2013](images/Dont-Call-Us-Well-Call-You-Jun-2013-300x300.png)
+![Dont-Call-Us-Well-Call-You-Jun-2013](images/Dont-Call-Us-400x400.jpg)
 
 The Hollywood Principle states, "Don't Call Us, We'll Call You." It's closely related to the [Dependency Inversion Principle](/dependency-inversion-principle), and illustrates a different way of writing software from the more traditional form of programming in which one's own code dictates the flow of control.  When following the Hollywood Principle, code is written to respond to external events, such as from an existing framework.
 

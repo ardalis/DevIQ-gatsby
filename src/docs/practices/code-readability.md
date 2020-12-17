@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: Writing code that is readable is critical for any software application that needs to be maintained for any length of time.
 ---
 
-[![Code-Readability-Dec-2013](images/Code-Readability-Dec-2013-300x300.png)](http://deviq.com/wp-content/uploads/2014/11/Code-Readability-Dec-2013.png)
+![Code-Readability-Dec-2013](images/Code-Readability-Dec-2013-400x400.jpg)
 
 Writing code that is readable is critical for any software application that needs to be maintained for any length of time.  There are valid performance and anti-theft reasons to [minify](http://en.wikipedia.org/wiki/Minification_(programming)) or even [obfuscate](http://en.wikipedia.org/wiki/Obfuscation_(software)) code that is being deployed, but the source with which the team works should be kept in as readable and well-organized a state as possible. Code that is well written for human understanding should generally be readable by an experienced developer with little need for external documentation (except perhaps at a high level) or code comments (except to explain why certain design decisions were made).
 

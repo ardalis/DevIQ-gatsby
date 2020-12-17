@@ -8,7 +8,7 @@ The Boy Scout Rule can be summarized as:
 
 _**Leave your code better than you found it.**_
 
-![Boy Scout Rule](images/BoyScoutRule-400x400-300x300.png)
+![Boy Scout Rule](images/BoyScoutRule-400x400.png)
 
 Boy Scouts have a rule regarding camping, that they should leave the campground cleaner than they found it. They don't take it upon themselves to ensure the entire campground is cleaned up, but neither do they simply trash the place but plan on coming back one week out of the year to do a proper cleanup job. By ensuring that the campground is cleaner when they leave than it was when they arrived, they can guarantee that they are doing no harm, at least when it comes to the cleanliness of the site.
 
@@ -28,4 +28,4 @@ The act of leaving a mess in the code should be as socially unacceptable as _lit
 
 This principle was featured in the 2011 Software Craftsmanship Calendar using the image below, as well as the 2016 Software Craftsmanship Calendar (with image above).
 
-![BoyScoutRule](images/BoyScoutRule-300x300.jpg)
+![BoyScoutRule](images/BoyScoutRule-400x400.jpg)

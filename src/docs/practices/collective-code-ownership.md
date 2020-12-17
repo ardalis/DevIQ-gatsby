@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: Collective code ownership breaks down fiefdoms within an application's codebase.
 ---
 
-[![Collective Code Ownership](images/CollectiveCodeOwnership-400x400-300x300.png)](http://deviq.com/wp-content/uploads/CollectiveCodeOwnership-400x400.png)
+![Collective Code Ownership](images/CollectiveCodeOwnership-400x400.png)
 
 Collective code ownership breaks down fiefdoms within an application's codebase. Nobody "owns" a particular part of the code. Everyone on the team is responsible for all of the code.  This enables [pair programming](/pair-programming/) and [refactoring](/refactoring/) by the [whole team](/whole-team/). It also reduces the project's [bus factor](/bus-factor/).
 
@@ -14,8 +14,12 @@ Collective code ownership means the team applies their coding standards consiste
 
 ## References
 
-- [Collective Ownership](http://www.extremeprogramming.org/rules/collective.html)
-- [Naming Things](/naming-things/)
-- [Keep It Simple](/keep-it-simple/)
-- [Code Readability](/code-readability/)
-- [2016 Software Craftsmanship Calendar](http://amzn.to/1NI2m22)
+[Collective Ownership](http://www.extremeprogramming.org/rules/collective.html)
+
+[Naming Things](/naming-things/)
+
+[Keep It Simple](/keep-it-simple/)
+
+[Code Readability](/code-readability/)
+
+[2016 Software Craftsmanship Calendar](http://amzn.to/1NI2m22)

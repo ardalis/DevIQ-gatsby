@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: The Liskov Substitution Principle (LSP) states that subtypes must be substitutable for their base types.
 ---
 
-![LiskovSubstitution](images/LiskovSubstitution-300x300.jpg)
+![LiskovSubstitution](images/liskov-substitution-400x400.jpg)
 
 The Liskov Substitution Principle (LSP) states that subtypes must be substitutable for their base types. When this principle is violated, it tends to result in a lot of extra conditional logic scattered throughout the application, checking to see the specific type of an object. This duplicate, scattered code becomes a breeding ground for bugs as the application grows.
 

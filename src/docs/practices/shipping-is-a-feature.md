@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: Never lose sight of the fact that until you ship your product, it is not providing value to anybody.
 ---
 
-![ShippingIsAFeature](images/ShippingIsAFeature-300x300.jpg)
+![ShippingIsAFeature](images/ShippingIsAFeature-400x400.jpg)
 
 Never lose sight of the fact that until you ship your product, it is not providing value to anybody.  Joel Spolsky put it well when [he wrote](http://www.joelonsoftware.com/items/2009/09/23.html):
 

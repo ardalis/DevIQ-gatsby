@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: The Single Responsibility Principle (SRP) states that a class should have only one reason to change.
 ---
 
-![SingleResponsibility](images/SingleResponsibility-300x300.jpg)
+![SingleResponsibility](images/single-responsibility-400x400.jpg)
 
 The Single Responsibility Principle (SRP) states that a class should have only one reason to change.  It was first cited in this form by Robert C. Martin in an article that later formed a chapter in his [Principles, Patterns, and Practices of Agile Software Development](http://amzn.to/1cu7La6) book.
 

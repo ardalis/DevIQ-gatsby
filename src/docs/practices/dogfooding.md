@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: Dogfooding is short for "Eating your own dog food," which represents the practice of using your own products.
 ---
 
-[![Dogfooding-Aug-2013](images/Dogfooding-Aug-2013-300x300.png)](http://deviq.com/wp-content/uploads/2014/11/Dogfooding-Aug-2013.png)
+![Dogfooding-Aug-2013](images/Dogfooding-400x400.jpg)
 
 _Dogfooding_ is short for "Eating your own dog food," which represents the practice of using your own products.  For software developers, that means working with, as a real user, the applications you're building, or at least working closely with people who do use it.  Dogfooding provides a number of advantages, both marketing and technical.
 

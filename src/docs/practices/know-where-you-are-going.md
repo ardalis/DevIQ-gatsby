@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: Don't just code with blinders on - understand how what you're building will be used and the problems it's meant to solve.
 ---
 
-![Know-Where-Youre-Going-Nov-2013](images/Know-Where-Youre-Going-Nov-2013-300x300.png)
+![Know-Where-Youre-Going-Nov-2013](images/Know-Where-Youre-Going-400x400.jpg)
 
 Don't just code with blinders on - understand how what you're building will be used and the problems it's meant to solve.
 

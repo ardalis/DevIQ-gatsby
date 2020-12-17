@@ -4,7 +4,7 @@ date: "2015-01-23"
 description: Software systems often are broken up into a series of layers. Typically, these are drawn as horizontal boxes.
 ---
 
-![Vertical Slices](images/VerticalSlices-400x400-300x300.png)
+![Vertical Slices](images/VerticalSlices-400x400.png)
 
 Software systems often are broken up into a series of layers. Typically, these are drawn as horizontal boxes, such as in the diagram shown here, and represent different logical components of the system. There is value in separating an application into such layers, as it provides [Separation of Concerns](http://deviq.com/separation-of-concerns/) , reducing complexity and duplication within the application.
 

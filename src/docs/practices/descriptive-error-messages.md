@@ -4,7 +4,7 @@ date: "2015-11-07"
 description: When something unexpected or exceptional happens in a software application, usually an error message is displayed to the user and/or logged somewhere for a developer to investigate.
 ---
 
-![Descriptive Error Messages](images/DescriptiveErrorMessages-400x400-300x300.png)
+![Descriptive Error Messages](images/DescriptiveErrorMessages-400x400.png)
 
 When something unexpected or exceptional happens in a software application, usually an error message is displayed to the user and/or logged somewhere for a developer to investigate. If the error is something temporary, such as a lack of a network connection, or otherwise could be overcome by the user via some troubleshooting, it should provide enough detail for the user to understand and if possible work around the problem. If the error is meant to provide diagnostic information to a developer, it should provide enough context and detail to help the developer identify the source of the issue, in order to correct it. Error messages that are neither helpful to users nor useful for developers are worse than useless, as they simply cause frustration.
 

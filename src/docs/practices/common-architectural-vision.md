@@ -4,7 +4,7 @@ date: "2015-11-07"
 description: Well-designed software must have a single, well-defined architecture. Virtually all software, regardless of how well-designed one might find it, starts out with a single architecture.
 ---
 
-![Common Architectural Vision](images/CommonArchitecturalVision-400x400-300x300.png)
+![Common Architectural Vision](images/CommonArchitecturalVision-400x400.png)
 
 Well-designed software must have a single, well-defined architecture. Virtually all software, regardless of how well-designed one might find it, starts out with a single architecture. Unfortunately, many applications evolve over time, sometimes going through a partial re-architecting process that never completes. When this happens, the software becomes a kind of Frankenstein monster, with some portions built on one architecture, and some on another. Of course, architectural changes are often made for good reasons, so the solution is not to simply stick with whatever the original application used. Rather, it's important to build software such that future changes in architecture can be accomplished without an insurmountable amount of effort, and ideally such changes should be completed rather than abandoned part-way through the process.
 

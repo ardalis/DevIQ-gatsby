@@ -12,4 +12,6 @@ There are many ways to address this anti-pattern. In the worst cases, the State 
 
 ## References
 
-[Pluralsight Design Patterns Library](http://bit.ly/PS-design-patterns) (which includes the State pattern) [Pluralsight Refactoring Fundamentals course](https://www.pluralsight.com/courses/refactoring-fundamentals) (which includes dozens of other code smells and how to correct them)
+[Pluralsight Design Patterns Library](http://bit.ly/PS-design-patterns) (which includes the State pattern)
+
+[Pluralsight Refactoring Fundamentals course](https://www.pluralsight.com/courses/refactoring-fundamentals) (which includes dozens of other code smells and how to correct them)

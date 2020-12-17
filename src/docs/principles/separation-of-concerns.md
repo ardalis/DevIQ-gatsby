@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: A key principle of software development and architecture is the notion of separation of concerns.
 ---
 
-![Separation-of-Concerns-Feb-2013](images/Separation-of-Concerns-Feb-2013-300x300.png)
+![Separation-of-Concerns-Feb-2013](images/separation-of-concerns-400x400.jpg)
 
 A key principle of software development and architecture is the notion of _separation of concerns_.  At a low level, this principle is closely related to the [Single Responsibility Principle](http://deviq.com/single-responsibility-principle) of object oriented programming.  The general idea is that one should avoid co-locating different concerns within the design or code.  For instance, if your application includes business logic for identifying certain noteworthy items to display to the user, and your application formats such items in a certain way to make them more noticeable, it would violate separation of concerns if both the logic for determining which items were noteworthy and the formatting of these items were in the same place.  The design would be more maintainable, less tightly coupled, and less likely to violate the [Don't Repeat Yourself principle](/don-t-repeat-yourself) if the logic for determining which items needed formatted were located in a single location (with other business logic), and were exposed to the user interface code responsible for formatting simply as a property.
 
