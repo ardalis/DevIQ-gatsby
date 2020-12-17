@@ -10,7 +10,7 @@ Waterfall, or Waterfail, is a rigid software development life cycle methodology 
 
 Developing software is a complex activity that involves a number of steps in order to complete.  The simplest programs written for internal use might simply involve the steps of identifying requirements and writing the code to achieve them.  However, for more complex and/or customer-facing systems, additional tasks must be included to account for deployment and design considerations, maintenance and quality assurance operations, etc.  When all of these are taken into account it is not uncommon for there to be half a dozen or more different tasks to be completed for a given piece of user-facing functionality to be delivered.  In the most naive approach, these various activities can be arranged sequentially, batched, and gated such that no work can begin on a new phase until all work as been completed for the previous phase.  This kind of Software Development Life Cycle is today considered an antipattern for a variety of reasons, and even in organizations that claim to build software in this fashion today, it is typical for some phases of activity to begin work ahead of schedule "under the radar" in the interests of improving productivity and product quality.
 
-![waterfall_figure](images/waterfall_figure-300x198.jpg)
+![waterfall_figure](images/waterfall-figure.jpg)
 
 ## Problems with Waterfall
 
