@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: Dependency Injection is a technique that facilitates loosely coupled object-oriented software systems.
 ---
 
-[![3173827605_427626c6af](images/3173827605_427626c6af-300x148.jpg)](/wp-content/uploads/2014/11/3173827605_427626c6af.jpg)
+![3173827605_427626c6af](images/3173827605_427626c6af-300x148.jpg)
 
 Dependency Injection is a technique that facilitates loosely coupled object-oriented software systems.  It is closely related to the [Dependency Inversion Principle](/dependency-inversion-principle).  In simple systems, references to collaborating objects are made directly within classes that need to refer to them.  This results in tight coupling between these classes, making them more difficult to test, refactor, and maintain.  Dependency Injection is a technique by which the collaborating objects are passed to the class that needs to work with them, and the class itself codes against an interface or base class, rather than a specific implementation class.  There are several ways inject dependencies into a class, via one of these parts of the class: constructor, property, method.
 

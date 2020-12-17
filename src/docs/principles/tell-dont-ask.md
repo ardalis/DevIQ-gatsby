@@ -34,15 +34,15 @@ public class Client
 // Refactored
 public class CpuMonitor
 {
-    private readonly int \_alertThreshold;
+    private readonly int _alertThreshold;
 
     public CpuMonitor(int alertThreshold)
     {
-        \_alertThreshold = alertThreshold;
+        _alertThreshold = alertThreshold;
     }
 
     public int Value { get; set; }
-    public bool ExceedsThreshold {  get { return Value >= \_alertThreshold; } }
+    public bool ExceedsThreshold {  get { return Value >= _alertThreshold; } }
 }
 
 public class Client
@@ -64,23 +64,23 @@ public class Client
 // Refactored Further
 public class CpuMonitor
 {
-    private readonly int \_alertThreshold;
-    private readonly Action<CpuMonitor> \_alertAction;
+    private readonly int _alertThreshold;
+    private readonly Action<CpuMonitor> _alertAction;
 
     public CpuMonitor(int alertThreshold, Action<CpuMonitor> alertAction)
     {
-        \_alertThreshold = alertThreshold;
-        \_alertAction = alertAction;
+        _alertThreshold = alertThreshold;
+        _alertAction = alertAction;
     }
 
     public int Value { get; set; }
-    public bool ExceedsThreshold { get { return Value >= \_alertThreshold; } }
+    public bool ExceedsThreshold { get { return Value >= _alertThreshold; } }
 
     public void Sample()
     {
         if (ExceedsThreshold)
         {
-            \_alertAction(this);
+            _alertAction(this);
         }
     }
 }

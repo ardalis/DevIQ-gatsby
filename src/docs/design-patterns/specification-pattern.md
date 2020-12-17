@@ -74,7 +74,7 @@ public IEnumerable<T> List(ISpecification<T> spec)
 {
     // fetch a Queryable that includes all expression-based includes
     var queryableResultWithIncludes = spec.Includes
-        .Aggregate(\_dbContext.Set<T>().AsQueryable(),
+        .Aggregate(_dbContext.Set<T>().AsQueryable(),
             (current, include) => current.Include(include));
 
     // modify the IQueryable to include any string-based include statements

@@ -10,7 +10,9 @@ The Strategy Design Pattern allows an object to have some or all of its behavior
 
 Define a family of algorithms, encapsulate each one, and make them interchangeable.  Strategy lets the algorithm vary independently from clients that use it. \[[GoF](http://amzn.to/vep3BT)\]
 
-## Structure[![Strategy_Pattern_in_UML](images/Strategy_Pattern_in_UML.png)](http://deviq.com/wp-content/uploads/2014/11/Strategy_Pattern_in_UML.png)
+## Structure
+
+![Strategy_Pattern_in_UML](images/Strategy_Pattern_in_UML.png)
 
 Structurally, the Stategy Design Pattern typically takes the shape of having an interface or abstract base class that defines and encapsulates the "algorithm" in question. Then, specific implementations of this interface are created. If done as part of a refactoring, frequently tightly coupled code is extracted from an existing class or method, to be replaced by an interface. The tightly coupled, implementation-specific code is then moved into an implementation of this interface.
 
