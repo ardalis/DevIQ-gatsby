@@ -4,7 +4,7 @@ date: "2014-11-27"
 description: Waterfall, or Waterfail, is a rigid software development life cycle methodology that moves all activity through a series of stages, such as Gather Requirements, Design, Develop, Test, Deliver, Maintain.
 ---
 
-![Waterfall](images/Waterfall-300x300.jpg)
+![Waterfall](images/waterfall-400x400.jpg)
 
 Waterfall, or Waterfail, is a rigid software development life cycle methodology that moves all activity through a series of stages, such as Gather Requirements, Design, Develop, Test, Deliver, Maintain.  The first article describing this model [(Managing the Development of Large Software Systems](http://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf)) was published in 1970 by Dr. Winston W. Royce, though the article didn't include the term 'waterfall.'  Ironically, though adoption of the model remains rampant throughout the software development industry, Royce presented the model as an example of what not to do - a model with significant flaws.
 

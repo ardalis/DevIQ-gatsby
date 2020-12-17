@@ -4,7 +4,7 @@ date: "2015-05-21"
 description: A project's bus factor (or truck factor) is a number equal to the number of team members who, if run over by a bus, would put the project in jeopardy.
 ---
 
-![Bus Factor](images/BusFactor-400x400-300x300.png)
+![Bus Factor](images/bus-factor-400x400.png)
 
 A project's _bus factor_ (or truck factor) is a number equal to the number of team members who, if run over by a bus, would put the project in jeopardy. The smallest bus factor is 1. Larger numbers are preferable. Essentially, a low bus factor represents a single point of failure within the team. And of course, buses aren't usually the biggest threat to teams: illness, vacation, and departure from the company are all frequent occurrences on projects. Thus, efforts should be made to increase bus factor on any project that is critical to the organization.
 

@@ -4,7 +4,7 @@ date: "2014-11-27"
 description: It's common for software developers and some organizations to prefer to write something they may need for a given project themselves, rather than using an available open source or commercial offering.
 ---
 
-![ReinventingTheWheel](images/ReinventingTheWheel-300x300.jpg)
+![ReinventingTheWheel](images/reinvent-the-wheel-400x400.jpg)
 
 It's common for software developers and some organizations to prefer to write something they may need for a given project themselves, rather than using an available open source or commercial offering.  Generally, it's best to avoid this urge unless the feature or tool in question is a core part of the product being delivered.  For instance, unless your company is in the business of selling software logging and diagnostic tools, you do not need to write your own logging software.  Focus your efforts and energy on doing the one thing your product needs to do extremely well, and leverage existing software wherever you can outside of this area.
 

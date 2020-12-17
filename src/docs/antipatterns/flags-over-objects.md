@@ -4,7 +4,7 @@ date: "2014-11-27"
 description: The Flags Over Objects anti-pattern occurs when behavior is written outside of an object by inspecting flags (such as status codes), rather than within the object itself.
 ---
 
-![Flags_Over_Objects_July_2014](images/Flags_Over_Objects_July_2014-300x300.png)
+![Flags_Over_Objects_July_2014](images/flags-over-objects-400x400.jpg)
 
 The Flags Over Objects anti-pattern occurs when behavior is written outside of an object by inspecting flags (such as status codes), rather than within the object itself. This violates the [Tell, Don't Ask principle](/tell-dont-ask/), and results in chatty interfaces and distribution of behavior that probably belongs within the object. Working around this issue, one will often experience the Shotgun Surgery coding smell, in which many small changes to many files are required in order to make changes to the system.
 

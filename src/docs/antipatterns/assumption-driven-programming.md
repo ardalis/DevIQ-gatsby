@@ -4,7 +4,7 @@ date: "2014-11-27"
 description: Assumption Driven Programming refers to the developer practice of assuming all users are like them.
 ---
 
-![Assumption_Driven_Programming_Jun_2014](images/Assumption_Driven_Programming_Jun_2014-300x300.png)
+![Assumption_Driven_Programming_Jun_2014](images/assumption-driven-programming-400x400.jpg)
 
 Assumption Driven Programming refers to the developer practice of assuming all users are like them. The best way to avoid falling into this trap is to interact with users as much as possible. It's certainly important to [dogfood](http://deviq.com/dogfooding) your software, but not at the expense of seeing how real customers use it.
 

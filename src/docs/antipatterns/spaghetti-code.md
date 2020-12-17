@@ -4,7 +4,7 @@ date: "2014-11-27"
 description: Spaghetti Code refers to code that has a tangled structure, especially one in which following the actual flow of the program is difficult.
 ---
 
-![SpaghettiCode](images/SpaghettiCode-300x300.jpg)
+![SpaghettiCode](images/spaghetti-code-400x400.jpg)
 
 Featured in the [2012 Software Craftsmanship AntiPatterns calendar](http://nimblepros.com/products/software-craftsmanship-2012-calendar.aspx), Spaghetti Code refers to code that has a tangled, especially one in which following the actual flow of the program is difficult.
 

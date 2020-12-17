@@ -4,7 +4,7 @@ date: "2014-11-27"
 description: Mushroom Management refers to the practice of treating your developers like mushrooms - to wit, "keep them in the dark and feed them BS."
 ---
 
-![Mushroom_Management_Feb_2014](images/Mushroom_Management_Feb_2014-300x300.png)
+![Mushroom_Management_Feb_2014](images/mushroom-management-400x400.jpg)
 
 Mushroom Management refers to the practice of treating your developers like mushrooms - to wit, "keep them in the dark and feed them BS." By introducing barriers between those who develop the software and those who use it, feedback loops are extended (or destroyed) and the likelihood of mis-communication, invalid assumptions, and building the wrong thing skyrockets.
 

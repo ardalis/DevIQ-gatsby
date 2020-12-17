@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: The worst part of a Death March project is that virtually everybody involved with it knows it's a death march project.
 ---
 
-[![DeathMarch](images/DeathMarch-300x300.jpg)](http://deviq.com/wp-content/uploads/2014/11/DeathMarch.jpg)
+![DeathMarch](images/death-march-400x400.jpg)
 
 The worst part of a Death March project is that virtually everybody involved with it knows it's a death march project.
 

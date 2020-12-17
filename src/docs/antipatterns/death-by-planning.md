@@ -4,7 +4,7 @@ date: "2014-11-27"
 description: Although planning is an essential part of building quality software, keep in mind that shipping is a feature (your product must have it). Keep short term plans as close to the actual implementation of your software as possible, while keeping long term plans as vague and flexible as possible.
 ---
 
-![Death_By_Planning_May_2014](images/Death_By_Planning_May_2014-300x300.png)
+![Death_By_Planning_May_2014](images/death-by-planning-400x400.jpg)
 
 Although planning is an essential part of building quality software, keep in mind that [shipping is a feature](/shipping-is-a-feature) (your product _must_ have it). Keep short term plans as close to the actual implementation of your software as possible, while keeping long term plans as vague and flexible as possible.
 

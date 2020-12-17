@@ -4,7 +4,7 @@ date: "2014-11-27"
 description: Many software products die an earlier death than necessary because of feature creep, by which additional bits of functionality are continually added.
 ---
 
-![FeatureCreep](images/FeatureCreep-300x300.jpg)
+![FeatureCreep](images/feature-creep-400x400.jpg)
 
 Many software products die an earlier death than necessary because of feature creep, by which additional bits of functionality are continually added.  Feature creep (also commonly known as _scope creep_) is often responsible for delays in shipping or delivering software, and many times additional features necessitate increased complexity in the product's design, overcomplicating it.  Sometimes feature creep is the result of a [design by committee](/design-by-committee) design process, in which additional features are added in order to appease various stakeholders involved in the project, rather than having the courage to stand by the project's original vision.
 

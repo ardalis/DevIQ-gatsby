@@ -4,7 +4,7 @@ date: "2014-11-27"
 description: Although encapsulation is an oft-sited good thing to have in a design, there are many cases in which hiding an abundance of implementation behind private methods is undesirable.
 ---
 
-![IcebergClass](images/IcebergClass-300x300.jpg)
+![IcebergClass](images/iceberg-class-400x400.jpg)
 
 Although encapsulation is an oft-cited good thing to have in a design, there are many cases in which hiding an abundance of implementation behind private methods is undesirable.  Often, this behavior is beyond the actual scope of the class in which it currently resides, and could easily be refactored via Extract Class into another class in which much of this behavior could be exposed via public properties and methods. [Michael Feathers](http://www.artima.com/weblogs/index.jsp?blogger=mfeathers) coined the term [Iceberg Class](http://www.artima.com/weblogs/viewpost.jsp?thread=125574) in his article in August, 2005, in which he describes an example of such a class using Python.
 
