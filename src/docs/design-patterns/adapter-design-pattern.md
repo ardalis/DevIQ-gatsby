@@ -14,4 +14,4 @@ Convert the interface of a class into another interface clients expect.  Adapte
 
 Amazon - [Design Patterns: Elements of Reusable Object-Oriented Software](http://amzn.to/vep3BT) \[GoF\]
 
-Videos - [Design Patterns Library @ Pluralsight](http://www.pluralsight-training.net/microsoft/Courses/TableOfContents?courseName=patterns-library)
+Videos - [Design Patterns Library @ Pluralsight](http://bit.ly/DesignPatternsLibrary)
