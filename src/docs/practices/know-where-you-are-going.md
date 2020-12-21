@@ -20,4 +20,4 @@ Developing software should involve continual learning about the problem domain. 
 
 ## See Also
 
-[Feedback](http://deviq.com/feedback) (Values)
+[Feedback](/values/feedback)

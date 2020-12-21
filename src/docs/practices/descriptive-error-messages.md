@@ -26,4 +26,4 @@ In addition to handling exceptions at the code level, think about how error mess
 
 ## Resources
 
-[2016 Software Craftsmanship Calendar](http://amzn.to/1NI2m22)
+2016 Software Craftsmanship Calendar

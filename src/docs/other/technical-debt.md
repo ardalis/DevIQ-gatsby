@@ -28,17 +28,13 @@ Prudent Accidental technical debt is blue. It represents actual learning made by
 
 ## Quotes
 
-<blockquote class="twitter-tweet" lang="en">Remember, Lines of Code isn't a unit of production or value, it's a Cost and a major component of technical debt.<div></div>— Steve Smith (@ardalis) <a href="https://twitter.com/ardalis/status/168048081454104576">February 10, 2012</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/ardalis/status/168048081454104576
 
-<blockquote class="twitter-tweet" lang="en">Every time you decide not to refactor bad code you've just written, you incur technical debt.<div></div>— Code Standards (@codestandards) <a href="https://twitter.com/codestandards/status/573128284608724992">March 4, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/codestandards/status/573128284608724992
 
-<blockquote class="twitter-tweet" data-lang="en"><p dir="ltr" lang="en">Technical debt: grit in the oil of your agile engine.</p>— Declan Whelan (@dwhelan) <a href="https://twitter.com/dwhelan/status/780412196018728960">September 26, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/dwhelan/status/780412196018728960
 
-<blockquote class="twitter-tweet" data-lang="en"><p dir="ltr" lang="en">Red and orange! It's red and orange all the way down! <a href="https://twitter.com/hashtag/inheritedcodebase?src=hash">#inheritedcodebase</a> <a href="https://twitter.com/hashtag/slowlylosingmymind?src=hash">#slowlylosingmymind</a> <a href="https://t.co/YmPj7j9YuC">https://t.co/YmPj7j9YuC</a></p>— Chris Rodgers (@Christophano) <a href="https://twitter.com/Christophano/status/781141242432421888">September 28, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/Christophano/status/781141242432421888
 
 ## References
 

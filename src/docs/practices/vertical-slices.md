@@ -6,7 +6,7 @@ description: Software systems often are broken up into a series of layers. Typic
 
 ![Vertical Slices](images/VerticalSlices-400x400.png)
 
-Software systems often are broken up into a series of layers. Typically, these are drawn as horizontal boxes, such as in the diagram shown here, and represent different logical components of the system. There is value in separating an application into such layers, as it provides [Separation of Concerns](http://deviq.com/separation-of-concerns/) , reducing complexity and duplication within the application.
+Software systems often are broken up into a series of layers. Typically, these are drawn as horizontal boxes, such as in the diagram shown here, and represent different logical components of the system. There is value in separating an application into such layers, as it provides [Separation of Concerns](/principles/separation-of-concerns/) , reducing complexity and duplication within the application.
 
 ![Typical Application Layers](images/Application-Layers-300x204.png)
 
@@ -14,7 +14,7 @@ When developing a layered software application, especially at the start of the p
 
 ![Horizontal Layers](images/HorizontalSlices.gif)
 
-Alternately, developers can build individual features that span all of the layers as _vertical slices_ through the system. When following this approach, only the minimal functionality required for an individual feature or user story is built into each layer. For instance, if one of the first requirements for the system is that a user register and be authenticated, the initial system may consist of a single registration screen, a service of some kind that handles saving user information, and a database that stores the data. As additional features are added, like login and emailing forgotten passwords, the necessary functionality to support each feature is added to each layer, with any refactoring required to provide reuse or encapsulate behavior into widgets or reusable components done only when duplication is discovered (following the [DRY principle](http://deviq.com/don-t-repeat-yourself/)).
+Alternately, developers can build individual features that span all of the layers as _vertical slices_ through the system. When following this approach, only the minimal functionality required for an individual feature or user story is built into each layer. For instance, if one of the first requirements for the system is that a user register and be authenticated, the initial system may consist of a single registration screen, a service of some kind that handles saving user information, and a database that stores the data. As additional features are added, like login and emailing forgotten passwords, the necessary functionality to support each feature is added to each layer, with any refactoring required to provide reuse or encapsulate behavior into widgets or reusable components done only when duplication is discovered (following the [DRY principle](/principles/dont-repeat-yourself/)).
 
 ![Vertical Slices](images/VerticalSlices.gif)
 
@@ -22,12 +22,9 @@ The benefit of building software as a series of vertical slices is that customer
 
 ## Quotes
 
-<blockquote class="twitter-tweet" lang="en">Prefer vertical slices to horizontal ones when completing epics / approaching development tasks on a project (old... <a href="http://t.co/1HiUOEzZlW">http://t.co/1HiUOEzZlW</a><div></div>— Steve Smith (@ardalis) <a href="https://twitter.com/ardalis/status/312570148504629249">March 15, 2013</a></blockquote>
-<script src="//platform.twitter.com/widgets.js" async charset="utf-8"></script>
+https://twitter.com/ardalis/status/312570148504629249
 
-<blockquote class="twitter-tweet" lang="en">layered architecture is annoying when you actually develop in vertical slices — Jimmy Bogard (@jbogard) <a href="https://twitter.com/jbogard/status/342344297854685184">June 5, 2013</a></blockquote>
-
-<script src="//platform.twitter.com/widgets.js" async charset="utf-8"></script>
+https://twitter.com/jbogard/status/342344297854685184
 
 ## References
 
@@ -35,6 +32,6 @@ The benefit of building software as a series of vertical slices is that customer
 
 [I'll get to your application in a minute; first we need to build a framework](http://jeffreypalermo.com/blog/i-ll-get-to-your-application-in-a-minute-first-we-need-to-build-the-framework/) - Jeffrey Palermo
 
-[Stories Too Big - Prefer Vertical Slices](http://ardalis.com/stories-too-big-ndash-vertical-slices) - Steve Smith
+[Stories Too Big - Prefer Vertical Slices](https://ardalis.com/stories-too-big-%E2%80%93-vertical-slices/) - Steve Smith
 
-[2016 Software Craftsmanship Calendar](http://amzn.to/1NI2m22)
+2016 Software Craftsmanship Calendar

@@ -10,8 +10,7 @@ Pair programming involves two active participants, not an active programmer and 
 
 ## Quotes
 
-<blockquote class="twitter-tweet" lang="en"><p>pair programming is not a "go faster" strategy, it is a "waste less" strategy (which often results in going faster)</p>— Kent Beck (@KentBeck) <a href="https://twitter.com/KentBeck/status/565921158025842688">February 12, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/KentBeck/status/565921158025842688
 
 ## References
 

@@ -10,9 +10,9 @@ It is hard to overestimate the importance of choosing good names for source code
 
 The first principle of Naming Things is to be consistent within your team or project.  It doesn't matter what your personal preference might be, it's more important that the code everybody is sharing uses consistent names.  There are other guidelines and recommendations below, but none of them trump this one.
 
-Names are one of the most powerful tools you have for communicating your code's intent to those who read your code (including yourself, in the future).  It's critically important to choose meaningful names.  It's also important that the names you choose make sense not just to you, but to others involved on the project - your team.  One way to dramatically improve the consistency and quality of your names is to [pair with another developer on your team](http://deviq.com/pair-programming), since whatever names the two of you come up with that make sense to both of you are now very likely to be accepted and understood by the other members of the [whole team](http://deviq.com/whole-team).  Having two developers involved in creating new code constructs also makes it more likely the code will follow the project's naming conventions, assuming these aren't already being enforced by a tool (like [StyleCop](http://stylecop.codeplex.com/) or [JustCode](http://www.telerik.com/products/justcode.aspx) or[ReSharper](http://www.jetbrains.com/resharper/)).
+Names are one of the most powerful tools you have for communicating your code's intent to those who read your code (including yourself, in the future).  It's critically important to choose meaningful names.  It's also important that the names you choose make sense not just to you, but to others involved on the project - your team.  One way to dramatically improve the consistency and quality of your names is to [pair with another developer on your team](/practices/pair-programming), since whatever names the two of you come up with that make sense to both of you are now very likely to be accepted and understood by the other members of the [whole team](/practices/whole-team).  Having two developers involved in creating new code constructs also makes it more likely the code will follow the project's naming conventions, assuming these aren't already being enforced by a tool (like [StyleCop](http://stylecop.codeplex.com/) or [ReSharper](http://www.jetbrains.com/resharper/)).
 
-Names should describe why a programming element exists, what its purpose is.  If a name is so short that a comment is necessary to state its actual purpose, then it is too short.  For instance, in Clean Code, Tim Ottinger notes that:
+Names should describe why a programming element exists, what its purpose is. If a name is so short that a comment is necessary to state its actual purpose, then it is too short.  For instance, in Clean Code, Tim Ottinger notes that:
 
 ```java
 int d; // elapsed time in days
@@ -27,7 +27,7 @@ int daysSinceCreation;
 
 Note here that the units are included in the variable name.  Consider the .NET Framework's [Thread.Sleep method](http://msdn.microsoft.com/en-us/library/d00bd51t(v=vs.110).aspx), which takes an Int32.  There is no ambiguity about the units of this value, since it is named _millisecondsTimeout_.
 
-[How To Write Unmaintainable Code](http://thc.org/root/phun/unmaintain.html) has a whole section dedicated to naming.  Some examples include:
+[How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code) has a whole section dedicated to naming.  Some examples include:
 
 - Use random baby names (e.g. Fred) for all variable names
 - Only use single character variable names.  Especially l, since it can be mistaken for 1.
@@ -57,7 +57,7 @@ A few good qualities for your names to have are:
 - Avoid mixing opposites - be consistent (don't use begin/end in one place, start/finish in another, etc.)
 - Avoid numbers (e.g. item1, item2, item3)
 
-Make the names of methods and classes as long as necessary to accurately describe what they do.  If the resulting name is too long, it's a good indicator (or [code smell](/code-smells/)) that the construct in question is probably trying to do too much, and should be broken up into several more cohesive parts.
+Make the names of methods and classes as long as necessary to accurately describe what they do.  If the resulting name is too long, it's a good indicator (or [code smell](/antipatterns/code-smells/)) that the construct in question is probably trying to do too much, and should be broken up into several more cohesive parts.
 
 ## Quotes
 
@@ -69,16 +69,14 @@ Make the names of methods and classes as long as necessary to accurately describ
 
 [Two Hard Things](http://martinfowler.com/bliki/TwoHardThings.html) by Martin Fowler
 
-[How To Write Unmaintainable Code](http://thc.org/root/phun/unmaintain.html)
+[How To Write Unmaintainable Code](https://github.com/Droogans/unmaintainable-code)
 
 [Name Smells](http://www.daedtech.com/name-smells)
 
 [.NET Guidelines for Names](http://msdn.microsoft.com/en-us/library/vstudio/ms229002(v=vs.100).aspx)
 
-[2013 Software Craftsmanship Wall Calendar](http://bit.ly/SC_2013)
+2013 Software Craftsmanship Wall Calendar
 
 [Clean Code](http://amzn.to/YjUDI0) by Robert C. Martin
 
 [Code Complete](http://amzn.to/Vq5YLv) by Steve McConnell
-
-## From the Real World

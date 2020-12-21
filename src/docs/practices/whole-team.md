@@ -8,4 +8,4 @@ An XP Practice, _Whole Team_ refers to the idea that the team involved in buildi
 
 ## See Also
 
-[Whole Team Activity](/whole-team-activity/)
+[Whole Team Activity](/practices/whole-team-activity/)

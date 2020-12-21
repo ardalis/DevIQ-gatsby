@@ -6,7 +6,7 @@ description: Waterfall, or Waterfail, is a rigid software development life cycle
 
 ![Waterfall](images/waterfall-400x400.jpg)
 
-Waterfall, or Waterfail, is a rigid software development life cycle methodology that moves all activity through a series of stages, such as Gather Requirements, Design, Develop, Test, Deliver, Maintain.  The first article describing this model [(Managing the Development of Large Software Systems](http://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf)) was published in 1970 by Dr. Winston W. Royce, though the article didn't include the term 'waterfall.'  Ironically, though adoption of the model remains rampant throughout the software development industry, Royce presented the model as an example of what not to do - a model with significant flaws.
+Waterfall, or Waterfail, is a rigid software development life cycle methodology that moves all activity through a series of stages, such as Gather Requirements, Design, Develop, Test, Deliver, Maintain.  The first article describing this model [(Managing the Development of Large Software Systems](http://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf)) was published in 1970 by Dr. Winston W. Royce, though the article didn't include the term 'waterfall.'  Ironically, though adoption of the model remains rampant throughout the software development industry, Royce presented the model as an example of what not to do - a model with significant flaws.
 
 Developing software is a complex activity that involves a number of steps in order to complete.  The simplest programs written for internal use might simply involve the steps of identifying requirements and writing the code to achieve them.  However, for more complex and/or customer-facing systems, additional tasks must be included to account for deployment and design considerations, maintenance and quality assurance operations, etc.  When all of these are taken into account it is not uncommon for there to be half a dozen or more different tasks to be completed for a given piece of user-facing functionality to be delivered.  In the most naive approach, these various activities can be arranged sequentially, batched, and gated such that no work can begin on a new phase until all work as been completed for the previous phase.  This kind of Software Development Life Cycle is today considered an antipattern for a variety of reasons, and even in organizations that claim to build software in this fashion today, it is typical for some phases of activity to begin work ahead of schedule "under the radar" in the interests of improving productivity and product quality.
 
@@ -28,4 +28,4 @@ Waterfall Model on [Wikipedia](http://en.wikipedia.org/wiki/Waterfall_model)
 
 ## Reference
 
-[NimblePros AntiPatterns 2012 Wall Calendar](http://nimblepros.com/products/software-craftsmanship-2012-calendar.aspx)
+NimblePros AntiPatterns 2012 Wall Calendar

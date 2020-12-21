@@ -18,21 +18,19 @@ Courage is an important value in software development because it requires courag
 
 ## See Also
 
-[Communication](http://deviq.com/communication)
+[Communication](/values/communication)
 
-[Feedback](http://deviq.com/feedback)
+[Feedback](/values/feedback)
 
-[Respect](http://deviq.com/respect)
+[Respect](/values/respect)
 
-[Simplicity](http://deviq.com/simplicity)
+[Simplicity](/values/simplicity)
 
-[Pair Programming](http://deviq.com/pair-programming)
+[Pair Programming](/practices/pair-programming)
 
-[Test Driven Development](http://deviq.com/test-driven-development)
+[Test Driven Development](/practices/test-driven-development)
 
-[Continuous Integration](http://deviq.com/continuous-integration)
-
-[Small Releases](http://deviq.com/small-releases)
+[Continuous Integration](/practices/continuous-integration)
 
 ## References
 

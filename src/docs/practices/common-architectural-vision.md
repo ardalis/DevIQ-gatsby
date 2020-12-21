@@ -10,7 +10,7 @@ Well-designed software must have a single, well-defined architecture. Virtually 
 
 The more modular the application, the better able it is to adopt new architectural patterns. A single monolithic application, with no modularity, must make an all-or-nothing approach to its architecture. Or worse, its architecture can be updated while it continues to run, resulting in the Frankenstein monster described above. Applications that are more modular can adjust their architecture to suit individual modules, or can be upgraded over time, one module at a time. A micro-services style architecture is one in which many small, self-contained components communicate with one another over HTTP (typically). Over time, if individual services would benefit from a change in architecture, they can evolve independently of other services. Likewise, if the whole system's architecture must be updated, individual services can be updated and deployed one-by-one, without the need to try to take on upgrading the entire application all at once.
 
-Micro-services aren't the only designs that can more easily be updated. Any application that follows [separation of concerns](http://deviq.com/separation-of-concerns/) and other [software design principles](http://deviq.com/category/principles/) will be easier to update and maintain than a system that is full of [spaghetti code](http://deviq.com/spaghetti-code/).
+Micro-services aren't the only designs that can more easily be updated. Any application that follows [separation of concerns](/principles/separation-of-concerns) and other software design principles will be easier to update and maintain than a system that is full of [spaghetti code](/antipatterns/spaghetti-code).
 
 ## Resources
 

@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: The Explicit Dependencies Principle states that methods and classes should explicitly require (typically through method parameters or constructor parameters) any collaborating objects they need in order to function correctly.
 ---
 
-The **Explicit Dependencies Principle** states:
+The _**Explicit Dependencies Principle**_ states:
 
 _**Methods and classes should explicitly require (typically through method parameters or constructor parameters) any collaborating objects they need in order to function correctly.**_
 
@@ -14,7 +14,7 @@ Classes with implicit dependencies cost more to maintain than those with explici
 
 Classes with explicit dependencies are more honest.  They state very clearly what they require in order to perform their particular function.  They tend to follow the [Principle of Least Surprise](http://en.wikipedia.org/wiki/Principle_of_least_astonishment) by not affecting parts of the application they didn't explicitly demonstrate they needed to affect.  Explicit dependencies can easily be swapped out with other implementations, whether in production or during testing or debugging.  This makes them much easier to maintain and far more open to change.
 
-The Explicit Dependencies Principle is closely related to the [Dependency Inversion Principle](/dependency-inversion-principle) and the [Hollywood Principle](/hollywood-principle).
+The Explicit Dependencies Principle is closely related to the [Dependency Inversion Principle](/principles/dependency-inversion-principle) and the [Hollywood Principle](/principles/hollywood-principle).
 
 Consider the PersonalizedResponse class in this Gist, which can be constructed without any dependencies:
 
@@ -83,9 +83,9 @@ namespace ImplicitDependencies
             {
                 timeOfDay = "evening";
             }
-            return String.Format(formatString, timeOfDay, 
-                Context.CurrentCustomer.Title, 
-                Context.CurrentCustomer.Fullname, 
+            return String.Format(formatString, timeOfDay,
+                Context.CurrentCustomer.Title,
+                Context.CurrentCustomer.Fullname,
                 Context.CurrentCustomer.FavoriteColor);
         }
     }
@@ -201,6 +201,6 @@ In this case, the logging and time dependencies have been pulled into constructo
 
 ## See Also
 
-[Dependency Inversion Principle](/dependency-inversion-principle/)
+[Dependency Inversion Principle](/principles/dependency-inversion-principle/)
 
 [New Is Glue](http://ardalis.com/new-is-glue) (Ardalis.com)

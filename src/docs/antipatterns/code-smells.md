@@ -4,7 +4,7 @@ date: "2015-10-16"
 description: Code smells, or bad smells in code, refer to symptoms in code that may indicate deeper problems.
 ---
 
-Code smells, or bad smells in code, refer to symptoms in code that may indicate deeper problems. They're a diagnostic tool used when considering [refactoring](/refactoring/) software to improve its design. Not all code smells should be "fixed" - sometimes code is perfectly acceptable in its current form. Context is important, so what may be inappropriate in one application or part of an application may be appropriate elsewhere.
+Code smells, or bad smells in code, refer to symptoms in code that may indicate deeper problems. They're a diagnostic tool used when considering [refactoring](/practices/refactoring/) software to improve its design. Not all code smells should be "fixed" - sometimes code is perfectly acceptable in its current form. Context is important, so what may be inappropriate in one application or part of an application may be appropriate elsewhere.
 
 Each of these smells is demonstrated, and corrective actions described, in the [Refactoring Fundamentals](https://www.pluralsight.com/courses/refactoring-fundamentals) course on Pluralsight.
 
@@ -36,7 +36,7 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 - Temporary Field
 - Alternative Class with Different Interfaces
 - Class Depends on Subclass
-- Inappropriate Static / [Static Cling](/static-cling/)
+- Inappropriate Static / [Static Cling](/antipatterns/static-cling/)
 
 ### Change Preventers
 
@@ -71,7 +71,7 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 ### Test Smells
 
 - Not Enough Tests
-- [DRY](/don-t-repeat-yourself/) versus DAMP
+- [DRY](/principles/dont-repeat-yourself/) versus DAMP
 - Fragility
 - The Liar
 - Excessive Setup

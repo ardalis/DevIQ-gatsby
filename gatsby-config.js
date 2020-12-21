@@ -47,5 +47,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: ["@weknow/gatsby-remark-twitter"]
+      }
+    },
   ],
 };

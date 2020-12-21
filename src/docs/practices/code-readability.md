@@ -20,4 +20,4 @@ Programs should be written for people to read, and only incidentally for machine
 
 ## References
 
-[2013 Software Craftsmanship Calendar](http://bit.ly/SC_2013) (look closely for hints in the image; the code runs and produces a secret message)
+2013 Software Craftsmanship Calendar (look closely for hints in the image; the code runs and produces a secret message)

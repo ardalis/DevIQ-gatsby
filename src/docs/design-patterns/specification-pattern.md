@@ -4,7 +4,7 @@ date: "2017-02-14"
 description: One Domain-Driven-Design solution to the problem of where to place querying, sorting, and paging logic is to use a Specification.
 ---
 
-One [Domain-Driven-Design](http://bit.ly/ddd-fundamentals) solution to the problem of where to place querying, sorting, and paging logic is to use a _Specification_. The Specification design pattern describes a query in an object. So to encapsulate a paged query that searches for some products, one might create a PagedProduct specification which would take in any necessary parameters (pageSize, pageNumber, filter). Then one of your [repository](/repository-pattern/) methods (usually a List() overload) would accept an ISpecification and would be able to produce the expected result given the specification. There are several benefits to this approach. The specification has a name (as opposed to just a bunch of LINQ expressions) that you can reason about and discuss. It can be unit tested in isolation to ensure correctness. And it can easily be reused if you need the same behavior (say on an MVC View action and a Web API action, as well as in various services). Further, a specification can also be used to describe the shape of the data to be returned, so that queries can return just the data they required. This eliminates the need for lazy loading in web applications ([bad idea](https://ardalis.com/avoid-lazy-loading-entities-in-asp-net-applications)) and helps keep repository implementations from becoming cluttered with these details.
+One [Domain-Driven-Design](http://bit.ly/PS-DDD) solution to the problem of where to place querying, sorting, and paging logic is to use a _Specification_. The Specification design pattern describes a query in an object. So to encapsulate a paged query that searches for some products, one might create a PagedProduct specification which would take in any necessary parameters (pageSize, pageNumber, filter). Then one of your [repository](/design-patterns/repository-pattern) methods (usually a List() overload) would accept an ISpecification and would be able to produce the expected result given the specification. There are several benefits to this approach. The specification has a name (as opposed to just a bunch of LINQ expressions) that you can reason about and discuss. It can be unit tested in isolation to ensure correctness. And it can easily be reused if you need the same behavior (say on an MVC View action and a Web API action, as well as in various services). Further, a specification can also be used to describe the shape of the data to be returned, so that queries can return just the data they required. This eliminates the need for lazy loading in web applications ([bad idea](https://ardalis.com/avoid-lazy-loading-entities-in-asp-net-applications)) and helps keep repository implementations from becoming cluttered with these details.
 
 ## Generic Specification Interface
 
@@ -93,6 +93,6 @@ Although it's not recommended to return IQueryable from a repository, it's perfe
 
 ## Resources
 
-[Design Patterns Library](http://bit.ly/PS-design-patterns) (includes a module on Specification)
+[Design Patterns Library](http://bit.ly/DesignPatternsLibrary) (includes a module on Specification)
 
-[Repository Pattern](/repository-pattern)
+[Repository Pattern](/design-patterns/repository-pattern)

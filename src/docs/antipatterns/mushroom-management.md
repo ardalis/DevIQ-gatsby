@@ -14,4 +14,4 @@ At the business level, ensure your employees feel like they know what is going o
 
 ## References
 
-[2014 Telerik Software Craftsmanship Anti-Patterns Wall Calendar](http://gear.telerik.com/)
+2014 Telerik Software Craftsmanship Anti-Patterns Wall Calendar

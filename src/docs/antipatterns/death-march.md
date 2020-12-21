@@ -16,10 +16,10 @@ The Death March refers to a project that has little or no hope of success. It's 
 
 ## See Also
 
-[Respect](http://deviq.com/respect)
+[Respect](/values/respect)
 
 ## References
 
 [Amazon - Death March: The Complete Software Developer's Guide to Surviving "Mission Impossible" Projects](http://amzn.to/vGzBs0)
 
-[NimblePros AntiPatterns 2012 Wall Calendar](http://nimblepros.com/products/software-craftsmanship-2012-calendar.aspx)
+NimblePros AntiPatterns 2012 Wall Calendar

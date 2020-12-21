@@ -4,7 +4,7 @@ date: "2015-06-19"
 description: Encapsulation refers to the idea that objects should manage their own behavior and state, so that their collaborators need not concern themselves with the object's inner workings.
 ---
 
-Encapsulation refers to the idea that objects should manage their own behavior and state, so that their collaborators need not concern themselves with the object's inner workings. Object-oriented programming languages provide built-in support to control the visibility of class-level structures, and developers should use these constructs to differentiate between objects' public and non-public interfaces. Failure to properly apply the principle of encapsulation to object-oriented designs leads to many related code smells and design problems, such as violating [Don't Repeat Yourself](http://deviq.com/don-t-repeat-yourself/), [Tell Don't Ask](http://deviq.com/tell-dont-ask/), and [Flags Over Objects](http://deviq.com/flags-over-objects/), to name a few.
+Encapsulation refers to the idea that objects should manage their own behavior and state, so that their collaborators need not concern themselves with the object's inner workings. Object-oriented programming languages provide built-in support to control the visibility of class-level structures, and developers should use these constructs to differentiate between objects' public and non-public interfaces. Failure to properly apply the principle of encapsulation to object-oriented designs leads to many related code smells and design problems, such as violating [Don't Repeat Yourself](/principles/dont-repeat-yourself/), [Tell Don't Ask](/principles/tell-dont-ask/), and [Flags Over Objects](/antipatterns/flags-over-objects/), to name a few.
 
 Objects should ideally be kept in valid states, controlling how their state is modified to avoid being placed into states that do not make sense. For example, a class representing a product might include some state representing that product's volume (let's say in Liters). This volume could be represented as a numeric type, such as double, but it would never make sense for the value to be negative. If the class exposes the data as a public field, then any code in the system could set that value to be negative:
 
@@ -71,4 +71,4 @@ public class Volume
 
 At this point Product no longer needs to worry about whether Volume is in a positive state, and so can be made simpler. However, it still shouldn't directly expose its internal state, since it's likely Product would want to react to any changes made to its state.
 
-Exposing properties directly using getters and setters, and [exposing collection properties](/exposing-collection-properties/) (even without setters) are two of the most common violations of encapsulation.
+Exposing properties directly using getters and setters, and [exposing collection properties](/antipatterns/exposing-collection-properties/) (even without setters) are two of the most common violations of encapsulation.

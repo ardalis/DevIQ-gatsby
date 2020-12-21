@@ -14,4 +14,4 @@ The Stable Dependencies Principle states that "The dependencies between software
 
 ## References
 
-[2016 Software Craftsmanship Calendar](http://amzn.to/1NI2m22)
+2016 Software Craftsmanship Calendar

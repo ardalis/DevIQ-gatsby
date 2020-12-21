@@ -15,4 +15,4 @@ When all else fails, read the instructions.
 
 [RTFM](http://en.wikipedia.org/wiki/RTFM) on Wikipedia
 
-[2013 Software Craftsmanship Wall Calendar](http://bit.ly/SC_2013)
+2013 Software Craftsmanship Wall Calendar
