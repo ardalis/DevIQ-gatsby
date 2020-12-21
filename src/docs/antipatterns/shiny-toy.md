@@ -10,4 +10,4 @@ The Shiny Toy anti-pattern refers to the practice of always thinking today's pro
 
 ## References
 
-[2014 Telerik Software Craftsmanship Anti-Patterns Wall Calendar](http://gear.telerik.com/)
+2014 Telerik Software Craftsmanship Anti-Patterns Wall Calendar

@@ -18,19 +18,17 @@ Frequent delivery of working software decreases the amount of time between when 
 
 ## See Also
 
-[Communication](/communication)
+[Communication](/values/communication)
 
-[Courage](/courage)
+[Courage](/values/courage)
 
-[Respect](/respect)
+[Respect](/values/respect)
 
-[Simplicity](/simplicity)
+[Simplicity](/values/simplicity)
 
-[Pair Programming](/pair-programming)
+[Pair Programming](/practices/pair-programming)
 
-[Continuous Integration](/continuous-integration)
-
-[Small Releases](http://deviq.com/small-releases)
+[Continuous Integration](/practices/continuous-integration)
 
 ## References
 

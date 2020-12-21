@@ -8,7 +8,7 @@ description: YAGNI, or "You Ain't Gonna Need It" (or "You Aren't Gonna Need It")
 
 YAGNI, or "You Ain't Gonna Need It" (or "You Aren't Gonna Need It"), emerged as one of the key principles of Extreme Programming.  Put another way, the principle states:
 
-"Always implement things when you **actually** need them, never when you just **foresee** that you **may** need them."
+"Always implement things when you _**actually**_ need them, never when you just _**foresee**_ that you _**may**_ need them."
 
 There are a number of reasons why this principle exists.  Firstly, it maximizes the amount of unnecessary work that is left undone, which is a great way to improve developer productivity and product simplicity.  Remember, features are expensive, both to develop and maintain, and for users to learn and navigate around.  Features that aren't actually necessary are a huge source of waste.
 
@@ -20,18 +20,18 @@ It follows that YAGNI is closely related to te Keep It Simple, Stupid principle.
 
 ## Quotes
 
-"Every line of code we _don't_ write is dollars we _didn't_ spend, and time on the calendar we get back for free." - [Tim Evans-Ariyeh](http://improbabletruths.com/the-code-you-dont-write)
+"Every line of code we _don't_ write is dollars we _didn't_ spend, and time on the calendar we get back for free." - Tim Evans-Ariyeh
 
 "The cheapest, fastest, and most reliable components of a computer system are those that aren't there." - Gordon Bell
 
 ## See Also
 
-[Keep It Simple, Stupid (KISS)](/keep-it-simple)
+[Keep It Simple, Stupid (KISS)](/principles/keep-it-simple)
 
 ## References
 
 [You Arent Gonna Need It (C2 XP Wiki)](http://c2.com/xp/YouArentGonnaNeedIt.html)
 
-Featured in the [2016 Software Craftsmanship Calendar](http://amzn.to/1NI2m22)
+Featured in the 2016 Software Craftsmanship Calendar
 
-Featured in the [2013 Software Craftsmanship Motivational Wall Calendar](http://bit.ly/SC_2013) (DVD image)
+Featured in the 2013 Software Craftsmanship Motivational Wall Calendar (DVD image)

@@ -18,17 +18,15 @@ Team members give and expect to be treated with respect.  This includes respect
 
 ## See Also
 
-[Communication](http://deviq.com/communication)
+[Communication](/values/communication)
 
-[Courage](http://deviq.com/courage)
+[Courage](/values/courage)
 
-[Feedback](http://deviq.com/feedback)
+[Feedback](/values/feedback)
 
-[Simplicity](http://deviq.com/simplicity)
+[Simplicity](/values/simplicity)
 
-[Pair Programming](http://deviq.com/pair%20programming)
-
-[Sustainable Pace](http://deviq.com/sustainable-pace)
+[Pair Programming](/practices/pair-programming)
 
 ## References
 

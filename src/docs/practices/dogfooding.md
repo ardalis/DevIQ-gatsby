@@ -22,8 +22,8 @@ One benefit of proper dogfooding is, if you intend to expose your internal APIs 
 
 [The Inmates Are Running the Asylum](http://amzn.to/X09Jp8) on Amazon
 
-[2013 Software Craftsmanship Calendar](http://bit.ly/SC_2013) (from which the image was taken)
+2013 Software Craftsmanship Calendar (from which the image was taken)
 
-[The Secret to Amazons Success: Internal APIs](http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)
+[The Secret to Amazon's Success: Internal APIs](http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)
 
 [Dogfooding: how to build a great API](http://richarddingwall.name/2012/08/15/dogfooding-how-to-build-a-great-api/)

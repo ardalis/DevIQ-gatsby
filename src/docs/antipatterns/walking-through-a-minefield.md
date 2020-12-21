@@ -14,4 +14,4 @@ When software is released before it is ready, and users of the software are made
 
 ## References
 
-[2014 Telerik Software Craftsmanship Anti-Patterns Wall Calendar](http://gear.telerik.com/)
+2014 Telerik Software Craftsmanship Anti-Patterns Wall Calendar

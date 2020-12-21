@@ -12,15 +12,15 @@ One issue every version control system must contend with is how to handle confli
 
 ## Free and Popular Version Control Systems
 
-[Git](http://git-scm.com/)
+Git
 
-[Mercurial](http://mercurial.selenic.com/)
+Mercurial
 
-[Subversion](http://subversion.tigris.org/)
+Subversion
 
 ## See Also
 
-[Copy Folder Versioning (antipattern)](http://deviq.com/copy-folder-versioning)
+[Copy Folder Versioning (antipattern)](/antipatterns/copy-folder-versioning)
 
 ## Reference
 

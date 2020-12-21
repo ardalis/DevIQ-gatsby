@@ -12,12 +12,12 @@ The Golden Hammer refers to a language, tool, or platform with which the develop
 
 ## See Also
 
-Shiny Toy
+[Shiny Toy](shiny-toy)
 
 ## Reference
 
-[2014 Telerik Software Craftsmanship Anti-Patterns Wall Calendar](http://gear.telerik.com/)
+2014 Telerik Software Craftsmanship Anti-Patterns Wall Calendar
 
-[NimblePros AntiPatterns 2012 Wall Calendar](http://nimblepros.com/products/software-craftsmanship-2012-calendar.aspx)
+NimblePros AntiPatterns 2012 Wall Calendar
 
-[Principles, Patterns, and Practices of Mediocre Programming](http://stevesmithblog.com/blog/principles-patterns-and-practices-of-mediocre-programming/)
+[Principles, Patterns, and Practices of Mediocre Programming](https://ardalis.com/principles-patterns-and-practices-of-mediocre-programming/)

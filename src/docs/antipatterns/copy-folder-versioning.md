@@ -10,4 +10,4 @@ Copy Folder Versioning is a software development anti-pattern in which source co
 
 ## See Also
 
-[Version Control](/version-control)
+[Version Control](/tools/version-control)

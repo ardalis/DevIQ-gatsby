@@ -60,10 +60,10 @@ public interface IMembership : ILogin, IRegister, IForgotPassword
 
 Ideally, your thin interfaces should be _cohesive_, meaning they have groups of operations that logically belong together. This will prevent you from ending up with one-interface-per-method most of the time in real-world systems (as opposed to the above trivial example).
 
-Another benefit of smaller interfaces is that they are easier to implement fully, and thus less likely to break the [Liskov Substitution Principle](/liskov-substitution-principle/) by being only partially implemented. They also provide greater flexibility in how you implement functionality, since parts of a larger interface can be implemented in different ways. Consider the [Repository pattern](/repository-pattern/), which usually includes methods for reading as well as writing. A common performance pattern for database reads it so add a caching layer, but this generally only makes sense for read operations. Likewise, scalability can often be improved by queuing commands (like write operations) rather than executing them immediately, but you wouldn't queue queries. Thus, having an IRepository interface composed of an IReadOnlyRepository and an IWriteRepository would allow base implementations that go against a data store and separate implementations that employ caching and queuing, as well.
+Another benefit of smaller interfaces is that they are easier to implement fully, and thus less likely to break the [Liskov Substitution Principle](/principles/liskov-substitution-principle/) by being only partially implemented. They also provide greater flexibility in how you implement functionality, since parts of a larger interface can be implemented in different ways. Consider the [Repository pattern](/design-patterns/repository-pattern/), which usually includes methods for reading as well as writing. A common performance pattern for database reads it so add a caching layer, but this generally only makes sense for read operations. Likewise, scalability can often be improved by queuing commands (like write operations) rather than executing them immediately, but you wouldn't queue queries. Thus, having an IRepository interface composed of an IReadOnlyRepository and an IWriteRepository would allow base implementations that go against a data store and separate implementations that employ caching and queuing, as well.
 
 ## See Also
 
-[SOLID Principles Overview](/solid/)
+[SOLID Principles Overview](/principles/solid/)
 
-[SOLID Principles of Object Oriented Development](http://bit.ly/solid-smith) - Course on Pluralsight
+[SOLID Principles of Object Oriented Design](http://bit.ly/solid-smith) - Course on Pluralsight

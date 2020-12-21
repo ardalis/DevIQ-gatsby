@@ -10,5 +10,4 @@ Sometimes the process of describing a problem, even to an inanimate object, can 
 
 ## Quotes
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ha, a co-worker and I often solve code problems this way, explaining it to the other and then solving it before the other says a word. <a href="https://t.co/XXNZF81yIE">https://t.co/XXNZF81yIE</a></p>— Arin Friedlander (@ArinFriedlander) <a href="https://twitter.com/ArinFriedlander/status/781527691740733440">September 29, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+https://twitter.com/ArinFriedlander/status/781527691740733440

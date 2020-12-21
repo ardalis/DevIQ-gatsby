@@ -56,8 +56,6 @@
       link: /practices/shipping-is-a-feature
     - label: Simple Design
       link: /practices/simple-design
-    - label: Technical Debt
-      link: /practices/technical-debt
     - label: Test Driven Development
       link: /practices/test-driven-development
     - label: Update the Plan
@@ -208,3 +206,5 @@
       link: /other/kinds-of-models
     - label: Singleton
       link: /other/singleton
+    - label: Technical Debt
+      link: /other/technical-debt

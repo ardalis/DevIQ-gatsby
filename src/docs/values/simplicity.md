@@ -10,7 +10,7 @@ Simplicity is one of the [Values of Extreme Programming](http://www.extremeprogr
 
 _We will do what is needed and asked for, but no more.  This will maximize the value created for the investment made to date.  We will take small simple steps to our goal and mitigate failures as they happen.  We will create something we are proud of and maintain it long term for reasonable costs._
 
-The first of the Lean principles is Eliminate Waste.  One source of waste in software development is unnecessary code and/or functionality.  By maintaining Simplicity in our software, we reduce the amount of non-core code and functionality we need to design, code, test, and maintain. We should strive to ensure our code follows the rules of [Simple Design](/simple-design), so that it remains easy to update in the future.
+The first of the Lean principles is Eliminate Waste.  One source of waste in software development is unnecessary code and/or functionality.  By maintaining Simplicity in our software, we reduce the amount of non-core code and functionality we need to design, code, test, and maintain. We should strive to ensure our code follows the rules of [Simple Design](/practices/simple-design), so that it remains easy to update in the future.
 
 ## Quotes
 
@@ -30,13 +30,13 @@ The first of the Lean principles is Eliminate Waste.  One source of waste in so
 
 ## See Also
 
-[Communication](http://deviq.com/communication)
+[Communication](/values/communication)
 
-[Feedback](http://deviq.com/feedback)
+[Feedback](/values/feedback)
 
-[Respect](http://deviq.com/respect)
+[Respect](/values/respect)
 
-[Courage](http://deviq.com/courage)
+[Courage](/values/courage)
 
 ## References
 

@@ -10,9 +10,7 @@ The Duct Tape Coder is someone who is able to cobble together software that solv
 
 ## See Also
 
-[Respect](http://deviq.com/respect)
-
-[Small Releases](http://deviq.com/small-releases)
+[Respect](/values/respect)
 
 ## References
 
@@ -20,4 +18,4 @@ The Duct Tape Coder is someone who is able to cobble together software that solv
 
 [Debunking the Duct Tape Programmer](http://jeffreypalermo.com/blog/debunking-the-duct-tape-programmer/)
 
-[NimblePros AntiPatterns 2012 Wall Calendar](http://nimblepros.com/products/software-craftsmanship-2012-calendar.aspx)
+NimblePros AntiPatterns 2012 Wall Calendar
