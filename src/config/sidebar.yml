@@ -24,6 +24,8 @@
       link: /design-patterns/strategy-pattern
 - label: Practices
   items:
+    - label: Overview
+      link: /practices/practices-overview
     - label: Code Readability
       link: /practices/code-readability
     - label: Collective Code Ownership
@@ -68,6 +70,8 @@
       link: /practices/whole-team-activity
 - label: Principles
   items:
+    - label: Overview
+      link: /principles/principles-overview
     - label: Boy Scout Rule
       link: /principles/boy-scout-rule
     - label: Dependency Inversion
@@ -108,6 +112,8 @@
       link: /principles/yagni
 - label: Values
   items:
+    - label: Overview
+      link: /values/values-overview
     - label: Communication
       link: /values/communication
     - label: Courage
@@ -182,6 +188,8 @@
       link: /antipatterns/waterfall
 - label: Domain Driven Design
   items:
+    - label: Overview
+      link: /domain-driven-design/ddd-overview
     - label: Aggregate
       link: /domain-driven-design/aggregate-pattern
     - label: Anemic Model

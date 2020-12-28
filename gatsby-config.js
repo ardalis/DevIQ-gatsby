@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.com`,
-    siteAuthor: `@rocketseat`,
+    siteTitle: `DevIQ`,
+    defaultTitle: `DevIQ`,
+    siteTitleShort: `DevIQ`,
+    siteDescription: `DevIQ`,
+    siteUrl: `https://deviq.com/`,
+    siteAuthor: `DevIQ`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
-    themeColor: `#8257E6`,
+    themeColor: `#1E73BE`,
     basePath: `/`,
   },
   plugins: [
