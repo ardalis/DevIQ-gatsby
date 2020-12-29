@@ -53,5 +53,7 @@ module.exports = {
         plugins: ["@weknow/gatsby-remark-twitter"]
       }
     },
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify`,
   ],
 };
