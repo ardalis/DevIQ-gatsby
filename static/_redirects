@@ -1,4 +1,9 @@
 # https://docs.netlify.com/routing/redirects/redirect-options/#http-status-codes
 # 301 is the default
-/home                           /
-/repository-pattern/            /design-patterns/repository-pattern
+/home                               /
+/repository-pattern/                /design-patterns/repository-pattern
+/solid/                             /principles/solid
+/dependency-inversion-principle/    /principles/dependency-inversion-principle/
+/single-responsibility-principle/   /principles/single-responsibility-principle/
+/value-object                       /domain-driven-design/value-object
+/specification-pattern/             /design-patterns/specification-pattern
