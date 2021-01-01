@@ -17,3 +17,4 @@
 /don-t-repeat-yourself              /principles/dont-repeat-yourself
 /explicit-dependencies-principle    /principles/explicit-dependencies-principle
 /guard-clause/                      /patterns/guard-clause
+/code-smells/                       /anti-patterns/code-smells
