@@ -17,3 +17,11 @@
 /don-t-repeat-yourself              /principles/dont-repeat-yourself
 /explicit-dependencies-principle    /principles/explicit-dependencies-principle
 /guard-clause/                      /patterns/guard-clause
+/code-smells/                       /anti-patterns/code-smells
+/entity/                            /domain-driven-design/entity
+/aggregate-pattern/                 /domain-driven-design/aggregate-pattern
+/persistence-ignorance/             /principles/persistence-ignorance
+/test-driven-development/           /practices/test-driven-development
+/spaghetti-code/                    /anti-patterns/spaghetti-code
+/dependency-injection/              /practices/dependency-injection
+/explicit-dependencies-principle    /principles/explicit-dependencies-principle
