@@ -8,8 +8,7 @@ In object-oriented programming, and especially in Domain-Driven Design, objects 
 
 ## References
 
-[Anemic Domain Model](http://www.martinfowler.com/bliki/AnemicDomainModel.html) - Martin Fowler
-
-[Anemic Domain Model is no Antipattern](https://blog.inf.ed.ac.uk/sapm/2014/02/04/the-anaemic-domain-model-is-no-anti-pattern-its-a-solid-design/)
-
-[SOLID - The Next Step is Functional](http://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/) - Mark Seemann
+- [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
+- [Anemic Domain Model](http://www.martinfowler.com/bliki/AnemicDomainModel.html) - Martin Fowler
+- [Anemic Domain Model is no Antipattern](https://blog.inf.ed.ac.uk/sapm/2014/02/04/the-anaemic-domain-model-is-no-anti-pattern-its-a-solid-design/)
+- [SOLID - The Next Step is Functional](http://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/) - Mark Seemann

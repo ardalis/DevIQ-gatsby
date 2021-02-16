@@ -13,3 +13,7 @@ The code for the application should be the authority on naming things, but this 
 The ubiquitous language should be rigorously used within a given bounded context. Between different bounded contexts, terminology may differ. The use of a term in one context should not constrain the use of that term in another bounded context (otherwise, the context isn't being properly "bound").
 
 https://twitter.com/JefClaes/status/624551894275522560
+
+## References
+
+- [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight

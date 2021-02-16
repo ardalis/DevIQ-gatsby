@@ -1,6 +1,6 @@
 ---
 title: "Value Object"
-date: "2015-06-19"
+date: "2021-02-16"
 description: A Value Object is an immutable type that is distinguishable only by the state of its properties.
 ---
 
@@ -8,7 +8,7 @@ A Value Object is an immutable type that is distinguishable only by the state of
 
 To produce an immutable type in C#, the type must have all of its state passed in at construction. Any properties must be read-only, which can be achieved using private setters, as in this example:
 
-```java
+```csharp
 public class SomeValue
 {
   public SomeValue(int value1, string value2)
@@ -30,6 +30,18 @@ Value Objects can be especially useful as a means for describing concepts in an 
 
 Generally, validation of Value Objects should not take place in their constructor. Constructors as a rule should not include logic, but should simply assign values. If validation is required, it should be moved to a factory method, and indeed it is a common pattern to make Value Objects' constructors private, and provide one or more public static methods for creating the Value Object. This achieves [separation of concerns](/principles/separation-of-concerns/), since constructing an instance from a set of values is a separate concern from ensuring the values are valid.
 
+## Value types and reference types
+
+Don't confuse *value objects* with *value types*. The former are a DDD pattern that are typically implemented using classes (making them *reference types*). The distinction between value types and reference types is of interest to the underlying platform, but is a lower level concern than the value object pattern used in Domain-Driven Design.
+
+## Value objects and C# records
+
+Although record types in C# offer immutability, a key feature of value objects, they still have some features that make them less suitable than using a common ValueObject base class. [Vladimir Khorikov has a good comparison of the two approaches](https://enterprisecraftsmanship.com/posts/csharp-records-value-objects/).
+
 ## References
 
-[An Extensive Tutorial Using Value Objects](https://leanpub.com/tdd-ebook/read#leanpub-auto-value-objects)
+- [An Extensive Tutorial Using Value Objects](https://leanpub.com/tdd-ebook/read#leanpub-auto-value-objects)
+- [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
+- [Value Types in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)
+- [Reference Types in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)
+- [C# 9 Records as DDD Value Objects](https://enterprisecraftsmanship.com/posts/csharp-records-value-objects/)
