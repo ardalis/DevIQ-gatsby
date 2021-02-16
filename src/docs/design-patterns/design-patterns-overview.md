@@ -4,7 +4,7 @@ date: "2016-06-09"
 description: Design patterns are common approaches to solving similar problems.
 ---
 
-Design patterns are common approaches to solving similar problems. The [1995 book Design Patterns, by the so-called Gang of Four (GoF)](http://amzn.to/1GYRo2O), describes 23 patterns. [Pluralsight's design patterns library](http://bit.ly/DesignPatternsLibrary) includes 32 different patterns, including most of the original GoF patterns. Some design patterns tend to cause more problems than they solve, and are thus commonly referred to as [antipatterns](/antipatterns/antipatterns-overview).
+Design patterns are common approaches to solving similar problems. The [1995 book Design Patterns, by the so-called Gang of Four (GoF)](http://amzn.to/1GYRo2O), describes 23 patterns. Quickly learn about several patterns and how to learn new patters in this [Design Patterns Overview course on Pluralsight](https://www.pluralsight.com/courses/design-patterns-overview). [Pluralsight's design patterns library](http://bit.ly/DesignPatternsLibrary) includes 32 different patterns, including most of the original GoF patterns. Some design patterns tend to cause more problems than they solve, and are thus commonly referred to as [antipatterns](/antipatterns/antipatterns-overview).
 
 ## Alphabetical List of Design Patterns
 
@@ -28,22 +28,22 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Iterator
 - Lazy Load
 - Mediator
-- Memento
+- [Memento](https://www.pluralsight.com/courses/c-sharp-design-patterns-memento)
 - Model-View-Controller (MVC)
 - Model-View-Presenter (MVP)
 - Model-View-ViewModel (MVVM)
 - [Null Object](/design-patterns/null-object-pattern)
 - Observer
 - Prototype
-- Proxy
+- [Proxy](https://www.pluralsight.com/courses/c-sharp-design-patterns-proxy)
 - [Repository](/design-patterns/repository-pattern) (and [CachedRepository](http://ardalis.com/introducing-the-cachedrepository-pattern))
-- Rules Engine
-- Singleton (!)
+- [Rules Engine](https://www.pluralsight.com/courses/c-sharp-design-patterns-rules-pattern)
+- [Singleton](https://www.pluralsight.com/courses/c-sharp-design-patterns-singleton) (!)
 - Service Locator (!)
-- Specification
+- [Specification](/src/docs/design-patterns/specification-pattern)
 - State
 - [Strategy](/design-patterns/strategy-pattern)
-- Template Method
+- [Template Method](https://www.pluralsight.com/courses/c-sharp-design-patterns-template-method)
 - Unit of Work
 - [Value Object](/domain-driven-design/value-object)
 - Visitor

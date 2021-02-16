@@ -1,7 +1,7 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
+- label: "Introduction"
+  link: "/"
 - label: Design Patterns
   items:
     - label: Overview
@@ -192,6 +192,8 @@
       link: /domain-driven-design/ddd-overview
     - label: Aggregate
       link: /domain-driven-design/aggregate-pattern
+    - label: Anti-Corruption Layer
+      link: /domain-driven-design/anti-corruption-layer
     - label: Anemic Model
       link: /domain-driven-design/anemic-model
     - label: Entity

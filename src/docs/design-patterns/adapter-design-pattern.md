@@ -51,15 +51,14 @@ Notice that the `INotificationAdapter` abstraction does not expose any details a
 
 The Adapter pattern also enables the [Open-Closed Principle](/principles/open-closed-principle), since new functionality can be added to the system's use of notifications without requiring existing code to be modified. Instead, new instances of the `INotificationAdapter` can be added, extending the ways in which notifications may be sent.
 
-Adapters are frequently used in [Domain-Driven Design](/domain-driven-design/ddd-overview) as part of Anti-Corruption Layers.
+Adapters are frequently used in [Domain-Driven Design](/domain-driven-design/ddd-overview) as part of [Anti-Corruption Layers](/domain-driven-design/anti-corruption-layer).
 
 ## Intent
 
-Convert the interface of a class into another interface clients expect.  Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. \[[GoF](http://amzn.to/vep3BT)\]
+Convert the interface of a class into another interface clients expect.  Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. [GoF](http://amzn.to/vep3BT)
 
 ## Reference
 
-Amazon - [Design Patterns: Elements of Reusable Object-Oriented Software](http://amzn.to/vep3BT) \[GoF\]
-
-[Pluralsight - C# Design Patterns: Adapter](https://www.pluralsight.com/courses/c-sharp-design-patterns-adapter)
-[Pluralsight - Design Patterns Library](http://bit.ly/DesignPatternsLibrary)
+- [Pluralsight - C# Design Patterns: Adapter](https://www.pluralsight.com/courses/c-sharp-design-patterns-adapter)
+- Amazon - [Design Patterns: Elements of Reusable Object-Oriented Software](http://amzn.to/vep3BT) - Gang of Four
+- [Pluralsight - Design Patterns Library](http://bit.ly/DesignPatternsLibrary)
