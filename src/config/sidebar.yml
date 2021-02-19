@@ -18,6 +18,8 @@
       link: /design-patterns/repository-pattern
     - label: Specification
       link: /design-patterns/specification-pattern
+    - label: Singleton
+      link: /design-patterns/singleton
     - label: State
       link: /design-patterns/state-design-pattern
     - label: Strategy
@@ -208,13 +210,11 @@
       link: /tools/build-server
     - label: Version Control
       link: /tools/version-control
-- label: Other
+- label: Terms
   items:
     - label: Bus Factor
-      link: /other/bus-factor
+      link: /terms/bus-factor
     - label: Kinds of Models
-      link: /other/kinds-of-models
-    - label: Singleton
-      link: /other/singleton
+      link: /terms/kinds-of-models
     - label: Technical Debt
-      link: /other/technical-debt
+      link: /terms/technical-debt

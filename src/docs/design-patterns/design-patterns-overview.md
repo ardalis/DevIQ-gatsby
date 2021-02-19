@@ -38,7 +38,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Proxy](https://www.pluralsight.com/courses/c-sharp-design-patterns-proxy)
 - [Repository](/design-patterns/repository-pattern) (and [CachedRepository](http://ardalis.com/introducing-the-cachedrepository-pattern))
 - [Rules Engine](https://www.pluralsight.com/courses/c-sharp-design-patterns-rules-pattern)
-- [Singleton](https://www.pluralsight.com/courses/c-sharp-design-patterns-singleton) (!)
+- [Singleton](/design-patterns/singleton) (!)
 - Service Locator (!)
 - [Specification](/src/docs/design-patterns/specification-pattern)
 - State
