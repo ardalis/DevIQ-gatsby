@@ -218,3 +218,7 @@
       link: /other/singleton
     - label: Technical Debt
       link: /other/technical-debt
+- label: Laws
+  items:
+    - label: Murphy's Law
+      link: /laws/murphys-law
