@@ -30,7 +30,7 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 - [Not Invented Here](not-invented-here)
 - [One Thing to Rule Them All](one-thing-to-rule-them-all)
 - [Reinventing the Wheel](reinventing-the-wheel)
-- [Singleton](/other/singleton)
+- [Singleton](/design-patterns/singleton)
 - Service Locator
 - [Shiny Toy](shiny-toy)
 - [Smoke and Mirrors](smoke-and-mirrors)

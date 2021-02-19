@@ -12,6 +12,7 @@
 /specification-pattern/             /design-patterns/specification-pattern
 /state-design-pattern/              /design-patterns/state-design-pattern
 /strategy-design-pattern/           /design-patterns/strategy-pattern
+/singleton/                         /design-patterns/singleton
 
 /category/practices/                /practices/practices-overview
 /code-readability/                  /practices/code-readability
@@ -66,6 +67,9 @@
 /category/tools/                    /tools/build-server
 /build-server/                      /tools/build-server
 
-/bus-factor/                        /other/bus-factor
-/kinds-of-models/                   /other/kinds-of-models
-/technical-debt/                    /other/technical-debt
+/bus-factor/                        /terms/bus-factor
+/kinds-of-models/                   /terms/kinds-of-models
+/technical-debt/                    /terms/technical-debt
+
+/other/singleton                    /design-patterns/singleton
+/other/*                            /terms/:splat
