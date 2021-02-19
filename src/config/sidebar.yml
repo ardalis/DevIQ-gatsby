@@ -218,3 +218,7 @@
       link: /terms/kinds-of-models
     - label: Technical Debt
       link: /terms/technical-debt
+- label: Laws
+  items:
+    - label: Murphy's Law
+      link: /laws/murphys-law
