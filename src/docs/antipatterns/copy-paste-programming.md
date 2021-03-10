@@ -16,7 +16,7 @@ Rather than copying code from one place to another, create an abstraction to con
 
 [Spaghetti Code](/antipatterns/spaghetti-code)
 
-[Technical Debt](/other/technical-debt)
+[Technical Debt](/terms/technical-debt)
 
 [Don't Repeat Yourself Principle](/principles/dont-repeat-yourself)
 
