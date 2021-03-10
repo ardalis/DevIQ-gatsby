@@ -179,7 +179,7 @@
     - label: Shiny Toy
       link: /antipatterns/shiny-toy
     - label: Singleton
-      link: /other/singleton
+      link: /design-patterns/singleton
     - label: Smoke and Mirrors
       link: /antipatterns/smoke-and-mirrors
     - label: Spaghetti Code
