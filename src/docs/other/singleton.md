@@ -37,4 +37,5 @@ A better approach than the Singleton pattern is to follow the [Explicit Dependen
 
 ## References
 
-Jon Skeet on [Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx)
+- [Singleton Design Pattern in C#](https://www.pluralsight.com/courses/c-sharp-design-patterns-singleton) - Pluralsight
+- Jon Skeet on [Implementing the Singleton Pattern in C#](http://csharpindepth.com/Articles/General/Singleton.aspx)

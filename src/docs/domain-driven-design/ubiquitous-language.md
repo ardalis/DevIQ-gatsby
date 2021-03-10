@@ -12,6 +12,18 @@ The code for the application should be the authority on naming things, but this 
 
 The ubiquitous language should be rigorously used within a given bounded context. Between different bounded contexts, terminology may differ. The use of a term in one context should not constrain the use of that term in another bounded context (otherwise, the context isn't being properly "bound").
 
+Seth Godin [writes about terms](https://seths.blog/2021/03/what-does-it-stand-for/), saying:
+
+> We need a new word when the old words are insufficient to express a shared understanding. And the new word is a placeholder for a story.
+>
+> If we share the same story about a word, about its place, its possibility and its promise–then we know what it stands for.
+>
+> New words give us new ways to understand the world, because new words come with stories attached.
+>
+> And disagreements often happen simply because while we’re using the same word as someone else, we’re not telling the same story they are.
+
+## On Twitter
+
 https://twitter.com/JefClaes/status/624551894275522560
 
 ## References
