@@ -4,7 +4,7 @@ date: "2014-11-26"
 description: Test Driven Development, or TDD, also known as Test Driven Design, is a process for writing code using tests to define and then confirm the software's behavior.
 ---
 
-Test Driven Development, or TDD, also known as Test Driven Design, is a process for writing code using tests to define and then confirm the software's behavior. It is characterized by a set of steps known as "Red - Green - Refactor" which are followed in very short cycles to incrementally build up working softare.
+Test Driven Development, or TDD, also known as Test Driven Design, is a process for writing code using tests to define and then confirm the software's behavior. It is characterized by a set of steps known as "Red - Green - Refactor" which are followed in very short cycles to incrementally build up working software.
 
 The first step is to write a failing test for some new feature or behavior. To ensure the test is, in fact, failing, you must run it, in which case the test runner should display a failure (typically accompanied by a _**RED**_ indicator).
 
