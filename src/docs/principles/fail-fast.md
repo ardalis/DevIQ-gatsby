@@ -1,7 +1,7 @@
 ---
 title: "Fail Fast"
 date: "2021-04-08"
-description: 'Fail fast' suggests that if an error or problem is going to occur, it's best to detect it as early as possible.
+description: "'Fail fast' suggests that if an error or problem is going to occur, it's best to detect it as early as possible."
 ---
 
 'Fail fast' suggests that if an error or problem is going to occur, it's best to detect it as early as possible. Improper or invalid inputs to a system or to individual methods, are a common source of problems in software applications. Sometimes, these problems are persisted, resulting in corrupt or invalid data that can be difficult to isolate and correct. Sometimes, the problems leave the system in an unresponsive state, consuming resources and possibly denying other users access to it.
