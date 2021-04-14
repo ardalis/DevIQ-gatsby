@@ -101,9 +101,7 @@ In the above code, the OrderController no longer has a direct dependency on the 
 
 Although Static Cling refers specifically to references to static methods (or properties), the same consequences occur when instance variables are instantiated and immediate called within a method. Be careful of where in your code you make decisions about a method or class's collaborators, and remember that [New is Glue](http://ardalis.com/new-is-glue/) if you choose to instantiate a type that has dependencies on infrastructure concerns (e.g. file system, database, etc).
 
-## References
-
-[Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) on Pluralsight
+## See Also
 
 [Dependency Injection](/practices/dependency-injection/)
 
@@ -112,5 +110,9 @@ Although Static Cling refers specifically to references to static methods (or pr
 [Adapter Design Pattern](/design-patterns/adapter-design-pattern)
 
 [Explicit Dependencies Principle](/principles/explicit-dependencies-principle/)
+
+## References
+
+[Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) on Pluralsight
 
 [New is Glue](http://ardalis.com/new-is-glue/)

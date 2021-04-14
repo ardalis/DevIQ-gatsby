@@ -8,4 +8,4 @@ An Anti-Corruption Layer (ACL) is a set of patterns placed between the domain mo
 
 ## References
 
-- [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
+[Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight

@@ -12,6 +12,8 @@ An IOC Container, also known as a [Dependency Inversion (DI)](/principles/depend
 
 [Hollywood Principle](/principles/hollywood-principle/)
 
+## References
+
 [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) (Wikipedia)
 
 [Comparing Major C# IOC Containers](http://stackoverflow.com/questions/4581791/how-do-the-major-c-sharp-di-ioc-frameworks-compare)

@@ -14,9 +14,9 @@ Often, if-then and switch statements have a habit of being duplicated in multipl
 
 ![DontRepeatYourself](images/DontRepeatYourself-400x400.jpg)
 
-## Related Principles
+## See Also
 
-Once and Only Once can be considered a subset of the DRY principle.
+[Once and Only Once](once-and-only-once.md) can be considered a subset of the DRY principle.
 
 The [Open/Closed Principle](/principles/open-closed-principle) only works when DRY is followed.
 
@@ -24,7 +24,7 @@ The [Single Responsibility Principle](/principles/single-responsibility-principl
 
 ![DontRepeatYourself](images/Dont-Repeat-Repeat-Yourself-400x400.png)
 
-## Resources
+## References
 
 [SOLID Principles of Object Oriented Design on Pluralsight](https://www.pluralsight.com/courses/principles-oo-design) (includes 2 modules on DRY)
 

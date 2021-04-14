@@ -16,8 +16,8 @@ Even if a project has only one developer working on it, a build server adds valu
 
 [Team Foundation Server Build Server](https://msdn.microsoft.com/en-us/library/ms181712.aspx) - A commercial build server from Microsoft
 
-## Resources
+## References
 
-[What is the point of a build server?](http://stackoverflow.com/questions/1099133/what-is-the-point-of-a-build-server) - Stack Overflow 
+[What is the point of a build server?](http://stackoverflow.com/questions/1099133/what-is-the-point-of-a-build-server) - Stack Overflow
 
 [A comparison of CI servers](http://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software) - Wikipedia

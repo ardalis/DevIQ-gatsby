@@ -22,10 +22,8 @@ In the field of custom software development, virtually anything worth writing is
 
 In addition to learning and feedback, it is also important to consider iterative design from a batch size standpoint.  Lean methodologies have shown that reduction in batch size is a key mechanism for improving quality and increasing flow through a value stream.  If a particular system has 100 requirements, and all of these requirements must be fully documented before any of them can be analyzed, and likewise they must all be analyzed before the design can begin, and finally the design must be complete before coding commences, then this represents a batch size of 100.  If a particular assumption proves to be invalid and impacts several requirements, then all of the time spent on analysis and design for these requirements is wasted.  Further, by the time such requirements make it through the pipeline, a great deal of time will have passed from when they were gathered and defined, making it increasingly likely that they will be misremembered or will simply have changed before they have been implemented.  If instead the requirements are gathered and analyzed in small batches (say, 1 to 5 at a time), then the time required to design, code, and test these few requirements will be greatly reduced, and customers will see the total time between when they ask for something and when they receive it to be much smaller, and they will be better able to refine their expectations iteratively, rather than trying to cram everything they think they might need into an initial large batch of requirements.
 
-## See Also
+## References
 
 Waterfall Model on [Wikipedia](http://en.wikipedia.org/wiki/Waterfall_model)
-
-## Reference
 
 NimblePros AntiPatterns 2012 Wall Calendar

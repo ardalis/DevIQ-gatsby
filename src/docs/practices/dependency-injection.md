@@ -24,6 +24,8 @@ Dependency injection is related to inversion of control containers, which can be
 
 [Strategy Design Pattern](/design-patterns/strategy-pattern)
 
+## References
+
 [SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) (Pluralsight)
 
 [Design Patterns Library](http://bit.ly/DesignPatternsLibrary) (Pluralsight)

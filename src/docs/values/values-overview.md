@@ -14,6 +14,6 @@ Extreme Programming is based on a collection of values, and the rules of Extreme
 - [Respect](/values/respect)
 - [Simplicity](/values/simplicity)
 
-## Reference
+## References
 
-- [Extreme Programming Values](http://www.extremeprogramming.org/values.html)
+[Extreme Programming Values](http://www.extremeprogramming.org/values.html)

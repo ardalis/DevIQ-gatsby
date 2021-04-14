@@ -66,4 +66,6 @@ Another benefit of smaller interfaces is that they are easier to implement fully
 
 [SOLID Principles Overview](/principles/solid/)
 
+## References
+
 [SOLID Principles of Object Oriented Design](http://bit.ly/solid-smith) - Course on Pluralsight

@@ -12,7 +12,8 @@ Practices like [defensive programming](/practices/defensive-programming) and pat
 
 Fail fast doesn't just apply to low level coding. It is also often applied to product development and marketing experiments. Rather than committing a large amount of resources to a product or campaign that is destined for failure, fail fast suggests running experiments as quickly as possible that can determine whether the product, campaign, or idea has merit before committing full resources to it.
 
-## References
+## See Also
 
-- [Defensive Programming](/practices/defensive-programming)
-- [Guard Clause](/patterns/guard-clause)
+[Defensive Programming](/practices/defensive-programming)
+
+[Guard Clause](/patterns/guard-clause)
