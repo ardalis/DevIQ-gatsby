@@ -26,6 +26,8 @@ Consider a user interface form with a button. When the button is clicked, an eve
 
 [Hollywood Principle](/principles/hollywood-principle)
 
+## References
+
 [New is Glue](http://ardalis.com/new-is-glue)
 
 [Architecting N-Tier Solutions in C#](http://www.pluralsight.com/courses/n-tier-apps-part1) (Pluralsight)

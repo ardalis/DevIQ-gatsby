@@ -104,6 +104,6 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 - The Sleeper
 - The Void
 
-## Reference
+## References
 
 [Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) on Pluralsight

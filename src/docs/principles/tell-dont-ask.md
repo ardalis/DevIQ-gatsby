@@ -101,8 +101,10 @@ In the example above, the first refactoring looks at the magic number representi
 
 It's not necessary to follow the "don't ask" part of this principle to the extreme of eliminating all access to objects' state. In general, it's ok to query an object for its state, provided the information isn't being used to make a decision related to the object. If it is, then that decision and any corresponding behavior should most likely be moved within the object itself. Another consequence of violating TDA is that often magic numbers or business rules end up sprinkled throughout code that references object state, rather than embedded within the object itself or passed into the object as a defined and well-named construct (such as CpuAlertThreshold in the example above).
 
-## References
+## See Also
 
 [Anemic Model](/domain-driven-design/anemic-model/)
+
+## References
 
 [Tell Don't Ask on C2 Wiki](http://c2.com/cgi/wiki?TellDontAsk)

@@ -28,4 +28,4 @@ https://twitter.com/JefClaes/status/624551894275522560
 
 ## References
 
-- [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
+[Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight

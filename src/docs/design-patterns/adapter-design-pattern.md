@@ -57,8 +57,10 @@ Adapters are frequently used in [Domain-Driven Design](/domain-driven-design/ddd
 
 Convert the interface of a class into another interface clients expect.  Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. [GoF](http://amzn.to/vep3BT)
 
-## Reference
+## References
 
-- [Pluralsight - C# Design Patterns: Adapter](https://www.pluralsight.com/courses/c-sharp-design-patterns-adapter)
-- Amazon - [Design Patterns: Elements of Reusable Object-Oriented Software](http://amzn.to/vep3BT) - Gang of Four
-- [Pluralsight - Design Patterns Library](http://bit.ly/DesignPatternsLibrary)
+[Pluralsight - C# Design Patterns: Adapter](https://www.pluralsight.com/courses/c-sharp-design-patterns-adapter)
+
+Amazon - [Design Patterns: Elements of Reusable Object-Oriented Software](http://amzn.to/vep3BT) - Gang of Four
+
+[Pluralsight - Design Patterns Library](http://bit.ly/DesignPatternsLibrary)

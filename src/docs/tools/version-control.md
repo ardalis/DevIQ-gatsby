@@ -22,7 +22,7 @@ Subversion
 
 [Copy Folder Versioning (antipattern)](/antipatterns/copy-folder-versioning)
 
-## Reference
+## References
 
 [Wikipedia](http://en.wikipedia.org/wiki/Version_control)
 

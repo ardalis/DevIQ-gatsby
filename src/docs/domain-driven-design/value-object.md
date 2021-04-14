@@ -40,8 +40,12 @@ Although record types in C# offer immutability, a key feature of value objects, 
 
 ## References
 
-- [An Extensive Tutorial Using Value Objects](https://leanpub.com/tdd-ebook/read#leanpub-auto-value-objects)
-- [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
-- [Value Types in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)
-- [Reference Types in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)
-- [C# 9 Records as DDD Value Objects](https://enterprisecraftsmanship.com/posts/csharp-records-value-objects/)
+[An Extensive Tutorial Using Value Objects](https://leanpub.com/tdd-ebook/read#leanpub-auto-value-objects)
+
+[Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
+
+[Value Types in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)
+
+[Reference Types in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)
+
+[C# 9 Records as DDD Value Objects](https://enterprisecraftsmanship.com/posts/csharp-records-value-objects/)

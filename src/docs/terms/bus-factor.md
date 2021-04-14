@@ -12,12 +12,14 @@ A number of practices can help increase a project's bus factor. [Collective code
 
 Good [communication](/values/communication/) within a team ensures that information is shared, and further reduces bus factor. Practices like daily stand-ups, as well as frequently switching which other team members individuals work with (whether pairing or not), can help ensure knowledge is shared among all team members. Having a co-located team is obviously idea, especially in a team room in which everyone can quickly communicate with everybody else. A good, proven approach to team room design is the "caves and commons", which has a common team space (the "commons") surrounded by a number of private rooms in which team members can have some privacy when needed ("caves"). This addresses concerns some developers have about team rooms being too distracting, while still allowing for the benefits of having a colocated team.
 
-## References
+## See Also
 
 [Pair Programming](/practices/pair-programming/)
 
 [Collective Code Ownership](/practices/collective-code-ownership/)
 
 [Communication](/values/communication/)
+
+## References
 
 2016 Software Craftsmanship Calendar

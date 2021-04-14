@@ -12,6 +12,6 @@ The more modular the application, the better able it is to adopt new architectur
 
 Micro-services aren't the only designs that can more easily be updated. Any application that follows [separation of concerns](/principles/separation-of-concerns) and other software design principles will be easier to update and maintain than a system that is full of [spaghetti code](/antipatterns/spaghetti-code).
 
-## Resources
+## References
 
 [Free ASP.NET Core Architecture eBook](http://ardalis.com/architecture-ebook)

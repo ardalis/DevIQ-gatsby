@@ -102,7 +102,7 @@ in addition to whatever other filters are present. This is better achieved withi
 
 Repositories that follow the advice of not exposing IQueryable can often become bloated with many custom query methods. The solution to this is to separate queries into their own types, using the [Specification Design Pattern](/design-patterns/specification-pattern). The specification can include the expression used to filter the query, any parameters associated with this expression, as well as how much data the query should return (i.e. ".Include()" in EF/EF Core). Combining the Repository and Specification patterns can be a great way to ensure you follow the [Single Responsibility Principle](/principles/single-responsibility-principle) in your data access code. See [an example of how to implement a generic repository along with a generic specification in C#](/design-patterns/specification-pattern).
 
-## Reference
+## References
 
 [DDD Fundamentals](http://bit.ly/PS-DDD) - Pluralsight
 
