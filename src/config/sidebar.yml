@@ -136,6 +136,8 @@
       link: /antipatterns/antipatterns-overview
     - label: Assumption Driven Programming
       link: /antipatterns/assumption-driven-programming
+    - label: Big Ball of Mud
+      link: /antipatterns/big-ball-of-mud
     - label: The Blob
       link: /antipatterns/blob
     - label: Broken Windows
