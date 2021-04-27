@@ -48,7 +48,10 @@ public class AddressBuilder
 
 ## References
 
-- [Design Patterns Library](https://www.pluralsight.com/courses/patterns-library) (Pluralsight)
-- [Applying the Builder Pattern to an Angular Service](https://ardalis.com/applying-the-builder-pattern-to-improve-an-angular-service) (Typescript)
-- [Using Builder in C# Unit Tests Kata](https://github.com/ardalis/BuilderTestSample)
-- [Flexible and Expressive Unit Tests with the Builder Pattern](https://www.kenneth-truyers.net/2013/07/15/flexible-and-expressive-unit-tests-with-the-builder-pattern/)
+[Design Patterns Library](https://www.pluralsight.com/courses/patterns-library) (Pluralsight)
+
+[Applying the Builder Pattern to an Angular Service](https://ardalis.com/applying-the-builder-pattern-to-improve-an-angular-service) (Typescript)
+
+[Using Builder in C# Unit Tests Kata](https://github.com/ardalis/BuilderTestSample)
+
+[Flexible and Expressive Unit Tests with the Builder Pattern](https://www.kenneth-truyers.net/2013/07/15/flexible-and-expressive-unit-tests-with-the-builder-pattern/)

@@ -55,6 +55,6 @@ public Customer GetByPhoneNumber(string phoneNumber)
 
 Once the Null Object Pattern is in place, there is no need to even have the local variables (orderCount, totalPurchase) shown in the example above, as they only existed because the customer instance might be null. Likewise, their null checks aren't needed - overall the client code is simpler, and probably has less duplicate code, since frequently these kinds of null checks proliferate throughout the code base (this is symptomatic of the fact that nulls violate the [Liskov Substitution Principle](/principles/liskov-substitution-principle).
 
-## See Also
+## References
 
 [Nulls Break Polymorphism](https://ardalis.com/nulls-break-polymorphism/)

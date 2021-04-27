@@ -91,8 +91,10 @@ public IEnumerable<T> List(ISpecification<T> spec)
 
 Although it's not recommended to return IQueryable from a repository, it's perfectly fine to use them within the repository to build up a set of results. You can see this approach used in the List method above, which uses intermediate IQueryable expressions to build up the query's list of includes before executing the query with the specification's criteria on the last line.
 
-## Resources
-
-[Design Patterns Library](http://bit.ly/DesignPatternsLibrary) (includes a module on Specification)
+## See Also
 
 [Repository Pattern](/design-patterns/repository-pattern)
+
+## References
+
+[Design Patterns Library](http://bit.ly/DesignPatternsLibrary) (includes a module on Specification)

@@ -36,6 +36,8 @@
       link: /practices/common-architectural-vision
     - label: Continuous Integration
       link: /practices/continuous-integration
+    - label: Defensive Programming
+      link: /practices/defensive-programming
     - label: Dependency Injection
       link: /practices/dependency-injection
     - label: Descriptive Error Messages
@@ -84,6 +86,8 @@
       link: /principles/encapsulation
     - label: Explicit Dependencies
       link: /principles/explicit-dependencies-principle
+    - label: Fail Fast
+      link: /principles/fail-fast
     - label: Hollywood
       link: /principles/hollywood-principle
     - label: Interface Segregation
@@ -222,5 +226,7 @@
       link: /terms/technical-debt
 - label: Laws
   items:
+    - label: Overview
+      link: /laws/laws-overview
     - label: Murphy's Law
       link: /laws/murphys-law

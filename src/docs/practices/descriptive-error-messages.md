@@ -24,6 +24,6 @@ For .NET developers, MSDN provides guidelines for [how to properly handle except
 
 In addition to handling exceptions at the code level, think about how error messages are presented to your application's user. These messages are a part of your user interface and experience (UI, UX); they're part of how you communicate with the user. If you've spent any care at all on UX, you don't want to ruin that effort by popping up an exception that's useless and confusing and not written for the user at all (like a stack trace). Make sure your error messages are designed for the user, are helpful when they can be, provide humor when it's appropriate, and apologize when you know they're causing the user frustration. [Ben Rowe has a nice article](http://uxmas.com/2012/the-4-hs-of-writing-error-messages) discussing specific examples of these tips and more that's worth a read if you'd like to improve your application's UX when it's not actually doing what it's supposed to do.
 
-## Resources
+## References
 
 2016 Software Craftsmanship Calendar

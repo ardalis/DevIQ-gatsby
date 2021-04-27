@@ -8,4 +8,4 @@ An Entity is an object that has some intrinsic identity, apart from the rest of 
 
 ## References
 
-- [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
+[Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight

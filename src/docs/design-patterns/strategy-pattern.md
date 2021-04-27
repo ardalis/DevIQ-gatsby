@@ -81,7 +81,7 @@ public class EfMovieRepository : IMovieRepository
 }
 ```
 
-## Reference
+## References
 
 Amazon - [Design Patterns: Elements of Reusable Object-Oriented Software](http://amzn.to/vep3BT) \[GoF\]
 

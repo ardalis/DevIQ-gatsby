@@ -14,7 +14,7 @@ The Golden Hammer refers to a language, tool, or platform with which the develop
 
 [Shiny Toy](shiny-toy)
 
-## Reference
+## References
 
 2014 Telerik Software Craftsmanship Anti-Patterns Wall Calendar
 

@@ -115,7 +115,7 @@ public void Subscribe3(User user, Subscription subscription, Term term)
 
 Over time you can continue to add additional Guard helper methods for any other common cases you need to check for, such as empty strings, negative numbers, invalid enum values, etc.
 
-## Resources
+## References
 
 [Ardalis.GuardClauses](https://www.nuget.org/packages/Ardalis.GuardClauses) Nuget Package
 

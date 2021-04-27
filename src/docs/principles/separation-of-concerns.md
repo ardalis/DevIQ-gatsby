@@ -24,9 +24,7 @@ Separation of Concerns tends to be a natural consequence of following the Don't 
 
 [Don't Repeat Yourself](/principles/dont-repeat-yourself)
 
-[Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) on Wikipedia
-
-## Resources
+## References
 
 [Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) from Pluralsight
 
@@ -35,3 +33,5 @@ Separation of Concerns tends to be a natural consequence of following the Don't 
 [Creating N-Tier Applications in C#, Part 2](https://www.pluralsight.com/courses/n-tier-csharp-part2) from Pluralsight
 
 An excellent article on [Separation of Concerns](http://aspiringcraftsman.com/2008/01/03/art-of-separation-of-concerns/)
+
+[Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) on Wikipedia

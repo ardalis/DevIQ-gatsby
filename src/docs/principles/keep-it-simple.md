@@ -22,7 +22,7 @@ The KISS principle, or _**Keep It Simple, Stupid**_, spans many trades, industri
 
 [You Ain't Gonna Need It (YAGNI)](/principles/yagni)
 
-## Resources
+## References
 
 [Do The Simplest Thing That Could Possibly Work (XP)](http://c2.com/xp/DoTheSimplestThingThatCouldPossiblyWork.html)
 

@@ -12,14 +12,16 @@ This goes against traditional, cynical, job security advice. Writing cryptic cod
 
 Collective code ownership means the team applies their coding standards consistently. [Names](/practices/naming-things/) are chosen that make sense to everybody on the team. Things that are clever or cryptic are replaced by things that are simple and well understood. The result is [readable code](/practices/code-readability) the whole team can work on, and code that is better for having been reviewed by multiple sets of eyes.
 
-## References
-
-[Collective Ownership](http://www.extremeprogramming.org/rules/collective.html)
+## See Also
 
 [Naming Things](/practices/naming-things)
 
 [Keep It Simple](/principles/keep-it-simple/)
 
 [Code Readability](/practices/code-readability/)
+
+## References
+
+[Collective Ownership](http://www.extremeprogramming.org/rules/collective.html)
 
 2016 Software Craftsmanship Calendar

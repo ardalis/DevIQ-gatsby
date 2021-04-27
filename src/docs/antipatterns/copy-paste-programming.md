@@ -20,7 +20,7 @@ Rather than copying code from one place to another, create an abstraction to con
 
 [Don't Repeat Yourself Principle](/principles/dont-repeat-yourself)
 
-## Reference
+## References
 
 NimblePros AntiPatterns 2012 Wall Calendar
 

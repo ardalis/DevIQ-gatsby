@@ -16,8 +16,10 @@ Software development is a _whole team activity_ - avoid silos and barriers to co
 
 [Collective Code Ownership](/practices/collective-code-ownership)
 
+[Whole Team](/src/docs/practices/whole-team.md)
+
 ## References
 
-[What is Extreme Programming](https://ronjeffries.com/xprog/what-is-extreme-programming/)
+[What is Extreme Programming?](https://ronjeffries.com/xprog/what-is-extreme-programming/)
 
 Featured in the 2013 Software Craftsmanship Motivational Wall Calendar

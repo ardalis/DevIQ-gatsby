@@ -203,4 +203,6 @@ In this case, the logging and time dependencies have been pulled into constructo
 
 [Dependency Inversion Principle](/principles/dependency-inversion-principle/)
 
+## References
+
 [New Is Glue](http://ardalis.com/new-is-glue) (Ardalis.com)
