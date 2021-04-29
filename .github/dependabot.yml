@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby-plugin-netlify-cms
+    versions:
+    - 4.10.0
+  - dependency-name: gatsby-transformer-remark
+    versions:
+    - 2.16.1
