@@ -58,3 +58,5 @@ Once the Null Object Pattern is in place, there is no need to even have the loca
 ## References
 
 [Nulls Break Polymorphism](https://ardalis.com/nulls-break-polymorphism/)
+
+[Null Object Pattern](https://www.pmi.org/disciplined-agile/the-design-patterns-repository/the-null-object-pattern) video by [Scott Bain](https://twitter.com/slbain9000) with some good examples
