@@ -6,9 +6,13 @@ description: One Domain-Driven-Design solution to the problem of where to place
 
 One [Domain-Driven-Design](http://bit.ly/PS-DDD) solution to the problem of where to place querying, sorting, and paging logic is to use a _Specification_. The Specification design pattern describes a query in an object. So to encapsulate a paged query that searches for some products, one might create a PagedProduct specification which would take in any necessary parameters (pageSize, pageNumber, filter). Then one of your [repository](/design-patterns/repository-pattern) methods (usually a List() overload) would accept an ISpecification and would be able to produce the expected result given the specification. There are several benefits to this approach. The specification has a name (as opposed to just a bunch of LINQ expressions) that you can reason about and discuss. It can be unit tested in isolation to ensure correctness. And it can easily be reused if you need the same behavior (say on an MVC View action and a Web API action, as well as in various services). Further, a specification can also be used to describe the shape of the data to be returned, so that queries can return just the data they required. This eliminates the need for lazy loading in web applications ([bad idea](https://ardalis.com/avoid-lazy-loading-entities-in-asp-net-applications)) and helps keep repository implementations from becoming cluttered with these details.
 
+## Ardalis.Specification
+
+If you're considering implementing the Specification pattern in your .NET application, especially if you're using EF, have a look at my [Ardalis.Specification repository](https://github.com/ardalis/Specification) and [NuGet Package](https://www.nuget.org/packages/Ardalis.Specification). It likely provides everything you need to get started.
+
 ## Generic Specification Interface
 
-```chsarp
+```csharp
 // https://github.com/dotnet-architecture/eShopOnWeb
 public interface ISpecification<T>
 {
