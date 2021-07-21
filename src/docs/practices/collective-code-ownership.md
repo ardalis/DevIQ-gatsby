@@ -2,6 +2,7 @@
 title: "Collective Code Ownership"
 date: "2014-11-26"
 description: Collective code ownership breaks down fiefdoms within an application's codebase.
+featuredimage: images/CollectiveCodeOwnership-400x400.png
 ---
 
 ![Collective Code Ownership](images/CollectiveCodeOwnership-400x400.png)
