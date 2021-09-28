@@ -7,6 +7,7 @@ import useWindowSize from 'react-use/lib/useWindowSize';
 import slug from '@rocketseat/gatsby-theme-docs/src/util/slug';
 
 import { Wrapper, Container } from '@rocketseat/gatsby-theme-docs/src/components/Docs/TOC/styles';
+import { NimbleCallout, NimbleContent, NimbleSidebar, NimbleText } from './styles2';
 
 export default function TableOfContents({ headings, disableTOC, contentRef }) {
   const { y } = useWindowScroll();
@@ -90,10 +91,24 @@ export default function TableOfContents({ headings, disableTOC, contentRef }) {
                 })}
             </ul>
           </nav>
-          <hr />
-          <div>
-            <a href="https://nimblepros.com">Build Better Software, Faster with NimblePros</a>
-          </div>
+          <NimbleSidebar>
+            <NimbleContent>
+            <a href="https://nimblepros.com" rel="nofollow" target="_blank">
+              <img src="/img/nimblepros-bettersoftwarefaster-white-240x180.png" alt="Sponsored by NimblePros" />
+            </a>
+            </NimbleContent>
+            <NimbleText>
+              <a href="https://nimblepros.com" rel="nofollow" target="_blank">
+                <strong>Better Software, Faster</strong>
+                <span>
+                  NimblePros helps development teams deliver better software, faster. Find out how.
+                </span>
+              </a>
+            </NimbleText>
+            <NimbleCallout>
+              <small><em>Sponsored</em></small>
+            </NimbleCallout>
+          </NimbleSidebar>
         </Container>
       </Wrapper>
     );
