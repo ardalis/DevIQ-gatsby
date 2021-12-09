@@ -20,7 +20,7 @@
     "gatsby-plugin-remove-trailing-slashes": "^2.10.0",
     "gatsby-plugin-offline": "^3.10.2",
     "gatsby-transformer-remark": "^2.16.1",
-    "netlify-cms-app": "^2.15.18",
+    "netlify-cms-app": "^2.15.61",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
