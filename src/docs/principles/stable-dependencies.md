@@ -14,4 +14,5 @@ The Stable Dependencies Principle states that "The dependencies between software
 
 ## References
 
-2016 Software Craftsmanship Calendar
+- [Stable Dependencies Principle](https://wiki.c2.com/?StableDependenciesPrinciple)
+- 2016 Software Craftsmanship Calendar
