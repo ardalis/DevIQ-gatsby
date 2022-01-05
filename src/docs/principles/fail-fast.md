@@ -8,7 +8,7 @@ description: "'Fail fast' suggests that if an error or problem is going to occur
 
 The principle of fail fast helps reduce the feedback loop when problematic inputs enter a system. The sooner a user or another system is notified there is a problem with processing its input, the better. The system will be more responsive and will consume fewer resources dealing with inputs that will ultimately result in errors or system failure.
 
-Practices like [defensive programming](/practices/defensive-programming) and patterns like [guard clauses](/patterns/guard-clause) are frequently applied in order to follow the fail fast principle.
+Practices like [defensive programming](/practices/defensive-programming) and patterns like [guard clauses](/design-patterns/guard-clause) are frequently applied in order to follow the fail fast principle.
 
 Fail fast doesn't just apply to low level coding. It is also often applied to product development and marketing experiments. Rather than committing a large amount of resources to a product or campaign that is destined for failure, fail fast suggests running experiments as quickly as possible that can determine whether the product, campaign, or idea has merit before committing full resources to it.
 
