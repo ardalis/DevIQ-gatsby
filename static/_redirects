@@ -25,6 +25,7 @@
 /test-driven-development/           /practices/test-driven-development
 /vertical-slices/                   /practices/vertical-slices
 
+/principles/                        /principles/principles-overview
 /category/principles/               /principles/principles-overview
 /boy-scout-rule/                    /principles/principles/boy-scout-rule
 /dependency-inversion-principle/    /principles/dependency-inversion-principle
