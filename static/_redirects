@@ -3,6 +3,8 @@
 /home                               /
 /pages/about                        /
 
+/values                             /values/values-overview
+
 /category/patterns/                 /design-patterns/design-patterns-overview
 /design-patterns/                   /design-patterns/design-patterns-overview
 /builder-design-pattern/            /design-patterns/builder-pattern
