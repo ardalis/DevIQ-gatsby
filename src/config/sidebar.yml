@@ -16,6 +16,8 @@
       link: /design-patterns/null-object-pattern
     - label: Repository
       link: /design-patterns/repository-pattern
+    - label: REPR
+      link: /design-patterns/repr-design-pattern
     - label: Specification
       link: /design-patterns/specification-pattern
     - label: Singleton
