@@ -11,7 +11,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - Amara's Law
 - Brooks's Law
 - Conway's Law
-- Cunningham's Law
+- [Cunningham's Law](/laws/cunninghams-law)
 - Demeter's Law (Law of Demeter)
 - Gall's Law
 - Goodhart's Law
