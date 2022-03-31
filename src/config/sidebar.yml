@@ -232,5 +232,7 @@
   items:
     - label: Overview
       link: /laws/laws-overview
+    - label: Cunningham's Law
+      link: /laws/cunninghams-law
     - label: Murphy's Law
       link: /laws/murphys-law
