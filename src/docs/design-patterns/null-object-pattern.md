@@ -40,17 +40,35 @@ public class Customer
 }
 ```
 
+Another way implement the Null Object Pattern, is by using inhetance:
+
+```java
+public class NullObjectCustomer : Customer
+{
+  public NullObjectCustomer(){
+    OrderCount=0;
+    TotalSales=0m;
+  }
+  // other properties and behavior
+}
+```
+
 Then, wherever you would have a method that could return a null Customer, have it return the static instance instead:
 
 ```java
 public Customer GetByPhoneNumber(string phoneNumber)
 {
  var customer = _customerRepository
-                .List(c =&gt; c.PhoneNumber == phoneNumber)
+                .List(c.PhoneNumber == phoneNumber)
                 .FirstOrDefault();
   if(customer == null) { return Customer.NotFound; }
   return customer;
 }
+```
+
+If using NullObjectCustomer, code is very same, except of:
+```java
+ return new NullObjectCustomer();
 ```
 
 Once the Null Object Pattern is in place, there is no need to even have the local variables (orderCount, totalPurchase) shown in the example above, as they only existed because the customer instance might be null. Likewise, their null checks aren't needed - overall the client code is simpler, and probably has less duplicate code, since frequently these kinds of null checks proliferate throughout the code base (this is symptomatic of the fact that nulls violate the [Liskov Substitution Principle](/principles/liskov-substitution-principle).
@@ -58,5 +76,5 @@ Once the Null Object Pattern is in place, there is no need to even have the loca
 ## References
 
 [Nulls Break Polymorphism](https://ardalis.com/nulls-break-polymorphism/)
-
+[Wikipedia Null Object Pattern](https://en.wikipedia.org/wiki/Null_object_pattern)
 [Null Object Pattern](https://www.pmi.org/disciplined-agile/the-design-patterns-repository/the-null-object-pattern) video by [Scott Bain](https://twitter.com/slbain9000) with some good examples
