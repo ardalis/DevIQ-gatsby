@@ -40,7 +40,7 @@ public class Customer
 }
 ```
 
-Another way implement the Null Object Pattern, is by using inhetance:
+Another way implement the Null Object Pattern, is by using inheritance:
 
 ```java
 public class NullObjectCustomer : Customer
