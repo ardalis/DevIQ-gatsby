@@ -66,7 +66,7 @@ public Customer GetByPhoneNumber(string phoneNumber)
 }
 ```
 
-If using NullObjectCustomer, code is very same, except of:
+If using `NullObjectCustomer`, code is the same, except for:
 ```java
  return new NullObjectCustomer();
 ```
