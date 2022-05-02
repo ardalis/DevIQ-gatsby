@@ -59,7 +59,7 @@ Then, wherever you would have a method that could return a null Customer, have i
 public Customer GetByPhoneNumber(string phoneNumber)
 {
  var customer = _customerRepository
-                .List(c.PhoneNumber == phoneNumber)
+                .List(c => c.PhoneNumber == phoneNumber)
                 .FirstOrDefault();
   if(customer == null) { return Customer.NotFound; }
   return customer;
