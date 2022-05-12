@@ -1,0 +1,30 @@
+import styled from "@emotion/styled";
+
+export const Container = styled.div`
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: #3e2985;
+	color: #ffffff;
+	text-align: center;
+	padding: 0.5rem;
+`;
+
+export const Space = styled.div`
+	padding: 1rem;
+`;
+
+export const Link = styled.a`
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	padding: 0.3rem;
+	margin-left: 0.5rem;
+	text-decoration: none;
+	font-weight: 400;
+	&:hover {
+		background-color: #ffffff;
+		color: red;
+		text-decoration: none;
+	}
+`;
