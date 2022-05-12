@@ -28,3 +28,10 @@ export const Link = styled.a`
 		text-decoration: none;
 	}
 `;
+export const HideBtn = styled.span`
+	padding: 1rem;
+	cursor: pointer;
+	&:hover {
+		text-decoration: underline;
+	}
+`;
