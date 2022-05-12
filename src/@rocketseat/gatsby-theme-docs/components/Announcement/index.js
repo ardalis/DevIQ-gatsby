@@ -27,7 +27,9 @@ export default function Announcement() {
 				<>
 					<Container>
 						{text}
-						<Link href={link}>Check it out »</Link>
+						<Link href={link} target='_blank' rel='noreferrer'>
+							Check it out »
+						</Link>
 						<HideBtn onClick={handleHide}>Hide</HideBtn>
 					</Container>
 					<Space />

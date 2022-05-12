@@ -1,8 +1,8 @@
 const announcementValues = {
 	default: {
-		link: 'https://deviq.com/',
+		link: 'https://www.pluralsight.com/courses/design-patterns-overview',
 		text:
-			'🤖📘🍻 Hooray! After 3 years of work, we\'ve finally released a new ebook on design patterns!',
+			'Learn more about Design Patterns in this overview course by Steve Smith on Pluralsight!',
 	},
 	// practices: {
 	// 	link: 'https://deviq.com/',
