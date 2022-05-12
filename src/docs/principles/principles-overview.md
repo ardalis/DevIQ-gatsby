@@ -11,7 +11,6 @@ Consistently following good principles is important to good code. This means app
 - [Boy Scout Rule](/principles/boy-scout-rule)
 - [Dependency Inversion](/principles/dependency-inversion-principle)
 - [Don't Repeat Yourself](/principles/dont-repeat-yourself)
-- [Don't Repeat Yourself](/principles/dont-repeat-yourself)
 - [Encapsulation](/principles/encapsulation)
 - [Explicit Dependencies](/principles/explicit-dependencies-principle)
 - [Hollywood](/principles/hollywood-principle)
