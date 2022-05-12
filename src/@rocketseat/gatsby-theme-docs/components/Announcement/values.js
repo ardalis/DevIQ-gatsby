@@ -1,13 +1,13 @@
 const announcementValues = {
 	default: {
-		link: 'https://deviq.com/',
+		link: 'https://www.pluralsight.com/courses/design-patterns-overview',
 		text:
-			'🤖📘🍻 Hooray! After 3 years of work, we\'ve finally released a new ebook on design patterns!',
+			'🤖▶️ Check out the Design Patterns Overview course by Steve @ardalis Smith!',
 	},
-	// practices: {
-	// 	link: 'https://deviq.com/',
-	// 	text: 'principles Announcement',
-	// },
+	practices: {
+	 	link: 'https://nimblepros.com/',
+	 	text: '💻 Need training or mentoring on software engineering practices? Contact NimblePros',
+	},
 	// principles: {
 	// 	link: 'https://deviq.com/',
 	// 	text: 'principles Announcement',
