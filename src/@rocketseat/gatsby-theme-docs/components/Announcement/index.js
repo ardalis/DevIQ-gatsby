@@ -7,7 +7,10 @@ import { useState } from 'react';
 
 export default function Announcement() {
 	const location = useLocation();
-	const hideDate = new Date(parseInt(localStorage.getItem('hideDate') ?? 0));
+	let hideDate = new Date(0);
+	if (typeof window !== 'undefined') {
+		hideDate = new Date(parseInt(localStorage.getItem('hideDate')));
+	}
 	const [hide, setHide] = useState(hideDate > new Date());
 
 	const pathname = location.pathname.split('/')[1];
@@ -27,7 +30,9 @@ export default function Announcement() {
 				<>
 					<Container>
 						{text}
-						<Link href={link}>Check it out »</Link>
+						<Link href={link} target='_blank' rel='noreferrer'>
+							Check it out »
+						</Link>
 						<HideBtn onClick={handleHide}>Hide</HideBtn>
 					</Container>
 					<Space />

@@ -93,12 +93,12 @@ export default function TableOfContents({ headings, disableTOC, contentRef }) {
           </nav>
           <NimbleSidebar>
             <NimbleContent>
-            <a href="https://nimblepros.com" rel="nofollow" target="_blank">
+            <a href="https://nimblepros.com" rel="noreferrer" target="_blank">
               <img src="/img/nimblepros-bettersoftwarefaster-white-240x180.png" alt="Sponsored by NimblePros" />
             </a>
             </NimbleContent>
             <NimbleText>
-              <a href="https://nimblepros.com" rel="nofollow" target="_blank">
+              <a href="https://nimblepros.com" rel="noreferrer" target="_blank">
                 <strong>Better Software, Faster</strong>
                 <span>
                   NimblePros helps development teams deliver better software, faster. Find out how.

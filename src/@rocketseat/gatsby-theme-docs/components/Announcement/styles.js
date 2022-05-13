@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const Container = styled.div`
 	position: fixed;
@@ -12,13 +12,16 @@ export const Container = styled.div`
 `;
 
 export const Space = styled.div`
-	padding: 1rem;
+	padding: 1.5rem;
+	@media (max-width: 800px) {
+		padding: 2rem;
+	}
 `;
 
 export const Link = styled.a`
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	padding: 0.3rem;
+	padding: 0.1rem;
 	margin-left: 0.5rem;
 	text-decoration: none;
 	font-weight: 400;
@@ -26,6 +29,9 @@ export const Link = styled.a`
 		background-color: #ffffff;
 		color: red;
 		text-decoration: none;
+	}
+	@media (max-width: 800px) {
+		display: inline-block;
 	}
 `;
 export const HideBtn = styled.span`
