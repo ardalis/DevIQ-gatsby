@@ -25,6 +25,7 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 - [Frankencode](frankencode)
 - [Golden Hammer](golden-hammer)
 - [Iceberg Class](iceberg-class)
+- [Lois Lane Planning](lois-lane-planning)
 - [Magic Strings](magic-strings)
 - [Mushroom Management](mushroom-management)
 - [Not Invented Here](not-invented-here)
