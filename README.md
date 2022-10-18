@@ -13,7 +13,7 @@ npm install -g gatsby-cli
 Next, run these commands:
 
 ```powershell
-npm install
+npm install --legacy-peer-deps
 
 gatsby build
 gatsby serve
