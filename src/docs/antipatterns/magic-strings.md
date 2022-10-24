@@ -11,12 +11,12 @@ Consider the following example, which uses a magic string several times to repre
 ```java
 public SomeType GetValue()
 {
-  var someValue = cache\["valueKey"\];
+  var someValue = cache["valueKey"];
 
   if(someValue == null)
   {
-    cache\["valueKey"\] = CalculateValue();
-    someValue = cache\["valueKey"\];
+    cache["valueKey"] = CalculateValue();
+    someValue = cache["valueKey"];
   }
 
   return someValue;
@@ -31,12 +31,12 @@ In the case of the above example, a simple approach, assuming the cache key isn'
 public SomeType GetValue()
 {
   var cacheKey = "valueKey";
-  var someValue = cache\[cacheKey\];
+  var someValue = cache[cacheKey];
 
   if(someValue == null)
   {
-    cache\[cacheKey\] = CalculateValue();
-    someValue = cache\[cacheKey\];
+    cachee[cacheKey] = CalculateValue();
+    someValue = cache[cacheKey];
   }
 
   return someValue;
