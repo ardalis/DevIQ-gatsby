@@ -10,7 +10,7 @@
     "@rocketseat/gatsby-theme-docs": "^3.1.0",
     "@weknow/gatsby-remark-twitter": "^0.2.3",
     "gatsby": "^4.24.0",
-    "gatsby-plugin-canonical-urls": "^2.10.0",
+    "gatsby-plugin-canonical-urls": "^5.0.0",
     "gatsby-plugin-google-analytics": "^4.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
     "gatsby-plugin-google-tagmanager": "^4.24.0",
