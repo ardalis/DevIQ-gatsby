@@ -12,7 +12,7 @@
     "gatsby": "^4.24.0",
     "gatsby-plugin-canonical-urls": "^2.10.0",
     "gatsby-plugin-google-analytics": "^4.24.0",
-    "gatsby-plugin-manifest": "^4.24.0",
+    "gatsby-plugin-manifest": "^4.25.0",
     "gatsby-plugin-google-tagmanager": "^4.24.0",
     "gatsby-plugin-netlify": "^5.0.1",
     "gatsby-plugin-netlify-cms": "^6.24.0",
