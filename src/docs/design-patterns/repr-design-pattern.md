@@ -6,6 +6,8 @@ description: "The REPR Design Pattern defines web API endpoints as having three 
 
 The **REPR Design Pattern** defines web API endpoints as having three components: a Request, an Endpoint, and a Response. It simplifies the frequently-used MVC pattern and is more focused on API development.
 
+![REPR - Request Endpoint Response](/img/repr-request-endpoint-response.png)
+
 The classic MVC pattern (Model, View, Controller) has been around for decades and has been used for UI apps successfully for a long time. But even with non-API ASP.NET apps, it's not a perfect fit, since frequently you see things like ViewModels added into the mix, which of course the pattern doesn't mention (and the MVVM pattern is just over there laughing at all of this...). If you use ASP.NET and MVC and ViewModels are you really using MVVMC? It starts to look like rather large Roman numeral (though unlike Arabic/decimal numerals, not all combinations of Roman numerals are valid, and actually MVC and MVVMC are both invalid).
 
 But what about APIs? Does it even make sense to have ViewModels for APIs? No, not really. Some kind of DTO (Data Transfer Object), sure, but certainly not a ViewModel, given that there's no View. (if we don't have Views or ViewModels does that just leave us with MC Architecture? Some long lost 80s rap artist?)
