@@ -26,7 +26,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - Norvig's Law
 - Pareto Principle
 - Parkinson's Law
-- Postel's Law
+- [Postel's Law (The Robustness Principle)](/laws/postels-law)
 - Peter Principle
 - Parkinson's Law
 - Price's Law, Angulation of
