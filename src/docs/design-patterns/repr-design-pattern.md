@@ -39,3 +39,7 @@ The references below link to additional articles describing the pattern as well 
 [Ardalis.ApiEndpoints](https://www.nuget.org/packages/Ardalis.ApiEndpoints/) NuGet Package
 
 [Ardalis.ApiEndpoints](https://github.com/ardalis/ApiEndpoints) GitHub repo
+
+[FastEndpoints Docs](https://fast-endpoints.com/)
+
+[FastEndpoints NuGet](https://www.nuget.org/packages/FastEndpoints)
