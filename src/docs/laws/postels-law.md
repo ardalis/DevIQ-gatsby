@@ -4,6 +4,9 @@ date: "2022-12-16"
 description: "Be liberal in what you accept; be conservative in what you send."
 ---
 
+![Postel's Law - The Robustness Principle](/img/postels-law.png)]
+
+
 Postel's Law (also known as the Robustness Principle) states: "Be liberal in what you accept, and conservative in what you send.
 "
 
