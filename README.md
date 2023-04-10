@@ -7,7 +7,7 @@ A gatsby static site for [DevIQ.com](https://deviq.com).
 To build locally, install the gatsby command line tools:
 
 ```powershell
-npm install -g gatsby-cli
+npm install -g gatsby-cli@latest-v4
 ```
 
 Next, run these commands:
