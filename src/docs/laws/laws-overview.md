@@ -8,9 +8,9 @@ Laws of software development, laws of programming, laws of software engineering.
 
 ## Alphabetical List of Software Development Laws
 
-- Amara's Law
-- Brooks's Law
-- Conway's Law
+- [Amara's Law](/laws/amaras-law)
+- [Brooks's Law](/laws/brooks-law)
+- [Conway's Law](/laws/conways-law)
 - [Cunningham's Law](/laws/cunninghams-law)
 - Demeter's Law (Law of Demeter)
 - Gall's Law

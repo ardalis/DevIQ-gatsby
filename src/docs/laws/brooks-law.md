@@ -44,6 +44,8 @@ This image provides a visual representation of the lines of communication requir
 
 ![communication paths in teams based on number of team members](/img/communication-paths.jpg)
 
+Clearly the communication overhead increases dramatically as team size increases, reducing the time available for other tasks, like programming. This is one reason why team sizes should be limited. However, once an organization grows large enough that they need multiple teams, [Conway's Law](./conways-law) begins to come into play.
+
 <a name="strategies-to-mitigate-brookss-law"></a>
 
 ## Strategies to Mitigate Brooks's Law
@@ -62,4 +64,4 @@ To address the challenges posed by Brooks's Law, consider the following strategi
 2. [Fred Brooks - Wikipedia](https://en.wikipedia.org/wiki/Fred_Brooks)
 3. [Strategies for Managing Large Software Projects - CIO](https://www.cio.com/article/2412871/strategies-for-managing-large-software-projects.html)
 4. [Modular Design in Software Engineering - GeeksforGeeks](https://www.geeksforgeeks.org/modular-design-in-software-engineering/)
-5. [Effective Communication in Software Development Teams - Atlassian](https://www.atlassian.com/blog/team
+5. [Effective Communication in Software Development Teams - Atlassian](https://www.atlassian.com/blog/teams)
