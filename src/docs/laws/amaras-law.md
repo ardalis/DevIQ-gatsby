@@ -35,7 +35,11 @@ Here are a few examples of technologies where Amara's Law has been evident:
 
 ## Hype Cycles in Technology
 
-The Gartner Hype Cycle is a graphical representation of the hype and subsequent disappointment associated with new technologies, often influenced by Amara's Law. It consists of five stages:
+The Gartner Hype Cycle is a graphical representation of the hype and subsequent disappointment associated with new technologies, often influenced by Amara's Law.
+
+![gartner hype cycle graph](/img/gartner-hype-cycle.png)
+
+It consists of five stages:
 
 1. **Innovation Trigger**: A new technology is introduced, sparking interest.
 2. **Peak of Inflated Expectations**: Early publicity generates over-enthusiasm, and unrealistic expectations emerge.
