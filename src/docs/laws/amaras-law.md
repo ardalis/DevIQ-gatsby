@@ -1,10 +1,8 @@
 ---
-title: "Amara's Law"
+title: "Amara's Law: A Quick Guide on Technology Predictions"
 date: "2023-04-21"
 description: We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
-featuredImage: /img/postels-law.png
 ---
-# Amara's Law: A Quick Guide on Technology Predictions
 
 *“We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.”* - Roy Amara
 
@@ -18,11 +16,13 @@ This article gives an overview of Amara's Law, exploring its history and implica
 4. [Applying Amara's Law](#applying-amaras-law)
 
 <a name="what-is-amaras-law"></a>
+
 ## What is Amara's Law?
 
 Amara's Law is an observation made by futurologist Roy Amara, stating that people tend to overestimate the short-term impact of new technologies while underestimating their long-term effects. This law serves as a reminder to consider the broader context and timeline when predicting technological advancements.
 
 <a name="amaras-law-in-action"></a>
+
 ## Amara's Law in Action
 
 Here are a few examples of technologies where Amara's Law has been evident:
@@ -32,6 +32,7 @@ Here are a few examples of technologies where Amara's Law has been evident:
 3. **Electric Vehicles (EVs)**: Early adoption of EVs was slow, and many doubted their feasibility. Today, they are becoming mainstream as the technology advances and environmental concerns grow.
 
 <a name="hype-cycles-in-technology"></a>
+
 ## Hype Cycles in Technology
 
 The Gartner Hype Cycle is a graphical representation of the hype and subsequent disappointment associated with new technologies, often influenced by Amara's Law. It consists of five stages:
@@ -43,6 +44,7 @@ The Gartner Hype Cycle is a graphical representation of the hype and subsequent 
 5. **Plateau of Productivity**: The technology becomes widely adopted and its true value is recognized.
 
 <a name="applying-amaras-law"></a>
+
 ## Applying Amara's Law
 
 Here are a few suggestions for applying Amara's Law in your personal or professional life:
