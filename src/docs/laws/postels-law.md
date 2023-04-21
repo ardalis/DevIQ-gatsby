@@ -6,9 +6,7 @@ description: "Be liberal in what you accept; be conservative in what you send."
 
 ![Postel's Law - The Robustness Principle](/img/postels-law.png)]
 
-
-Postel's Law (also known as the Robustness Principle) states: "Be liberal in what you accept, and conservative in what you send.
-"
+Postel's Law (also known as the Robustness Principle) states: "Be liberal in what you accept, and conservative in what you send."
 
 This principle is named for Jon Postel, who wrote it in an early specification of the Transmission Control Protocol, TCP (of TCP/IP fame).
 
