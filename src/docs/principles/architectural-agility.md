@@ -13,7 +13,7 @@ Although the term itself might not be as widely referenced, the underlying idea 
 Other areas of software development that support architectural agility include:
 
 - Agile Software Development, whose methodologies focus on iterative development and adapting to change, often allowing for ongoing architectural agility.
-- Microservices Architecture, which is designed to break systems into small, loosely-coupled services that can be developed, deployed, and scaled independently. Each microservice can evolve without requirin the entire system to be impacted.
+- Microservices Architecture, which is designed to break systems into small, loosely-coupled services that can be developed, deployed, and scaled independently. Each microservice can evolve without requiring the entire system to be impacted.
 - Continuous Delivery and DevOps, practices that emphasize close collaboration between development and operations teams, and promote rapid, frequent, reliable delivery of software.
 
 ## References

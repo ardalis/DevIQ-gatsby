@@ -13,6 +13,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Conway's Law](/laws/conways-law)
 - [Cunningham's Law](/laws/cunninghams-law)
 - Demeter's Law (Law of Demeter)
+- Law of Diminishing Returns
 - [Don't Repeat Yourself (The DRY Principle)](/principles/dont-repeat-yourself)
 - Gall's Law
 - Goodhart's Law
@@ -20,6 +21,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - Hofstadter's Law
 - Kerchoff's Principle
 - Knuth's Optimization Principle
+- Law of Large Numbers
 - Linus's Law
 - Moore's Law
 - [Murphy's Law](/laws/murphys-law)

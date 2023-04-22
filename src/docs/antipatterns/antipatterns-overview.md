@@ -8,6 +8,7 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 
 ## Alphabetical list of antipatterns
 
+- [Analysis Paralysis](analysis-paralysis)
 - [Anemic Model](/domain-driven-design/anemic-model)
 - [Assumption Driven Programming](assumption-driven-programming)
 - [The Blob](blob)
