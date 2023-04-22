@@ -8,6 +8,7 @@ Consistently following good principles is important to good code. This means app
 
 ## Principles
 
+- Architectural Agility
 - [Boy Scout Rule](/principles/boy-scout-rule)
 - [Dependency Inversion](/principles/dependency-inversion-principle)
 - [Don't Repeat Yourself](/principles/dont-repeat-yourself)
@@ -22,9 +23,11 @@ Consistently following good principles is important to good code. This means app
 - [Once and Only Once](/principles/once-and-only-once)
 - [Open-Closed](/principles/open-closed-principle)
 - [Persistence Ignorance](/principles/persistence-ignorance)
+- Principle of Least Astonishment
 - [Separation of Concerns](/principles/separation-of-concerns)
 - [Single Responsibility](/principles/single-responsibility-principle)
 - [SOLID](/principles/solid)
 - [Stable Dependencies](/principles/stable-dependencies)
 - [Tell, Don't Ask](/principles/tell-dont-ask)
+- Tolerance for Imperfection
 - [YAGNI](/principles/yagni)
