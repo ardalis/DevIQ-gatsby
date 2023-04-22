@@ -18,10 +18,10 @@
       link: /design-patterns/repository-pattern
     - label: REPR
       link: /design-patterns/repr-design-pattern
-    - label: Specification
-      link: /design-patterns/specification-pattern
     - label: Singleton
       link: /design-patterns/singleton
+    - label: Specification
+      link: /design-patterns/specification-pattern
     - label: State
       link: /design-patterns/state-design-pattern
     - label: Strategy
@@ -80,6 +80,8 @@
       link: /principles/principles-overview
     - label: Boy Scout Rule
       link: /principles/boy-scout-rule
+    - label: Architectural Agility
+      link: /principles/architectural-agility
     - label: Dependency Inversion
       link: /principles/dependency-inversion-principle
     - label: Don't Repeat Yourself
@@ -116,6 +118,8 @@
       link: /principles/stable-dependencies
     - label: Tell, Don't Ask
       link: /principles/tell-dont-ask
+    - label: Tolerance for Imperfection
+      link: /principles/tolerance-for-imperfection
     - label: YAGNI
       link: /principles/yagni
 - label: Values
@@ -136,6 +140,8 @@
   items:
     - label: Overview
       link: /antipatterns/antipatterns-overview
+    - label: Analysis Paralysis
+      link: /antipatterns/analysis-paralysis
     - label: Assumption Driven Programming
       link: /antipatterns/assumption-driven-programming
     - label: Big Ball of Mud
@@ -186,6 +192,8 @@
       link: /antipatterns/one-thing-to-rule-them-all
     - label: Reinventing the Wheel
       link: /antipatterns/reinventing-the-wheel
+    - label: Service Locator
+      link: /antipatterns/service-locator
     - label: Shiny Toy
       link: /antipatterns/shiny-toy
     - label: Singleton
@@ -234,7 +242,19 @@
   items:
     - label: Overview
       link: /laws/laws-overview
+    - label: Amara's Law
+      link: /laws/amaras-law
+    - label: Brooks's Law
+      link: /laws/brooks-law
+    - label: Conway's Law
+      link: /laws/conways-law
     - label: Cunningham's Law
       link: /laws/cunninghams-law
+    - label: DRY
+      link: /principles/dont-repeat-yourself
     - label: Murphy's Law
       link: /laws/murphys-law
+    - label: Postel's Law
+      link: /laws/postels-law
+    - label: Laws of Architecture
+      link: /laws/laws-software-architecture
