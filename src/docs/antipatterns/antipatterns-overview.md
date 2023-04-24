@@ -10,7 +10,9 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 
 - [Analysis Paralysis](analysis-paralysis)
 - [Anemic Model](/domain-driven-design/anemic-model)
+- Architecture by Implication
 - [Assumption Driven Programming](assumption-driven-programming)
+- Big Design Up Front
 - [The Blob](blob)
 - [Broken Windows](broken-windows)
 - [Calendar Coder](calendar-coder)
@@ -26,6 +28,7 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 - [Frankencode](frankencode)
 - [Golden Hammer](golden-hammer)
 - [Iceberg Class](iceberg-class)
+- Last 10% Trap
 - [Lois Lane Planning](lois-lane-planning)
 - [Magic Strings](magic-strings)
 - [Mushroom Management](mushroom-management)
@@ -40,3 +43,4 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 - [Static Cling](static-cling)
 - [Walking through a Minefield](walking-through-a-minefield)
 - [Waterfall / Waterfail](waterfall)
+- Witches Brew architecture
