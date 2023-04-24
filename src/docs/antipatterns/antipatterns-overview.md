@@ -10,7 +10,7 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 
 - [Analysis Paralysis](analysis-paralysis)
 - [Anemic Model](/domain-driven-design/anemic-model)
-- Architecture by Implication
+- [Architecture by Implication](architecture-by-implication)
 - [Assumption Driven Programming](assumption-driven-programming)
 - Big Design Up Front
 - [The Blob](blob)
@@ -36,7 +36,7 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 - [One Thing to Rule Them All](one-thing-to-rule-them-all)
 - [Reinventing the Wheel](reinventing-the-wheel)
 - [Singleton](/design-patterns/singleton)
-- Service Locator
+- [Service Locator](service-locator)
 - [Shiny Toy](shiny-toy)
 - [Smoke and Mirrors](smoke-and-mirrors)
 - [Spaghetti Code](spaghetti-code)

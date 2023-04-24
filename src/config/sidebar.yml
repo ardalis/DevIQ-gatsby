@@ -142,6 +142,8 @@
       link: /antipatterns/antipatterns-overview
     - label: Analysis Paralysis
       link: /antipatterns/analysis-paralysis
+    - label: Architecture by Implication
+      link: /antipatterns/architecture-by-implication
     - label: Assumption Driven Programming
       link: /antipatterns/assumption-driven-programming
     - label: Big Ball of Mud
