@@ -66,6 +66,8 @@
       link: /practices/simple-design
     - label: Test Driven Development
       link: /practices/test-driven-development
+    - label: Timeboxing
+      link: /practices/timeboxing
     - label: Update the Plan
       link: /practices/update-the-plan
     - label: Vertical Slices
@@ -252,6 +254,8 @@
       link: /laws/conways-law
     - label: Cunningham's Law
       link: /laws/cunninghams-law
+    - label: Law of Diminishing Returns
+      link: /laws/law-of-diminishing-returns
     - label: DRY
       link: /principles/dont-repeat-yourself
     - label: Murphy's Law

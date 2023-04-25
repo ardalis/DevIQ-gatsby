@@ -13,7 +13,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Conway's Law](/laws/conways-law)
 - [Cunningham's Law](/laws/cunninghams-law)
 - Demeter's Law (Law of Demeter)
-- Law of Diminishing Returns
+- [Law of Diminishing Returns](/laws/law-of-diminishing-returns)
 - [Don't Repeat Yourself (The DRY Principle)](/principles/dont-repeat-yourself)
 - Gall's Law
 - Goodhart's Law
