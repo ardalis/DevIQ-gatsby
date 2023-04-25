@@ -11,6 +11,7 @@
     "@weknow/gatsby-remark-twitter": "^0.2.3",
     "gatsby": "^4.24.0",
     "gatsby-plugin-canonical-urls": "^4.25.0",
+    "gatsby-plugin-feed": "^4.25.0",
     "gatsby-plugin-google-analytics": "^4.24.0",
     "gatsby-plugin-google-tagmanager": "^4.24.0",
     "gatsby-plugin-manifest": "^4.24.0",

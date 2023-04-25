@@ -22,6 +22,57 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-feed",
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            title: "DevIQ RSS Feed",
+            output: "rss.xml",
+            query: `
+            {
+              allMdx(
+                sort: { order: DESC, fields: [frontmatter___date] },
+              ) {
+                edges {
+                  node {                    
+                    fields { slug }
+                    frontmatter {
+                      title
+                      date,
+                      description
+                    }
+                  }
+                }
+              }
+            }
+            `,
+            serialize: ({ query: { site, allMdx } }) => {
+              return allMdx.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.frontmatter.description,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                });
+              });
+            },
+          },
+        ]
+      }
+    },
+    {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-MXGDQWL",
