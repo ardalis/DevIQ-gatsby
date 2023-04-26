@@ -26,6 +26,7 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 - [Flags over Objects](flags-over-objects)
 - [Found on Internet](found-on-internet)
 - [Frankencode](frankencode)
+- [Frozen Caveman](frozen-caveman)
 - [Golden Hammer](golden-hammer)
 - [Iceberg Class](iceberg-class)
 - [Last 10% Trap](last-10percent-trap)

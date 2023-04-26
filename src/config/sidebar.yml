@@ -182,6 +182,8 @@
       link: /antipatterns/found-on-internet
     - label: Frankencode
       link: /antipatterns/frankencode
+    - label: Frozen Caveman
+      link: /antipatterns/frozen-caveman
     - label: Golden Hammer
       link: /antipatterns/golden-hammer
     - label: Iceberg Class
