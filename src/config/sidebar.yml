@@ -214,6 +214,8 @@
       link: /antipatterns/walking-through-a-minefield
     - label: Waterfall
       link: /antipatterns/waterfall
+    - label: Witches' Brew Architecture
+      link: /antipatterns/witches-brew-architecture
 - label: Domain Driven Design
   items:
     - label: Overview

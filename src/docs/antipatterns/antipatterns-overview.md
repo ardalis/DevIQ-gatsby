@@ -43,4 +43,4 @@ Antipatterns are simply [design patterns](/design-patterns/design-patterns-overv
 - [Static Cling](static-cling)
 - [Walking through a Minefield](walking-through-a-minefield)
 - [Waterfall / Waterfail](waterfall)
-- Witches Brew architecture
+- [Witches Brew Architecture](witches-brew-architecture)
