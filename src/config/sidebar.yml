@@ -102,6 +102,8 @@
       link: /principles/inversion-of-control
     - label: Keep It Simple
       link: /principles/keep-it-simple
+    - label: Principle of Least Astonishment
+      link: /principles/principle-of-least-astonishment
     - label: Liskov Substitution
       link: /principles/liskov-substitution-principle
     - label: Once and Only Once
