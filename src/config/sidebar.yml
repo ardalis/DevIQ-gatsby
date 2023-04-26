@@ -184,6 +184,8 @@
       link: /antipatterns/golden-hammer
     - label: Iceberg Class
       link: /antipatterns/iceberg-class
+    - label: Last 10% Trap
+      link: /antipatterns/last-10percent-trap
     - label: Lois Lane Planning
       link: /antipatterns/lois-lane-planning
     - label: Magic Strings
