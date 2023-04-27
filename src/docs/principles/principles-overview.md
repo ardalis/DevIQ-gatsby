@@ -19,11 +19,11 @@ Consistently following good principles is important to good code. This means app
 - [Interface Segregation](/principles/interface-segregation)
 - [Inversion of Control](/principles/inversion-of-control)
 - [Keep It Simple](/principles/keep-it-simple)
+- [Principle of Least Astonishment](/principles/principle-of-least-astonishment)
 - [Liskov Substitution](/principles/liskov-substitution-principle)
 - [Once and Only Once](/principles/once-and-only-once)
 - [Open-Closed](/principles/open-closed-principle)
 - [Persistence Ignorance](/principles/persistence-ignorance)
-- Principle of Least Astonishment
 - [Separation of Concerns](/principles/separation-of-concerns)
 - [Single Responsibility](/principles/single-responsibility-principle)
 - [SOLID](/principles/solid)

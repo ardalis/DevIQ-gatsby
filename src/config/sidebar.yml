@@ -102,6 +102,8 @@
       link: /principles/inversion-of-control
     - label: Keep It Simple
       link: /principles/keep-it-simple
+    - label: Principle of Least Astonishment
+      link: /principles/principle-of-least-astonishment
     - label: Liskov Substitution
       link: /principles/liskov-substitution-principle
     - label: Once and Only Once
@@ -150,6 +152,8 @@
       link: /antipatterns/assumption-driven-programming
     - label: Big Ball of Mud
       link: /antipatterns/big-ball-of-mud
+    - label: Big Design Up Front (BDUF)
+      link: /antipatterns/big-design-up-front
     - label: The Blob
       link: /antipatterns/blob
     - label: Broken Windows
@@ -180,10 +184,14 @@
       link: /antipatterns/found-on-internet
     - label: Frankencode
       link: /antipatterns/frankencode
+    - label: Frozen Caveman
+      link: /antipatterns/frozen-caveman
     - label: Golden Hammer
       link: /antipatterns/golden-hammer
     - label: Iceberg Class
       link: /antipatterns/iceberg-class
+    - label: Last 10% Trap
+      link: /antipatterns/last-10percent-trap
     - label: Lois Lane Planning
       link: /antipatterns/lois-lane-planning
     - label: Magic Strings
@@ -212,6 +220,8 @@
       link: /antipatterns/walking-through-a-minefield
     - label: Waterfall
       link: /antipatterns/waterfall
+    - label: Witches' Brew Architecture
+      link: /antipatterns/witches-brew-architecture
 - label: Domain Driven Design
   items:
     - label: Overview
