@@ -96,9 +96,9 @@ exports.createPages = (
 
       let githubEditUrl;
 
-      if (githubUrl) {
+      if (repositoryUrl) {
         const pathLink = path.join(branch, baseDir, docsPath);
-        githubEditUrl = urljoin(githubUrl, `tree`, pathLink, relativePath);
+        githubEditUrl = urljoin(repositoryUrl, `tree`, pathLink, relativePath);
       }
 
       const pageLink = slug.slice(0, slug.length - 1);
