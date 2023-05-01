@@ -29,6 +29,7 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 - Vertical Separation
 - Inconsistency
 - Obscured Intent
+- Bump Road
 
 ### Object Orientation Abusers
 
