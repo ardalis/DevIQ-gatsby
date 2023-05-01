@@ -29,5 +29,5 @@ Consistently following good principles is important to good code. This means app
 - [SOLID](/principles/solid)
 - [Stable Dependencies](/principles/stable-dependencies)
 - [Tell, Don't Ask](/principles/tell-dont-ask)
-- Tolerance for Imperfection
+- [Tolerance for Imperfection](/principles/tolerance-for-imperfection)
 - [YAGNI](/principles/yagni)
