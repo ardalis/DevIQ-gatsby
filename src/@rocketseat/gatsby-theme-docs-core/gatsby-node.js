@@ -127,10 +127,15 @@ exports.createPages = (
 
 exports.createSchemaCustomization = ({ actions }) => {
   actions.createTypes(`
+    type Mdx implements Node {
+      frontmatter: MdxFrontmatter!
+    }
+
     type MdxFrontmatter {
       title: String!
       description: String
       image: String
+      featuredImage: File  @fileByRelativePath
       disableTableOfContents: Boolean
     }
   `);
@@ -190,6 +195,24 @@ exports.onCreateNode = (
     node,
     value: node.id,
   });
+
+  // This is for the og:image
+  const {fmImagesToRelative} = require('gatsby-remark-relative-images')
+
+  exports.onCreateNode = ({node, actions, getNode}) => {
+    const {createNodeField} = actions
+    fmImagesToRelative(node)
+  
+    if (node.internal.type === `MarkdownRemark`) {
+      const value = createFilePath({node, getNode})
+      createNodeField({
+        name: `image`,
+        node,
+        value,
+      })
+    }
+  }
+
 };
 
 /**
