@@ -22,10 +22,13 @@ export default function Layout({
 	const disableTOC =
 		disableTableOfContents === true || !headings || headings.length === 0;
 
+	console.log(featuredImage);
 	function handleMenuOpen() {
 		setMenuOpen(!isMenuOpen);
 	}
 
+	const imageData = getImage(featuredImage);
+	
 	return (
 		<Fragment>
 			<Announcement />
@@ -61,10 +64,7 @@ export default function Layout({
 							>
 								{title}
 							</h1>
-							<fieldset>
-								<legend>Featured Image here</legend>
-								{featuredImage && <GatsbyImage image={getImage(featuredImage.childImageSharp.gatsbyImageData)} alt={title} loading="eager" /> }
-							</fieldset>
+							{imageData && <GatsbyImage image={imageData} alt={title} /> }
 							</Fragment>
 						)}
 						{children}
@@ -86,6 +86,7 @@ Layout.propTypes = {
 		PropTypes.node,
 	]).isRequired,
 	disableTableOfContents: PropTypes.bool,
+	featuredImage: PropTypes.object,
 	title: PropTypes.string,
 	headings: PropTypes.array
 };

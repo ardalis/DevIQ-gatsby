@@ -2,10 +2,9 @@
 title: "Design Patterns"
 date: "2016-06-09"
 description: Design patterns are common approaches to solving similar problems.
-featuredImage: ./images/design-patterns-overview.png
+featuredImage: "./images/design-patterns-overview.png"
+disableTableOfContents: true
 ---
-
-![design patterns overview](./images/design-patterns-overview.png)
 
 Design patterns are common approaches to solving similar problems. The [1995 book Design Patterns, by the so-called Gang of Four (GoF)](http://amzn.to/1GYRo2O), describes 23 patterns. Quickly learn about several patterns and how to learn new patters in this [Design Patterns Overview course on Pluralsight](https://www.pluralsight.com/courses/design-patterns-overview). [Pluralsight's design patterns library](http://bit.ly/DesignPatternsLibrary) includes 32 different patterns, including most of the original GoF patterns. Some design patterns tend to cause more problems than they solve, and are thus commonly referred to as [antipatterns](/antipatterns/antipatterns-overview).
 

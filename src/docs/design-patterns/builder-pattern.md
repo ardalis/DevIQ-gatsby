@@ -2,6 +2,7 @@
 title: "Builder Design Pattern"
 date: "2018-02-02"
 description: The Builder design pattern is a creational pattern, similar to the Factory pattern (Factory Method, Abstract Factory).
+featuredImage: "./images/builder-pattern.png"
 ---
 
 ![Builder Icon](images/Builder-Icon-267x300.png)
