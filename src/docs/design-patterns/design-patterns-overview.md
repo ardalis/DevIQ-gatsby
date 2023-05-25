@@ -2,7 +2,7 @@
 title: "Design Patterns"
 date: "2016-06-09"
 description: Design patterns are common approaches to solving similar problems.
-image: ./images/design-patterns-overview.png
+featuredImage: ./images/design-patterns-overview.png
 ---
 
 ![design patterns overview](./images/design-patterns-overview.png)

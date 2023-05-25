@@ -1,5 +1,5 @@
 const path = require(`path`);
-const { createFilePath } = require(`gatsby-source-filesystem`);
+const { createFilePath, createRemoteFileNode } = require(`gatsby-source-filesystem`);
 const fs = require(`fs`);
 const urljoin = require(`url-join`);
 
@@ -16,7 +16,7 @@ exports.createPages = (
     themeOptions,
   );
 
-  const docsTemplate = require.resolve(`./src/templates/docs-query.js`);
+  const docsTemplate = require.resolve(`./templates/docs-query.js`);
   const homeTemplate = require.resolve(`./src/templates/homepage-query.js`);
 
   return graphql(
@@ -135,7 +135,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String!
       description: String
       image: String
-      featuredImage: File  @fileByRelativePath
+      featuredImage: File @fileByRelativePath
       disableTableOfContents: Boolean
     }
   `);
@@ -196,7 +196,6 @@ exports.onCreateNode = (
     value: node.id,
   });
 
-  // This is for the og:image
   const {fmImagesToRelative} = require('gatsby-remark-relative-images')
 
   exports.onCreateNode = ({node, actions, getNode}) => {
@@ -214,57 +213,3 @@ exports.onCreateNode = (
   }
 
 };
-
-/**
-[
-  {
-    "node": {
-      "label": "Home",
-      "link": "/",
-      "items": null,
-      "id": "a2913be3-af3c-5fc9-967e-a058e86b20a9"
-    }
-  },
-  {
-    "node": {
-      "label": "With dropdown",
-      "link": null,
-      "items": [
-        { "label": "My Example", "link": "/my-example" },
-        { "label": "Teste 2", "link": "/teste-2" }
-      ],
-      "id": "c7d9606c-4bda-5097-a0df-53108e9f4efd"
-    }
-  }
-]
-*/
-
-// Ler todo o array e salvar em uma objeto chave/valor
-/**
- * {
- *    '/': {
- *       prev: null,
- *       next: {
- *          label: 'My example',
- *          link: '/my-example'
- *       }
- *    },
- *    '/my-example': {
- *       prev: {
- *          label: 'Home',
- *          link: '/'
- *       },
- *       next: {
- *          label: 'Teste 2',
- *          link: '/teste-2'
- *       }
- *    },
- *    '/teste-2': {
- *       prev: {
- *          label: 'My example',
- *          link: '/my-example'
- *       },
- *       next: null
- *    }
- * }
- */

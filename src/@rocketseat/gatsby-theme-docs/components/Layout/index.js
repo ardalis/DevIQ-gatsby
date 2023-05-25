@@ -8,12 +8,13 @@ import Sidebar from '@rocketseat/gatsby-theme-docs/src/components/Sidebar';
 import Header from '@rocketseat/gatsby-theme-docs/src/components/Header';
 import Overlay from '@rocketseat/gatsby-theme-docs/src/components/Overlay';
 import { Container, Main, Children } from './styles';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
 export default function Layout({
 	children,
 	disableTableOfContents,
 	title,
-	image,
+	featuredImage,
 	headings
 }) {
 	const contentRef = useRef(null);
@@ -62,7 +63,7 @@ export default function Layout({
 							</h1>
 							<fieldset>
 								<legend>Featured Image here</legend>
-								{image}
+								{featuredImage && <GatsbyImage image={getImage(featuredImage.childImageSharp.gatsbyImageData)} alt={title} loading="eager" /> }
 							</fieldset>
 							</Fragment>
 						)}
@@ -86,13 +87,11 @@ Layout.propTypes = {
 	]).isRequired,
 	disableTableOfContents: PropTypes.bool,
 	title: PropTypes.string,
-	image: PropTypes.string,
 	headings: PropTypes.array
 };
 
 Layout.defaultProps = {
 	disableTableOfContents: false,
 	title: '',
-	image: '',
 	headings: null,
 };
