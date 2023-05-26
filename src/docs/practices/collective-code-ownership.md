@@ -2,10 +2,10 @@
 title: "Collective Code Ownership"
 date: "2014-11-26"
 description: Collective code ownership breaks down fiefdoms within an application's codebase.
-featuredimage: images/CollectiveCodeOwnership-400x400.png
+image: ./images/CollectiveCodeOwnership-400x400.png
 ---
 
-![Collective Code Ownership](images/CollectiveCodeOwnership-400x400.png)
+![Collective Code Ownership](./images/CollectiveCodeOwnership-400x400.png)
 
 Collective code ownership breaks down fiefdoms within an application's codebase. Nobody "owns" a particular part of the code. Everyone on the team is responsible for all of the code.  This enables [pair programming](/practices/pair-programming/) and [refactoring](/practices/refactoring/) by the [whole team](/practices/whole-team/). It also reduces the project's [bus factor](/terms/bus-factor/).
 

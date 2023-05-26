@@ -10,7 +10,7 @@ When asking a question, the user is hoping someone will take time out of their d
 
 An early XKCD comic illustrates this:
 
-[![XKCD 386 Duty Calls](/img/duty_calls.png)](https://xkcd.com/386/)
+[![XKCD 386 Duty Calls](./images/duty_calls.png)](https://xkcd.com/386/)
 
 ## References
 

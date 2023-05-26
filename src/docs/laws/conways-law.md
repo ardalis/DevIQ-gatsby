@@ -56,7 +56,7 @@ To capitalize on Conway's Law, consider the following strategies:
 
 The following comic is often used in reference to Conway's Law, showing in satirical fashion how different tech companies operated in the early 21st century.
 
-![big tech company org charts comic](/img/big-tech-org-charts.png)
+![big tech company org charts comic](./images/big-tech-org-charts.png)
 
 <a name="further-reading"></a>
 

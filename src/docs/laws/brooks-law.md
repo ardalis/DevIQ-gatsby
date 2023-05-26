@@ -42,7 +42,7 @@ The negative impact of adding more personnel to a late project can be attributed
 
 This image provides a visual representation of the lines of communication required in team sizes greater than 2:
 
-![communication paths in teams based on number of team members](/img/communication-paths.jpg)
+![communication paths in teams based on number of team members](./images/communication-paths.jpg)
 
 Clearly the communication overhead increases dramatically as team size increases, reducing the time available for other tasks, like programming. This is one reason why team sizes should be limited. However, once an organization grows large enough that they need multiple teams, [Conway's Law](./conways-law) begins to come into play.
 

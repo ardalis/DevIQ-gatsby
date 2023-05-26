@@ -12,12 +12,14 @@ module.exports = {
     basePath: `/`,
   },
   plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `@rocketseat/gatsby-theme-docs`,
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/ardalis/DevIQ-gatsby`,
+        repositoryUrl: `https://github.com/ardalis/DevIQ-gatsby`,
         baseDir: `/`,
       },
     },
@@ -100,6 +102,7 @@ module.exports = {
         // routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
       },
     },
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -133,6 +136,6 @@ module.exports = {
       }
     },
     `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify`,   
   ],
 };
