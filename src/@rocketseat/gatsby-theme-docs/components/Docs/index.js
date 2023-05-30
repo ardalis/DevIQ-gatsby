@@ -6,16 +6,17 @@ import Layout from '../Layout';
 import SEO from '@rocketseat/gatsby-theme-docs/src/components/SEO';
 import PostNav from '@rocketseat/gatsby-theme-docs/src/components/Docs/PostNav';
 import EditGithub from '@rocketseat/gatsby-theme-docs/src/components/Docs/EditGithub';
+import { getSrc, getImage } from 'gatsby-plugin-image';
 
-export default function Docs({ mdx, pageContext }) {
+export default function Docs({ mdx, pageContext }) {  
   const { prev, next, repositoryEditUrl, repositoryProvider } = pageContext;
-  const { title, description, image, disableTableOfContents, featuredImage } = mdx.frontmatter;
+  const { title, description, disableTableOfContents, featuredImage } = mdx.frontmatter;
   const { headings, body } = mdx;
   const { slug } = mdx.fields;
 
   return (
     <>
-      <SEO title={title} description={description} slug={slug} image={image} />
+      <SEO title={title} description={description} slug={slug} image={getSrc(getImage(featuredImage))} />
       <Layout
         disableTableOfContents={disableTableOfContents}
         title={title}
