@@ -22,7 +22,6 @@ export default function Layout({
 	const disableTOC =
 		disableTableOfContents === true || !headings || headings.length === 0;
 
-	console.log(featuredImage);
 	function handleMenuOpen() {
 		setMenuOpen(!isMenuOpen);
 	}
