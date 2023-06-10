@@ -2,6 +2,7 @@
 title: "Values"
 date: "2020-12-22"
 description: "Extreme Programming is based on five values: Communication, Courage, Feedback, Respect, and Simplicity."
+featuredImage: "./images/values-overview.png"
 ---
 
 Extreme Programming is based on a collection of values, and the rules of Extreme Programming extend from those values.
