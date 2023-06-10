@@ -2,6 +2,7 @@
 title: "Version Control"
 date: "2014-11-26"
 description: Version or source control is one of the most fundamental tools available for software development.
+featuredImage: "./images/version-control.png"
 ---
 
 Version or source control is one of the most fundamental tools available for software development.  Even if the only editor you have is a simple text editor and your only compiler is a command line tool, a proper revision control system can offer huge benefits.  Historically, most version control systems maintained a single repository that all team members would check code out from and commit changes back to.  Some of these systems implemented a locking mechanism that would attempt to ensure that no two team members had checked out a file for modification at the same time, while others allowed for multiple concurrent changes but required changes to be merged when checked in if conflicts were found.  More recently, distributed version control systems (DVCS) have been growing in popularity.  With a DVCS, every team member has a complete repository with all history, and all checkins are done locally first, and then periodically merged up into one or more central reference repositories.
