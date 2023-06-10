@@ -2,6 +2,7 @@
 title: "Courage"
 date: "2014-11-26"
 description: Courage is one of the Values of Extreme Programming.
+featuredImage: "./images/communication.png"
 ---
 
 Courage is one of the [Values of Extreme Programming](http://www.extremeprogramming.org/values.html).  To wit:
