@@ -2,6 +2,7 @@
 title: "SOLID"
 date: "2014-11-26"
 description: The SOLID principles of Object Oriented Design include these five principles.
+featuredImage: "./images/solid-400x400.jpg"
 ---
 
 ![SOLID-July-2013](images/solid-400x400.jpg)
