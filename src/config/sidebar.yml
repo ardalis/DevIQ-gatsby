@@ -10,6 +10,8 @@
       link: /design-patterns/adapter-design-pattern
     - label: Builder
       link: /design-patterns/builder-pattern
+    - label: Facade
+      link: /design-patterns/facade-pattern
     - label: Guard Clause
       link: /design-patterns/guard-clause
     - label: Null Object
@@ -24,6 +26,8 @@
       link: /design-patterns/specification-pattern
     - label: State
       link: /design-patterns/state-design-pattern
+    - label: Strangler Fig
+      link: /design-patterns/strangler-fig-pattern
     - label: Strategy
       link: /design-patterns/strategy-pattern
 - label: Practices
