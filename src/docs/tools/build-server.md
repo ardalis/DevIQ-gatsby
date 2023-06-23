@@ -2,6 +2,7 @@
 title: "Build Server"
 date: "2015-02-19"
 description: A build server is a tool that enables Continuous Integration, an excellent practice to follow when developing software.
+featuredImage: "./images/build-server.png"
 ---
 
 A build server is a tool that enables [Continuous Integration](/practices/continuous-integration/), an excellent practice to follow when developing software. Build servers are commonly referred to as continuous integration servers or simply CI servers. There are a number of open source and commercial options available in this category of tools, and you can write your own simple build server as just a script that is able to detect when an update has been made to [Version Control](/tools/version-control/), and triggers a build as a result. Most mature versions of this tool will support a variety of different version control systems and many different options for when and how to trigger a build, what to do as part of a build (e.g. run tests, deploy to a staging server), and how to notify team members of the results of builds. Beyond Continuous Integration, build servers can enable Continuous Deployment, deploying updates to production when builds succeed and pass all tests.

@@ -2,6 +2,7 @@
 title: "Simplicity"
 date: "2014-11-26"
 description: Simplicity is one of the Values of Extreme Programming.
+featuredImage: "./images/simplicity.png"
 ---
 
 ![Zen Simplicity](images/iStock_000014302733Small-300x224.jpg)

@@ -2,6 +2,7 @@
 title: "Keep It Simple"
 date: "2014-11-26"
 description: The KISS principle, or Keep It Simple, Stupid, spans many trades, industries, and professions.
+featuredImage: "./images/keep-it-simple-400x400.jpg"
 ---
 
 ![Keep-It-Simple-Jan-2013](images/keep-it-simple-400x400.jpg)

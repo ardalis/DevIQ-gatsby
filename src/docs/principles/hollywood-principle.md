@@ -2,6 +2,7 @@
 title: "Hollywood Principle"
 date: "2014-11-26"
 description: The Hollywood Principle states, "Don't Call Us, We'll Call You."
+featuredImage: "./images/Dont-Call-Us-400x400.jpg"
 ---
 
 ![Dont-Call-Us-Well-Call-You-Jun-2013](images/Dont-Call-Us-400x400.jpg)

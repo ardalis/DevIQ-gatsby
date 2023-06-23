@@ -2,6 +2,7 @@
 title: "Respect"
 date: "2014-11-26"
 Description: Respect is one of the values of Extreme Programming. Everyone gives and feels the respect they deserve as a valued team member. Everyone contributes value even if it's simply enthusiasm.
+featuredImage: "./images/respect.png"
 ---
 
 Respect is one of the [values of Extreme Programming](http://www.extremeprogramming.org/values.html):

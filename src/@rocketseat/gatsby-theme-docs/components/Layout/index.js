@@ -8,7 +8,7 @@ import Sidebar from '@rocketseat/gatsby-theme-docs/src/components/Sidebar';
 import Header from '@rocketseat/gatsby-theme-docs/src/components/Header';
 import Overlay from '@rocketseat/gatsby-theme-docs/src/components/Overlay';
 import { Container, Main, Children } from './styles';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import { getImage } from 'gatsby-plugin-image';
 
 export default function Layout({
 	children,
@@ -63,7 +63,6 @@ export default function Layout({
 							>
 								{title}
 							</h1>
-							{imageData && <GatsbyImage image={imageData} alt={title} /> }
 							</Fragment>
 						)}
 						{children}

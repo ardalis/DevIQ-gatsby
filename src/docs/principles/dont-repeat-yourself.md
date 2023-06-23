@@ -2,6 +2,7 @@
 title: "Don't Repeat Yourself"
 date: "2014-11-26"
 description: The Don't Repeat Yourself (DRY) principle states that duplication in logic should be eliminated via abstraction; duplication in process should be eliminated via automation.
+featuredImage: "./images/DontRepeatYourself-400x400.png"
 ---
 
 ![Don't Repeat Yourself](images/DontRepeatYourself-400x400.png)
