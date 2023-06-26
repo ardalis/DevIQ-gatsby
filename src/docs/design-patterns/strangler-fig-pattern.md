@@ -29,7 +29,11 @@ Strangler Fig trees germinate in a host tree. As the plants grow, the roots grow
 
 With regards to software development, the Strangler Fig pattern uses [the Facade pattern](./facade-pattern.md) to shift the software system's roots from the old system to the new system. Much like a strangler fig, when all of the roots have been replaced, the new system takes on a life of its own, strangling the old system.
 
-<!-- TODO: Place diagrams of this here -->
+![Phase 1 of Strangler Fig - talking with the old system. Phase 2 of Strangler Fig - bring in a facacde to talk to the old system.](./images/strangler-fig-phases-1-2-diagram.png)
+
+![Phase 3 of Strangler Fig - get the facade talking to the new system. Phase 4 of Strangler Fig - old system is strangled and client is using solely the new system.](./images/strangler-fig-phases-3-4-diagram.png)
+
+<!-- TODO: Place diagrams of this here
 ```mermaid
 sequenceDiagram
   actor client
@@ -62,6 +66,7 @@ sequenceDiagram
   new->>client:response
   end
 ```
+ -->
 
 ## Advantages
 
