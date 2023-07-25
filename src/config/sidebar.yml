@@ -236,8 +236,16 @@
       link: /domain-driven-design/anti-corruption-layer
     - label: Anemic Model
       link: /domain-driven-design/anemic-model
+    - label: Bounded Context
+      link: /domain-driven-design/bounded-context
+    - label: Context Mapping
+      link: /domain-driven-design/context-mapping
+    - label: Domain Storytelling
+      link: /domain-driven-design/domain-storytelling
     - label: Entity
       link: /domain-driven-design/entity
+    - label: Tools
+      link: /domain-driven-design/tools
     - label: Ubiquitous Language
       link: /domain-driven-design/ubiquitous-language
     - label: Value Object
