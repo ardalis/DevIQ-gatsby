@@ -4,7 +4,7 @@ date: "2023-07-25"
 description: Context Mapping enables seeing how bounded contexts integrate with each other.
 ---
 
-Context Mapping enables seeing how [bounded contexts](./bounded-context.md) integrate with each other. Context maps show the relationships between bounded contexts and may also indicate relations of teams maintaining those bounded contexts.
+Context Mapping enables seeing how [bounded contexts](./bounded-context) integrate with each other. Context maps show the relationships between bounded contexts and may also indicate relations of teams maintaining those bounded contexts.
 
 ## Team Relationships
 
@@ -47,11 +47,11 @@ The common context map patterns are:
 ### Anti-Corruption Layer
 **Team Relationship**: Upstream/Downstream
 
-The [anti-corruption layer](./anti-corruption-layer.md) serves as a translation layer between upstream and downstream teams. This layer is commonly built with [Facades](/design-patterns/facade-pattern) and [Adapters](/design-patterns/adapter-design-pattern).
+The [anti-corruption layer](./anti-corruption-layer) serves as a translation layer between upstream and downstream teams. This layer is commonly built with [Facades](/design-patterns/facade-pattern) and [Adapters](/design-patterns/adapter-design-pattern).
 
 ### Big Ball of Mud
 
-In a [Big Ball of Mud](/antipatterns/big-ball-of-mud), the code is as gross as the name implies. In DDD, the big ball of mud may have aggregates muddied together with no clear understanding of [bounded contexts](./bounded-context.md). The code is tightly-coupled. Debugging turns into a game of "whack-a-mole" in terms of trying to track bugs throughout the code. This is a nightmare.
+In a [Big Ball of Mud](/antipatterns/big-ball-of-mud), the code is as gross as the name implies. In DDD, the big ball of mud may have aggregates muddied together with no clear understanding of [bounded contexts](./bounded-context). The code is tightly-coupled. Debugging turns into a game of "whack-a-mole" in terms of trying to track bugs throughout the code. This is a nightmare.
 
 ### Conformist
 **Team Relationship**: Upstream/Downstream
@@ -88,7 +88,7 @@ In Separate Ways, there is no significant relationship between two bounded conte
 ### Shared Kernel
 **Team Relationship**: Partnership
 
-The Shared Kernel is the intersection between bounded contexts. When there is a shared component between bounded contexts, both teams maintaining those bounded contexts must establish a ubiquitous language and apply it to their shared code.
+The Shared Kernel is the intersection between bounded contexts. When there is a shared component between bounded contexts, both teams maintaining those bounded contexts must establish a ubiquitous language and apply it to their shared
 
 ## Context Mapping Resources
 

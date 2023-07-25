@@ -4,9 +4,9 @@ date: "2023-07-25"
 description: A bounded context is a concept from Domain-Driven Design that establishes boundary within a domain and contains models related to that context.
 ---
 
-A bounded context is a concept from Domain-Driven Design that establishes boundary within a domain and contains models related to that context. The concepts, [entities](./entity.md), [value objects](./value-object.md), and [aggregates](./aggregate-pattern.md) within the bounded context are written using a [ubiquitous language](./ubiquitous-language.md). This language is also used in things such as documentation for the project and spoken throughout meetings on the project.
+A bounded context is a concept from Domain-Driven Design that establishes boundary within a domain and contains models related to that context. The concepts, [entities](./entity), [value objects](./value-object), and [aggregates](./aggregate-pattern) within the bounded context are written using a [ubiquitous language](./ubiquitous-language). This language is also used in things such as documentation for the project and spoken throughout meetings on the project.
 
-A domain may have multiple bounded contexts within its environment. Each bounded context may be maintained by a team. [Context Mapping](./context-mapping.md) is used to help explain the relationships between two bounded contexts as well as indicate the relationship needed between the teams that maintain those two contexts.
+A domain may have multiple bounded contexts within its environment. Each bounded context may be maintained by a team. [Context Mapping](./context-mapping) is used to help explain the relationships between two bounded contexts as well as indicate the relationship needed between the teams that maintain those two contexts.
 
 ## eCommerce example of bounded contexts
 

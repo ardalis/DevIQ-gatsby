@@ -16,7 +16,7 @@ Software development is a _whole team activity_ - avoid silos and barriers to co
 
 [Collective Code Ownership](/practices/collective-code-ownership)
 
-[Whole Team](/src/docs/practices/whole-team.md)
+[Whole Team](/src/docs/practices/whole-team)
 
 ## References
 

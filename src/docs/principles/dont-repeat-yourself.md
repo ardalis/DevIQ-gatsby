@@ -17,7 +17,7 @@ Often, if-then and switch statements have a habit of being duplicated in multipl
 
 ## See Also
 
-[Once and Only Once](once-and-only-once.md) can be considered a subset of the DRY principle.
+[Once and Only Once](once-and-only-once) can be considered a subset of the DRY principle.
 
 The [Open/Closed Principle](/principles/open-closed-principle) only works when DRY is followed.
 

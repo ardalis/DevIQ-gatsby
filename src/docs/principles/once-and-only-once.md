@@ -8,7 +8,7 @@ The Once and Only Once principle can be thought of as a subset of the [Don't Rep
 
 ## See Also
 
-[Don't Repeat Yourself](dont-repeat-yourself.md)
+[Don't Repeat Yourself](dont-repeat-yourself)
 
 ## References
 

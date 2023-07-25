@@ -4,14 +4,14 @@ date: "2023-07-25"
 description: Domain Storytelling allows domain experts to tell the stories, capture the workflows, and illustrate those stories.
 ---
 
-Communication is important in DDD, especially in developing [ubiquitous language](./ubiquitous-language.md). It allows domain experts to tell the stories, capture the workflows, and illustrate those stories.
+Communication is important in DDD, especially in developing [ubiquitous language](./ubiquitous-language). It allows domain experts to tell the stories, capture the workflows, and illustrate those stories.
 
 The stories of the domains are illustrated with iconography and arrows, with labels to identify the actors and their relationships with the work objects.
 
 While talking through the various scenarios, the following goals are achieved:
 
 - Ubiquitous language develops.
-- [Bounded contexts](./bounded-context.md) may be identified.
+- [Bounded contexts](./bounded-context) may be identified.
 - Requirements and scope may be established.
 
 The sample below talks through the process you go through when you sign up for a domain storytelling webinar through NimblePros.

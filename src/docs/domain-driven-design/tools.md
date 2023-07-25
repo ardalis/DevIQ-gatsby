@@ -6,8 +6,8 @@ description: There are many tools out there to help implement Domain-Driven Desi
 
 These are some of the tools out there to help with implementing Domain-Driven Design in your environment.
 
-- [Context Mapping](./context-mapping.md)
-- [Domain Storytelling](./domain-storytelling.md)
+- [Context Mapping](./context-mapping)
+- [Domain Storytelling](./domain-storytelling)
 - Event Modeling
 - Event Storming
 - Impact Mapping
