@@ -26,6 +26,12 @@ Request-Endpoint-Response, or REPR ("reaper") is a much simpler pattern for deve
 
 What about the big M model from MVC, the one with all the business logic? This pattern doesn't dictate how you implement the logic within the endpoint. You *could* just put all the logic in the Handle method. But for non-trivial applications you probably want to inject some service(s) into the endpoint, and minimize the amount of non-UI logic that exists in it. But whether you choose to do that or not is not a part of the REPR pattern.
 
+## REST and Resources
+
+The REPR pattern is not a REST pattern. It's not a resource-based pattern. It's a pattern for defining API endpoints. It's not a pattern for defining resources. You can use it to define RESTful resources, but you can also use it to define RPC-style endpoints. It's up to you.
+
+If you want to use REPR with REST-style resources, you'll simply want to include the appropriate resource's schema within the Request and Response types. For example, if you have a `Customer` resource, you might have a `GetCustomerRequest` and a `GetCustomerResponse` type. The Request type might include a client-generated `CustomerId` property, and the Response type would include the newly-created `Customer` resource as property (or a link to a route where it might be found). If you're using a tool like [AutoMapper](https://automapper.org/) you can easily map between your resource types and your Request and Response types.
+
 ## Learn More
 
 The references below link to additional articles describing the pattern as well as implementations of it on GitHub and NuGet.
