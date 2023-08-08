@@ -244,8 +244,6 @@
       link: /domain-driven-design/domain-storytelling
     - label: Entity
       link: /domain-driven-design/entity
-    - label: Tools
-      link: /domain-driven-design/tools
     - label: Ubiquitous Language
       link: /domain-driven-design/ubiquitous-language
     - label: Value Object
