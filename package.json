@@ -16,6 +16,7 @@
     "gatsby-plugin-google-analytics": "^4.25.0",
     "gatsby-plugin-google-tagmanager": "^4.24.0",
     "gatsby-plugin-image": "^2.25.0",
+    "gatsby-plugin-local-search": "^2.0.1",
     "gatsby-plugin-manifest": "^4.25.0",
     "gatsby-plugin-netlify": "^5.1.0",
     "gatsby-plugin-netlify-cms": "^6.24.0",
@@ -30,7 +31,8 @@
     "prismjs": "^1.28.0",
     "prop-types": "^15.7.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-use-flexsearch": "^0.1.1"
   },
   "keywords": [
     "gatsby",
