@@ -49,14 +49,16 @@ module.exports = {
               siteUrl
             }
           }
-          allMdx{
-            edges {
-              node {                    
-                fields { slug }
-                frontmatter {
-                  title
-                  description
-                }
+          allMdx {
+            nodes {
+              id
+              rawBody
+              fields { 
+                slug 
+              }
+              frontmatter {
+                title
+                description
               }
             }
           }
@@ -82,13 +84,12 @@ module.exports = {
         // containing properties to index. The objects must contain the `ref`
         // field above (default: 'id'). This is required.
         normalizer: ({ data }) =>
-          data.allMdx.edges.map((edge) => ({
-            id: edge.node.id,
-            title: edge.node.frontmatter.title,
+          data.allMdx.nodes.map((node) => ({
+            id: node.id,
+            title: node.frontmatter.title,
             description: node.frontmatter.description,
-            slug: edge.node.fields.slug,
-            siteUrl: site.siteMetadata.siteUrl,
-            body: edge.node.rawBody
+            slug: node.fields.slug,
+            body: node.rawBody
           })),
       },
     },
