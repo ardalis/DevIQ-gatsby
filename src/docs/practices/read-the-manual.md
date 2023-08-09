@@ -1,6 +1,7 @@
 ---
 title: "Read the Manual"
 date: "2014-11-26"
+description: "Although trial-and-error can certainly produce working software (and some great stories and some knowledge), sometimes actually reading the documentation, manual, or instructions is warranted." 
 ---
 
 ![Read-The-Manual-Mar-2013](images/Read-the-Manual-400x400.jpg)
