@@ -2,6 +2,8 @@
 
 - label: "Introduction"
   link: "/"
+- label: "Search"
+  link: /search
 - label: Design Patterns
   items:
     - label: Overview
