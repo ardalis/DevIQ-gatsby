@@ -1,6 +1,6 @@
 ---
 title: "Context Mapping"
-date: "2023-07-25"
+date: "2023-08-08"
 description: Context Mapping enables seeing how bounded contexts integrate with each other.
 ---
 
@@ -90,7 +90,7 @@ In Separate Ways, there is no significant relationship between two bounded conte
 
 The Shared Kernel is the intersection between bounded contexts. When there is a shared component between bounded contexts, both teams maintaining those bounded contexts must establish a ubiquitous language and apply it to their shared
 
-## Context Mapping Resources
+## References
 
 - [Domain-Driven Design Distilled by Vaughn Vernon](https://amzn.to/2MfNzT6)
 - [DDD Reference, Eric Evans](https://www.domainlanguage.com/ddd/reference/)

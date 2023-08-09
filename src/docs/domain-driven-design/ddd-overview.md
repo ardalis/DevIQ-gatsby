@@ -8,17 +8,23 @@ Domain Driven Design, first introduced by Eric Evans in 2003, is a software desi
 
 ## DDD Concepts
 
-- [Aggregate Pattern](/domain-driven-design/aggregate-pattern)
 - [Anemic Model](/domain-driven-design/anemic-model)
 - [Anti-Corruption Layer](/domain-driven-design/anti-corruption-layer)
 - [Bounded Context](/domain-driven-design/bounded-context)
-- [Context Mapping](/domain-driven-design/context-mapping)
-- [Domain Storytelling](/domain-driven-design/domain-storytelling)
 - [Entity](/domain-driven-design/entity)
-- [Repository Pattern](/design-patterns/repository-pattern)
-- [Specification Pattern](/design-patterns/specification-pattern)
 - [Ubiquitous Language](/domain-driven-design/ubiquitous-language)
 - [Value Object](/domain-driven-design/value-object)
+
+## DDD Design Patterns
+
+- [Aggregate Pattern](/domain-driven-design/aggregate-pattern)
+- [Repository Pattern](/design-patterns/repository-pattern)
+- [Specification Pattern](/design-patterns/specification-pattern)
+
+## DDD Practices
+
+- [Context Mapping](/domain-driven-design/context-mapping)
+- [Domain Storytelling](/domain-driven-design/domain-storytelling)
 
 ## References
 
