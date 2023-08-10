@@ -2,7 +2,7 @@
 
 - label: "Introduction"
   link: "/"
-- label: "Search"
+- label: "🔍 Search"
   link: /search
 - label: Design Patterns
   items:
