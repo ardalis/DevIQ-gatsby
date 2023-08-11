@@ -15,6 +15,20 @@ export const Container = styled.aside`
   transition: transform 0.5s;
   height: calc(100vh - 1px);
 
+  a:hover {
+    text-decoration:underline;
+  }
+
+  nav > ul > li:nth-child(1) a {
+    text-transform: uppercase;
+    font-weight:bold;
+  }
+
+  nav > ul > li:nth-child(2) a {
+    text-transform: uppercase;
+    font-weight:bold;
+  }
+
   nav {
     width: 100%;
     padding-top: 24px;
