@@ -21,20 +21,27 @@ Instead of using a single data model for both reading and writing, CQRS recommen
 
 The application's code is divided into two distinct paths: the Command Path and the Query Path. The Command Path handles write operations, such as creating, updating, or deleting data. The Query Path handles read operations and is optimized for querying and displaying data to users.
 
-![CQRS flowchart - the Query Path represents the user getting data from a read data store. The Command Path represents the user changing data in a writeable data store.](images/cqrs-flow.png)
-
-### Event Sourcing
-
-In many CQRS implementations, event sourcing is used to capture all changes to the application state as a sequence of events. These events represent the transitions in the system's data. By replaying these events, you can reconstruct the state of the system at any point in time. This approach provides a reliable audit trail and can facilitate debugging and troubleshooting.
-
+![CQRS flowchart - the Query Path represents the user getting data from a read data store. The Command Path represents the user changing data in a writeable data store.](./images/cqrs-flow.png)
 
 ### Asynchronous Processing
 
-CQRS often involves asynchronous communication between the Command and Query sides. Commands are processed by the Command Model and can generate events. These events are then propagated to the Query Model, which updates its data store asynchronously. This separation of processing can improve scalability and responsiveness.
+CQRS often involves asynchronous communication between the Command and Query sides. Commands can be dispatched by an application and processed asynchronously from a queue. During command processing, events may be triggered to update the read-only data sources used by the Query side. The data consistency between the write database and the read database is commonly eventual consistency. This separation of processing can improve scalability and responsiveness.
 
 ### Optimized Data Stores
 
 The Query Model often uses specialized data stores optimized for querying, such as read-only databases, caching mechanisms, or search indexes. These data stores are designed to efficiently retrieve and present data to users. Because write operations are asynchronous and use separate models, it's not unusual for data in the query store to lag behind for recent updates, unless specific measure are taken to address this behavior. Often the approach that is taken is to let the user know changes may take some time to appear, combined with implementing the user's change in the local app even if the query store doesn't yet reflect it. For example, after a user has added a comment to a conversation, the comment appears in their local browser/app even if it hasn't yet been handled by the command processor on the server (and thus isn't visible to anyone else).
+
+## Common Patterns with CQRS
+
+CQRS is also seen with other patterns, including Event Sourcing and Materialized Views.
+
+### Event Sourcing
+
+Event Sourcing is often combined with CQRS, though it's certainly not a prerequisite for using CQRS in your application. Event Sourcing is used to capture all changes to the application state as a sequence of events. These events represent the transitions in the system's data. By replaying these events, you can reconstruct the state of the system at any point in time. This approach provides a reliable audit trail and can facilitate debugging and troubleshooting.
+
+### Materialized Views
+
+Materialized Views are also seen with CQRS, as read-only sources for the **queries** of CQRS. Materialized views are read-only aggregates of data that are structured in a way to allow for efficient querying of data. These can be used to improve response times of queries, as materialized views are built to have the data optimized for queries.
 
 ## Conclusion
 
