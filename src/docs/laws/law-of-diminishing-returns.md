@@ -1,7 +1,7 @@
 ---
 title: "The Law of Diminishing Returns: An Economic Principle with Applications in Software Development"
-date: "2023-04-25"
-description: Anything that can go wrong...
+date: "2023-08-11"
+description: The Law of Diminishing Returns is an important concept in economics that states that as more of a single factor of production is added to a production process, while other factors are held constant, the marginal increase in output will eventually decrease. 
 ---
 
 ## Introduction
