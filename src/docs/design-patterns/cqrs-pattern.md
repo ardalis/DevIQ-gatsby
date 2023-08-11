@@ -34,7 +34,7 @@ CQRS often involves asynchronous communication between the Command and Query sid
 
 ### Optimized Data Stores
 
-The Query Model often uses specialized data stores optimized for querying, such as read-only databases, caching mechanisms, or search indexes. These data stores are designed to efficiently retrieve and present data to users.
+The Query Model often uses specialized data stores optimized for querying, such as read-only databases, caching mechanisms, or search indexes. These data stores are designed to efficiently retrieve and present data to users. Because write operations are asynchronous and use separate models, it's not unusual for data in the query store to lag behind for recent updates, unless specific measure are taken to address this behavior. Often the approach that is taken is to let the user know changes may take some time to appear, combined with implementing the user's change in the local app even if the query store doesn't yet reflect it. For example, after a user has added a comment to a conversation, the comment appears in their local browser/app even if it hasn't yet been handled by the command processor on the server (and thus isn't visible to anyone else).
 
 ## Conclusion
 
