@@ -8,13 +8,11 @@ import Sidebar from '@rocketseat/gatsby-theme-docs/src/components/Sidebar';
 import Header from '@rocketseat/gatsby-theme-docs/src/components/Header';
 import Overlay from '@rocketseat/gatsby-theme-docs/src/components/Overlay';
 import { Container, Main, Children } from './styles';
-import { getImage } from 'gatsby-plugin-image';
 
 export default function Layout({
 	children,
 	disableTableOfContents,
 	title,
-	featuredImage,
 	headings
 }) {
 	const contentRef = useRef(null);
@@ -26,8 +24,6 @@ export default function Layout({
 		setMenuOpen(!isMenuOpen);
 	}
 
-	const imageData = getImage(featuredImage);
-	
 	return (
 		<Fragment>
 			<Announcement />

@@ -33,7 +33,7 @@ const SearchPage = () => {
       {results.length > 0 ? (
         <ul>
           {results.map((result) => (
-            <li><a href={result.slug} target="_blank">{result.title}</a> - {result.description}</li>
+            <li><a href={result.slug} target="_blank" rel="noreferrer">{result.title}</a> - {result.description}</li>
           ))}
         </ul>
       ) : (
