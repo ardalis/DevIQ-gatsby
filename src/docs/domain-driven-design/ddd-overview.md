@@ -18,6 +18,7 @@ Domain Driven Design, first introduced by Eric Evans in 2003, is a software desi
 ## DDD Design Patterns
 
 - [Aggregate Pattern](/domain-driven-design/aggregate-pattern)
+- [CQRS Pattern](/design-patterns/cqrs-pattern)
 - [Repository Pattern](/design-patterns/repository-pattern)
 - [Specification Pattern](/design-patterns/specification-pattern)
 

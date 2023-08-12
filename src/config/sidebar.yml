@@ -12,6 +12,8 @@
       link: /design-patterns/adapter-design-pattern
     - label: Builder
       link: /design-patterns/builder-pattern
+    - label: CQRS
+      link: /design-patterns/cqrs
     - label: Facade
       link: /design-patterns/facade-pattern
     - label: Guard Clause
