@@ -2,6 +2,7 @@
 title: "Frankencode"
 date: "2014-11-27"
 description: Frankencode refers to code that was never designed to work together, being pulled into a single application and held together with duct tape, baling wire, and maybe some Adapter design pattern usage.
+featuredImage:"./images/frankencode-400x400.jpg"
 ---
 
 ![Frankencode_Oct_2014](images/frankencode-400x400.jpg)

@@ -2,6 +2,7 @@
 title: "Iceberg Class"
 date: "2014-11-27"
 description: Although encapsulation is an oft-sited good thing to have in a design, there are many cases in which hiding an abundance of implementation behind private methods is undesirable.
+featuredImage:"./images/iceberg-class-400x400.jpg"
 ---
 
 ![IcebergClass](images/iceberg-class-400x400.jpg)

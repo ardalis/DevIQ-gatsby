@@ -2,6 +2,7 @@
 title: "Golden Hammer"
 date: "2014-11-27"
 description: The Golden Hammer refers to a language, tool, or platform with which the developer is comfortable and productive, so they are tempted to use it for any problem that presents itself.
+featuredImage:"./images/golden-hammer2014-400x400.jpg"
 ---
 
 ![Golden_Hammer_April_2014](images/golden-hammer2014-400x400.jpg)

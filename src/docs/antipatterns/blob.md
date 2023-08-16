@@ -2,6 +2,7 @@
 title: "The Blob"
 date: "2014-11-27"
 description: "The Blob is an anti-pattern that describes a class which resembles the monster from the 1958 film, The Blob, which absorbs anything it touches and grows larger and larger over time."
+featuredImage: "./images/blob-400x400.jpg"
 ---
 
 ![The_Blob_Sept_2014](images/blob-400x400.jpg)

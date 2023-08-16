@@ -2,6 +2,7 @@
 title: "Walking Through a Minefield"
 date: "2014-11-27"
 description: When software is released before it is ready, and users of the software are made to find all of its bugs and shortcomings, the users feel as though they're walking in a minefield.
+featuredImage:"./images/walking-in-a-minefield-400x400.jpg"
 ---
 
 ![Walking_In_a_Minefield_Aug_2014](images/walking-in-a-minefield-400x400.jpg)

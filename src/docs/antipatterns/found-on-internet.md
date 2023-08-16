@@ -2,6 +2,7 @@
 title: "Found on Internet"
 date: "2014-11-27"
 description: This anti-pattern refers to the practice of taking advice or code samples found on the Internet and immediately applying them to production code without taking the time to consider their effects.
+featuredImage:"./images/found-on-internet-400x400.jpg"
 ---
 
 ![Found_On_Internet_Mar_2014](images/found-on-internet-400x400.jpg)
