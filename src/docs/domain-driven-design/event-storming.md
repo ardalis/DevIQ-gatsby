@@ -36,7 +36,7 @@ There are other stickies that may be used to represent other parts of the cycle.
 These are some of the benefits of event storming:
 
 - Develops a [ubiquitous language](./ubiquitous-language)
-- Facilitates [communication](/values/communication) between silos and teams
+- Facilitates [communication](/values/communication) between teams
 
 ### References
 
