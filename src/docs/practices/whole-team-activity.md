@@ -2,6 +2,7 @@
 title: "Whole Team Activity"
 date: "2014-11-26"
 description: Software development is a whole team activity - avoid silos and barriers to communication.
+featuredImage: "./images/Whole-Team-Activity-400x400.jpg"
 ---
 
 ![Whole-Team-Activity-May-2013](images/Whole-Team-Activity-400x400.jpg)

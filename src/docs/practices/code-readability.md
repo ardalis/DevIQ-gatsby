@@ -2,6 +2,7 @@
 title: "Code Readability"
 date: "2014-11-26"
 description: Writing code that is readable is critical for any software application that needs to be maintained for any length of time.
+featuredImage:"./images/Code-Readability-Dec-2013-400x400.jpg"
 ---
 
 ![Code-Readability-Dec-2013](images/Code-Readability-Dec-2013-400x400.jpg)

@@ -2,6 +2,7 @@
 title: "Naming Things"
 date: "2014-11-26"
 description: It is hard to overestimate the importance of choosing good names for source code elements in software development.
+featuredImage: "./images/Naming-Things-400x400.jpg"
 ---
 
 ![Naming-Things-Sep-2013](images/Naming-Things-400x400.jpg)
