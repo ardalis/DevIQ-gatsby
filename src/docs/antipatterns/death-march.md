@@ -2,6 +2,7 @@
 title: "Death March"
 date: "2014-11-26"
 description: The worst part of a Death March project is that virtually everybody involved with it knows it's a death march project.
+featuredImage: "./images/death-march-400x400.jpg"
 ---
 
 ![DeathMarch](images/death-march-400x400.jpg)

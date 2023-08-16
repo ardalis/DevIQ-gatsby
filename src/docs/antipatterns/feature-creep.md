@@ -2,6 +2,7 @@
 title: "Feature Creep"
 date: "2014-11-27"
 description: Many software products die an earlier death than necessary because of feature creep, by which additional bits of functionality are continually added.
+featuredImage: "./images/feature-creep-400x400.jpg"
 ---
 
 ![FeatureCreep](images/feature-creep-400x400.jpg)

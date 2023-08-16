@@ -2,6 +2,7 @@
 title: "Duct Tape Coder"
 date: "2014-11-27"
 description: The Duct Tape Coder is someone who is able to cobble together software that solves the immediate problem, but without any concern for the code's quality or maintainability.
+featuredImage: "./images/duct-tape-400x400.jpg"
 ---
 
 ![DuctTapeCoder](images/duct-tape-400x400.jpg)

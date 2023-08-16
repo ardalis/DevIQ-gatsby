@@ -2,6 +2,7 @@
 title: "Flags Over Objects"
 date: "2014-11-27"
 description: The Flags Over Objects anti-pattern occurs when behavior is written outside of an object by inspecting flags (such as status codes), rather than within the object itself.
+featuredImage: "./images/flags-over-objects-400x400.jpg"
 ---
 
 ![Flags_Over_Objects_July_2014](images/flags-over-objects-400x400.jpg)

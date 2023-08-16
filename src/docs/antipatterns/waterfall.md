@@ -2,6 +2,7 @@
 title: "Waterfall"
 date: "2014-11-27"
 description: Waterfall, or Waterfail, is a rigid software development life cycle methodology that moves all activity through a series of stages, such as Gather Requirements, Design, Develop, Test, Deliver, Maintain.
+featuredImage: "./images/waterfall-400x400.jpg"
 ---
 
 ![Waterfall](images/waterfall-400x400.jpg)
