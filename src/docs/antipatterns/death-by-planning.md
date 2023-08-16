@@ -2,7 +2,7 @@
 title: "Death by Planning"
 date: "2014-11-27"
 description: Although planning is an essential part of building quality software, keep in mind that shipping is a feature (your product must have it). Keep short term plans as close to the actual implementation of your software as possible, while keeping long term plans as vague and flexible as possible.
-featuredImage:"./images/death-by-planning-400x400.jpg"
+featuredImage: "./images/death-by-planning-400x400.jpg"
 ---
 
 ![Death_By_Planning_May_2014](images/death-by-planning-400x400.jpg)

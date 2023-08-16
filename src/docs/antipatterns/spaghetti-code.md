@@ -2,7 +2,7 @@
 title: "Spaghetti Code"
 date: "2014-11-27"
 description: Spaghetti Code refers to code that has a tangled structure, especially one in which following the actual flow of the program is difficult.
-featuredImage:"./images/spaghetti-code-400x400.jpg"
+featuredImage: "./images/spaghetti-code-400x400.jpg"
 ---
 
 ![SpaghettiCode](images/spaghetti-code-400x400.jpg)

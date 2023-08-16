@@ -2,7 +2,7 @@
 title: "One Thing To Rule Them All"
 date: "2014-11-27"
 description: Having "One Thing To Rule Them All" can be an antipattern in many systems. Probably the most common example of this antipattern is "One Database to Rule Them All," in which a single database is used by dozens of applications.
-featuredImage:"./images/one-ring-300x225.jpg"
+featuredImage: "./images/one-ring-300x225.jpg"
 ---
 
 ![one-ring](images/one-ring-300x225.jpg)
