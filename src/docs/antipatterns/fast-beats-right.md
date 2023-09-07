@@ -2,6 +2,7 @@
 title: "Fast Beats Right"
 date: "2014-11-27"
 description: The Fast Beats Right antipattern alleges that it is always better to just get something done, regardless of quality, than to invest any effort into doing the job right.
+featuredImage: "./images/fast-beats-right-400x400.jpg"
 ---
 
 ![Fast_Beats_Right_Dec_2014](images/fast-beats-right-400x400.jpg)

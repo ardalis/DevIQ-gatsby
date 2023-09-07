@@ -2,6 +2,7 @@
 title: "Assumption Driven Programming"
 date: "2014-11-27"
 description: Assumption Driven Programming refers to the developer practice of assuming all users are like them.
+featuredImage: "./images/assumption-driven-programming-400x400.jpg"
 ---
 
 ![Assumption_Driven_Programming_Jun_2014](images/assumption-driven-programming-400x400.jpg)

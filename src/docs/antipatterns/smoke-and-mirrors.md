@@ -2,6 +2,7 @@
 title: "Smoke and Mirrors"
 date: "2014-11-27"
 description: The practice of showing a customer "smoke and mirrors" and then hoping the engineers or developers can build it has been around for as long as sales and marketing people have had jobs.
+featuredImage: "./images/smoke-and-mirrors-400x400.jpg"
 ---
 
 ![Smoke And Mirrors](images/smoke-and-mirrors-400x400.jpg)
