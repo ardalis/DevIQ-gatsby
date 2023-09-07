@@ -249,7 +249,7 @@
     - label: Entity
       link: /domain-driven-design/entity
     - label: Event Storming
-      link: /domain-driven-design/event-storming
+      link: /domain-driven-design/eventstorming
     - label: Ubiquitous Language
       link: /domain-driven-design/ubiquitous-language
     - label: Value Object
