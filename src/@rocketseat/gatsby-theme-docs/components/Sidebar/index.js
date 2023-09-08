@@ -64,12 +64,20 @@ export default function Sidebar({ isMenuOpen }) {
   useEffect(() => {
     var queryPath = window.location.pathname.substring(0,window.location.pathname.length-1);
     var linksForThisFolder = `a[href*="${queryPath}"]`;
-    console.log(linksForThisFolder);
     // li (previousSibling) ~ ul (parentElement)-> li (parentElement) -> a (we are here)
-    var parentHeader = document.querySelector(linksForThisFolder).parentElement.parentElement.previousSibling;
-    parentHeader.classList.add("expanded");
-    parentHeader.classList.remove("collapsed");
-    parentHeader.nextSibling.style.display = "block";
+    try {
+      var currentLink = document.querySelector(linksForThisFolder);
+      var currentListItem = currentLink.parentElement;
+      var currentSectionList = currentListItem.parentElement;
+      if (currentSectionList != null) {
+        var sectionHeader = currentSectionList.previousSibling;
+        sectionHeader.classList.add("expanded");
+        sectionHeader.classList.remove("collapsed");
+        sectionHeader.nextSibling.style.display = "block";
+      }
+    } catch {
+
+    }
   });
 
   return (
