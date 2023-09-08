@@ -2,6 +2,7 @@
 title: "Domain Driven Design"
 date: "2020-12-22"
 description: Domain Driven Design is a software design strategy intended to take complex domains (real-world problems) and simplify them into a extensible and maintainable software solution.
+featuredImage: "./images/ddd-overview.png"
 ---
 
 Domain Driven Design, first introduced by Eric Evans in 2003, is a software design strategy intended to take complex domains (real-world problems) and simplify them into a extensible and maintainable software solution.
