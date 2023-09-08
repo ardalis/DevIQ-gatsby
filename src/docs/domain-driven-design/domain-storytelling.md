@@ -2,6 +2,7 @@
 title: "Domain Storytelling"
 date: "2023-08-08"
 description: Domain Storytelling allows domain experts to tell the stories, capture the workflows, and illustrate those stories.
+featuredImage: "./images/domain-storytelling.png"
 ---
 
 Communication is important in DDD, especially in developing [ubiquitous language](./ubiquitous-language). It allows domain experts to tell the stories, capture the workflows, and illustrate those stories.
