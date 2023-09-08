@@ -13,7 +13,7 @@
     - label: Builder
       link: /design-patterns/builder-pattern
     - label: CQRS
-      link: /design-patterns/cqrs
+      link: /design-patterns/cqrs-pattern
     - label: Facade
       link: /design-patterns/facade-pattern
     - label: Guard Clause
