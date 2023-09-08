@@ -9,7 +9,7 @@
   "dependencies": {
     "@rocketseat/gatsby-theme-docs": "^3.2.0",
     "@weknow/gatsby-remark-twitter": "^0.2.3",
-    "caniuse-lite": "^1.0.30001522",
+    "caniuse-lite": "^1.0.30001528",
     "gatsby": "^4.25.7",
     "gatsby-plugin-canonical-urls": "^4.25.0",
     "gatsby-plugin-feed": "^4.25.0",
