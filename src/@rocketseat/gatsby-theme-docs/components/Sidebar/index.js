@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { useSidebar } from '@rocketseat/gatsby-theme-docs-core';
@@ -60,6 +60,17 @@ export default function Sidebar({ isMenuOpen }) {
       <InternalLink link={link} label={label} />
     );
   }
+  
+  useEffect(() => {
+    var queryPath = window.location.pathname.substring(0,window.location.pathname.length-1);
+    var linksForThisFolder = `a[href*="${queryPath}"]`;
+    console.log(linksForThisFolder);
+    // li (previousSibling) ~ ul (parentElement)-> li (parentElement) -> a (we are here)
+    var parentHeader = document.querySelector(linksForThisFolder).parentElement.parentElement.previousSibling;
+    parentHeader.classList.add("expanded");
+    parentHeader.classList.remove("collapsed");
+    parentHeader.nextSibling.style.display = "block";
+  });
 
   return (
     <Container isMenuOpen={isMenuOpen}>
@@ -82,7 +93,6 @@ export default function Sidebar({ isMenuOpen }) {
                 </ListWithSubItems>
               );
             }
-
             return <Item key={id}>{renderLink(link, label)}</Item>;
           })}
         </List>

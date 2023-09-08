@@ -19,12 +19,12 @@ export const Container = styled.aside`
     text-decoration:underline;
   }
 
-  nav > ul > li:nth-child(1) a {
+  nav > ul > li:nth-of-type(1) a {
     text-transform: uppercase;
     font-weight:bold;
   }
 
-  nav > ul > li:nth-child(2) a {
+  nav > ul > li:nth-of-type(2) a {
     text-transform: uppercase;
     font-weight:bold;
   }
