@@ -248,7 +248,7 @@
       link: /domain-driven-design/domain-storytelling
     - label: Entity
       link: /domain-driven-design/entity
-    - label: Event Storming
+    - label: EventStorming
       link: /domain-driven-design/eventstorming
     - label: Ubiquitous Language
       link: /domain-driven-design/ubiquitous-language
