@@ -13,4 +13,3 @@ ENV DEVCONTAINER=true
 
 # Install Gatsby CLI
 RUN npm -g install gatsby-cli
-# RUN npm install --ignore-scripts=false --foreground-scripts --legacy-peer-deps --verbose sharp
