@@ -14,6 +14,8 @@
       link: /design-patterns/builder-pattern
     - label: CQRS
       link: /design-patterns/cqrs-pattern
+    - label: Domain Events Pattern
+      link: /design-patterns/domain-events-pattern
     - label: Facade
       link: /design-patterns/facade-pattern
     - label: Guard Clause

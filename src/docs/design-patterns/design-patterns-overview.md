@@ -20,6 +20,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Command
 - Composite
 - Decorator
+- [Domain Events](/design-patterns/domain-events-pattern)
 - [Entity](/domain-driven-design/entity)
 - Event Aggregator
 - [Facade](/design-patterns/facade-pattern)
