@@ -18,9 +18,6 @@ Amdahl's Law gives us a formula to calculate the maximum improvement achievable 
 The formula for Amdahl's Law is as follows:
 
 ![text{Speedup} = \frac{1}{(1 - P) + \frac{P}{N}}](./images/amdahls-law-formula.png)
-[
-text{Speedup} = \frac{1}{(1 - P) + \frac{P}{N}}
-]
 
 ## Practical Implications
 
