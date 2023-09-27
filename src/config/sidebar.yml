@@ -276,6 +276,8 @@
       link: /laws/laws-overview
     - label: Amara's Law
       link: /laws/amaras-law
+    - label: Amdahl's Law
+      link: /laws/amdahls-law
     - label: Brooks's Law
       link: /laws/brooks-law
     - label: Conway's Law
