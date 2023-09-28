@@ -23,7 +23,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - Kerchoff's Principle
 - Knuth's Optimization Principle
 - Law of Large Numbers
-- Linus's Law
+- [Linus's Law](/laws/linus-law)
 - Moore's Law
 - [Murphy's Law](/laws/murphys-law)
 - Ninety-Ninety Rule

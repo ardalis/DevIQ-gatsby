@@ -288,6 +288,8 @@
       link: /laws/law-of-diminishing-returns
     - label: DRY
       link: /principles/dont-repeat-yourself
+    - label: Linus's Law
+      link: /laws/linus-law
     - label: Murphy's Law
       link: /laws/murphys-law
     - label: Postel's Law
