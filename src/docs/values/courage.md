@@ -1,17 +1,21 @@
 ---
 title: "Courage"
-date: "2014-11-26"
-description: Courage is one of the Values of Extreme Programming.
-featuredImage: "./images/communication.png"
+date: "2023-10-02"
+description: Courage demands us to recognize and address weaknesses within ourselves, our teams, and our organizations, ultimately driving us to strive for improvement in these areas.
+featuredImage: "./images/courage.png"
 ---
 
 Courage is one of the [Values of Extreme Programming](http://www.extremeprogramming.org/values.html).  To wit:
 
 _We will tell the truth about progress and estimates.  We don't document excuses for failure because we plan to succeed.  We don't fear anything because no one ever works alone.  We will adapt to changes when ever they happen._
 
-Courage underlies several XP and Agile practices, and several practices are designed to increase how courageous the team can be (or at least, to eliminate fear).  For example, refactoring complex software is a daunting task, but one can find courage in facing this task with another team member via pair programming, as well as from the fact that during and after the refactoring, tests writting via test-driven development confirm the software continues to behave correctly.  Integrating and shipping software can be scary as well, but this fear can be reduced through the application of continuous integration and the use of small releases.
+Courage is a fundamental attribute in the software development process, playing a pivotal role in various XP and Agile practices. These practices are intentionally designed to bolster the team's capacity for courage and diminish fear.
 
-Courage is an important value in software development because it requires courage to be transparent and honest with customers and stakeholders, and it requires courage to identify weaknesses in ourselves, our team, and our organization and to work to improve these weaknesses.
+For instance, tackling the challenging task of refactoring intricate software can be an intimidating endeavor. However, courage can be summoned when working alongside a team member through pair programming. Moreover, the assurance that test-driven development will validate the software's continued correctness post-refactoring can provide additional courage.
+
+Similarly, the process of integrating and shipping software can evoke fear, yet this apprehension can be mitigated through the application of continuous integration and the adoption of smaller, manageable releases.
+
+In software development, courage holds paramount importance. It necessitates the bravery to maintain transparency and honesty when dealing with customers and stakeholders. Furthermore, it demands the courage to recognize and address weaknesses within ourselves, our teams, and our organizations, ultimately driving us to strive for improvement in these areas.
 
 ## Quotes
 
