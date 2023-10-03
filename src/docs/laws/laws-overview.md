@@ -10,6 +10,7 @@ Laws of software development, laws of programming, laws of software engineering.
 
 - [Amara's Law](/laws/amaras-law)
 - [Amdahl's Law](/laws/amdahls-law)
+- Anderson's Law
 - [Brooks's Law](/laws/brooks-law)
 - [Conway's Law](/laws/conways-law)
 - [Cunningham's Law](/laws/cunninghams-law)
