@@ -284,6 +284,8 @@
       link: /laws/conways-law
     - label: Cunningham's Law
       link: /laws/cunninghams-law
+    - label: Law of Demeter
+      link: /laws/law-of-demeter
     - label: Law of Diminishing Returns
       link: /laws/law-of-diminishing-returns
     - label: DRY
