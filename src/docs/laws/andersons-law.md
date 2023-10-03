@@ -8,6 +8,8 @@ featuredImage: "./images/andersons-law.png"
 
 Anderson's Law posits, "I have yet to see any problem, however complicated, which, when you looked at it in the right way, did not become still more complicated." This insightful aphorism perfectly encapsulates many scenarios in software development. Whether you're dissecting an intricate bug, pondering architectural choices, or grappling with the ever-evolving demands of stakeholders, problems in software development often become more complicated upon closer inspection.
 
+It was [coined by Poul William Anderson](https://quoteinvestigator.com/2015/06/15/complicated/), an American science fiction author.
+
 ## Complexity in Software Architecture
 
 The intricacies of software architecture often become evident only when we dive deep into the specifics. What may initially seem like a straightforward microservices architecture can quickly become a convoluted maze of inter-service communication, latency issues, and data consistency challenges.
