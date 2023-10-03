@@ -278,6 +278,8 @@
       link: /laws/amaras-law
     - label: Amdahl's Law
       link: /laws/amdahls-law
+    - label: Anderson's Law
+      link: /laws/andersons-law
     - label: Brooks's Law
       link: /laws/brooks-law
     - label: Conway's Law
