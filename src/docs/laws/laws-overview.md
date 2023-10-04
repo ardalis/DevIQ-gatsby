@@ -17,7 +17,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Demeter's Law (Law of Demeter)](/laws/law-of-demeter)
 - [Law of Diminishing Returns](/laws/law-of-diminishing-returns)
 - [Don't Repeat Yourself (The DRY Principle)](/principles/dont-repeat-yourself)
-- [Gall's Law](/galls-law)
+- [Gall's Law](/laws/galls-law)
 - Goodhart's Law
 - Hebb's Law
 - Hofstadter's Law
