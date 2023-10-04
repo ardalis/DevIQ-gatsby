@@ -30,7 +30,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Iterator
 - Lazy Load
 - Mediator
-- [Memento](https://www.pluralsight.com/courses/c-sharp-design-patterns-memento)
+- [Memento](/design-patterns/memento-pattern)
 - Model-View-Controller (MVC)
 - Model-View-Presenter (MVP)
 - Model-View-ViewModel (MVVM)
@@ -48,6 +48,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Strangler Fig](/design-patterns/strangler-fig-pattern)
 - [Strategy](/design-patterns/strategy-pattern)
 - [Template Method](https://www.pluralsight.com/courses/c-sharp-design-patterns-template-method)
+- [Token](/design-patterns/memento-pattern)
 - Unit of Work
 - [Value Object](/domain-driven-design/value-object)
 - Visitor
