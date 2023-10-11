@@ -12,6 +12,42 @@ module.exports = {
     basePath: `/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-mdx`,
+        options: {
+          extensions: [`.mdx`, `.md`],
+          gatsbyRemarkPlugins: [
+            {
+              resolve: `gatsby-remark-mermaid`,
+              options: /** @type {import('gatsby-remark-mermaid').Options} */ ({
+                mermaidConfig: {
+                  theme: 'neutral'                  
+                }
+              })
+            },
+            `gatsby-remark-autolink-headers`,
+            `gatsby-remark-embedder`,
+            {
+              resolve: `gatsby-remark-images`,
+              options: {
+                maxWidth: 960,
+                withWebp: true,
+                linkImagesToOriginal: false,
+              },
+            },
+            `gatsby-remark-responsive-iframe`,
+            `gatsby-remark-copy-linked-files`,
+          ],
+          plugins: [`gatsby-remark-autolink-headers`, `gatsby-remark-images`],
+    }
+  },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "@weknow/gatsby-remark-twitter"]
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -21,6 +57,7 @@ module.exports = {
         docsPath: `src/docs`,
         repositoryUrl: `https://github.com/ardalis/DevIQ-gatsby`,
         baseDir: `/`,
+        withMdx: false
       },
     },
     {
@@ -198,13 +235,7 @@ module.exports = {
         siteUrl: `https://rocketdocs.netlify.com`,
       },
     },
-    `gatsby-plugin-offline`,
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: ["@weknow/gatsby-remark-twitter"]
-      }
-    },
+    `gatsby-plugin-offline`,    
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify`,   
   ],

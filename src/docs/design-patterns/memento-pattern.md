@@ -25,7 +25,8 @@ There are three key classes to the memento pattern - Originator, Caretaker, and 
 - The Originator class has the state (`state`) to be stored in the memento. It can create mementos with `CreateMemento()`. It can also set a memento with `SetMemento(Memento m)`.
 - The Caretaker class is responsible for the safekeeping and does not perform work on a memento.
 
-<!--
+<!-- ![Mermaid Diagram of the Originator, Memento, Caretaker classes](./images/memento-pattern-class-diagram.png) -->
+
 ```mermaid
 classDiagram
     Memento <.. Originator
@@ -44,9 +45,6 @@ classDiagram
 
     }
 ```
--->
-
-![Mermaid Diagram of the Originator, Memento, Caretaker classes](./images/memento-pattern-class-diagram.png)
 
 These classes work in the following way:
 
@@ -56,7 +54,8 @@ These classes work in the following way:
 4. If the object needs to be restored to a previous state, the caretaker will pass the request to the originator using `SetMemento(memento)`.
 5. The originator gets the previous state using `GetState()`.
 
-<!--
+<!-- ![Sequence diagram of the steps laid out above](./images/memento-pattern-sequence-diagram.png) -->
+
 ```mermaid
 sequenceDiagram
     Caretaker ->> Originator: 1. CreateMemento()    
@@ -66,9 +65,6 @@ sequenceDiagram
     Caretaker ->> Originator: 4. SetMemento(memento)
     Originator ->> Memento: 5. GetState()
 ```
--->
-
-![Sequence diagram of the steps laid out above](./images/memento-pattern-sequence-diagram.png)
 
 The goal is to keep the mementos small. Also, the caretaker only deals with the memento through the originator. The caretaker never directly changes a memento. The caretaker only tracks the previous states. The originator handles the creation and restoring of mementos.
 
