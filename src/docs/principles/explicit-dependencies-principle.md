@@ -5,6 +5,10 @@ description: The Explicit Dependencies Principle states that methods and classes
 featuredImage: "./images/explicit-dependencies-principle.png"
 ---
 
+Have you ever wanted to try to cook a recipe only to find out that it left off an ingredient in the shopping list? Steve ran into that with a [spaghetti Bolognese recipe, where an ingredient was left off](https://www.youtube.com/watch?v=nA3SULjH6Mo). When all of the ingredients are called out explicitly, it's easier to follow the recipe.
+
+Much like ingredients to a recipe, it's important to understand dependencies of classes/packages/libraries/frameworks before working with them. Implicit dependencies and transitive dependencies can make it harder to work with a classes/packages/libraries/frameworks. This is why there is the Explicit Dependencies Principle.
+
 The _**Explicit Dependencies Principle**_ states:
 
 _**Methods and classes should explicitly require (typically through method parameters or constructor parameters) any collaborating objects they need in order to function correctly.**_
@@ -207,3 +211,5 @@ In this case, the logging and time dependencies have been pulled into constructo
 ## References
 
 [New Is Glue](http://ardalis.com/new-is-glue) (Ardalis.com)
+
+[Better Cooking and code with the Explicit Dependencies Principle](https://www.youtube.com/watch?v=nA3SULjH6Mo) (Ardalis on YouTube)
