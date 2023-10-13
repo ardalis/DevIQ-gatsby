@@ -2,6 +2,7 @@
 title: "Simple Design"
 date: "2014-11-26"
 description: "Kent Beck created four rules of Simple Design, sometimes referred to as the Four Commandments."
+featuredImage: "./images/simple-design.png"
 ---
 
 [Kent Beck](http://en.wikipedia.org/wiki/Kent_Beck) created four rules of Simple Design. These are sometimes referred to as The Four Commandments or the [XP Simplicity Rules](http://c2.com/cgi/wiki?XpSimplicityRules). The rules, in priority order, are that code should:

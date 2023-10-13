@@ -2,6 +2,7 @@
 title: "Principle of Architectural Agility"
 date: "2023-04-22"
 description: This principle highlights the importance of designing software architectures that can adapt to changing requirements and conditions. 
+featuredImage: "./images/architectural-agility.png"
 ---
 
 This principle highlights the importance of designing software architectures that can adapt to changing requirements and conditions. Architects should consider using techniques such as modular design, microservices, or other architectural patterns that promote flexibility and adaptability. This principle appears in [Building Evolutionary Architectures](https://amzn.to/41P6J31) by Ford and Parsons.
