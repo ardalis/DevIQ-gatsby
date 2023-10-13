@@ -2,6 +2,7 @@
 title: "Explicit Dependencies Principle"
 date: "2014-11-26"
 description: The Explicit Dependencies Principle states that methods and classes should explicitly require (typically through method parameters or constructor parameters) any collaborating objects they need in order to function correctly.
+featuredImage: "./images/explicit-dependencies-principle.png"
 ---
 
 The _**Explicit Dependencies Principle**_ states:
