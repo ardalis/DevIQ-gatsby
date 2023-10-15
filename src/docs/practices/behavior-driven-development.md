@@ -88,9 +88,9 @@ Scenario Outline: Checking book checkout expiration
 	Then the book should expire in <left> days
 Examples:
 	| checkout_period	 | open	| left	|
-	| 7			 | 2		| 5	|
-	| 14			 | 10		| 2	|
-	| 21			 | 18		| 3	|
+	| 7			         | 2	| 5	    |
+	| 14			     | 10	| 2	    |
+	| 21			     | 18	| 3	    |
 
 ```
 
