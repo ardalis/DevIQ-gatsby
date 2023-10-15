@@ -4,3 +4,4 @@ import Prism from "prism-react-renderer/prism";
 
 require("prismjs/components/prism-java");
 require("prismjs/components/prism-csharp");
+require("prismjs/components/prism-gherkin");
