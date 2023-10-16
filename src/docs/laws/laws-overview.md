@@ -35,6 +35,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - Peter Principle
 - Parkinson's Law
 - Price's Law, Angulation of
+- [Simple Design (XP Simplicity Rules)](/practices/simple-design)
 - [Software Architecture, Laws of](/laws/laws-software-architecture)
 - [Software Estimates, 5 Laws of](https://ardalis.com/the-5-laws-of-software-estimates/)
 - Sturgeon's Law
