@@ -42,6 +42,8 @@
   items:
     - label: Overview
       link: /practices/practices-overview
+    - label: Behavior Driven Development
+      link: /practices/behavior-driven-development
     - label: Code Readability
       link: /practices/code-readability
     - label: Collective Code Ownership
