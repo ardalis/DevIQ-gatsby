@@ -17,9 +17,9 @@ When considering how to structure your entities into aggregates, a useful rule o
 
 As an example, consider an eCommerce domain which has concepts for Orders (`Order`), which have multiple order items (`OrderItem`), each of which refers to some quantity of products (`Product`) being purchased. Adding and removing items to an Order should be controlled by the `Order` - parts of the application shouldn't be able to reach out and create an individual `OrderItem` as part of an `Order` without going through the `Order`. Deleting an `Order` should delete all of the order items that are associated with it. So, `Order` makes sense as an aggregate root for the `Order` - `OrderItem` group.
 
-![OrderAggregate class diagram - the Order class has an Id as an int and a collection of LineItems as a List of OrderItem. The OrderItem class has an Id as an int, Quantity as an int, ProductId as a Guid, and Name as a string. The Order class has behaviors for adding, removing, and updating items.](./images/order-aggregate.png)
+<!-- ![OrderAggregate class diagram - the Order class has an Id as an int and a collection of LineItems as a List of OrderItem. The OrderItem class has an Id as an int, Quantity as an int, ProductId as a Guid, and Name as a string. The Order class has behaviors for adding, removing, and updating items.](./images/order-aggregate.png) -->
 
-<!--
+
 ```mermaid
 ---
 title: OrderAggregate
@@ -41,17 +41,15 @@ class Order {
     UpdateItem()
 }
 ```
--->
 
 In this example, the `Order` aggregate is composed of multiple entities. However, access to the `OrderItem` entity is managed by the `Order` aggregate.
 
 What about `Product`? Each `OrderItem` represents (among other things) a quantity of a product. Does it make sense for `OrderItem` to have a navigation property for `Product`? If so, that would complicate the `Order` aggregate, since ideally it should be able to traverse all of its navigation properties when persisting. As a test, does it make sense to delete "Product A" if an order for that product is deleted? No, while this order may not include "Product A", another order may include it. Thus, `Product` doesn't belong within the `Order` aggregate. It's likely that `Product` should be its own aggregate root, in which case fetching product instances can be done using a [Repository](/design-patterns/repository-pattern/). All that's required to do so is its `Id`. Thus, if `OrderItem` only refers to `Product` by `Id`, that's sufficient.
 
-![ProductAggregate class diagram - The Product class has a ProductId as a Guid and a Name as a string. It also has behaviors for creating and deleting.](./images/product-aggregate.png)
+<!-- ![ProductAggregate class diagram - The Product class has a ProductId as a Guid and a Name as a string. It also has behaviors for creating and deleting.](./images/product-aggregate.png) -->
 
 In this example, the Product aggregate does not have any other entities. This is an example of a single-entity aggregate.
 
-<!--
 ```mermaid
 ---
 title: ProductAggregate
@@ -63,7 +61,7 @@ class Product {
     string Name
 }
 ```
--->
+
 A common concern at this point, though, is performance. If `OrderItem` doesn't have a navigation property for the product associated with it, how will the name of the product be displayed in the user interface for displaying an Order? In this case, this is the wrong question to ask. The better question is, if an `Order` is placed for product 123 named "Widget A" and at some point in the future this product is renamed to "Widget B", what should be displayed when this order is reviewed? Most likely, since the customer probably received a notification with details of their order that listed "Widget A" (and probably didn't list its `Id` at all), it will cause confusion if the system now retroactively says they ordered "Widget B". Thus, the `OrderItem`, when created, should probably include some details of the Product, such as its name. This will necessarily introduce some duplication into the system, but the historic record of what the customer purchased should not be tightly coupled to the current name of the product, at least in this scenario. As a side benefit, displaying the order and its order items is very fast, since the necessary data is all within this aggregate.
 
 ## References
