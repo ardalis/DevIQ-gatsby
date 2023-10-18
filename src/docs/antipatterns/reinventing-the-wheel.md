@@ -2,6 +2,7 @@
 title: "Reinventing the Wheel"
 date: "2014-11-27"
 description: It's common for software developers and some organizations to prefer to write something they may need for a given project themselves, rather than using an available open source or commercial offering.
+featuredImage: "./images/reinvent-the-wheel-400x400.jpg"
 ---
 
 ![ReinventingTheWheel](images/reinvent-the-wheel-400x400.jpg)

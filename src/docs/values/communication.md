@@ -2,6 +2,7 @@
 title: "Communication"
 date: "2014-11-26"
 description: Communication is a key value in Extreme Programming.
+featuredImage: "./images/communication.png"
 ---
 
 Communication is a key value in Extreme Programming. Software projects require a great deal of communication. If you're writing an application just for your own use, then the communication channels are all extremely fast, making for very tight feedback loops. However, when you're writing software for stakeholders that will eventually publish the software, which will eventually be used by other people, who must report their experience to a separate group of support staff, [feedback](/values/feedback) cycles can suffer.

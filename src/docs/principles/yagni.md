@@ -2,6 +2,7 @@
 title: "YAGNI"
 date: "2014-11-26"
 description: YAGNI, or "You Ain't Gonna Need It" (or "You Aren't Gonna Need It"), emerged as one of the key principles of Extreme Programming.
+featuredImage: "./images/yagni-400x400.png"
 ---
 
 ![YAGNI](images/yagni-400x400.png)

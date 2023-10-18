@@ -2,6 +2,7 @@
 title: "Single Responsibility Principle"
 date: "2014-11-26"
 description: The Single Responsibility Principle (SRP) states that a class should have only one reason to change.
+featuredImage: "./images/single-responsibility-400x400.jpg"
 ---
 
 ![SingleResponsibility](images/single-responsibility-400x400.jpg)

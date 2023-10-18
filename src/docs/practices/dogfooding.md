@@ -2,6 +2,7 @@
 title: "Dogfooding"
 date: "2014-11-26"
 description: Dogfooding is short for "Eating your own dog food," which represents the practice of using your own products.
+featuredImage: "./images/Dogfooding-400x400.jpg"
 ---
 
 ![Dogfooding-Aug-2013](images/Dogfooding-400x400.jpg)

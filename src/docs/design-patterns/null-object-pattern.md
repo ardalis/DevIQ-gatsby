@@ -2,13 +2,14 @@
 title: "Null Object Pattern"
 date: "2015-10-26"
 description: The Null Object Pattern was described in the Gang of Four's Design Patterns book. The intent of this pattern is to reduce the need to add checks and special behavior for handling null instances of certain variables that tend to propagate through applications.
+featuredImage: "./images/null-object-pattern.png"
 ---
 
 The Null Object Pattern was first described in the [Pattern Languages of Program Design book](https://amzn.to/3h2ydOO) by James Coplien in 1995. The intent of this pattern is to reduce the need to add checks and special behavior for handling null instances of certain variables that tend to propagate through applications. Rather, identify the behavior that should occur when a null is encountered, encapsulate this behavior into an instance of the type in question, and define this instance as a special, constant value of that type.
 
 For instance, consider a call center application that looks up customers based on their phone number:
 
-```java
+```csharp
 public Customer GetByPhoneNumber(string phoneNumber)
 {
   return _customerRepository

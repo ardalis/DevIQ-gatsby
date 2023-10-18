@@ -2,6 +2,7 @@
 title: "Vertical Slices"
 date: "2015-01-23"
 description: Software systems often are broken up into a series of layers. Typically, these are drawn as horizontal boxes.
+featuredImage: "./images/VerticalSlices-400x400.png"
 ---
 
 ![Vertical Slices](images/VerticalSlices-400x400.png)

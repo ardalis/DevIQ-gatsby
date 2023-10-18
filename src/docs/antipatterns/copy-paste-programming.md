@@ -2,6 +2,7 @@
 title: "Copy Paste Programming"
 date: "2014-11-27"
 description: Sometimes you need to make a change that's similar to one you've made before, or you have some logic that's performed in more than one location, and it needs to change.
+featuredImage: "./images/copy-paste-programming-400x400.jpg"
 ---
 
 ![CopyPasteProgramming](images/copy-paste-programming-400x400.jpg)

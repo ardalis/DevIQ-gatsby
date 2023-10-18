@@ -2,11 +2,12 @@
 title: "Guard Clause"
 date: "2017-09-01"
 description: Complexity in code makes it harder to understand what the code is doing. The smallest unit of our code tends to be the function or method.
+featuredImage: "./images/guard-clause.png"
 ---
 
-![Guard Clauses](images/GuardClauses-201x300.jpg)
-
 Complexity in code makes it harder to understand what the code is doing. The smallest unit of our code tends to be the function or method. You should be able to look at a given function and quickly determine what it's doing. This tends to be much easier if the function is small, well-named, and focused. One factor that's constantly working against [simplicity](/values/simplicity/) is conditional complexity, most often taking the form of if and switch statements. When not properly managed, these two constructs can quickly cause functions to shift from simple and easily understood to long, obtuse, and scary. One way to reduce some of the complexity is through the use of _**guard clauses**_.
+
+![Guard Clauses](images/GuardClauses-201x300.jpg)
 
 A guard clause is simply a check that immediately exits the function, either with a return statement or an exception. If you're used to writing functions that check to ensure everything is valid for the function to run, then you write the main function code, and then you write else statements to deal with error cases, this involves inverting your current workflow. The benefit is that your code will tend to be shorter and simpler, and less deeply indented.
 

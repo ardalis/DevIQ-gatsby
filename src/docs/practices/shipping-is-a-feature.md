@@ -2,6 +2,7 @@
 title: "Shipping Is A Feature"
 date: "2014-11-26"
 description: Never lose sight of the fact that until you ship your product, it is not providing value to anybody.
+featuredImage: "./images/ShippingIsAFeature-400x400.jpg"
 ---
 
 ![ShippingIsAFeature](images/ShippingIsAFeature-400x400.jpg)

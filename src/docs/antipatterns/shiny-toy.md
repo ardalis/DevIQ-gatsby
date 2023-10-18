@@ -2,6 +2,7 @@
 title: "Shiny Toy"
 date: "2014-11-27"
 description: The Shiny Toy anti-pattern refers to the practice of always thinking today's problems can all be solved by the latest bleeding-edge tool, technique, or library.
+featuredImage: "./images/shiny-toy-400x400.jpg"
 ---
 
 ![Shiny_Toy_Jan_2014](images/shiny-toy-400x400.jpg)

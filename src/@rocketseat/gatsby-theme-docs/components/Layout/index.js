@@ -2,7 +2,6 @@
 import { useState, useRef, Fragment } from 'react';
 import { jsx, css } from '@emotion/core';
 import PropTypes from 'prop-types';
-
 import TableOfContents from '../Docs/TOC';
 import Announcement from '../Announcement';
 import Sidebar from '@rocketseat/gatsby-theme-docs/src/components/Sidebar';
@@ -14,7 +13,7 @@ export default function Layout({
 	children,
 	disableTableOfContents,
 	title,
-	headings,
+	headings
 }) {
 	const contentRef = useRef(null);
 	const [isMenuOpen, setMenuOpen] = useState(false);
@@ -34,6 +33,7 @@ export default function Layout({
 				<Main>
 					<Header handleMenuOpen={handleMenuOpen} />
 					{title && (
+						<Fragment>
 						<h1
 							css={css`
 								display: none;
@@ -45,9 +45,11 @@ export default function Layout({
 						>
 							{title}
 						</h1>
+						</Fragment>
 					)}
 					<Children ref={contentRef}>
 						{title && (
+							<Fragment>
 							<h1
 								css={css`
 									@media (max-width: 1200px) {
@@ -57,6 +59,7 @@ export default function Layout({
 							>
 								{title}
 							</h1>
+							</Fragment>
 						)}
 						{children}
 					</Children>
@@ -77,8 +80,9 @@ Layout.propTypes = {
 		PropTypes.node,
 	]).isRequired,
 	disableTableOfContents: PropTypes.bool,
+	featuredImage: PropTypes.object,
 	title: PropTypes.string,
-	headings: PropTypes.array,
+	headings: PropTypes.array
 };
 
 Layout.defaultProps = {

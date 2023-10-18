@@ -2,6 +2,7 @@
 title: "Separation of Concerns"
 date: "2014-11-26"
 description: A key principle of software development and architecture is the notion of separation of concerns.
+featuredImage: "./images/separation-of-concerns-400x400.jpg"
 ---
 
 ![Separation-of-Concerns-Feb-2013](images/separation-of-concerns-400x400.jpg)

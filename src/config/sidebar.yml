@@ -2,6 +2,8 @@
 
 - label: "Introduction"
   link: "/"
+- label: "🔍 Search"
+  link: /search
 - label: Design Patterns
   items:
     - label: Overview
@@ -10,8 +12,16 @@
       link: /design-patterns/adapter-design-pattern
     - label: Builder
       link: /design-patterns/builder-pattern
+    - label: CQRS
+      link: /design-patterns/cqrs-pattern
+    - label: Domain Events Pattern
+      link: /design-patterns/domain-events-pattern
+    - label: Facade
+      link: /design-patterns/facade-pattern
     - label: Guard Clause
       link: /design-patterns/guard-clause
+    - label: Memento
+      link: /design-patterns/memento-pattern
     - label: Null Object
       link: /design-patterns/null-object-pattern
     - label: Repository
@@ -24,12 +34,16 @@
       link: /design-patterns/specification-pattern
     - label: State
       link: /design-patterns/state-design-pattern
+    - label: Strangler Fig
+      link: /design-patterns/strangler-fig-pattern
     - label: Strategy
       link: /design-patterns/strategy-pattern
 - label: Practices
   items:
     - label: Overview
       link: /practices/practices-overview
+    - label: Behavior Driven Development
+      link: /practices/behavior-driven-development
     - label: Code Readability
       link: /practices/code-readability
     - label: Collective Code Ownership
@@ -102,6 +116,8 @@
       link: /principles/inversion-of-control
     - label: Keep It Simple
       link: /principles/keep-it-simple
+    - label: Principle of Least Astonishment
+      link: /principles/principle-of-least-astonishment
     - label: Liskov Substitution
       link: /principles/liskov-substitution-principle
     - label: Once and Only Once
@@ -150,6 +166,8 @@
       link: /antipatterns/assumption-driven-programming
     - label: Big Ball of Mud
       link: /antipatterns/big-ball-of-mud
+    - label: Big Design Up Front (BDUF)
+      link: /antipatterns/big-design-up-front
     - label: The Blob
       link: /antipatterns/blob
     - label: Broken Windows
@@ -180,10 +198,14 @@
       link: /antipatterns/found-on-internet
     - label: Frankencode
       link: /antipatterns/frankencode
+    - label: Frozen Caveman
+      link: /antipatterns/frozen-caveman
     - label: Golden Hammer
       link: /antipatterns/golden-hammer
     - label: Iceberg Class
       link: /antipatterns/iceberg-class
+    - label: Last 10% Trap
+      link: /antipatterns/last-10percent-trap
     - label: Lois Lane Planning
       link: /antipatterns/lois-lane-planning
     - label: Magic Strings
@@ -212,6 +234,8 @@
       link: /antipatterns/walking-through-a-minefield
     - label: Waterfall
       link: /antipatterns/waterfall
+    - label: Witches' Brew Architecture
+      link: /antipatterns/witches-brew-architecture
 - label: Domain Driven Design
   items:
     - label: Overview
@@ -222,8 +246,16 @@
       link: /domain-driven-design/anti-corruption-layer
     - label: Anemic Model
       link: /domain-driven-design/anemic-model
+    - label: Bounded Context
+      link: /domain-driven-design/bounded-context
+    - label: Context Mapping
+      link: /domain-driven-design/context-mapping
+    - label: Domain Storytelling
+      link: /domain-driven-design/domain-storytelling
     - label: Entity
       link: /domain-driven-design/entity
+    - label: EventStorming
+      link: /domain-driven-design/eventstorming
     - label: Ubiquitous Language
       link: /domain-driven-design/ubiquitous-language
     - label: Value Object
@@ -248,16 +280,26 @@
       link: /laws/laws-overview
     - label: Amara's Law
       link: /laws/amaras-law
+    - label: Amdahl's Law
+      link: /laws/amdahls-law
+    - label: Anderson's Law
+      link: /laws/andersons-law
     - label: Brooks's Law
       link: /laws/brooks-law
     - label: Conway's Law
       link: /laws/conways-law
     - label: Cunningham's Law
       link: /laws/cunninghams-law
+    - label: Law of Demeter
+      link: /laws/law-of-demeter
     - label: Law of Diminishing Returns
       link: /laws/law-of-diminishing-returns
     - label: DRY
       link: /principles/dont-repeat-yourself
+    - label: Gall's Law
+      link: /laws/galls-law
+    - label: Linus's Law
+      link: /laws/linus-law
     - label: Murphy's Law
       link: /laws/murphys-law
     - label: Postel's Law

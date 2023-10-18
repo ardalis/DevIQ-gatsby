@@ -2,6 +2,7 @@
 title: "Boy Scout Rule"
 date: "2014-11-26"
 description: The Boy Scout Rule can be summarized as leave your code better than you found it.
+featuredImage: "./images/BoyScoutRule-400x400.png"
 ---
 
 The Boy Scout Rule can be summarized as:

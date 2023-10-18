@@ -22,7 +22,7 @@ There's always a trade-off somewhere, even if only opportunity cost because a de
 
 > Why is more important than how.
 
-There are many ways to implement a particular facet of software architecture. And while implementation details are important, what's more important from the perspective of a software architect is *why* a particular implementation or aproach was chosen over its alternatives. A common way to document decisions like this is to use [architecture decision recrods](https://ardalis.com/getting-started-with-architecture-decision-records/), ideally stored in source control with or near the application(s) impacted by the decision.
+There are many ways to implement a particular facet of software architecture. And while implementation details are important, what's more important from the perspective of a software architect is *why* a particular implementation or approach was chosen over its alternatives. A common way to document decisions like this is to use [architecture decision records](https://ardalis.com/getting-started-with-architecture-decision-records/), ideally stored in source control with or near the application(s) impacted by the decision.
 
 ## References
 

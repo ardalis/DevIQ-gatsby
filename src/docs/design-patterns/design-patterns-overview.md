@@ -2,10 +2,8 @@
 title: "Design Patterns"
 date: "2016-06-09"
 description: Design patterns are common approaches to solving similar problems.
-image: /img/design-patterns-overview.png
+featuredImage: "./images/design-patterns-overview.png"
 ---
-
-![design patterns overview](/img/design-patterns-overview.png)
 
 Design patterns are common approaches to solving similar problems. The [1995 book Design Patterns, by the so-called Gang of Four (GoF)](http://amzn.to/1GYRo2O), describes 23 patterns. Quickly learn about several patterns and how to learn new patters in this [Design Patterns Overview course on Pluralsight](https://www.pluralsight.com/courses/design-patterns-overview). [Pluralsight's design patterns library](http://bit.ly/DesignPatternsLibrary) includes 32 different patterns, including most of the original GoF patterns. Some design patterns tend to cause more problems than they solve, and are thus commonly referred to as [antipatterns](/antipatterns/antipatterns-overview).
 
@@ -22,16 +20,17 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Command
 - Composite
 - Decorator
+- [Domain Events](/design-patterns/domain-events-pattern)
 - [Entity](/domain-driven-design/entity)
 - Event Aggregator
-- Facade
+- [Facade](/design-patterns/facade-pattern)
 - Factory Method
 - Flyweight
 - Interpreter
 - Iterator
 - Lazy Load
 - Mediator
-- [Memento](https://www.pluralsight.com/courses/c-sharp-design-patterns-memento)
+- [Memento](/design-patterns/memento-pattern)
 - Model-View-Controller (MVC)
 - Model-View-Presenter (MVP)
 - Model-View-ViewModel (MVVM)
@@ -46,8 +45,10 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Service Locator (!)
 - [Specification](/design-patterns/specification-pattern)
 - State
+- [Strangler Fig](/design-patterns/strangler-fig-pattern)
 - [Strategy](/design-patterns/strategy-pattern)
 - [Template Method](https://www.pluralsight.com/courses/c-sharp-design-patterns-template-method)
+- [Token](/design-patterns/memento-pattern)
 - Unit of Work
 - [Value Object](/domain-driven-design/value-object)
 - Visitor

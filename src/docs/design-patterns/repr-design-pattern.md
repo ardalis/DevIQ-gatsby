@@ -6,7 +6,7 @@ description: "The REPR Design Pattern defines web API endpoints as having three 
 
 The **REPR Design Pattern** defines web API endpoints as having three components: a Request, an Endpoint, and a Response. It simplifies the frequently-used MVC pattern and is more focused on API development.
 
-![REPR - Request Endpoint Response](/img/repr-request-endpoint-response-pattern.png)
+![REPR - Request Endpoint Response](./images/repr-request-endpoint-response-pattern.png)
 
 The classic MVC pattern (Model, View, Controller) has been around for decades and has been used for UI apps successfully for a long time. But even with non-API ASP.NET apps, it's not a perfect fit, since frequently you see things like ViewModels added into the mix, which of course the pattern doesn't mention (and the MVVM pattern is just over there laughing at all of this...). If you use ASP.NET and MVC and ViewModels are you really using MVVMC? It starts to look like rather large Roman numeral (though unlike Arabic/decimal numerals, not all combinations of Roman numerals are valid, and actually MVC and MVVMC are both invalid).
 
@@ -25,6 +25,12 @@ Using this approach, your API is designed around individual endpoint classes. Ea
 Request-Endpoint-Response, or REPR ("reaper") is a much simpler pattern for developing API endpoints than MVC. There's no View. There's no bloated controller. The only models you care about are the Request and the Response.
 
 What about the big M model from MVC, the one with all the business logic? This pattern doesn't dictate how you implement the logic within the endpoint. You *could* just put all the logic in the Handle method. But for non-trivial applications you probably want to inject some service(s) into the endpoint, and minimize the amount of non-UI logic that exists in it. But whether you choose to do that or not is not a part of the REPR pattern.
+
+## REST and Resources
+
+The REPR pattern is not a REST pattern. It's not a resource-based pattern. It's a pattern for defining API endpoints. It's not a pattern for defining resources. You can use it to define RESTful resources, but you can also use it to define RPC-style endpoints. It's up to you.
+
+If you want to use REPR with REST-style resources, you'll simply want to include the appropriate resource's schema within the Request and Response types. For example, if you have a `Customer` resource, you might have a `GetCustomerRequest` and a `GetCustomerResponse` type. The Request type might include a client-generated `CustomerId` property, and the Response type would include the newly-created `Customer` resource as property (or a link to a route where it might be found). If you're using a tool like [AutoMapper](https://automapper.org/) you can easily map between your resource types and your Request and Response types.
 
 ## Learn More
 

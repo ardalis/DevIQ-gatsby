@@ -2,6 +2,7 @@
 title: "Feedback"
 date: "2014-11-26"
 description: Feedback is an Extreme Programming value.
+featuredImage: "./images/feedback.png"
 ---
 
 Feedback is an [Extreme Programming value](http://www.extremeprogramming.org/values.html):
