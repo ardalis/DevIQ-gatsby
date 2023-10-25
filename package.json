@@ -14,6 +14,7 @@
     "gatsby-plugin-canonical-urls": "^4.25.0",
     "gatsby-plugin-feed": "^4.25.0",
     "gatsby-plugin-google-analytics": "^4.25.0",
+    "gatsby-plugin-google-gtag": "4.25.0",
     "gatsby-plugin-google-tagmanager": "^4.25.0",
     "gatsby-plugin-image": "^2.25.0",
     "gatsby-plugin-local-search": "^2.0.1",
