@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npx playwright install --with-deps chromium && npm run build"
+  command = "npx playwright install && npm run build"
 [build.environment]
   NODE_VERSION = "18.15.0"
   NPM_FLAGS = "--legacy-peer-deps"
