@@ -20,12 +20,16 @@
       link: /design-patterns/domain-events-pattern
     - label: Facade
       link: /design-patterns/facade-pattern
+    - label: Factory Method
+      link: /design-patterns/factory-method-pattern
     - label: Guard Clause
       link: /design-patterns/guard-clause
     - label: Memento
       link: /design-patterns/memento-pattern
     - label: Null Object
       link: /design-patterns/null-object-pattern
+    - label: Object Mother
+      link: /design-patterns/object-mother-pattern
     - label: Repository
       link: /design-patterns/repository-pattern
     - label: REPR
