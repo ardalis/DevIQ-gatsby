@@ -24,6 +24,8 @@
       link: /design-patterns/memento-pattern
     - label: Null Object
       link: /design-patterns/null-object-pattern
+    - label: Object Mother
+      link: /design-patterns/object-mother-pattern
     - label: Repository
       link: /design-patterns/repository-pattern
     - label: REPR

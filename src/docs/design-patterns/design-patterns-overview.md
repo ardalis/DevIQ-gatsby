@@ -35,6 +35,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Model-View-Presenter (MVP)
 - Model-View-ViewModel (MVVM)
 - [Null Object](/design-patterns/null-object-pattern)
+- [Object Mother](/design-patterns/object-mother-pattern)
 - Observer
 - Prototype
 - [Proxy](https://www.pluralsight.com/courses/c-sharp-design-patterns-proxy)
