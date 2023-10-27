@@ -7,7 +7,7 @@ featuredImage: "./images/object-mother-pattern.png"
 
 The Object Mother pattern was [described by Martin Fowler](https://martinfowler.com/bliki/ObjectMother.html) as a catchy name for a factory that returns standard fixtures that can be used across multiple tests. The name itself was coined on a Thoughtworks project.
 
-The Object Mother pattern builds upon the [Factory pattern](/design-patterns/factory-pattern). The Object Mother pattern adds methods to customize the creation of objects, update the objects during testing, and enable object deletion from data storage. Object creation is handled in the Object Mother class, rather than within the tests.
+The Object Mother pattern builds upon the [Factory Method pattern](/design-patterns/factory-method-pattern). The Object Mother pattern adds methods to customize the creation of objects, update the objects during testing, and enable object deletion from data storage. Object creation is handled in the Object Mother class, rather than within the tests.
 
 For example, an Object Mother class for users - such as in [devBetter](https://devbetter.com) - could look something like this:
 
@@ -33,4 +33,4 @@ An alternative to the Object Mother pattern is the [Builder pattern](/design-pat
 ## See Also
 
 - [Builder Pattern](/design-patterns/builder-pattern)
-- [Factory Pattern](/design-patterns/factory-pattern)
+- [Factory Method Pattern](/design-patterns/factory-method-pattern)

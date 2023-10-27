@@ -18,6 +18,8 @@
       link: /design-patterns/domain-events-pattern
     - label: Facade
       link: /design-patterns/facade-pattern
+    - label: Factory Method
+      link: /design-patterns/factory-method-pattern
     - label: Guard Clause
       link: /design-patterns/guard-clause
     - label: Memento
