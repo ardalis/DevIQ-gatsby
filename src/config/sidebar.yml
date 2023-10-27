@@ -8,6 +8,8 @@
   items:
     - label: Overview
       link: /design-patterns/design-patterns-overview
+    - label: Abstract Factory
+      link: /design-patterns/abstract-factory-pattern
     - label: Adapter
       link: /design-patterns/adapter-design-pattern
     - label: Builder

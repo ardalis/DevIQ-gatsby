@@ -11,7 +11,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 
 **("!" indicates some that are often considered antipatterns)**
 
-- Abstract Factory
+- [Abstract Factory](/design-patterns/abstract-factory-pattern)
 - [Adapter](/design-patterns/adapter-design-pattern)
 - [Aggregate](/domain-driven-design/aggregate-pattern)
 - Bridge
