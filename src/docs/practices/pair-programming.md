@@ -2,6 +2,7 @@
 title: "Pair Programming"
 date: "2014-11-26"
 description: Pair Programming refers to the practice of having two people engaged together on a single programming task.
+featuredImage: "./images/pair-programming.png"
 ---
 
 Pair Programming refers to the practice of having two people engaged together on a single programming task.  It's an XP practice, and is employed by many agile (and non-agile) software development teams.  Even in traditional environments where pair programmnig is not the norm, it is still the go-to practice used whenever someone is faced with a difficult or frustrating bug, problem, or design decision.  Any time one programmer calls another over to have a look at something they're working on, they're practicing pair programming.

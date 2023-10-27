@@ -11,9 +11,8 @@ The Facade Pattern is used when you want a simpler interface for a subsystem of 
 
 For example, suppose you have an eCommerce system with a monolithic API. The API has endpoints for orders, invoices, customer profiles, products, product categories, store locations, and more. 
 
-![Monolith API with Get endpoints for the suggested entities.](./images/monolith-api.png)
+<!-- ![Monolith API with Get endpoints for the suggested entities.](./images/monolith-api.png) -->
 
-<!--
 ```mermaid
 ---
 title: eCommerce Monolith API example
@@ -36,15 +35,13 @@ class eCommerceAPIEndpoints {
     GetStoreLocation(storeId)
 }
 ```
--->
 
 Those are many subsystems. Some of those may be related, but having them all in one API violates the [KISS](/principles/keep-it-simple) and [separation of concerns](/principles/separation-of-concerns) principles. Facades embrace [simplicity](/values/simplicity).
 
 Suppose you have a client that needs to maintain the products on the site. Create a facade that makes it so that the client uses a facade that only deals with products and product categories. The client does not need to know that the other sections exist in the big ball of mud.
 
-![Product Facade - with only Get endpoints for product management](./images/product-facade.png)
+<!-- ![Product Facade - with only Get endpoints for product management](./images/product-facade.png)-->
 
-<!--
 ```mermaid
 ---
 title: Product Facade
@@ -57,7 +54,6 @@ class ProductEndpoints {
     GetProductCategory(categoryId)
 }
 ```
--->
 
 By creating this facade, the client does not need to be concerned with customer IDs, order IDs, or invoice IDs.
 
