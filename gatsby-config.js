@@ -12,6 +12,42 @@ module.exports = {
     basePath: `/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-mdx`,
+        options: {
+          extensions: [`.mdx`, `.md`],
+          gatsbyRemarkPlugins: [
+            {
+              resolve: `gatsby-remark-mermaid`,
+              options: /** @type {import('gatsby-remark-mermaid').Options} */ ({
+                mermaidConfig: {
+                  theme: 'neutral'                  
+                }
+              })
+            },
+            `gatsby-remark-autolink-headers`,
+            `gatsby-remark-embedder`,
+            {
+              resolve: `gatsby-remark-images`,
+              options: {
+                maxWidth: 960,
+                withWebp: true,
+                linkImagesToOriginal: false,
+              },
+            },
+            `gatsby-remark-responsive-iframe`,
+            `gatsby-remark-copy-linked-files`,
+          ],
+          plugins: [`gatsby-remark-autolink-headers`, `gatsby-remark-images`],
+    }
+  },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          "@weknow/gatsby-remark-twitter"]
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -21,6 +57,7 @@ module.exports = {
         docsPath: `src/docs`,
         repositoryUrl: `https://github.com/ardalis/DevIQ-gatsby`,
         baseDir: `/`,
+        withMdx: false
       },
     },
     {
@@ -172,6 +209,37 @@ module.exports = {
         // routeChangeEventName: "YOUR_ROUTE_CHANGE_EVENT_NAME",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "UA-470225-24", // Google Analytics / GA
+          // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
+          // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+        ],
+        // This object gets passed directly to the gtag config command
+        // This config will be shared across all trackingIds
+        gtagConfig: {
+          // optimize_id: "OPT_CONTAINER_ID",
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+          // Setting this parameter is also optional
+          respectDNT: true,
+          // Avoids sending pageview hits from custom paths
+          exclude: ["/deploy-preview/**"],
+          // Defaults to https://www.googletagmanager.com
+          // origin: "YOUR_SELF_HOSTED_ORIGIN",
+          // Delays processing pageview events on route update (in milliseconds)
+          // delayOnRouteUpdate: 0,
+        },
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -186,7 +254,7 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-analytics`, // TODO: This can probably be removed 
       options: {
         trackingId: `UA-470225-24`,
       },
@@ -198,13 +266,7 @@ module.exports = {
         siteUrl: `https://rocketdocs.netlify.com`,
       },
     },
-    `gatsby-plugin-offline`,
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: ["@weknow/gatsby-remark-twitter"]
-      }
-    },
+    `gatsby-plugin-offline`,    
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-netlify`,   
   ],

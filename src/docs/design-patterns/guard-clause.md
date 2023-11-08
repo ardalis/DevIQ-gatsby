@@ -118,6 +118,6 @@ Over time you can continue to add additional Guard helper methods for any other 
 
 ## References
 
-[Ardalis.GuardClauses](https://www.nuget.org/packages/Ardalis.GuardClauses) Nuget Package
-
-[Guard Clauses Podcast](http://www.weeklydevtips.com/004) (7 min)
+- [What are Guard Clauses (YouTube)](https://youtu.be/0ATjSblw9dY)
+- [Ardalis.GuardClauses](https://www.nuget.org/packages/Ardalis.GuardClauses) Nuget Package
+- [Guard Clauses (Podcast Episode)](http://www.weeklydevtips.com/004) (7 min)

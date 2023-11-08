@@ -8,18 +8,28 @@
   items:
     - label: Overview
       link: /design-patterns/design-patterns-overview
+    - label: Abstract Factory
+      link: /design-patterns/abstract-factory-pattern
     - label: Adapter
       link: /design-patterns/adapter-design-pattern
     - label: Builder
       link: /design-patterns/builder-pattern
     - label: CQRS
       link: /design-patterns/cqrs-pattern
+    - label: Domain Events Pattern
+      link: /design-patterns/domain-events-pattern
     - label: Facade
       link: /design-patterns/facade-pattern
+    - label: Factory Method
+      link: /design-patterns/factory-method-pattern
     - label: Guard Clause
       link: /design-patterns/guard-clause
+    - label: Memento
+      link: /design-patterns/memento-pattern
     - label: Null Object
       link: /design-patterns/null-object-pattern
+    - label: Object Mother
+      link: /design-patterns/object-mother-pattern
     - label: Repository
       link: /design-patterns/repository-pattern
     - label: REPR
@@ -38,6 +48,8 @@
   items:
     - label: Overview
       link: /practices/practices-overview
+    - label: Behavior Driven Development
+      link: /practices/behavior-driven-development
     - label: Code Readability
       link: /practices/code-readability
     - label: Collective Code Ownership
@@ -274,16 +286,26 @@
       link: /laws/laws-overview
     - label: Amara's Law
       link: /laws/amaras-law
+    - label: Amdahl's Law
+      link: /laws/amdahls-law
+    - label: Anderson's Law
+      link: /laws/andersons-law
     - label: Brooks's Law
       link: /laws/brooks-law
     - label: Conway's Law
       link: /laws/conways-law
     - label: Cunningham's Law
       link: /laws/cunninghams-law
+    - label: Law of Demeter
+      link: /laws/law-of-demeter
     - label: Law of Diminishing Returns
       link: /laws/law-of-diminishing-returns
     - label: DRY
       link: /principles/dont-repeat-yourself
+    - label: Gall's Law
+      link: /laws/galls-law
+    - label: Linus's Law
+      link: /laws/linus-law
     - label: Murphy's Law
       link: /laws/murphys-law
     - label: Postel's Law

@@ -11,7 +11,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 
 **("!" indicates some that are often considered antipatterns)**
 
-- Abstract Factory
+- [Abstract Factory](/design-patterns/abstract-factory-pattern)
 - [Adapter](/design-patterns/adapter-design-pattern)
 - [Aggregate](/domain-driven-design/aggregate-pattern)
 - Bridge
@@ -20,20 +20,22 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Command
 - Composite
 - Decorator
+- [Domain Events](/design-patterns/domain-events-pattern)
 - [Entity](/domain-driven-design/entity)
 - Event Aggregator
 - [Facade](/design-patterns/facade-pattern)
-- Factory Method
+- [Factory Method](/design-patterns/factory-method-pattern)
 - Flyweight
 - Interpreter
 - Iterator
 - Lazy Load
 - Mediator
-- [Memento](https://www.pluralsight.com/courses/c-sharp-design-patterns-memento)
+- [Memento](/design-patterns/memento-pattern)
 - Model-View-Controller (MVC)
 - Model-View-Presenter (MVP)
 - Model-View-ViewModel (MVVM)
 - [Null Object](/design-patterns/null-object-pattern)
+- [Object Mother](/design-patterns/object-mother-pattern)
 - Observer
 - Prototype
 - [Proxy](https://www.pluralsight.com/courses/c-sharp-design-patterns-proxy)
@@ -47,6 +49,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Strangler Fig](/design-patterns/strangler-fig-pattern)
 - [Strategy](/design-patterns/strategy-pattern)
 - [Template Method](https://www.pluralsight.com/courses/c-sharp-design-patterns-template-method)
+- [Token](/design-patterns/memento-pattern)
 - Unit of Work
 - [Value Object](/domain-driven-design/value-object)
 - Visitor

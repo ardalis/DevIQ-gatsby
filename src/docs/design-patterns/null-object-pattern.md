@@ -9,7 +9,7 @@ The Null Object Pattern was first described in the [Pattern Languages of Program
 
 For instance, consider a call center application that looks up customers based on their phone number:
 
-```java
+```csharp
 public Customer GetByPhoneNumber(string phoneNumber)
 {
   return _customerRepository
