@@ -4,9 +4,12 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace",
   "remoteUser": "node",
   "mounts": [
     "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
   ],
-  "postCreateCommand": "sudo chown node node_modules"
+  "runArgs": ["--name","deviq_gatsby_devcontainer"],
+  "postCreateCommand": "sudo chown node ${containerWorkspaceFolder}/node_modules && sudo npm install --legacy-peer-deps && sudo npm install @playwright/test --legacy-peer-deps && sudo npm install -g gatsby-cli --unsafe-perm=true --allow-root && sudo npx playwright install --with-deps chromium"
 }
