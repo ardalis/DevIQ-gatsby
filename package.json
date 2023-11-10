@@ -7,7 +7,6 @@
   "license": "MIT",
   "starter-name": "gatsby-starter-rocket-docs",
   "dependencies": {
-    "@playwright/test": "^1.39.0",
     "@rocketseat/gatsby-theme-docs": "^3.2.0",
     "@weknow/gatsby-remark-twitter": "^0.2.3",
     "caniuse-lite": "^1.0.30001522",
@@ -53,5 +52,8 @@
   },
   "engines": {
     "node": "18.15.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.39.0"
   }
 }
