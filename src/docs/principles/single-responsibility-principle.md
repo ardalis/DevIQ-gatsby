@@ -35,8 +35,6 @@ https://twitter.com/keburnell/status/50898826168516608
 
 https://twitter.com/venkat_s/status/123038464332673024
 
-https://twitter.com/hotgazpacho/status/127000772847222785
-
 https://twitter.com/mfeathers/status/359703449920733184
 
 ## See Also
