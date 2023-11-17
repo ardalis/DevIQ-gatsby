@@ -34,6 +34,8 @@
       link: /design-patterns/repository-pattern
     - label: REPR
       link: /design-patterns/repr-design-pattern
+    - label: Rules Engine
+      link: /design-patterns/rules-engine-pattern
     - label: Singleton
       link: /design-patterns/singleton
     - label: Specification
