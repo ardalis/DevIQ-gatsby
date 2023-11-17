@@ -60,10 +60,46 @@ These are some of the benefits for using Chain of Responsibility Pattern:
 
 These are some common uses for the Chain of Responsibility pattern.
 
-- **Authentication**: Authentication handlers can use the Chain of Responsibility pattern to allow different types of credentials to be accepted. An example of this is [the ChainedTokenCredential in .NET](https://learn.microsoft.com/en-us/dotnet/api/azure.identity.chainedtokencredential?view=azure-dotnet).
+- **Authentication**: Authentication handlers can use the Chain of Responsibility pattern to allow different types of credentials to be accepted. 
 - **Event Handling**: A chain of event handlers can be used to respond to different types of domain events. This is a practice that can be seen in Domain-Driven Design.
 - **Workflow**: A chain of workflow steps can be used to execute tasks of an automated business process in a particular sequence.
 - **Authorization**: A chain of authorization handlers can be used to check whether a user has permissions to a process. This can be used for granular access control policies.
+
+## Chain of Responsibility Pattern in .NET
+
+There have been questions on where you can see the Chain of Responsibility in .NET.
+We're going to cover 3 cases - ASP.NET Core middleware, MediatR and its pipelines, and ChainedTokenCredential.
+
+### ASP.NET Core Middleware
+
+The ASP.NET Core middleware layer is made up of many handlers to process requests. The handlers that are loaded in the middleware layer are configured in `Program.cs`. The order they are added in the Program file is the order that a request is handled. This is how the chain of responsibility is built.
+
+There is a defined order for some of the middleware, seen [in this document on the middleware fundamentals for ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0#middleware-order).
+
+### Mediatr and Pipeline Behaviors
+
+MediatR implements the Chain of Responsibility pattern through its use of pipelines. Pipelines are a set of behaviors that are executed before and after a request is handled by its corresponding handler. Each behavior in the pipeline has the opportunity to intercept the request, modify it, or even prevent it from reaching the handler.
+
+When a request is sent to MediatR, it is first passed through the pipeline for the specific request type. Each behavior in the pipeline has the opportunity to intercept the request and perform its desired actions. If a behavior decides to handle the request, it can return a response, and the pipeline terminates. Otherwise, the behavior can call HandleNext() to pass the request to the next behavior in the chain.
+
+### ChainedTokenCredential
+
+An example of using the Chain of Responsibility for authentication is [the ChainedTokenCredential in .NET](https://learn.microsoft.com/en-us/dotnet/api/azure.identity.chainedtokencredential?view=azure-dotnet).
+
+This allows you to configure which types of token credentials to be checked in order to access resources. The DefaultAzureCredential class is already a [pre-configured chain](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/identity-readme?view=azure-dotnet#defaultazurecredential). The ChainedTokenCredential gives you the granular approach of specifying which of these TokenCredentials (or custom implementations of the TokenCredential class) should be checked. You specify the order of the chain as part of the constructor.
+
+This is an example of using the ChainedTokenCredential:
+
+```csharp
+public CosmosHelper()
+{
+    ChainedTokenCredential credential = new ChainedTokenCredential(new AzureCliCredential(),new ManagedIdentityCredential());
+
+    client = new(
+        accountEndpoint: CosmosUri,
+        tokenCredential: credential);
+}
+```
 
 ## References
 
