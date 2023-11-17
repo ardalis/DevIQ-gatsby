@@ -14,6 +14,8 @@
       link: /design-patterns/adapter-design-pattern
     - label: Builder
       link: /design-patterns/builder-pattern
+    - label: Chain of responsibility
+      link: /design-patterns/chain-of-responsibility-pattern
     - label: CQRS
       link: /design-patterns/cqrs-pattern
     - label: Domain Events Pattern

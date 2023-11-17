@@ -16,7 +16,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Aggregate](/domain-driven-design/aggregate-pattern)
 - Bridge
 - [Builder](/design-patterns/builder-pattern)
-- Chain of Responsibility
+- [Chain of Responsibility](/design-patterns/chain-of-responsibility-pattern)
 - Command
 - Composite
 - Decorator

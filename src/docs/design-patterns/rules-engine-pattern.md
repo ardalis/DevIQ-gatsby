@@ -4,10 +4,9 @@ date: "2023-11-17"
 description: "The Rules Engine pattern allows complex business rules to be defined, managed, and applied outside of the main application code."
 featuredImage: "./images/rules-engine-pattern.png"
 ---
-The Rules Engine Pattern is classified as a behavioral design pattern, as noted in the _Design Patterns_ book by the Gang of Four.
-This pattern is a design pattern that allows developers to define and manage complex business rules outside of the main application code. It encapsulates the logic for evaluating these rules and applying them to data, making it easier to modify and maintain the rules without affecting the underlying code.
+The Rules Engine Pattern is classified as a behavioral design pattern, as noted in the _Design Patterns_ book by the Gang of Four. This pattern is a design pattern that allows developers to define and manage complex business rules outside of the main application code. It encapsulates the logic for evaluating these rules and applying them to data, making it easier to modify and maintain the rules without affecting the underlying code.
 
-The Rules Engine Pattern has three parts - the rules engine, a collection of rules, and an input to which the rules need applied. 
+The Rules Engine Pattern has three components - the rules engine, a collection of rules, and an input to which the rules need applied. 
 
 A **rules engine** processes a set of rules and applies the rules to generate a result. A **rule** describes a condition and may calculate a value.
 
@@ -54,14 +53,24 @@ Rule--|>AbstractRule
 
 ## Sample Logic that Could Benefit from the Rules Engine Pattern
 
-If you think you would want to process this as a series of `if` statements, that is an option. However, the Rules Engine may make more sense.
+This is sample logic for the rules engine pattern using an online shop:
+
+- All books in the Technology category are 25% off.
+- All books for Publisher A are also running a deal of 20% off.
+- All books released this month and this year are on sale with a 15% off discount.
+- Customers who are subscribed to our newsletter may have a special custom discount count to take 30% off for their loyalty.
+- If a cart has the discount code FREESHIP, then shipping is free.
+
+If you think you would want to process this as a series of `if` statements, that is an option. However, the Rules Engine pattern may make more sense.
 
 ## Refactoring Guidance for this Pattern
 
-- Extract the individual `if` conditions into methods.
-- Convert the methods into rules.
-- Create the Rules Engine to evaluate the rules.
-- Replace the old `if` stack with a call to the Rules Engine.
+If you do have logic similar to the above with a series of `if` statements for processing, you can refactor your code towards the Rule Engine pattern using these steps:
+
+1. Extract the individual `if` conditions into methods.
+2. Convert the methods into rules.
+3. Create the Rules Engine to evaluate the rules.
+4. Replace the old `if` stack with a call to the Rules Engine.
 
 ## Guidance for Rules for a Rules Engine
 
@@ -83,20 +92,20 @@ When implementing the rules engine:
 ## Related Patterns
 
 - [Specification Pattern](/design-patterns/specification-pattern) - separate query logic from your application
-- Chain of Responsibility - used for sequencing the rules for processing
+- [Chain of Responsibility](/design-patterns/chain-of-responsibility-pattern) - used for sequencing the rules for processing
 - [Strategy Pattern](/design-patterns/strategy-pattern) - encapsulate rule execution strategies
 - Command - encapsulate rule actions as discrete commands for testability and separation of concerns
 - Observer - can be used to notify parties when rules are triggered or applied
 
 ## Frequently Asked Questions
 
-**Is it violating Open Closed principle if the rule returns a value that includes extra information?** I've got a combination of First match and aggregation.
+❓ **Is it violating Open Closed principle if the rule returns a value that includes extra information? I've got a combination of First match and aggregation.**
 
 No that’s probably fine. If your engine code gets too complex maybe you create types representing the different kinds of rules and/or their results that let you Replace Conditional with Polymorphism.
 
-**In the case of ordered rules, is it wrong to pass (and change) contextual information from one rule to the next?**
+❓**In the case of ordered rules, is it wrong to pass (and change) contextual information from one rule to the next?**
 
-This isn't wrong, but Chain of Responsibility might be a better fit.
+This isn't wrong, but [Chain of Responsibility](/design-patterns/chain-of-responsibility-pattern) might be a better fit.
 
 ## References
 
