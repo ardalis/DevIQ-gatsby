@@ -16,7 +16,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Aggregate](/domain-driven-design/aggregate-pattern)
 - Bridge
 - [Builder](/design-patterns/builder-pattern)
-- Chain of Responsibility
+- [Chain of Responsibility](/design-patterns/chain-of-responsibility-pattern)
 - Command
 - Composite
 - Decorator
@@ -41,7 +41,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Proxy](https://www.pluralsight.com/courses/c-sharp-design-patterns-proxy)
 - [Repository](/design-patterns/repository-pattern) (and [CachedRepository](http://ardalis.com/introducing-the-cachedrepository-pattern))
 - [REPR](/design-patterns/repr-design-pattern)
-- [Rules Engine](https://www.pluralsight.com/courses/c-sharp-design-patterns-rules-pattern)
+- [Rules Engine](/design-patterns/rules-engine-pattern)
 - [Singleton](/design-patterns/singleton) (!)
 - Service Locator (!)
 - [Specification](/design-patterns/specification-pattern)
