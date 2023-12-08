@@ -5,6 +5,7 @@ description: Strategic design is essential for establishing a solid foundation f
 featuredImage: "./images/strategic-design.png"
 ---
 
+<!-- 
 ```mermaid
 mindmap
   root((Strategic Design))
@@ -22,6 +23,9 @@ mindmap
           Solution domain
         Bounded Context
 ```
+-->
+
+![Strategic Design mindmap](./images/strategic-design.png)
 
 In DDD, there are 2 phases for modeling the domain - strategic design and tactical design. **Strategic Design** starts the domain modeling with the high-level overview of the domain. Strategic design is essential for establishing a solid foundation for your domain model in DDD.
 

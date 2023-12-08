@@ -5,6 +5,7 @@ description: Tactical design helps you realize the strategic design in a concret
 featuredImage: "./images/tactical-design.png"
 ---
 
+<!--
 ```mermaid
 mindmap
   root((Tactical Design))
@@ -22,6 +23,9 @@ mindmap
         Specification
         Value Object
 ```
+-->
+
+![Tactical Design mindmap](./images/tactical-design.png)
 
 In DDD, there are 2 phases for modeling the domain - strategic design and tactical design. **Tactical Design** starts with the conceptual domain model from the strategic phase and gets into the low-level implementation details. It takes the concept and makes it concrete.
 
