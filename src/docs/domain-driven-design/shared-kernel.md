@@ -1,7 +1,7 @@
 ---
 title: "Shared Kernel in DDD"
 date: "2023-12-07"
-description: 
+description: In DDD, a Shared Kernel is a special type of Bounded Context that contains code and data shared across multiple bounded contexts within the same domain.
 featuredImage: "./images/shared-kernel.png"
 ---
 
@@ -17,7 +17,6 @@ These are elements of a shared kernel:
 - **Data Structures**: This includes common data structures like entities, enums, data transfer objects (DTOs), and domain events.
 - **Integration Contracts**: These define the interfaces for communication and data exchange between bounded contexts.
 - **Infrastructure Components**: In some cases, shared libraries or framework components used by multiple contexts might be included.
-
 
 ## An Example of a Shared Kernel
 

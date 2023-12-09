@@ -1,7 +1,7 @@
 ---
 title: "Tactical Design in DDD"
 date: "2023-12-07"
-description: Tactical design helps you realize the strategic design in a concrete and efficient way.
+description: Tactical Design starts with the conceptual domain model from the strategic phase and gets into the low-level implementation details.
 featuredImage: "./images/tactical-design.png"
 ---
 
