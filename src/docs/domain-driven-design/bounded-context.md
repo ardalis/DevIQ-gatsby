@@ -1,6 +1,6 @@
 ---
 title: "Bounded Context"
-date: "2023-07-25"
+date: "2023-12-08"
 description: A bounded context is a concept from Domain-Driven Design that establishes boundary within a domain and contains models related to that context.
 featuredImage: "./images/bounded-context.png"
 ---
@@ -11,14 +11,47 @@ A domain may have multiple bounded contexts within its environment. Each bounded
 
 ## eCommerce example of bounded contexts
 
-When thinking of developing an online store, these are some of the boundaries that you may see:
+This is an example of a context map showing bounded contexts that may be in an eCommerce system and how they interact.
 
-- Product Management
-- Order Management
-- Customer Management
-- Delivery Management
-- Payment Processing
-- Tax Management
+The bounded contexts include:
+
+- Catalog
+- Content Management
+- Customer
+- Fraud Detection
+- Inventory Management
+- Marketing
+- Order
+- Product Recommendation
+
+```mermaid
+graph LR
+A[Catalog] --> B[Order]
+C[Customer] --> B
+D[Content Management] --> A
+E[Product Recommendation] --> B
+F[Marketing] --> B
+G[Fraud Detection] --> B
+H[Inventory Management] --> B
+
+subgraph "`**Partnership**`"
+A --> B
+B --> A
+C --> B
+D --> A
+end
+
+subgraph "`**Upstream/Downstream**`"
+E --> B
+F --> B
+G --> B
+H --> B
+end
+
+subgraph "`**Nonrelated**`"
+F --> C
+end
+```
 
 ## References
 
