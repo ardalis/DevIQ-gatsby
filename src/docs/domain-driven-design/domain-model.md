@@ -11,7 +11,7 @@ A **domain model** in DDD is a conceptual representation of the core concepts, e
 
 The evolution of a domain model happens in 2 phases: [strategic design](/domain-driven-development/strategic-design) and [tactical design](/domain-driven-development/tactical-design).
 
-Think of strategic design as building the blueprint of your domain model. Conversations are had to help build a conceptual domain model. Tactical design is the implementation of the blueprint, including all the details that fill the conceptual domain model.
+Think of strategic design as building the blueprint of your domain model. Conversations help build a conceptual domain model during the strategic design phase. Tactical design is the implementation of the blueprint, including all the details that fill the conceptual domain model.
 
 While strategic design is often collaborative and involves domain experts, tactical design typically falls to developers and architects.
 
