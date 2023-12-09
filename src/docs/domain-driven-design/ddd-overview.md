@@ -11,9 +11,9 @@ Domain Driven Design, first introduced by Eric Evans in 2003, is a software desi
 
 - [Anemic Model](/domain-driven-design/anemic-model)
 - [Anti-Corruption Layer](/domain-driven-design/anti-corruption-layer)
+- [Bounded Context](/domain-driven-design/bounded-context)
 - [Domain](/domain-driven-design/domain)
 - [Domain Model](/domain-driven-design/domain-model)
-- [Bounded Context](/domain-driven-design/bounded-context)
 - [Entity](/domain-driven-design/entity)
 - [Strategic Design](/domain-driven-design/strategic-design)
 - [Subdomain](/domain-driven-design/subdomain)
@@ -26,6 +26,7 @@ Domain Driven Design, first introduced by Eric Evans in 2003, is a software desi
 - [Aggregate Pattern](/domain-driven-design/aggregate-pattern)
 - [CQRS Pattern](/design-patterns/cqrs-pattern)
 - [Repository Pattern](/design-patterns/repository-pattern)
+- [Shared Kernel](/domain-driven-design/shared-kernel)
 - [Specification Pattern](/design-patterns/specification-pattern)
 
 ## DDD Practices

@@ -270,8 +270,12 @@
       link: /domain-driven-design/entity
     - label: EventStorming
       link: /domain-driven-design/eventstorming
+    - label: Shared Kernel
+      link: /domain-driven-design/shared-kernel
     - label: Strategic Design
       link: /domain-driven-design/strategic-design
+    - label: Subdomain
+      link: /domain-driven-design/subdomain
     - label: Tactical Design
       link: /domain-driven-design/tactical-design
     - label: Ubiquitous Language
