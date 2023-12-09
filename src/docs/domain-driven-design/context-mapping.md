@@ -1,6 +1,6 @@
 ---
 title: "Context Mapping"
-date: "2023-08-08"
+date: "2023-12-08"
 description: Context Mapping enables seeing how bounded contexts integrate with each other.
 featuredImage: "./images/context-mapping.png"
 ---
@@ -19,15 +19,36 @@ There are three common team relationships:
 
 In a partnership, the maintainers of both bounded contexts are aligned with a common set of goals. These teams must collaborate and communicate in order to be successful.
 
+```mermaid
+graph LR
+A[Bounded Context A] --> B[Bounded Context B]
+B --> A
+```
+
 ### Upstream/Downstream
 
 The Upstream/Downstream relationship means that the effects of the Upstream team are felt by the Downstream team. However, changes made by the Downstream team do not significantly impact the Upstream.
 
 Think of a Publisher/Subscriber (PubSub) relationship. When a publisher publishes messages, the subscribers all retrieve their messages. If a subscriber changes how they handle a message, the other subscribers and the publisher aren't impacted by those changes. However, if the publisher publishes the message in a different format, all subscribers are impacted by that change.
 
+```mermaid
+graph LR
+Pub["Publisher (upstream)"]
+Pub --> Sub1["Subscriber 1 (downstream)"]
+Pub --> Sub2["Subscriber 2 (downstream)"]
+Pub --> Sub3["Subscriber 3 (downstream)"]
+```
+
 ### Nonrelated
 
 When the teams maintaining two bounded contexts are independent, they may be seen as nonrelated. Another term that you may see is "Free". Just as the bounded contexts aren't linked, the teams do not need to be linked either.
+
+```mermaid
+graph LR
+A[Bounded Context A]
+B[Bounded Context B]
+C[Bounded Context C]
+```
 
 ## Context Map Patterns
 
