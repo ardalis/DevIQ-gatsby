@@ -21,9 +21,7 @@ These are elements of a shared kernel:
 
 ## An Example of a Shared Kernel
 
-In the following example, these are some of the subdomains and shared kernel of a Library Management System.
-
-These are subdomains:
+These are subdomains that may be seen in a Library Management System domain:
 - Reporting
 - Catalog
 - Circulation
@@ -31,8 +29,6 @@ These are subdomains:
 For this example, we are treating each of the subdomains as separate bounded contexts.
 
 Let's take a look at these components.
-
-###  Shared Kernel
 
 These are some of the entities and value objects that may be found in a library managment system's shared kernel since they could be referred to in multiple bounded contexts:
 
