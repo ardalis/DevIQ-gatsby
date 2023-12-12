@@ -284,6 +284,8 @@
       link: /domain-driven-design/value-object
 - label: Tools
   items:
+    - label: Overview
+      link: /tools/tools-overview
     - label: Build Server
       link: /tools/build-server
     - label: Version Control
