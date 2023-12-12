@@ -38,3 +38,9 @@ gatsby develop
 ```
 
 This will build the site and watch the folder for changes, automatically updating as changes are detected.
+
+## Exporting Mermaid Diagrams to SVG
+
+You can use [mermaid-cli](https://github.com/mermaid-js/mermaid-cli) to convert Mermaid diagrams to SVG. **This is how we create Mermaid graphs with links.**
+
+SVG is XML under the covers and can be styled and edited.

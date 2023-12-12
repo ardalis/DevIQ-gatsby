@@ -1,6 +1,6 @@
 ---
 title: "Value Object"
-date: "2021-02-16"
+date: "2023-12-08"
 description: A Value Object is an immutable type that is distinguishable only by the state of its properties.
 featuredImage: "./images/value-object.png"
 ---
@@ -41,12 +41,14 @@ Although record types in C# offer immutability, a key feature of value objects, 
 
 ## References
 
-[An Extensive Tutorial Using Value Objects](https://leanpub.com/tdd-ebook/read#leanpub-auto-value-objects)
+- [Domain-Driven Design Fundamentals (Pluralsight)](https://www.pluralsight.com/courses/domain-driven-design-fundamentals)
+- 
+- [Implement value objects (Microsoft Learn)](https://learn.microsoft.com/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects)
 
-[Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
+- [An Extensive Tutorial Using Value Objects](https://leanpub.com/tdd-ebook/read#leanpub-auto-value-objects)
 
-[Value Types in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)
+- [Value Types in C#](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/value-types)
 
-[Reference Types in C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)
+- [Reference Types in C#](https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/reference-types)
 
-[C# 9 Records as DDD Value Objects](https://enterprisecraftsmanship.com/posts/csharp-records-value-objects/)
+- [C# 9 Records as DDD Value Objects](https://enterprisecraftsmanship.com/posts/csharp-records-value-objects/)

@@ -252,20 +252,32 @@
       link: /domain-driven-design/ddd-overview
     - label: Aggregate
       link: /domain-driven-design/aggregate-pattern
-    - label: Anti-Corruption Layer
-      link: /domain-driven-design/anti-corruption-layer
     - label: Anemic Model
       link: /domain-driven-design/anemic-model
+    - label: Anti-Corruption Layer
+      link: /domain-driven-design/anti-corruption-layer    
     - label: Bounded Context
       link: /domain-driven-design/bounded-context
     - label: Context Mapping
       link: /domain-driven-design/context-mapping
+    - label: Domain
+      link: /domain-driven-design/domain
+    - label: Domain Model
+      link: /domain-driven-design/domain-model
     - label: Domain Storytelling
       link: /domain-driven-design/domain-storytelling
     - label: Entity
       link: /domain-driven-design/entity
     - label: EventStorming
       link: /domain-driven-design/eventstorming
+    - label: Shared Kernel
+      link: /domain-driven-design/shared-kernel
+    - label: Strategic Design
+      link: /domain-driven-design/strategic-design
+    - label: Subdomain
+      link: /domain-driven-design/subdomain
+    - label: Tactical Design
+      link: /domain-driven-design/tactical-design
     - label: Ubiquitous Language
       link: /domain-driven-design/ubiquitous-language
     - label: Value Object
