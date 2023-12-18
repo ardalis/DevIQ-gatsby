@@ -300,6 +300,12 @@
       link: /terms/kinds-of-models
     - label: Technical Debt
       link: /terms/technical-debt
+- label: Testing
+  items:
+    - label: Overview
+      link: /testing/testing-overview
+    - label: Arrange-Act-Assert
+      link: /testing/arrange-act-assert
 - label: Laws
   items:
     - label: Overview
