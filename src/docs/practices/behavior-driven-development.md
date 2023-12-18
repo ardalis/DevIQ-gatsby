@@ -1,7 +1,7 @@
 ---
 title: "Behavior Driven Development"
-date: "2023-10-15"
-description: 
+date: "2023-12-18"
+description: Behavior Driven Development (BDD) is a software development practice that focuses on defining the behavior of a software system in a way that's easy to understand for both technical and non-technical stakeholders.
 featuredImage: "./images/behavior-driven-development.png"
 ---
 Behavior Driven Development (BDD) is a software development practice that focuses on defining the behavior of a software system in a way that's easy to understand for both technical and non-technical stakeholders. It's a [whole team activity](/practices/whole-team-activity) that encourages collaboration among developers, testers, and business stakeholders by using plain language descriptions of how a system should behave.
@@ -75,7 +75,7 @@ Feature: Online Checkout
 
 ### Automated Testing
 
-One of the key aspects of BDD is the automation of tests based on the scenarios. The features, user stories, and scenarios are written in a domain-specific language such as Gherkin with consistency to make it easier to automate. Automated testing ensures that the software behaves according to the defined scenarios.
+One of the key aspects of BDD is its use in [testing](/testing/testing-overview). By using libraries to map the Gherkin to code, the behavior-driven tests can be automated. The features, user stories, and scenarios are written in a domain-specific language such as Gherkin with consistency to make it easier to automate. Automated testing ensures that the software behaves according to the defined scenarios.
 
 Gherkin allows support for variables within each step of the Scenario in the plain language documentation through a feature called Scenario Outlines.
 
@@ -120,4 +120,5 @@ In a nutshell, Behavior Driven Development is all about defining and automating 
 
 ## See Also
 
-- [Test Driven Development](/practices/test-driven-development)
+- [Test-Driven Development](/practices/test-driven-development)
+- [Testing - Overview](/testing/testing-overview)
