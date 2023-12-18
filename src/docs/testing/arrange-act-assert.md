@@ -37,3 +37,64 @@ These are some benefits of following the Arrange-Act-Assert pattern within your 
 - **Enhanced Maintainability**: Changes in test logic are contained within specific sections, making updates and debugging simpler.
 - **Reduced Redundancy**: The pattern encourages concise and focused tests, minimizing unnecessary code repetition.
 - **Increased Reusability**: Components of the Arrange and Act sections can be reused across different tests, saving time and effort.
+
+## Arrange-Act-Assert in Action
+
+Let's look at Arrange-Act-Assert in action.
+
+Suppose we have a calculator class that looks like this:
+
+```csharp
+public class Calculator {
+    public int Add(int num1, int num2){
+        return num1 + num2;
+    }
+}
+```
+
+Now let's test this. Given I have a calculator object, two input numbers, and an expected value:
+
+```csharp
+public void ShouldAddTwoNumbers(){
+    // Arrange
+    Calculator calc = new();
+    int num1 = 3;
+    int num2 = 5;
+    int expectedValue = 8;
+    // Act
+    // Assert
+}
+```
+
+When I call `Add` with my given inputs and capture the result in a variable called `actualOutput`:
+
+```csharp
+public void ShouldAddTwoNumbers(){
+    // Arrange
+    Calculator calc = new();
+    int num1 = 3;
+    int num2 = 5;
+    int expectedValue = 8;
+    // Act
+    var actualOutput = calc.Add(num1,num2);
+    // Assert
+}
+```
+
+Then I should assert that the actual output matches the expected value:
+
+```csharp
+public void ShouldAddTwoNumbers(){
+    // Arrange
+    Calculator calc = new();
+    int num1 = 3;
+    int num2 = 5;
+    int expectedValue = 8;
+    // Act
+    var actualOutput = calc.Add(num1,num2);
+    // Assert
+    Assert.AreEqual(expectedValue, actualOutput);
+}
+```
+
+Notice that we left the comments in the code for you to see each step. As you adopt this pattern in your code, you may want to use comments to remind you of the pattern. Eventually, you will write tests without those comments.
