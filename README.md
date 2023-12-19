@@ -8,6 +8,13 @@ If you don't have Node, NPM, or Gatsby installed locally, don't panic! We have [
 
 The [Dockerfile](./.devcontainer/Dockerfile) starts with a Node image that we need for this repo. It also installs the Gatsby CLI tooling.
 
+## Local Dependencies
+
+If you do want to run this locally and not within a dev container, you will want to have the following installed:
+
+- [Gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli/#how-to-use-gatsby-cli)
+- [Node v.20.10.0](https://nodejs.org/en/download) - You can also use [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) and have it download `20.10.0`.
+
 ## Build Locally
 
 To build locally, install the gatsby command line tools:

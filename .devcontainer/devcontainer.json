@@ -11,6 +11,6 @@
     "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
   ],
   "runArgs": ["--name","deviq_gatsby_devcontainer"],
-  "postCreateCommand": "sudo chown node ${containerWorkspaceFolder}/node_modules && sudo npm install --legacy-peer-deps && sudo npx playwright install-deps",
-  "postStartCommand": "npx playwright install && gatsby clean && gatsby build"
+  "postCreateCommand": "sudo chown node ${containerWorkspaceFolder}/node_modules",
+  "postStartCommand": "sudo npm install --legacy-peer-deps && sudo npx playwright install-deps && npx playwright install"
 }
