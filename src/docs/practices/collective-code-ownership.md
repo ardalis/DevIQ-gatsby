@@ -7,7 +7,7 @@ featuredImage: "./images/CollectiveCodeOwnership-400x400.png"
 
 ![Collective Code Ownership](./images/CollectiveCodeOwnership-400x400.png)
 
-Collective code ownership breaks down fiefdoms within an application's codebase. Nobody "owns" a particular part of the code. Everyone on the team is responsible for all of the code.  This enables [pair programming](/practices/pair-programming/) and [refactoring](/practices/refactoring/) by the [whole team](/practices/whole-team/). It also reduces the project's [bus factor](/terms/bus-factor/).
+Collective code ownership breaks down fiefdoms within an application's codebase. Nobody "owns" a particular part of the code. Everyone on the team is responsible for all of the code.  This enables [pair programming](/practices/pair-programming/) and [refactoring](/practices/refactoring/) by the [whole team](/practices/whole-team/). It also increases the project's [bus factor](/terms/bus-factor/).
 
 This goes against traditional, cynical, job security advice. Writing cryptic code that only you can understand would seem to make you difficult to replace, improving job security. However such practices are detrimental to the project and the team, and developers who are able to work effectively in teams and who can deliver quality results will always be more in demand than those whose code is obtuse and difficult to understand for the sake of being difficult (or clever).
 
