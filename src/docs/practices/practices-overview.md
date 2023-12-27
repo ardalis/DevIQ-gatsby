@@ -8,6 +8,8 @@ Good coding practices are important to good code. They can help to guide program
 
 ## Practices
 
+- [Authentication](/practices/authentication)
+- [Authorization](/practices/authorization)
 - [Behavior Driven Development](/practices/behavior-driven-development)
 - [Code Readability](/practices/code-readability)
 - [Collective Code Ownership](/practices/collective-code-ownership)
