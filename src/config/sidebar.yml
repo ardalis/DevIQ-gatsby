@@ -51,7 +51,11 @@
 - label: Practices
   items:
     - label: Overview
-      link: /practices/practices-overview
+      link: /practices/practices-overview      
+    - label: Authentication
+      link: /practices/authentication
+    - label: Authorization
+      link: /practices/authorization
     - label: Behavior Driven Development
       link: /practices/behavior-driven-development
     - label: Code Readability
