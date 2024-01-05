@@ -2,6 +2,7 @@
 title: "Principle of Least Astonishment: A Software Design Guideline"
 date: "2023-04-26"
 description: The Principle of Least Astonishment (POLA), also known as the Principle of Least Surprise, is a software design guideline that emphasizes the importance of designing software systems in a way that minimizes confusion and unexpected behavior for users and developers. 
+featuredImage: "./images/principle-of-least-astonishment.png"
 ---
 
 ## Introduction

@@ -2,6 +2,7 @@
 title: "Encapsulation"
 date: "2015-06-19"
 description: Encapsulation refers to the idea that objects should manage their own behavior and state, so that their collaborators need not concern themselves with the object's inner workings.
+featuredImage: "./images/encapsulation.png"
 ---
 
 Encapsulation refers to the idea that objects should manage their own behavior and state, so that their collaborators need not concern themselves with the object's inner workings. Object-oriented programming languages provide built-in support to control the visibility of class-level structures, and developers should use these constructs to differentiate between objects' public and non-public interfaces. Failure to properly apply the principle of encapsulation to object-oriented designs leads to many related code smells and design problems, such as violating [Don't Repeat Yourself](/principles/dont-repeat-yourself/), [Tell Don't Ask](/principles/tell-dont-ask/), and [Flags Over Objects](/antipatterns/flags-over-objects/), to name a few.
