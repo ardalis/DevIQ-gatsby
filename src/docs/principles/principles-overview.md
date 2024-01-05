@@ -2,6 +2,7 @@
 title: "Principles"
 date: "2020-12-22"
 description: "Following good principles consistently is important to good code."
+featuredImage: "./images/principles-overview.png"
 ---
 
 Consistently following good principles is important to good code. This means applying coding principles whether or not a project is rapidly approaching an important deadline.
