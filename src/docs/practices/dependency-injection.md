@@ -2,6 +2,7 @@
 title: "Dependency Injection"
 date: "2014-11-26"
 description: Dependency Injection is a technique that facilitates loosely coupled object-oriented software systems.
+featuredImage: "./images/dependency-injection.png"
 ---
 
 ![3173827605_427626c6af](images/3173827605_427626c6af-300x148.jpg)

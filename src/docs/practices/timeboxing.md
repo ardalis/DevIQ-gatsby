@@ -2,6 +2,7 @@
 title: "Timeboxing: A Time Management Technique for Improved Productivity"
 date: "2023-04-25"
 description: Timeboxing is a popular time management technique used in various fields, including software development, project management, and personal productivity. The practice involves allocating a fixed period, or "timebox," to a specific task or activity.
+featuredImage: "./images/timeboxing.png"
 ---
 
 ## Introduction
