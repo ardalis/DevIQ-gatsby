@@ -2,6 +2,7 @@
 title: "Laws of Software Architecture"
 date: "2022-11-30"
 description: "Software architecture is a very broad topic, but even so there are some fundamental laws that all architects should understand."
+featuredImage: "./images/laws-of-software-architecture.png"
 ---
 
 Software architecture is a very broad topic, but even so there are some fundamental laws that all architects should understand.

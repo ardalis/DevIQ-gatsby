@@ -2,6 +2,7 @@
 title: "Conway's Law: Unraveling the Connection Between Software and Organizations"
 date: "2023-04-21"
 description: Organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations.
+featuredImage: "./images/conways-law.png"
 ---
 
 *"Organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations."* - Melvin Conway
@@ -10,11 +11,13 @@ In this quick guide, we'll explore Conway's Law, an adage formulated by computer
 
 ## Table of Contents
 
-1. [What is Conway's Law?](#what-is-conways-law)
-2. [Conway's Law in Action](#conways-law-in-action)
-3. [Implications of Conway's Law](#implications-of-conways-law)
-4. [Strategies for Leveraging Conway's Law](#strategies-for-leveraging-conways-law)
-5. [Further Reading](#further-reading)
+- [Table of Contents](#table-of-contents)
+- [What is Conway's Law?](#what-is-conways-law)
+- [Conway's Law in Action](#conways-law-in-action)
+- [Implications of Conway's Law](#implications-of-conways-law)
+- [Strategies for Leveraging Conway's Law](#strategies-for-leveraging-conways-law)
+- [In Comics](#in-comics)
+- [Further Reading](#further-reading)
 
 <a name="what-is-conways-law"></a>
 
