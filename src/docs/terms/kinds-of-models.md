@@ -2,6 +2,7 @@
 title: "Kinds of Models"
 date: "2016-08-15"
 description: In a Model-View-Controller (MVC) application, the Model is responsible for the application's state and non-UI specific behavior.
+featuredImage: "./images/kinds-of-models.png"
 ---
 
 In a Model-View-Controller (MVC) application, the Model is responsible for the application's state and non-UI specific behavior. In simple applications, there may be just one kind of model class that is used by persistence, presentation, and any business logic. However, frequently this kind of one-size-fits-all approach doesn't scale to complex applications. In that case, it may make sense to have different model types (classes) with different responsibilities. Some MVC applications will include some combination of the following types of model objects.
