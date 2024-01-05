@@ -2,6 +2,7 @@
 title: "Amara's Law: A Quick Guide on Technology Predictions"
 date: "2023-04-21"
 description: We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.
+featuredImage: "./images/amaras-law.png"
 ---
 
 *“We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.”* - Roy Amara
@@ -10,10 +11,12 @@ This article gives an overview of Amara's Law, exploring its history and implica
 
 ## Table of Contents
 
-1. [What is Amara's Law?](#what-is-amaras-law)
-2. [Amara's Law in Action](#amaras-law-in-action)
-3. [Hype Cycles in Technology](#hype-cycles-in-technology)
-4. [Applying Amara's Law](#applying-amaras-law)
+- [Table of Contents](#table-of-contents)
+- [What is Amara's Law?](#what-is-amaras-law)
+- [Amara's Law in Action](#amaras-law-in-action)
+- [Hype Cycles in Technology](#hype-cycles-in-technology)
+- [Applying Amara's Law](#applying-amaras-law)
+- [Further Reading](#further-reading)
 
 <a name="what-is-amaras-law"></a>
 

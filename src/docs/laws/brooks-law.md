@@ -2,6 +2,7 @@
 title: "Brooks's Law: Understanding Its Implications in Software Development"
 date: "2023-04-21"
 description: Adding manpower to a late software project makes it later.
+featuredImage: "./images/brooks-law.png"
 ---
 
 *“Adding manpower to a late software project makes it later.”* - Fred Brooks
@@ -10,11 +11,12 @@ In this quick guide, we'll explore Brooks's Law, a principle formulated by compu
 
 ## Table of Contents
 
-1. [What is Brooks's Law?](#what-is-brookss-law)
-2. [The Mythical Man-Month](#the-mythical-man-month)
-3. [Brooks's Law in Action](#brookss-law-in-action)
-4. [Strategies to Mitigate Brooks's Law](#strategies-to-mitigate-brookss-law)
-5. [Further Reading](#further-reading)
+- [Table of Contents](#table-of-contents)
+- [What is Brooks's Law?](#what-is-brookss-law)
+- [The Mythical Man-Month](#the-mythical-man-month)
+- [Brooks's Law in Action](#brookss-law-in-action)
+- [Strategies to Mitigate Brooks's Law](#strategies-to-mitigate-brookss-law)
+- [Further Reading](#further-reading)
 
 <a name="what-is-brookss-law"></a>
 

@@ -2,6 +2,7 @@
 title: "Murphy's Law"
 date: "2021-02-19"
 description: Anything that can go wrong...
+featuredImage: "./images/murphys-law.png"
 ---
 
 Murphy's Law states: "Anything that can go wrong will go wrong."
