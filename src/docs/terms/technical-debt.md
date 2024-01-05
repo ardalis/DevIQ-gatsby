@@ -2,6 +2,7 @@
 title: "Technical Debt"
 date: "2015-03-18"
 description: Technical debt is a metaphor for all of the shortcuts, hacks, and poor design choices made for a given software system that compromised its quality, usually in an attempt to meet a deadline.
+featuredImage: "./images/technical-debt.png"
 ---
 
 Technical debt is a metaphor for all of the shortcuts, hacks, and poor design choices made for a given software system that compromised its quality, usually in an attempt to meet a deadline. It can be an appropriate business decision to take on technical debt, but if such debt is allowed to grow, the lack of quality of the system may eventually make it too expensive to maintain, at which point the business or team may need to declare "technical bankruptcy" and rewrite the application rather than continue to try to maintain it.
