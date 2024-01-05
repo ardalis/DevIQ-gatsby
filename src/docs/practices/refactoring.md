@@ -2,6 +2,7 @@
 title: "Refactoring"
 date: "2015-05-21"
 description: As a verb, refactoring means to improve the design of a code without changing what it does. As a noun, it refers to an individual modification to a program that improves its design, without changing what the code does.
+featuredImage: "./images/refactoring.png"
 ---
 
 _Refactoring_ can be used as a verb or a noun. As a verb, refactoring means to improve the design of a code without changing what it does. As a noun, it refers to an individual modification to a program that improves its design, without changing what the code does.

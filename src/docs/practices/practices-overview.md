@@ -2,6 +2,7 @@
 title: "Practices"
 date: "2020-12-22"
 description: "Good coding practices are important to good code."
+featuredImage: "./images/practices-overview.png"
 ---
 
 Good coding practices are important to good code. They can help to guide programmers through difficult problems, helping them when they get stuck, or preventing them from getting stuck at all.
