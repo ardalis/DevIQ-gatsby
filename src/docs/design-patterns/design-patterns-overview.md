@@ -19,7 +19,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Chain of Responsibility](/design-patterns/chain-of-responsibility-pattern)
 - Command
 - Composite
-- Decorator
+- [Decorator](/design-patterns/decorator-pattern)
 - [Domain Events](/design-patterns/domain-events-pattern)
 - [Entity](/domain-driven-design/entity)
 - Event Aggregator
