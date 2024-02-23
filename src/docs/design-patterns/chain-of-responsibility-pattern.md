@@ -1,8 +1,8 @@
 ---
 title: "Chain of Responsibility Pattern"
-date: "2023-11-17"
-description: "The Rules Engine pattern allows complex business rules to be defined, managed, and applied outside of the main application code."
-featuredImage: "./images/rules-engine-pattern.png"
+date: "2024-02-22"
+description: "The Chain of Responsibility pattern is a behavioral design pattern that allows you to pass requests along a chain of handlers."
+featuredImage: "./images/chain-of-responsibility.png"
 ---
 
 The Chain of Responsibility pattern is a behavioral design pattern that allows you to pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
