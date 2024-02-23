@@ -51,9 +51,9 @@ public interface IBookService
 
 public class BookService : IBookService
 {
-    private readonly IRepository<Book> _repository;
+    private readonly IBookRepository _repository;
 
-    public BookService(IRepository<Book> repository)
+    public BookService(IBookRepository repository)
     {
         _repository = repository;
     }
@@ -70,6 +70,8 @@ public class BookService : IBookService
 The logging decorator will log how long it takes to add a book to the repository:
 
 ```csharp
+using System.Diagnostics;
+
 public class LoggingBookServiceDecorator : IBookService
 {
     private readonly IBookService _decoratedBookService;
