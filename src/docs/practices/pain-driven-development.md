@@ -17,6 +17,4 @@ Some kinds of pain may make sense to avoid altogether. This includes pain that w
 
 ## Quotes
 
-https://twitter.com/mhinze/status/969891604
-
 https://twitter.com/SchrodingerCode/status/10551079676
