@@ -20,7 +20,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Don't Repeat Yourself (The DRY Principle)](/principles/dont-repeat-yourself)
 - [Gall's Law](/laws/galls-law)
 - [Goodhart's Law](/laws/goodharts-law)
-- Hebb's Law
+- [Hebb's Law](/laws/hebbs-law)
 - Hofstadter's Law
 - Kerchoff's Principle
 - Knuth's Optimization Principle
