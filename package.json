@@ -54,6 +54,6 @@
     "node": "20.10.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.41.2"
+    "@playwright/test": "^1.42.0"
   }
 }
