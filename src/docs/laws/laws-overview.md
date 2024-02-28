@@ -19,7 +19,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Law of Diminishing Returns](/laws/law-of-diminishing-returns)
 - [Don't Repeat Yourself (The DRY Principle)](/principles/dont-repeat-yourself)
 - [Gall's Law](/laws/galls-law)
-- Goodhart's Law
+- [Goodhart's Law](/laws/goodharts-law)
 - Hebb's Law
 - Hofstadter's Law
 - Kerchoff's Principle
