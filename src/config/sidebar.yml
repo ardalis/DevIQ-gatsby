@@ -53,7 +53,7 @@
 - label: Practices
   items:
     - label: Overview
-      link: /practices/practices-overview      
+      link: /practices/practices-overview
     - label: Authentication
       link: /practices/authentication
     - label: Authorization
@@ -261,7 +261,7 @@
     - label: Anemic Model
       link: /domain-driven-design/anemic-model
     - label: Anti-Corruption Layer
-      link: /domain-driven-design/anti-corruption-layer    
+      link: /domain-driven-design/anti-corruption-layer
     - label: Bounded Context
       link: /domain-driven-design/bounded-context
     - label: Context Mapping
@@ -340,6 +340,8 @@
       link: /laws/goodharts-law
     - label: Hebb's Laws
       link: /laws/hebbs-law
+    - label: Hofstadters's Laws
+      link: /laws/hofstadters-law
     - label: Linus's Law
       link: /laws/linus-law
     - label: Murphy's Law
