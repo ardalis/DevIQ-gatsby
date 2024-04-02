@@ -1,6 +1,6 @@
 ---
 title: "Value Object"
-date: "2023-12-08"
+date: "2024-04-02"
 description: A Value Object is an immutable type that is distinguishable only by the state of its properties.
 featuredImage: "./images/value-object.png"
 ---
@@ -52,3 +52,9 @@ Although record types in C# offer immutability, a key feature of value objects, 
 - [Reference Types in C#](https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/reference-types)
 
 - [C# 9 Records as DDD Value Objects](https://enterprisecraftsmanship.com/posts/csharp-records-value-objects/)
+
+
+## Learn More
+
+- [On-Demand Webinar: Intro to Domain-Driven Design with C#](https://mailchi.mp/nimblepros/af2112un73)
+- [Email Course: Intro to DDD](https://mailchi.mp/nimblepros/intro-to-ddd-email-course)

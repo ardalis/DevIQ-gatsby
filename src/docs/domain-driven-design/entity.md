@@ -1,6 +1,6 @@
 ---
 title: "Entity"
-date: "2023-12-08"
+date: "2024-04-02"
 description: An Entity is an object that has some intrinsic identity, apart from the rest of its state.
 featuredImage: "./images/entity.png"
 ---
@@ -63,3 +63,10 @@ public class ToDoItem : EntityBase
 
 - [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
 - [Ardalis' CleanArchitecture template](https://github.com/ardalis/CleanArchitecture/)
+
+## Learn More
+
+- [On-Demand Webinar: Intro to Domain-Driven Design with C#](https://mailchi.mp/nimblepros/af2112un73)
+- [On-Demand Webinar: Domain Storytelling](https://mailchi.mp/nimblepros/domain-storytelling)
+- [On-Demand Webinar: From Chaos to Clarity: How EventStorming Streamlines Complex Domains](https://mailchi.mp/nimblepros/eventstorming-recording)]
+- [Email Course: Intro to DDD](https://mailchi.mp/nimblepros/intro-to-ddd-email-course)

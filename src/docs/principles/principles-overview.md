@@ -1,6 +1,6 @@
 ---
 title: "Principles"
-date: "2020-12-22"
+date: "2024-04-02"
 description: "Following good principles consistently is important to good code."
 featuredImage: "./images/principles-overview.png"
 ---
@@ -32,3 +32,7 @@ Consistently following good principles is important to good code. This means app
 - [Tell, Don't Ask](/principles/tell-dont-ask)
 - [Tolerance for Imperfection](/principles/tolerance-for-imperfection)
 - [YAGNI](/principles/yagni)
+
+## Learn More
+
+- [Email Course: SOLID Principles](https://mailchi.mp/nimblepros/solid-email-course)

@@ -1,6 +1,6 @@
 ---
 title: "Bounded Context"
-date: "2023-12-08"
+date: "2024-04-02"
 description: A bounded context is a concept from Domain-Driven Design that establishes boundary within a domain and contains models related to that context.
 featuredImage: "./images/bounded-context.png"
 ---
@@ -59,3 +59,8 @@ end
 - [Martin Fowler's Bliki: BoundedContext](https://martinfowler.com/bliki/BoundedContext.html)
 - [Bounded Contexts - Eric Evans - DDD Europe 2020](https://www.youtube.com/watch?v=am-HXycfalo)
 - [DDD Reference - Domain Language](https://www.domainlanguage.com/ddd/reference/)
+
+## Learn More
+
+- [On-Demand Webinar: Intro to Domain-Driven Design with C#](https://mailchi.mp/nimblepros/af2112un73)
+- [Email Course: Intro to DDD](https://mailchi.mp/nimblepros/intro-to-ddd-email-course)

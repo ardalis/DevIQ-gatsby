@@ -1,6 +1,6 @@
 ---
 title: "SOLID"
-date: "2014-11-26"
+date: "2024-04-02"
 description: The SOLID principles of Object Oriented Design include these five principles.
 featuredImage: "./images/solid-400x400.jpg"
 ---
@@ -23,6 +23,9 @@ Generally, software should be written as simply as possible in order to produce 
 
 ## References
 
-[Agile Principles, Patterns, and Practices in C#](http://amzn.to/y0Z4sy) - Hardcover, Amazon.com - Robert C. Martin, Micah Martin
+- [Agile Principles, Patterns, and Practices in C#](http://amzn.to/y0Z4sy) - Hardcover, Amazon.com - Robert C. Martin, Micah Martin
+- [SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) - Pluralsight - Steve Smith
 
-[SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) - Pluralsight - Steve Smith
+## See Also
+
+- [Email Course: SOLID Principles](https://mailchi.mp/nimblepros/solid-email-course)

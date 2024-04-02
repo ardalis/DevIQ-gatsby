@@ -1,6 +1,6 @@
 ---
 title: "Single Responsibility Principle"
-date: "2014-11-26"
+date: "2024-04-02"
 description: The Single Responsibility Principle (SRP) states that a class should have only one reason to change.
 featuredImage: "./images/single-responsibility-400x400.jpg"
 ---
@@ -39,14 +39,12 @@ https://twitter.com/mfeathers/status/359703449920733184
 
 ## See Also
 
-[SOLID](/principles/solid)
+- [SOLID](/principles/solid)
+- [Email Course: SOLID Principles](https://mailchi.mp/nimblepros/solid-email-course)
 
 ## References
 
-[Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) (Wikipedia)
-
-[SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) - Pluralsight - Steve Smith
-
-[Principles, Patterns, and Practices of Agile Software Development](http://amzn.to/1cu7La6) - Amazon
-
-[Principles, Patterns, and Practices of Agile Software Development in C#](http://amzn.to/RiNdCs) - Amazon
+- [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) (Wikipedia)
+- [SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) - Pluralsight - Steve Smith
+- [Principles, Patterns, and Practices of Agile Software Development](http://amzn.to/1cu7La6) - Amazon
+- [Principles, Patterns, and Practices of Agile Software Development in C#](http://amzn.to/RiNdCs) - Amazon

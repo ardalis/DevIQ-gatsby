@@ -1,6 +1,6 @@
 ---
 title: "Tactical Design in DDD"
-date: "2023-12-07"
+date: "2024-04-02"
 description: Tactical Design starts with the conceptual domain model from the strategic phase and gets into the low-level implementation details.
 featuredImage: "./images/tactical-design.png"
 ---
@@ -52,3 +52,8 @@ In the tactical design phase of domain modeling, the following artifacts are gen
 
 - Implemented domain model
 - Code for the system
+
+## Learn More
+
+- [On-Demand Webinar: Intro to Domain-Driven Design with C#](https://mailchi.mp/nimblepros/af2112un73)
+- [Email Course: Intro to DDD](https://mailchi.mp/nimblepros/intro-to-ddd-email-course)
