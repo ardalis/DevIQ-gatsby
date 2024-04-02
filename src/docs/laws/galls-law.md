@@ -1,6 +1,6 @@
 ---
 title: "Gall's Law for Software Developers"
-date: "2023-10-04"
+date: "2024-04-02"
 description: "Gall's Law is an observation about the nature and evolution of complex systems. It's a principle that resonates deeply within the world of software development and system architecture." 
 featuredImage: "./images/galls-law.png"
 ---
@@ -61,3 +61,10 @@ Gall's Law offers valuable insights for software developers and architects. By u
 4. Newman, Sam. ["Building Microservices: Designing Fine-Grained Systems." O'Reilly Media, 2015](https://amzn.to/46gRHG2).
 5. "Agile Manifesto." [Agilemanifesto.org](http://agilemanifesto.org/).
 
+## See Also
+
+- [On-Demand Webinar: Modular Monoliths](https://mailchi.mp/nimblepros/modular-monolith-recording)
+- [Course: Getting Started with Modular Monoliths in .NET](https://dometrain.com/course/getting-started-modular-monoliths-in-dotnet/)
+- [Course: Deep Dive with Modular Monoliths in .NET](https://dometrain.com/course/deep-dive-modular-monoliths-in-dotnet/)
+- [Courses: From Zero to Hero: Modular Monoliths in .NET](https://dometrain.com/bundle/from-zero-to-hero-modular-monoliths-in-dotnet/)
+- [Visual Studio Toolbox Live: Modular Monoliths](https://www.youtube.com/live/wkAc6K09pKQ?si=lC-uAwyDHX4eJYmL&t=147)

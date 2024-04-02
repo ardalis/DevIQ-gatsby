@@ -1,6 +1,6 @@
 ---
 title: "Design Patterns"
-date: "2016-06-09"
+date: "2024-04-02"
 description: Design patterns are common approaches to solving similar problems.
 featuredImage: "./images/design-patterns-overview.png"
 ---
@@ -53,3 +53,9 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Unit of Work
 - [Value Object](/domain-driven-design/value-object)
 - Visitor
+
+## Learn More
+
+- [On-Demand Webinar: Design Patterns for Testing](https://mailchi.mp/nimblepros/design-patterns-testing-recording)
+- [Learning Path: Design Patterns in C# (Pluralsight)](https://app.pluralsight.com/paths/skill/design-patterns-in-c)
+- [Course: Design Patterns Overview](https://www.pluralsight.com/courses/design-patterns-overview)

@@ -1,6 +1,6 @@
 ---
 title: "Shared Kernel in DDD"
-date: "2023-12-07"
+date: "2024-04-02"
 description: In DDD, a Shared Kernel is a special type of Bounded Context that contains code and data shared across multiple bounded contexts within the same domain.
 featuredImage: "./images/shared-kernel.png"
 ---
@@ -124,3 +124,5 @@ These are some alternatives to a shared kernel:
 
 - [ASP.NET Core Clean Architecture Template version 8](https://ardalis.com/aspnetcore-clean-architecture-template-version-8/)
 - [Ardalis.SharedKernel](https://github.com/ardalis/Ardalis.SharedKernel)
+- [Article: The Importance of Clean Architecture](https://blog.nimblepros.com/blogs/the-importance-of-clean-architecture/)
+- [On-Demand Webinar: Clean Architecture with .NET 8](https://mailchi.mp/nimblepros/clean-architecture-dotnet-8-recording)

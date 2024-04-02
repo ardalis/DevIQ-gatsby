@@ -1,6 +1,6 @@
 ---
 title: "Factory Method Pattern"
-date: "2023-10-27"
+date: "2024-04-02"
 description: The Factory Method pattern is an object creation pattern from the Design Patterns book. It defines an interface or abstract class for creating an object but leaves the specifics to the implementations.
 featuredImage: "./images/factory-method-pattern.png"
 ---
@@ -84,3 +84,7 @@ You can use [dependency injection](/practices/dependency-injection) to use the f
 For example, suppose we had a collection of web pages that display collections of products. The base web page for displaying products - `BaseProductDisplay` - could have a `IProductFactory`` injected in. All product display pages would inherit from this page. 
 
 For the page that displays [mentoring opportunities](https://nimblepros.com/buy-now/ols/categories/mentoring), the `MentoringFactory` can be injected. For a separate page that displays the [training offerings](https://nimblepros.com/training), the `TrainingFactory` could be injected.
+
+## Learn More
+
+- [On-Demand Webinar: Exploring Design Patterns for Testing](https://mailchi.mp/nimblepros/design-patterns-testing-recording)
