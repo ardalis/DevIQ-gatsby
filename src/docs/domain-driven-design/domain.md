@@ -1,6 +1,6 @@
 ---
 title: "Domains in DDD"
-date: "2023-12-08"
+date: "2024-04-02"
 description: In Domain-Driven Design (DDD), a domain represents the specific knowledge, activities, and concerns related to a particular business or application context. 
 featuredImage: "./images/domain.png"
 ---
@@ -40,3 +40,10 @@ Subdomains are smaller subsets of a domain. [Read more on subdomains.](./subdoma
 ## Identifying and defining domains
 
 Domains are created through the practice of [domain modeling](./domain-model).
+
+## Learn More
+
+- [On-Demand Webinar: Intro to Domain-Driven Design with C#](https://mailchi.mp/nimblepros/af2112un73)
+- [On-Demand Webinar: Domain Storytelling](https://mailchi.mp/nimblepros/domain-storytelling)
+- [On-Demand Webinar: From Chaos to Clarity: How EventStorming Streamlines Complex Domains](https://mailchi.mp/nimblepros/eventstorming-recording)]
+- [Email Course: Intro to DDD](https://mailchi.mp/nimblepros/intro-to-ddd-email-course)

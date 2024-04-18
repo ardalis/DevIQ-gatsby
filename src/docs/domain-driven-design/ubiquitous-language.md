@@ -1,6 +1,6 @@
 ---
 title: "Ubiquitous Language"
-date: "2015-07-24"
+date: "2024-04-02"
 description: All stakeholders on a software application, from users to product managers to developers, should share the same terminology when discussing the elements of the application.
 featuredImage: "./images/ubiquitous-language.png"
 ---
@@ -30,3 +30,10 @@ https://twitter.com/JefClaes/status/624551894275522560
 ## References
 
 [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
+
+## Learn More
+
+- [On-Demand Webinar: Intro to Domain-Driven Design with C#](https://mailchi.mp/nimblepros/af2112un73)
+- [On-Demand Webinar: Domain Storytelling](https://mailchi.mp/nimblepros/domain-storytelling)
+- [On-Demand Webinar: From Chaos to Clarity: How EventStorming Streamlines Complex Domains](https://mailchi.mp/nimblepros/eventstorming-recording)]
+- [Email Course: Intro to DDD](https://mailchi.mp/nimblepros/intro-to-ddd-email-course)

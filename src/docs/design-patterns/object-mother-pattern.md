@@ -1,6 +1,6 @@
 ---
 title: "Object Mother Pattern"
-date: "2023-10-27"
+date: "2024-04-02"
 description: The Object Mother pattern is used for creating example objects in testing.
 featuredImage: "./images/object-mother-pattern.png"
 ---
@@ -35,3 +35,4 @@ An alternative to the Object Mother pattern is the [Builder pattern](/design-pat
 - [Builder Pattern](/design-patterns/builder-pattern)
 - [Factory Method Pattern](/design-patterns/factory-method-pattern)
 - [Testing - Overview](/testing/testing-overview)
+- [On-Demand Webinar: Exploring Design Patterns for Testing](https://mailchi.mp/nimblepros/design-patterns-testing-recording)

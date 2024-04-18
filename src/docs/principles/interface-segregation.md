@@ -1,6 +1,6 @@
 ---
 title: "Interface Segregation Principle"
-date: "2014-11-26"
+date: "2024-04-02"
 description: The Interface Segregation Principle (ISP) states that clients should not be forced to depend on methods that they do not use.
 featuredImage: "./images/interface-segregation-400x400.jpg"
 ---
@@ -65,8 +65,9 @@ Another benefit of smaller interfaces is that they are easier to implement fully
 
 ## See Also
 
-[SOLID Principles Overview](/principles/solid/)
+- [SOLID Principles](/principles/solid)
+- [Email Course: SOLID Principles](https://mailchi.mp/nimblepros/solid-email-course)
 
 ## References
 
-[SOLID Principles of Object Oriented Design](http://bit.ly/solid-smith) - Course on Pluralsight
+- [SOLID Principles of Object Oriented Design](http://bit.ly/solid-smith) - Course on Pluralsight

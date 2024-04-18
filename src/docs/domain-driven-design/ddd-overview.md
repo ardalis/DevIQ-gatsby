@@ -1,6 +1,6 @@
 ---
 title: "Domain Driven Design"
-date: "2020-12-22"
+date: "2024-04-02"
 description: Domain Driven Design is a software design strategy intended to take complex domains (real-world problems) and simplify them into a extensible and maintainable software solution.
 featuredImage: "./images/ddd-overview.png"
 ---
@@ -38,3 +38,11 @@ Domain Driven Design, first introduced by Eric Evans in 2003, is a software desi
 ## References
 
 - [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
+
+## Learn More
+
+- [On-Demand Webinar: Intro to Domain-Driven Design with C#](https://mailchi.mp/nimblepros/af2112un73)
+- [On-Demand Webinar: Domain Storytelling](https://mailchi.mp/nimblepros/domain-storytelling)
+- [On-Demand Webinar: From Chaos to Clarity: How EventStorming Streamlines Complex Domains](https://mailchi.mp/nimblepros/eventstorming-recording)]
+- [Email Course: Intro to DDD](https://mailchi.mp/nimblepros/intro-to-ddd-email-course)
+ 

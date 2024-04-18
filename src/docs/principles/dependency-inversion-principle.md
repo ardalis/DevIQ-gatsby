@@ -1,6 +1,6 @@
 ---
 title: "Dependency Inversion Principle"
-date: "2014-11-26"
+date: "2024-04-02"
 description: The Dependency Inversion Principle (DIP) states that high level modules should not depend on low level modules; both should depend on abstractions.
 featuredImage: "./images/Dependency-Inversion-400x400.png"
 ---
@@ -23,16 +23,14 @@ Consider a user interface form with a button. When the button is clicked, an eve
 
 ## See Also
 
-[Explicit Dependencies Principle](/principles/explicit-dependencies-principle)
-
-[Hollywood Principle](/principles/hollywood-principle)
+- [Explicit Dependencies Principle](/principles/explicit-dependencies-principle)
+- [Hollywood Principle](/principles/hollywood-principle)
+- [SOLID Principles](/principles/solid)
+- [Email Course: SOLID Principles](https://mailchi.mp/nimblepros/solid-email-course)
 
 ## References
 
-[New is Glue](http://ardalis.com/new-is-glue)
-
-[Architecting N-Tier Solutions in C#](http://www.pluralsight.com/courses/n-tier-apps-part1) (Pluralsight)
-
-[SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) (Pluralsight)
-
-[Domain-Driven Design Fundamentals](http://bit.ly/PS-DDD) (Pluralsight)
+- [New is Glue](http://ardalis.com/new-is-glue)
+- [Architecting N-Tier Solutions in C#](http://www.pluralsight.com/courses/n-tier-apps-part1) (Pluralsight)
+- [SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) (Pluralsight)
+- [Domain-Driven Design Fundamentals](http://bit.ly/PS-DDD) (Pluralsight)

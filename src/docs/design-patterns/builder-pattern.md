@@ -1,6 +1,6 @@
 ---
 title: "Builder Design Pattern"
-date: "2018-02-02"
+date: "2024-04-02"
 description: The Builder design pattern is a creational pattern, similar to the Factory pattern (Factory Method, Abstract Factory).
 featuredImage: "./images/builder-pattern.png"
 ---
@@ -53,10 +53,11 @@ public class AddressBuilder
 
 ## References
 
-[Design Patterns Library](https://www.pluralsight.com/courses/patterns-library) (Pluralsight)
+- [Design Patterns Library](https://www.pluralsight.com/courses/patterns-library) (Pluralsight)
+- [Applying the Builder Pattern to an Angular Service](https://ardalis.com/applying-the-builder-pattern-to-improve-an-angular-service) (Typescript)
+- [Using Builder in C# Unit Tests Kata](https://github.com/ardalis/BuilderTestSample)
+- [Flexible and Expressive Unit Tests with the Builder Pattern](https://www.kenneth-truyers.net/2013/07/15/flexible-and-expressive-unit-tests-with-the-builder-pattern/)
 
-[Applying the Builder Pattern to an Angular Service](https://ardalis.com/applying-the-builder-pattern-to-improve-an-angular-service) (Typescript)
+## Learn More
 
-[Using Builder in C# Unit Tests Kata](https://github.com/ardalis/BuilderTestSample)
-
-[Flexible and Expressive Unit Tests with the Builder Pattern](https://www.kenneth-truyers.net/2013/07/15/flexible-and-expressive-unit-tests-with-the-builder-pattern/)
+- [On-Demand Webinar: Exploring Design Patterns for Testing](https://mailchi.mp/nimblepros/design-patterns-testing-recording)

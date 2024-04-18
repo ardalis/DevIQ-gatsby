@@ -1,6 +1,6 @@
 ---
 title: "Aggregate Pattern"
-date: "2023-07-21"
+date: "2024-04-02"
 description: Aggregates are a design pattern that play a big role in domain-driven development.
 featuredImage: "./images/aggregate-pattern.png"
 ---
@@ -68,3 +68,8 @@ A common concern at this point, though, is performance. If `OrderItem` doesn't h
 
 - [Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/domain-driven-design-fundamentals) Pluralsight
 - [Effective Aggregate Design](https://www.dddcommunity.org/library/vernon_2011/) - Vaughn Vernon
+
+## Learn More
+
+- [On-Demand Webinar: Intro to Domain-Driven Design with C#](https://mailchi.mp/nimblepros/af2112un73)
+- [Email Course: Intro to DDD](https://mailchi.mp/nimblepros/intro-to-ddd-email-course)

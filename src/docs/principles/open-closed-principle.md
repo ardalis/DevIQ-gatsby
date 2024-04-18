@@ -1,6 +1,6 @@
 ---
 title: "Open-Closed Principle"
-date: "2014-11-26"
+date: "2024-04-02"
 description: The Open-Closed Principle (OCP) states that software entities (classes, modules, methods, etc.) should be open for extension, but closed for modification.
 featuredImage: "./images/open-closed-principle-400x400.jpg"
 ---
@@ -21,14 +21,13 @@ https://twitter.com/Hamman359/status/48772493363781632
 
 ## See Also
 
-[Strategy Design Pattern](/design-patterns/strategy-pattern)
-
-[SOLID Principles](/principles/solid)
+- [Strategy Design Pattern](/design-patterns/strategy-pattern)
+- [SOLID Principles](/principles/solid)
+- [Email Course: SOLID Principles](https://mailchi.mp/nimblepros/solid-email-course)
 
 ## References
 
-[SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) - Pluralsight - Steve Smith
+- [SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) - Pluralsight - Steve Smith
+- [Principles, Patterns, and Practices of Agile Software Development](http://amzn.to/1cu7La6) - Amazon
+- [Principles, Patterns, and Practices of Agile Software Development in C#](http://amzn.to/RiNdCs) - Amazon
 
-[Principles, Patterns, and Practices of Agile Software Development](http://amzn.to/1cu7La6) - Amazon
-
-[Principles, Patterns, and Practices of Agile Software Development in C#](http://amzn.to/RiNdCs) - Amazon
