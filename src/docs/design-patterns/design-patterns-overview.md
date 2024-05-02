@@ -38,7 +38,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Object Mother](/design-patterns/object-mother-pattern)
 - Observer
 - Prototype
-- [Proxy](https://www.pluralsight.com/courses/c-sharp-design-patterns-proxy)
+- [Proxy](/design-patterns/proxy-pattern)
 - [Repository](/design-patterns/repository-pattern) (and [CachedRepository](http://ardalis.com/introducing-the-cachedrepository-pattern))
 - [REPR](/design-patterns/repr-design-pattern)
 - [Rules Engine](/design-patterns/rules-engine-pattern)
