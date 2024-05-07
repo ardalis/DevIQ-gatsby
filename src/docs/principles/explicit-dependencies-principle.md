@@ -1,13 +1,15 @@
 ---
 title: "Explicit Dependencies Principle"
-date: "2014-11-26"
+date: "2024-05-02"
 description: The Explicit Dependencies Principle states that methods and classes should explicitly require (typically through method parameters or constructor parameters) any collaborating objects they need in order to function correctly.
-featuredImage: "./images/explicit-dependencies-principle.png"
+featuredImage: "./images/explicit-dependencies-principle-frame.png"
 ---
 
 Have you ever wanted to try to cook a recipe only to find out that it left off an ingredient in the shopping list? Steve ran into that with a [spaghetti Bolognese recipe, where an ingredient was left off](https://www.youtube.com/watch?v=nA3SULjH6Mo). When all of the ingredients are called out explicitly, it's easier to follow the recipe.
 
 Much like ingredients to a recipe, it's important to understand dependencies of classes/packages/libraries/frameworks before working with them. Implicit dependencies and transitive dependencies can make it harder to work with classes/packages/libraries/frameworks. This is why there is the Explicit Dependencies Principle.
+
+![Explicit Dependencies - Don't hide your dependencies in the darkness of ambiguity.](images/explicit-dependencies-principle-frame.png)
 
 The _**Explicit Dependencies Principle**_ states:
 
