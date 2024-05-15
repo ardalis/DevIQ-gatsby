@@ -5,6 +5,8 @@ description: Frozen Caveman is a software development antipattern characterized 
 featuredImage: "./images/frozen-caveman.png"
 ---
 
+![Frozen Caveman](images/frozen-caveman.png)
+
 ## Introduction
 
 Frozen Caveman (aka Frozen Caveman Syndrome) is a software development antipattern characterized by the unwillingness or inability of a development team to adopt new technologies, methodologies, or practices. This resistance to change can lead to an outdated and inefficient development process, making it difficult to keep pace with evolving industry standards and customer expectations. In this article, we will discuss the causes, consequences, and potential solutions for the Frozen Caveman antipattern.
