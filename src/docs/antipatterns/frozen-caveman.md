@@ -40,4 +40,3 @@ To address the Frozen Caveman antipattern, consider implementing the following s
 1. [The Pragmatic Programmer: Your Journey to Mastery](https://amzn.to/3V6VfWF)
 2. [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://amzn.to/41HFmbs)
 3. [Article: Overcoming Resistance to Change in Software Development](https://www.techwell.com/techwell-insights/2018/09/overcoming-resistance-change-software-development)
-4. [Article: Breaking Free from the Frozen Caveman Syndrome: How to Keep Your Development Skills Current](https://www.developer.com/mgmt/breaking-free-from-the-frozen-caveman-syndrome-how-to-keep-your-development-skills-current.html)
