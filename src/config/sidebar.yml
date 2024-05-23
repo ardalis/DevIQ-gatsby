@@ -106,6 +106,8 @@
       link: /practices/whole-team
     - label: Whole Team Activity
       link: /practices/whole-team-activity
+    - label: YOLO Architecture
+      link: /practices/yolo-architecture
 - label: Principles
   items:
     - label: Overview

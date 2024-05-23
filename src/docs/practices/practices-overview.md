@@ -33,3 +33,4 @@ Good coding practices are important to good code. They can help to guide program
 - [Vertical Slices](/practices/vertical-slices)
 - [Whole Team](/practices/whole-team)
 - [Whole Team Activity](/practices/whole-team-activity)
+- [YOLO Architecture](/practices/yolo-architecture)
