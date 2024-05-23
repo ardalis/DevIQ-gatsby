@@ -31,7 +31,7 @@ The term comes from YOLO, the [definition](https://www.dictionary.com/browse/yol
 
 ### The Path to a Big Ball of Mud
 
-YOLO Architecture is often a precursor to the [Big Ball of Mud (BBoM) pattern](../antipatterns/big-ball-of-mud/). The Big Ball of Mud is a system with a haphazard structure, where the codebase has grown uncontrollably and become difficult to maintain. YOLO Architecture represents the early stages of this evolution:
+YOLO Architecture is often a precursor to the [Big Ball of Mud (BBoM) pattern](../antipatterns/big-ball-of-mud). The Big Ball of Mud is a system with a haphazard structure, where the codebase has grown uncontrollably and become difficult to maintain. YOLO Architecture represents the early stages of this evolution:
 
 1. **Initial Development**: In the early stages, YOLO Architecture might seem manageable. The codebase is small, and changes can be made quickly without significant immediate repercussions.
 
@@ -47,13 +47,13 @@ To prevent a project from devolving into a Big Ball of Mud, it's crucial to esta
 
 1. **Planning and Design**: Invest time in planning and designing the system architecture. Consider future scalability and maintainability.
 
-2. **Modularity**: Structure the codebase into well-defined modules or layers, adhering to principles like [SOLID](../principles/solid/), [Separation of Concerns](../principles/separation-of-concerns/), and delivering software features as [Vertical Slices](../practices/vertical-slices/)
+2. **Modularity**: Structure the codebase into well-defined modules or layers, adhering to principles like [SOLID](/principles/solid), [Separation of Concerns](/principles/separation-of-concerns), and delivering software features as [Vertical Slices](/practices/vertical-slices)
 
 3. **Documentation**: Maintain comprehensive documentation to ensure that the knowledge is not siloed and new developers can get up to speed quickly. Document architectural decisions using [decision records](https://ardalis.com/getting-started-with-architecture-decision-records/).
 
 4. **Code Reviews**: Implement a rigorous code review process to catch potential architectural issues early and enforce coding standards. Use automated tools (linters, architecture unit tests, etc.) to automate this process and reduce the need to address such things during reviews.
 
-5. **Continuous Refactoring**: Regularly [refactor](../practices/refactoring/) the codebase to address technical debt and improve the system's structure.
+5. **Continuous Refactoring**: Regularly [refactor](../practices/refactoring) the codebase to address technical debt and improve the system's structure.
 
 ### Conclusion
 
@@ -61,8 +61,8 @@ YOLO Architecture serves as a cautionary tale for software developers. While it 
 
 ## References
 
-1. [The Big Ball of Mud](../antipatterns/big-ball-of-mud/)
-2. [SOLID Principles](../principles/solid/)
+1. [The Big Ball of Mud](/antipatterns/big-ball-of-mud)
+2. [SOLID Principles](/principles/solid)
 3. [Clean Architecture](https://ardalis.com/clean-architecture-asp-net-core/)
 4. [Vertical Slice Architecture](https://jimmybogard.com/vertical-slice-architecture/)
-5. [Architecture by Implication](../antipatterns/architecture-by-implication/)
+5. [Architecture by Implication](/antipatterns/architecture-by-implication)
