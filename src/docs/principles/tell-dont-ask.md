@@ -5,7 +5,7 @@ description: The Tell, Don't Ask (TDA) principle suggests that it is better to i
 featuredImage: "./images/tell-dont-ask.png"
 ---
 
-The Tell, Don't Ask (TDA) principle suggests that it is better to issue an object a command do perform some operation or logic, rather than to query its state and then take some action as a result. It is related to the [Flags Over Objects](/antipatterns/flags-over-objects) antipattern as well as the [Anemic Domain Model](/domain-driven-design/anemic-model/) antipattern. You can easily spot violations of TDA in code that queries or uses several properties of an object in order to perform some calculation. This is especially problematic when the same kind of calculation is done in many places (violating the [Don't Repeat Yourself](/principles/dont-repeat-yourself/) principle), but can represent a design deficiency even if it only occurs in one location in the current codebase.
+The Tell, Don't Ask (TDA) principle suggests that it is better to issue an object a command to perform some operation or logic, rather than to query its state and then take some action as a result. It is related to the [Flags Over Objects](/antipatterns/flags-over-objects) antipattern as well as the [Anemic Domain Model](/domain-driven-design/anemic-model/) antipattern. You can easily spot violations of TDA in code that queries or uses several properties of an object in order to perform some calculation. This is especially problematic when the same kind of calculation is done in many places (violating the [Don't Repeat Yourself](/principles/dont-repeat-yourself/) principle), but can represent a design deficiency even if it only occurs in one location in the current codebase.
 
 ## Example
 
