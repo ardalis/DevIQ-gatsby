@@ -1,11 +1,20 @@
 ---
 title: "Proxy Pattern"
-date: "2024-04-12"
+date: "2024-06-07"
 description: The Proxy Pattern can be useful for abstracting the access to data objects, providing additional functionality such as lazy loading, access control, or caching.
 featuredImage: "./images/proxy-pattern.png"
 ---
 
 The Proxy pattern provides a placeholder for another object to control access to it. It can be useful for abstracting the access to data objects, providing additional functionality such as lazy loading, access control, or caching.
+
+At a high level, the pattern is typically implemented with the following:
+
+- An interface
+- An implementation of the interface
+- A proxy to wrap around the implementation of the interface
+- A client to consume the proxy
+
+![Diagram of the Proxy pattern with an IProvider interface, RealProvider class, Proxy class, and Client class.](./images/proxy-pattern-diagram.png)
 
 There are different types of proxies that belong in the general class of the Proxy pattern.  These types include:
 
@@ -17,15 +26,15 @@ There are different types of proxies that belong in the general class of the Pro
 
 ## Virtual Proxy Pattern
 
-A virtual proxy can defer the creation and initialization of a real resource until it's actually needed, improving performance by avoiding unnecessary overhead and reducing resource consumption. The proxy handles the creation and management of the real object, allowing the client to focus on its core functionality.
+A **virtual proxy** can defer the creation and initialization of a real resource until it's actually needed, improving performance by avoiding unnecessary overhead and reducing resource consumption. The proxy handles the creation and management of the real object, allowing the client to focus on its core functionality.
 
 There are some drawbacks to this pattern. Implementing lazy loading and managing the creation of the real object can add complexity to the codebase. If not implemented carefully, the overhead of creating and managing proxies can outweigh the benefits.
 
-When creating the real object is resource-intensive or time-consuming, it may make sense to use a virtual proxy. When dealing with resources like large files or database connections that should be allocated only when needed, a virtual proxy would be advisable.
+When creating the real object is resource-intensive or time-consuming, it may make sense to use a virtual proxy. When dealing with loading heavy resources such as large images, a virtual proxy would be advisable.
 
 ## Remote Proxy Pattern
 
-A remote proxy can encapsulate the network communication details and provide a local representation of a remote object, making it transparent to the client. This type of proxy hides the complexities of remote communication, providing a local representation of the remote object. By caching results or batching requests, remote proxies can reduce the overhead of network communication.
+A **remote proxy** can encapsulate the network communication details and provide a local representation of a remote object, making it transparent to the client. This type of proxy hides the complexities of remote communication, providing a local representation of the remote object. By caching results or batching requests, remote proxies can reduce the overhead of network communication.
 
 While the remote proxy can encapsulate the network communications and be used to help reduce the overhead of network communication, it comes with some drawbacks. Remote proxies introduce latency due to network communication, which can impact application performance. The reliability of remote proxies depends on network connectivity, making them vulnerable to network failures.
 
@@ -33,48 +42,28 @@ When it comes to network-related applications, remote proxies can help when work
 
 ## Cache Proxy Pattern
 
-Benefits:
+A **cache proxy** helps to reduce the load of expensive queries by storing values for a set period of time. By caching results, caching proxies can reduce the load on servers and databases.
 
-Improved performance: Caching proxies store the results of expensive operations, reducing the need for redundant computations or network requests.
-Reduced resource usage: By caching results, caching proxies can reduce the load on servers and databases.
-Drawbacks:
+However, there are things that need to be considered when implementing a cache proxy. Maintaining cache consistency can be challenging, especially in distributed or multi-threaded environments.
+Determining when to invalidate cached data and keeping the cache up-to-date can be complex.
 
-Cache consistency: Maintaining cache consistency can be challenging, especially in distributed or multi-threaded environments.
-Cache invalidation: Determining when to invalidate cached data and keeping the cache up-to-date can be complex.
-Best Use Cases:
-
-Read-heavy applications: When dealing with applications that read data more frequently than they write.
-Expensive computations: When the result of a computation is deterministic and expensive to compute, caching the result can improve performance.
+A cache proxy can be beneficial in applications that read data more frequently than they write. It is also beneficial when the result of a computation is deterministic and expensive to compute, as caching the result can improve performance.
 
 ## Synchronization Proxy Pattern
 
-Benefits:
+A **synchronization proxy** is used in concurrency situations to ensure that access to the real object is synchronized across multiple threads, preventing data corruption in multi-threaded environments. By encapsulating synchronization logic, synchronization proxies make it easier to manage concurrency issues.
 
-Thread safety: Synchronization proxies ensure that access to the real object is synchronized, preventing data corruption in multi-threaded environments.
-Simplified concurrency control: By encapsulating synchronization logic, synchronization proxies make it easier to manage concurrency issues.
-Drawbacks:
+Synchronization introduces overhead due to locking and context switching, which can impact application performance. Incorrect usage of locks can lead to deadlocks, where threads are waiting indefinitely for each other to release locks.
 
-Performance overhead: Synchronization introduces overhead due to locking and context switching, which can impact application performance.
-Potential deadlocks: Incorrect usage of locks can lead to deadlocks, where threads are waiting indefinitely for each other to release locks.
-Best Use Cases:
-
-Shared resources: When multiple threads need to access and modify shared resources concurrently.
-Critical sections: When certain operations must be executed atomically to maintain data consistency.
+When multiple threads need to access and modify shared resources concurrently, a synchronization proxy can be used to ensure thread safety. When certain operations must be executed atomically to maintain data consistency, a synchronization proxy can help.
 
 ## Smart Proxy Pattern
 
-Benefits:
+**Smart proxies** can enforce access control policies, ensuring that only authorized users can access certain operations or data. They can log method invocations and perform auditing to track usage patterns and detect anomalies.
 
-Access control: Smart proxies can enforce access control policies, ensuring that only authorized users can access certain operations or data.
-Logging and auditing: Smart proxies can log method invocations and perform auditing to track usage patterns and detect anomalies.
-Drawbacks:
+Implementing additional functionality in proxies can increase code complexity and maintenance overhead. Adding extra logic to proxies can introduce performance overhead, especially for frequently accessed operations.
 
-Increased complexity: Implementing additional functionality in proxies can increase code complexity and maintenance overhead.
-Performance overhead: Adding extra logic to proxies can introduce performance overhead, especially for frequently accessed operations.
-Best Use Cases:
-
-Security-sensitive applications: When security is a primary concern and access control must be enforced at the object level.
-Audit trails: When tracking user actions and maintaining audit trails for compliance or debugging purposes.
+When security is a primary concern and access control must be enforced at the object level, a smart proxy can allow you to add that functionality without changing the object's code. Smart proxies can also be used for logging user actions and maintaining audit trails for compliance or debugging purposes.
 
 ## Conclusion
 
