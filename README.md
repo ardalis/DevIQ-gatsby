@@ -46,6 +46,16 @@ gatsby develop
 
 This will build the site and watch the folder for changes, automatically updating as changes are detected.
 
+## Adding Frontmatter to a File
+
+This project has a .vscode folder checked in. There is a snippet within that folder to make it easier to insert the frontmatter into a new page.
+
+Within VS Code:
+
+1. Bring up the Command Palette.
+2. Search for **Snippets: Insert Snippet**
+3. In **Workspace Snippets**, select the snippet named `deviq-template`.
+
 ## Exporting Mermaid Diagrams to SVG
 
 You can use [mermaid-cli](https://github.com/mermaid-js/mermaid-cli) to convert Mermaid diagrams to SVG. **This is how we create Mermaid graphs with links.**
