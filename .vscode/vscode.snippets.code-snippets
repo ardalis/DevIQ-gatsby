@@ -1,0 +1,14 @@
+{
+	"Generate DevIQ Template": {
+		"prefix": "deviq-template",
+		"description": "Frontmatter for DevIQ page",
+		"body": [
+			"---",
+			"title: \"\"",
+			"date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+			"description: \"\"",
+			"featuredImage: \"./images/X.png\"",
+			"---",
+		],
+	}
+}
