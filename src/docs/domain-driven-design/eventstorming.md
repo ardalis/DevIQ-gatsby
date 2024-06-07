@@ -1,6 +1,6 @@
 ---
 title: "EventStorming"
-date: "2023-09-08"
+date: "2024-04-02"
 description: EventStorming is a powerful and collaborative workshop-based technique that enables teams to gain a deeper understanding of complex business domains, leading to more effective software development.
 featuredImage: "./images/eventstorming.png"
 ---
@@ -70,3 +70,7 @@ These are some of the benefits of EventStorming:
 - [Alberto Brandolini - 50,000 Orange Stickies Later - Explore DDD 2017](https://www.youtube.com/watch?v=1i6QYvYhlYQ)
 - [Slides for "50,000 Orange Stickies later"](https://www.slideshare.net/ziobrando/50000-orange-stickies-later)
 - [YOW! 2016 Paul Rayner - EventStorming - Collaborative Learning for Complex Domains](https://www.youtube.com/watch?v=04tGbixfGEY)
+
+## Learn More
+
+- [On-Demand Webinar: From Chaos to Clarity: How EventStorming Streamlines Complex Domains](https://mailchi.mp/nimblepros/eventstorming-recording)]

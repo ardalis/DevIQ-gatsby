@@ -1,6 +1,6 @@
 ---
 title: "Domain Storytelling"
-date: "2023-08-08"
+date: "2024-04-02"
 description: Domain Storytelling allows domain experts to tell the stories, capture the workflows, and illustrate those stories.
 featuredImage: "./images/domain-storytelling.png"
 ---
@@ -56,3 +56,4 @@ These are some tools you may want for your domain storytelling sessions.
 
 - Learn more at [DomainStorytelling.org](https://domainstorytelling.org/)
 - Draw your domain stories using [Egon.io](https://egon.io)
+- [On-Demand Webinar: Domain Storytelling](https://mailchi.mp/nimblepros/domain-storytelling)

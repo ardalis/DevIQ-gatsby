@@ -1,6 +1,6 @@
 ---
 title: "Subdomains in DDD"
-date: "2023-12-08"
+date: "2024-04-02"
 description: In Domain-Driven Design (DDD), a subdomain represents a smaller, well-defined area of knowledge or responsibility within a larger domain.
 featuredImage: "./images/subdomain.png"
 ---
@@ -73,3 +73,8 @@ By following these steps, you can define and manage subdomains effectively to im
 - *Domain-Driven Design: Tackling Complexity in the Heart of Software* by Eric Evans (Chapter 5: Subdomains)
 - *Implementing Domain-Driven Design* by Vaughn Vernon (Chapter 9: Subdomains)
 - *Building Evolutionary Architectures: Support Constant Change* by Neal Ford, Rebecca Parsons, Patrick Kua (Chapter 4: Decomposing Monoliths by Subdomain)
+
+## Learn More
+
+- [On-Demand Webinar: Intro to Domain-Driven Design with C#](https://mailchi.mp/nimblepros/af2112un73)
+- [Email Course: Intro to DDD](https://mailchi.mp/nimblepros/intro-to-ddd-email-course)

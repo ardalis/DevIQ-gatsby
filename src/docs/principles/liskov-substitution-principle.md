@@ -1,6 +1,6 @@
 ---
 title: "Liskov Substitution Principle"
-date: "2014-11-26"
+date: "2024-04-02"
 description: The Liskov Substitution Principle (LSP) states that subtypes must be substitutable for their base types.
 featuredImage: "./images/liskov-substitution-400x400.jpg"
 ---
@@ -17,4 +17,9 @@ A common code smell that frequently indicates an LSP violation is the presence o
 
 ## References
 
-[SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) - Pluralsight
+- [SOLID Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) - Pluralsight
+
+## See Also
+
+- [SOLID Principles](/principles/solid)
+- [Email Course: SOLID Principles](https://mailchi.mp/nimblepros/solid-email-course)

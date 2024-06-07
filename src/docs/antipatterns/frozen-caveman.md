@@ -2,11 +2,14 @@
 title: "Frozen Caveman: A Software Development Antipattern"
 date: "2023-04-26"
 description: Frozen Caveman is a software development antipattern characterized by the unwillingness or inability of a development team to adopt new technologies, methodologies, or practices.
+featuredImage: "./images/frozen-caveman.png"
 ---
+
+![Frozen Caveman](images/frozen-caveman.png)
 
 ## Introduction
 
-Frozen Caveman is a software development antipattern characterized by the unwillingness or inability of a development team to adopt new technologies, methodologies, or practices. This resistance to change can lead to an outdated and inefficient development process, making it difficult to keep pace with evolving industry standards and customer expectations. In this article, we will discuss the causes, consequences, and potential solutions for the Frozen Caveman antipattern.
+Frozen Caveman (aka Frozen Caveman Syndrome) is a software development antipattern characterized by the unwillingness or inability of a development team to adopt new technologies, methodologies, or practices. This resistance to change can lead to an outdated and inefficient development process, making it difficult to keep pace with evolving industry standards and customer expectations. In this article, we will discuss the causes, consequences, and potential solutions for the Frozen Caveman antipattern.
 
 ## Causes
 
@@ -40,4 +43,3 @@ To address the Frozen Caveman antipattern, consider implementing the following s
 1. [The Pragmatic Programmer: Your Journey to Mastery](https://amzn.to/3V6VfWF)
 2. [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://amzn.to/41HFmbs)
 3. [Article: Overcoming Resistance to Change in Software Development](https://www.techwell.com/techwell-insights/2018/09/overcoming-resistance-change-software-development)
-4. [Article: Breaking Free from the Frozen Caveman Syndrome: How to Keep Your Development Skills Current](https://www.developer.com/mgmt/breaking-free-from-the-frozen-caveman-syndrome-how-to-keep-your-development-skills-current.html)
