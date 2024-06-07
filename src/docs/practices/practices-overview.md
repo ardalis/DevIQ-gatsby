@@ -21,6 +21,7 @@ Good coding practices are important to good code. They can help to guide program
 - [Dogfooding](/practices/dogfooding)
 - [Know Where You Are Going](/practices/know-where-you-are-going)
 - [Naming Things](/practices/naming-things)
+- [Observability](/practices/observability)
 - [Pain Driven Development](/practices/pain-driven-development)
 - [Pair Programming](/practices/pair-programming)
 - [Read the Manual](/practices/read-the-manual)
