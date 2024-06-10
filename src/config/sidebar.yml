@@ -82,6 +82,8 @@
       link: /practices/know-where-you-are-going
     - label: Naming Things
       link: /practices/naming-things
+    - label: Observability
+      link: /practices/observability
     - label: Pain Driven Development
       link: /practices/pain-driven-development
     - label: Pair Programming
