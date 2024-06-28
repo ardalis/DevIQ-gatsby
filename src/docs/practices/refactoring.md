@@ -15,4 +15,3 @@ Refactoring is an important process that should be applied continually to softwa
 
 - [Refactoring to SOLID C# Code](https://www.pluralsight.com/courses/refactoring-solid-c-sharp-code) (Pluralsight)
 - [Refactoring for C# Developers](https://www.pluralsight.com/courses/refactoring-csharp-developers) (Pluralsight)
-- [Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) (Pluralsight)

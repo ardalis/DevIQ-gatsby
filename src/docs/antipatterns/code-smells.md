@@ -1,12 +1,12 @@
 ---
 title: "Code Smells"
-date: "2015-10-16"
+date: "2024-06-28"
 description: Code smells, or bad smells in code, refer to symptoms in code that may indicate deeper problems.
 ---
 
 Code smells, or bad smells in code, refer to symptoms in code that may indicate deeper problems. They're a diagnostic tool used when considering [refactoring](/practices/refactoring/) software to improve its design. Not all code smells should be "fixed" - sometimes code is perfectly acceptable in its current form. Context is important, so what may be inappropriate in one application or part of an application may be appropriate elsewhere.
 
-Each of these smells is demonstrated, and corrective actions described, in the [Refactoring Fundamentals](https://www.pluralsight.com/courses/refactoring-fundamentals) course on Pluralsight.
+Each of these smells is demonstrated, and corrective actions described, in the [Refactoring for C# Developers](https://www.pluralsight.com/courses/refactoring-csharp-developers) course on Pluralsight.
 
 ## Common Code Smells
 
@@ -107,4 +107,4 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 
 ## References
 
-[Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) on Pluralsight
+[Refactoring for C# Developers](https://www.pluralsight.com/courses/refactoring-csharp-developers) on Pluralsight
