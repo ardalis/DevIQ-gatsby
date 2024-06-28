@@ -116,10 +116,10 @@
   items:
     - label: Overview
       link: /principles/principles-overview
-    - label: Boy Scout Rule
-      link: /principles/boy-scout-rule
     - label: Architectural Agility
       link: /principles/architectural-agility
+    - label: Boy Scout Rule
+      link: /principles/boy-scout-rule
     - label: Dependency Inversion
       link: /principles/dependency-inversion-principle
     - label: Don't Repeat Yourself
