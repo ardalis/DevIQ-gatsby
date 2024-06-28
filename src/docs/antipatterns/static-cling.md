@@ -1,6 +1,6 @@
 ---
 title: "Static Cling"
-date: "2015-10-06"
+date: "2024-06-28"
 description: Static Cling is a code smell used to describe the undesirable coupling introduced by accessing static (global) functionality, either as variables or methods.
 ---
 
@@ -113,6 +113,6 @@ Although Static Cling refers specifically to references to static methods (or pr
 
 ## References
 
-[Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) on Pluralsight
+[Refactoring for C# Developers](https://www.pluralsight.com/courses/refactoring-csharp-developers) on Pluralsight
 
 [New is Glue](http://ardalis.com/new-is-glue/)

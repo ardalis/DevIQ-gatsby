@@ -1,6 +1,6 @@
 ---
 title: "Refactoring"
-date: "2015-05-21"
+date: "2024-06-28"
 description: As a verb, refactoring means to improve the design of a code without changing what it does. As a noun, it refers to an individual modification to a program that improves its design, without changing what the code does.
 featuredImage: "./images/refactoring.png"
 ---
@@ -15,4 +15,3 @@ Refactoring is an important process that should be applied continually to softwa
 
 - [Refactoring to SOLID C# Code](https://www.pluralsight.com/courses/refactoring-solid-c-sharp-code) (Pluralsight)
 - [Refactoring for C# Developers](https://www.pluralsight.com/courses/refactoring-csharp-developers) (Pluralsight)
-- [Refactoring Fundamentals](http://www.pluralsight.com/courses/refactoring-fundamentals) (Pluralsight)

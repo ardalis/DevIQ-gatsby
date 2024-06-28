@@ -1,6 +1,6 @@
 ---
 title: "Boy Scout Rule"
-date: "2014-11-26"
+date: "2024-06-28"
 description: The Boy Scout Rule can be summarized as leave your code better than you found it.
 featuredImage: "./images/BoyScoutRule-400x400.png"
 ---
@@ -23,7 +23,7 @@ The act of leaving a mess in the code should be as socially unacceptable as _lit
 
 2016 Software Craftsmanship Calendar
 
-[Refactoring Fundamentals](https://www.pluralsight.com/courses/refactoring-fundamentals) (on Pluralsight)
+[Refactoring for C# Developers](https://www.pluralsight.com/courses/refactoring-csharp-developers) (on Pluralsight)
 
 ## Previous Images
 

@@ -1,6 +1,6 @@
 ---
 title: "Flags Over Objects"
-date: "2014-11-27"
+date: "2024-06-28"
 description: The Flags Over Objects anti-pattern occurs when behavior is written outside of an object by inspecting flags (such as status codes), rather than within the object itself.
 featuredImage: "./images/flags-over-objects-400x400.jpg"
 ---
@@ -15,4 +15,4 @@ There are many ways to address this anti-pattern. In the worst cases, the State 
 
 [Pluralsight Design Patterns Library](http://bit.ly/DesignPatternsLibrary) (which includes the State pattern)
 
-[Pluralsight Refactoring Fundamentals course](https://www.pluralsight.com/courses/refactoring-fundamentals) (which includes dozens of other code smells and how to correct them)
+[Pluralsight Refactoring for C# Developers course](https://www.pluralsight.com/courses/refactoring-csharp-developers) (which includes dozens of other code smells and how to correct them)

@@ -1,6 +1,6 @@
 ---
 title: "Encapsulation"
-date: "2015-06-19"
+date: "2024-06-28"
 description: Encapsulation refers to the idea that objects should manage their own behavior and state, so that their collaborators need not concern themselves with the object's inner workings.
 featuredImage: "./images/encapsulation.png"
 ---
@@ -45,7 +45,7 @@ public class Product
 }
 ```
 
-This design is better, but still represents a bit of the [Primitive Obsession code smell](https://www.pluralsight.com/courses/refactoring-fundamentals). Why is it the Product class's responsibility to know about valid states for Volume? Volume, at least in our Euclidean geometry-based world, can never be negative in any context, not just for Products. It might make sense to represent Volume as its own type, probably a Value Object, which could include its own behavior (at a minimum, a way of enforcing limits on valid values, but probably also other important details, like units).
+This design is better, but still represents a bit of the [Primitive Obsession code smell](https://www.pluralsight.com/courses/refactoring-csharp-developers). Why is it the Product class's responsibility to know about valid states for Volume? Volume, at least in our Euclidean geometry-based world, can never be negative in any context, not just for Products. It might make sense to represent Volume as its own type, probably a Value Object, which could include its own behavior (at a minimum, a way of enforcing limits on valid values, but probably also other important details, like units).
 
 As a simple example:
 
