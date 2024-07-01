@@ -1,7 +1,7 @@
 ---
 title: "Vertical Slices"
-date: "2015-01-23"
-description: Software systems often are broken up into a series of layers. Typically, these are drawn as horizontal boxes.
+date: "2024-06-28"
+description: With vertical slices, only the minimal functionality required for an individual feature or user story is built into each layer.
 featuredImage: "./images/VerticalSlices-400x400.png"
 ---
 
@@ -20,6 +20,8 @@ Alternately, developers can build individual features that span all of the layer
 ![Vertical Slices](images/VerticalSlices.gif)
 
 The benefit of building software as a series of vertical slices is that customers are able to interact with fully functional software much sooner, and assumptions about the system's architecture and infrastructure are tested much earlier.
+
+If you prefer to approach a new solution with vertical slices, consider [Vertical Slice Architecture](/architecture/vertical-slice-architecture)!
 
 ## Quotes
 
