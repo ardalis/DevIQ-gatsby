@@ -1,5 +1,5 @@
 ---
-title:"Vertical Slice Architecture"
+title: "Vertical Slice Architecture"
 date: "2024-06-28"
 description: "In Vertical Slice Architecture, we organize the application by features rather than layers."
 featuredImage: "./images/vertical-slice-architecture.png"
