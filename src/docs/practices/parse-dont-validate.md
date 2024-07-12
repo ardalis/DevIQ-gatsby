@@ -13,9 +13,11 @@ Alexis King describes this eloquently in her original 2019 blog post, [Parse, do
 
 ## Validation
 
-Validation is a point-in-time method that typically returns *true* or *false* (and if false a list of reasons why it's false). It doesn't typically and should not have any side effects, such as mutating the thing it's validating. If the data structure or object being validated is mutable, then the system may be unable to assume that it remains valid from one context to another, and thus you'll often encounter validation taking place at multiple points within an application even for the same instance of a variable or structure.
+Validation is a point-in-time method that typically returns *true* or *false* (and if false a list of reasons why it's false). It doesn't typically and should not have any side effects, such as mutating the thing it's validating. If the data structure or object is passed between routines within the application, then the system probably cannot assume assume based on its type that the object remains valid from one context to another. Thus you'll often encounter validation taking place at multiple points within an application even for the same instance of a variable or structure (a practice sometimes called *shotgun validation*).
 
-Immutable types help, of course, and can be validated once and then assumed to remain valid. Even better, they can enforce design invariants as part of their construction, ensuring that it's impossible to even create the type unless it follows the rules.
+Immutable types help, of course, and can be validated once and then assumed to remain valid - *but only if the validation occurs as part of their construction*. That is, types that are able to enforce design invariants as part of their construction, and which are immutable, can be counted on by the system to be valid anywhere they appear.
+
+The process of taking less constrained types and producing more constrained types from them (or throwing an exception if this cannot be done) is known as *parsing*.
 
 ## Parsing
 
@@ -23,13 +25,15 @@ The act of parsing involves taking less structured data and turning it into more
 
 Consider `int.Parse(string input)`.
 
-The input string might be a relatively short sequence of numeric digits (perhaps prefixed with a `-`). But if it's anything else, it's still a valid `string`, but it won't be a valid `int`. If your application needs a numeric value to use within certain methods or functions, it's much better to convert an input string to an integer value and then pass that than to pass around a string everywhere and validate that it can represent an integer as needed.
+The input string might be a relatively short sequence of numeric digits (perhaps prefixed with a `-`). But if it's anything else, it's still a valid `string`, but it won't be a valid `int`, and thus the `Parse()` operation will fail with an exception. If your application needs a numeric value to use within certain methods or functions, it's much better to convert an input string to an integer value and then pass that than to pass around a string everywhere and validate that it can represent an integer as needed.
 
-You can use parsers and this practice alongside [Value Objects](/domain-driven-design/value-object), which are immutable data structures. By taking less structured primitive data and parsing it into Value Objects, your software will be less error-prone and you'll have fewer variables to keep track of.
+You can use parsers and this practice alongside [Value Objects](/domain-driven-design/value-object), which are immutable data structures. By taking less structured primitive data and parsing it into Value Objects, your software will be less error-prone and you'll have fewer variables to keep track of (in your head).
 
 ## DateTime as an Example
 
-Another great example of this approach is the DateTime type available in .NET and other frameworks/libraries. Imagine if this type didn't exist, and you needed a way to represent date and time values down to the second in your application. You might pass around a string that would need to be parsed anywhere it was used as a date and/or time value. At which point, hopefully you can see that ideally you would only perform the parsing operation once, after which you'd have a non-string type representing the date and time value. But alternately you might have methods with argument lists like `(int year, int month, int day, int hour, int minute, int second)`. Six integer values, each with separate acceptable ranges. You might then perform validation on these 6 values within such a method before proceeding with its actual logic. Such *shotgun validation* tends to clutter up code and obscure the real work, while also frequently missing validation of some inputs in some contexts.
+A great example of this approach is the DateTime type available in .NET (and other frameworks/libraries). Imagine if this type didn't exist, and you needed a way to represent date and time values down to the second in your application. You might pass around a string that would need to be parsed anywhere it was used as a date and/or time value. At which point, hopefully you can see that ideally you would only perform the parsing operation once, after which you'd have a non-string type representing the date and time value.
+
+But alternately you might have methods with argument lists like `(int year, int month, int day, int hour, int minute, int second)`. Six integer values, each with separate acceptable ranges. You might then perform validation on these 6 values within such a method before proceeding with its actual logic. Such *shotgun validation* tends to clutter up code and obscure the real work, while also frequently missing validation of some inputs in some contexts.
 
 The beauty of the DateTime type is that developers can be confident that it is always valid. **That's the point of parsing - to produce a higher level more constrained type that doesn't require validation because it cannot be invalid.**
 
