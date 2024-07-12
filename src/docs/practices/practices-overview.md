@@ -25,6 +25,7 @@ Good coding practices are important to good code. They can help to guide program
 - [Pain Driven Development](/practices/pain-driven-development)
 - [Pair Programming](/practices/pair-programming)
 - [Read the Manual](/practices/read-the-manual)
+- [Red, Green, Refactor](/practices/red-green-refactor)
 - [Refactoring](/practices/rubber-duck-debugging)
 - [Shipping Is A Feature](/practices/shipping-is-a-feature)
 - [Simple Design](/practices/simple-design)
