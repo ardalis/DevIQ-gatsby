@@ -35,7 +35,7 @@ A great example of this approach is the DateTime type available in .NET (and oth
 
 But alternately you might have methods with argument lists like `(int year, int month, int day, int hour, int minute, int second)`. Six integer values, each with separate acceptable ranges. You might then perform validation on these 6 values within such a method before proceeding with its actual logic. Such *shotgun validation* tends to clutter up code and obscure the real work, while also frequently missing validation of some inputs in some contexts.
 
-The beauty of the DateTime type is that developers can be confident that it is always valid. **That's the point of parsing - to produce a higher level more constrained type that doesn't require validation because it cannot be invalid.**
+The beauty of the DateTime type is that developers can be confident that it is always valid. **That's the point of parsing - to produce a higher level more constrained type that doesn't require validation because it cannot be invalid.** Using proper types instead of [the primitive obsession code smell](/antipatterns/code-smells) will make your methods easier to write correctly.
 
 ## Quotes
 
