@@ -36,3 +36,7 @@ Good coding practices are important to good code. They can help to guide program
 - [Whole Team](/practices/whole-team)
 - [Whole Team Activity](/practices/whole-team-activity)
 - [YOLO Architecture](/practices/yolo-architecture)
+
+### Notable Books with Practice Lists
+
+- [Practices from Code That Fits in Your Head](/practices/code-that-fits)
