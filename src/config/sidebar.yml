@@ -90,6 +90,8 @@
       link: /practices/pair-programming
     - label: Read the Manual
       link: /practices/read-the-manual
+    - label: Red, Green, Refactoring
+      link: /practices/red-green-refactor
     - label: Refactoring
       link: /practices/refactoring
     - label: Rubber Duck Debugging
