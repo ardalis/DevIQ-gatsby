@@ -360,3 +360,9 @@
       link: /laws/postels-law
     - label: Laws of Architecture
       link: /laws/laws-software-architecture
+- label: Architecture
+  items:
+    - label: Overview
+      link: /architecture/architecture-overview
+    - label: Vertical Slice Architecture
+      link: /architecture/vertical-slice-architecture
