@@ -13,7 +13,7 @@ featuredImage: "./images/code-that-fits.png"
 
 1. The 50/72 Rule
 2. The 80/24 Rule
-3. [Arrange Act Assert](/testing/arrange-act-assert))
+3. [Arrange Act Assert](/testing/arrange-act-assert)
 4. Bisection
 5. Checklist for New Code Base
 6. CQS
@@ -27,7 +27,7 @@ featuredImage: "./images/code-that-fits.png"
 14. Justify Exceptions from the Rule
 15. Parse, Don't Validate
 16. [Postel's Law](/laws/postels-law)
-17. [Red Green Refactor](/practices/red-green-refactor)
+17. [Red, Green, Refactor](/practices/red-green-refactor)
 18. Regularly Update Dependencies
 19. Reproduce Defects as Tests
 20. Review Code
