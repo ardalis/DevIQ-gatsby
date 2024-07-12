@@ -5,7 +5,7 @@ description: "Code That Fits in Your Head by Mark Seemann includes over two doze
 featuredImage: "./images/code-that-fits.png"
 ---
 
-![Red Green Refactor](images/code-that-fits.png)
+![Code That Fits in Your Head](images/code-that-fits.png)
 
 [Code That Fits in Your Head by Mark Seemann](https://amzn.to/3xTL8NO) includes over two dozen specific practices one can follow to help write better software. A summary of these practices is shown below. It's an excellent book with many heuristics and tips for writing better software while always ensuring the current context is simple enough for the developer to reason about.
 
@@ -25,7 +25,7 @@ featuredImage: "./images/code-that-fits.png"
 12. Functional Core, Imperative Shell
 13. Hierarchy of Communication
 14. Justify Exceptions from the Rule
-15. Parse, Don't Validate
+15. [Parse, Don't Validate](/practices/parse-dont-validate)
 16. [Postel's Law](/laws/postels-law)
 17. [Red, Green, Refactor](/practices/red-green-refactor)
 18. Regularly Update Dependencies
