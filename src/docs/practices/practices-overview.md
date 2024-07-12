@@ -24,6 +24,7 @@ Good coding practices are important to good code. They can help to guide program
 - [Observability](/practices/observability)
 - [Pain Driven Development](/practices/pain-driven-development)
 - [Pair Programming](/practices/pair-programming)
+- [Parse, Don't Validate](/practices/parse-dont-validate)
 - [Read the Manual](/practices/read-the-manual)
 - [Red, Green, Refactor](/practices/red-green-refactor)
 - [Refactoring](/practices/rubber-duck-debugging)

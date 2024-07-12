@@ -88,6 +88,8 @@
       link: /practices/pain-driven-development
     - label: Pair Programming
       link: /practices/pair-programming
+    - label: Parse, Don't Validate
+      link: /practices/parse-dont-validate
     - label: Read the Manual
       link: /practices/read-the-manual
     - label: Red, Green, Refactoring
