@@ -56,6 +56,8 @@
   items:
     - label: Overview
       link: /practices/practices-overview
+    - label: The 50/72 Rule
+      link: /practices/50-72-rule
     - label: Authentication
       link: /practices/authentication
     - label: Authorization

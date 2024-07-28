@@ -11,7 +11,7 @@ featuredImage: "./images/code-that-fits.png"
 
 ## Practices from Code That Fits in Your Head
 
-1. The 50/72 Rule
+1. [The 50/72 Rule](/practices/50-72-rule)
 2. The 80/24 Rule
 3. [Arrange Act Assert](/testing/arrange-act-assert)
 4. Bisection
