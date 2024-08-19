@@ -11,7 +11,7 @@ Version or source control is one of the most fundamental tools available for sof
 
 One issue every version control system must contend with is how to handle conflicts.  For instance, if two users edit the same file and then each commit it to the version control system, what happens? 
 
-### Centralized Version Control
+### Locking
 
 Generally, there are two approaches to solving this issue: locking and merging.  All version control systems support at least one of these options, and many support both.  In the case of locking, a centralized VCS service will lock files as a user checks them out or modifies them, preventing other users from obtaining the rights to write to these files.  As changes are committed, locks are released, and other users gain the ability to write to (and lock) the files in question.
 
@@ -38,7 +38,7 @@ sequenceDiagram
     Repo-->>UserA: Receives latest changes
 ```
 
-### Decentralized Version Control Systems
+### Merging
 
 The other approach is to allow anybody to work on any files at any time, but for conflicts to be automatically detected when changes are committed to the system.  If user A and user B both start with version 1 of a given file, and then user A commits changes to this file (updating the revision number to 2), then when user B commits their changes, the system will note that user B is committing updates to a file they retrieved as version 1 but which currently is version 2.  This will trigger a merge operation. 
 
