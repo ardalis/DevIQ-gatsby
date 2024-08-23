@@ -1,7 +1,7 @@
 ---
 title: "Shipping Is A Feature"
-date: "2014-11-26"
-description: Never lose sight of the fact that until you ship your product, it is not providing value to anybody.
+date: "2024-08-21"
+description: Learn why 'Shipping is a Feature' is a crucial mindset in software development. Understand the importance of delivering working software and how timely releases drive user satisfaction and business value.
 featuredImage: "./images/ShippingIsAFeature-400x400.jpg"
 ---
 

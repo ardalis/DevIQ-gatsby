@@ -1,7 +1,7 @@
 ---
 title: "Naming Things"
-date: "2014-11-26"
-description: It is hard to overestimate the importance of choosing good names for source code elements in software development.
+date: "2024-08-21"
+description: Discover why 'Naming Things' is considered one of the hardest problems in software development. Learn strategies for choosing clear, descriptive names that improve code clarity and maintainability.
 featuredImage: "./images/Naming-Things-400x400.jpg"
 ---
 

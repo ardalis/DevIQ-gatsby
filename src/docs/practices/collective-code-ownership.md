@@ -1,7 +1,7 @@
 ---
 title: "Collective Code Ownership"
-date: "2014-11-26"
-description: Collective code ownership breaks down fiefdoms within an application's codebase.
+date: "2024-08-21"
+description: Explore the practice of Collective Code Ownership, where all team members are responsible for the codebase. Learn how this approach promotes collaboration, quality, and faster issue resolution.
 featuredImage: "./images/CollectiveCodeOwnership-400x400.png"
 ---
 

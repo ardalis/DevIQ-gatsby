@@ -1,7 +1,7 @@
 ---
 title: "Feedback"
-date: "2014-11-26"
-description: Feedback is an Extreme Programming value.
+date: "2024-08-19"
+description: Explore the Feedback principle in Extreme Programming. Understand how continuous feedback loops between developers, stakeholders, and customers drive improvement and ensure high-quality software delivery.
 featuredImage: "./images/feedback.png"
 ---
 

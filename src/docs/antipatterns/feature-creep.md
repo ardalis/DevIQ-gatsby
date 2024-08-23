@@ -1,7 +1,7 @@
 ---
 title: "Feature Creep"
-date: "2014-11-27"
-description: Many software products die an earlier death than necessary because of feature creep, by which additional bits of functionality are continually added.
+date: "2024-08-20"
+description: Uncover the risks of Feature Creep, where continuous addition of features leads to bloated and unwieldy software. Learn strategies to manage scope and maintain a focused, user-centric product.
 featuredImage: "./images/feature-creep-400x400.jpg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Pair Programming"
-date: "2014-11-26"
-description: Pair Programming refers to the practice of having two people engaged together on a single programming task.
+date: "2024-08-21"
+description: Uncover the benefits of Pair Programming, where two developers work together at one workstation. Learn how this practice improves code quality, enhances learning, and boosts team collaboration.
 featuredImage: "./images/pair-programming.png"
 ---
 

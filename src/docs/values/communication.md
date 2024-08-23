@@ -1,7 +1,7 @@
 ---
 title: "Communication"
-date: "2014-11-26"
-description: Communication is a key value in Extreme Programming.
+date: "2024-08-19"
+description: Effective communication is key to successful software projects. Learn how the Communication value in Extreme Programming fosters collaboration, clarity, and team alignment for better project outcomes.
 featuredImage: "./images/communication.png"
 ---
 

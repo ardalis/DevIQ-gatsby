@@ -1,7 +1,7 @@
 ---
 title: "Simple Design"
-date: "2014-11-26"
-description: "Kent Beck created four rules of Simple Design, sometimes referred to as the Four Commandments."
+date: "2024-08-21"
+description: Discover the power of Simple Design in software development. Learn how focusing on simplicity helps create flexible, understandable, and maintainable solutions that meet immediate needs without over-engineering.
 featuredImage: "./images/simple-design.png"
 ---
 

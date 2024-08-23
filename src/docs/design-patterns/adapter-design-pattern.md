@@ -1,7 +1,7 @@
 ---
 title: "Adapter Design Pattern"
-date: "2014-11-26"
-description: The Adapter Design Pattern, also known as the Wrapper, allows two classes to work together that otherwise would have incompatible interfaces.
+date: "2024-08-19"
+description: Learn how the Adapter design pattern helps integrate incompatible interfaces. Discover how it acts as a bridge, allowing different systems to communicate seamlessly and enhancing the flexibility of your software architecture.
 featuredImage: "./images/adapter-design-pattern.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Frankencode"
-date: "2014-11-27"
-description: Frankencode refers to code that was never designed to work together, being pulled into a single application and held together with duct tape, baling wire, and maybe some Adapter design pattern usage.
+date: "2024-08-20"
+description: Discover the dangers of Frankencode, where disparate code pieces are haphazardly stitched together to create a fragile and unpredictable system. Learn how to avoid this design horror and build robust, maintainable software.
 featuredImage: "./images/frankencode-400x400.jpg"
 ---
 

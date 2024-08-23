@@ -1,7 +1,7 @@
 ---
 title: "Whole Team Activity"
-date: "2014-11-26"
-description: Software development is a whole team activity - avoid silos and barriers to communication.
+date: "2024-08-21"
+description: Explore the concept of Whole Team Activity, where everyone on the team collaborates towards common goals. Learn how this practice enhances communication, fosters innovation, and ensures project success.
 featuredImage: "./images/Whole-Team-Activity-400x400.jpg"
 ---
 

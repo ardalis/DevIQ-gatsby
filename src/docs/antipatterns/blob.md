@@ -1,7 +1,7 @@
 ---
 title: "The Blob"
-date: "2014-11-27"
-description: "The Blob is an anti-pattern that describes a class which resembles the monster from the 1958 film, The Blob, which absorbs anything it touches and grows larger and larger over time."
+date: "2024-08-20"
+description: Uncover the Blob antipattern, a design flaw where a single class grows excessively in size and responsibility, becoming hard to maintain. Understand how to avoid creating code that is too complex to manage.
 featuredImage: "./images/blob-400x400.jpg"
 ---
 

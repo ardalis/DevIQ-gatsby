@@ -1,7 +1,7 @@
 ---
 title: "Courage"
-date: "2023-10-02"
-description: Courage demands us to recognize and address weaknesses within ourselves, our teams, and our organizations, ultimately driving us to strive for improvement in these areas.
+date: "2024-08-19"
+description: Embrace the value of Courage in Extreme Programming. Discover how taking bold decisions, addressing challenges directly, and welcoming changes can lead to better, more adaptable software solutions.
 featuredImage: "./images/courage.png"
 ---
 

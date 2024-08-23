@@ -1,7 +1,7 @@
 ---
 title: "Death by Planning"
-date: "2014-11-27"
-description: Although planning is an essential part of building quality software, keep in mind that shipping is a feature (your product must have it). Keep short term plans as close to the actual implementation of your software as possible, while keeping long term plans as vague and flexible as possible.
+date: "2024-08-20"
+description: Explore the Death by Planning antipattern, where overemphasis on planning leads to stalled progress and missed deadlines. Learn how to balance planning and execution for successful project management.
 featuredImage: "./images/death-by-planning-400x400.jpg"
 ---
 

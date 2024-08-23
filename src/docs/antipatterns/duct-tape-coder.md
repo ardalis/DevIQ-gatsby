@@ -1,7 +1,7 @@
 ---
 title: "Duct Tape Coder"
-date: "2014-11-27"
-description: The Duct Tape Coder is someone who is able to cobble together software that solves the immediate problem, but without any concern for the code's quality or maintainability.
+date: "2024-08-20"
+description: Meet the Duct Tape Coder, who prioritizes quick fixes over code quality and maintainability. Discover the long-term risks of this approach and why building sustainable software is essential
 featuredImage: "./images/duct-tape-400x400.jpg"
 ---
 

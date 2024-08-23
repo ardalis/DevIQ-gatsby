@@ -1,7 +1,7 @@
 ---
 title: "Simplicity"
-date: "2014-11-26"
-description: Simplicity is one of the Values of Extreme Programming.
+date: "2024-08-19"
+description: Discover the value of Simplicity in Extreme Programming. Learn how focusing on simple solutions and avoiding unnecessary complexity can enhance efficiency and improve software development outcomes.
 featuredImage: "./images/simplicity.png"
 ---
 

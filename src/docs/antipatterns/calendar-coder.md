@@ -1,7 +1,7 @@
 ---
 title: "Calendar Coder"
-date: "2014-11-27"
-description: Featured in the 2012 Software Craftsmanship AntiPatterns calendar, the Calendar Coder antipattern is a play on the notion of cargo cult programming.
+date: "2024-08-20"
+description: Discover the Calendar Coder antipattern, a practice similar to cargo cult programming. Learn how mimicking coding practices without understanding the context can lead to ineffective software solutions.
 featuredImage: "./images/calendar-coder-400x400.jpg"
 ---
 

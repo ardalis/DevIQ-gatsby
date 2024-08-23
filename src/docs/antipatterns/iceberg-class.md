@@ -1,7 +1,7 @@
 ---
 title: "Iceberg Class"
-date: "2014-11-27"
-description: Although encapsulation is an oft-sited good thing to have in a design, there are many cases in which hiding an abundance of implementation behind private methods is undesirable.
+date: "2024-08-20"
+description: Learn about the Iceberg Class antipattern, where a class has a deceptively simple interface but hides a massive, complex implementation. Discover strategies to keep your classes transparent and manageable.
 featuredImage: "./images/iceberg-class-400x400.jpg"
 ---
 

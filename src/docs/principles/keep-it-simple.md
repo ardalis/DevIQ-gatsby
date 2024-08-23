@@ -1,7 +1,7 @@
 ---
 title: "Keep It Simple"
-date: "2014-11-26"
-description: The KISS principle, or Keep It Simple, Stupid, spans many trades, industries, and professions.
+date: "2024-08-19"
+description: Discover the power of simplicity with the KISS principle in software design. Learn some ways to keep it simple and have fewer defects.
 featuredImage: "./images/keep-it-simple-400x400.jpg"
 ---
 

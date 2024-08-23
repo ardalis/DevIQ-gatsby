@@ -1,7 +1,7 @@
 ---
 title: "Mushroom Management"
-date: "2014-11-27"
-description: Mushroom Management refers to the practice of treating your developers like mushrooms - to wit, "keep them in the dark and feed them BS."
+date: "2024-08-20"
+description: Explore the consequences of Mushroom Management, where developers are kept in the dark and fed misinformation. Understand the importance of transparency and communication for effective project management."
 featuredImage: "./images/mushroom-management-400x400.jpg"
 ---
 

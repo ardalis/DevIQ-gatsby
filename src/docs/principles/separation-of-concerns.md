@@ -1,7 +1,7 @@
 ---
 title: "Separation of Concerns"
 date: "2024-08-23"
-description: A key principle of software development and architecture is the notion of separation of concerns.
+description: Learn about the Separation of Concerns (SoC) principle in software design. Discover how breaking down software into distinct sections with specific responsibilities enhances modularity and maintainability.
 featuredImage: "./images/separation-of-concerns-400x400.jpg"
 ---
 
