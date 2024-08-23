@@ -1,6 +1,6 @@
 ---
 title: "Witches' Brew Architecture: A Software Antipattern"
-date: "2024-04-02"
+date: "2024-08-23"
 description: Witches' Brew Architecture is a software antipattern characterized by a chaotic and poorly structured codebase that combines multiple technologies, design patterns, and coding styles in a haphazard and inconsistent manner.
 ---
 
@@ -46,6 +46,8 @@ To address the Witches' Brew Architecture antipattern, consider implementing the
 
 ## On-Demand Training
 
-1. [On-Demand Webinar: Clean Architecture with .NET 8](https://mailchi.mp/nimblepros/clean-architecture-dotnet-8-recording)
-2. [On-Demand Webinar: Clean Architecture with .NET 7](https://mailchi.mp/nimblepros/wgcplkrex4)
+- [NimblePros Academy - Clean Architecture Course](https://bit.ly/3WQ8Cvq)
+- [On-Demand Webinar: Clean Architecture with .NET 8](https://mailchi.mp/nimblepros/clean-architecture-dotnet-8-recording)
+- [On-Demand Webinar: Clean Architecture with .NET 7](https://mailchi.mp/nimblepros/wgcplkrex4)
+
 

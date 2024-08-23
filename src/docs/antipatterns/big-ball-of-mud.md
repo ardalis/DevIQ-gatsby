@@ -1,6 +1,6 @@
 ---
 title: "Big Ball of Mud"
-date: "2021-04-27"
+date: "2024-08-23"
 description: "The Big Ball of Mud is an architectural anti-pattern that refers to an architecture that lacks any modular design, and thus becomes just a mass of disorganized code lacking any real structure."
 featuredImage: "./images/big-ball-of-mud-survivor.jpg"
 ---
@@ -27,3 +27,7 @@ Write automated tests, using [test-driven development](/practices/test-driven-de
 
 - [Big Ball of Mud](http://www.laputan.org/mud/) paper (1997)
 - [Big Ball Of Mud](https://twitter.com/ObiOberoi/status/696398165289766912) via @ObiOberoi on Twitter
+
+## See Also
+
+- [NimblePros Academy - Clean Architecture Course](https://bit.ly/3WQ8Cvq)

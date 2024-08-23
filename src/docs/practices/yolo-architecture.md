@@ -1,6 +1,6 @@
 ---
 title: "YOLO Software Architecture"
-date: "2024-05-23"
+date: "2024-08-23"
 description: YOLO Architecture describes a development style characterized by minimal planning, lack of organization, and an absence of clear architectural principles.
 featuredImage: "./images/yolo-architecture.png"
 ---
@@ -66,3 +66,9 @@ YOLO Architecture serves as a cautionary tale for software developers. While it 
 3. [Clean Architecture](https://ardalis.com/clean-architecture-asp-net-core/)
 4. [Vertical Slice Architecture](https://jimmybogard.com/vertical-slice-architecture/)
 5. [Architecture by Implication](/antipatterns/architecture-by-implication)
+
+
+## See Also
+
+- [NimblePros Academy - Clean Architecture Course](https://bit.ly/3WQ8Cvq)
+- [On-Demand Webinar: Clean Architecture with .NET 8](https://mailchi.mp/nimblepros/clean-architecture-dotnet-8-recording)
