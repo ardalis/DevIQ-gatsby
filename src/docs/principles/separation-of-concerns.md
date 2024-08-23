@@ -1,6 +1,6 @@
 ---
 title: "Separation of Concerns"
-date: "2024-08-19"
+date: "2024-08-23"
 description: Learn about the Separation of Concerns (SoC) principle in software design. Discover how breaking down software into distinct sections with specific responsibilities enhances modularity and maintainability.
 featuredImage: "./images/separation-of-concerns-400x400.jpg"
 ---
@@ -15,24 +15,24 @@ In addition to separating logic across programming layers, one can also separate
 
 Separation of Concerns tends to be a natural consequence of following the Don't Repeat Yourself principle, since of necessity abstractions must be built to encapsulate concepts that would otherwise be repeated throughout the application.  As long as these abstractions are logically grouped and organized, then Separation of Concerns should be achieved.
 
+Separation of Concerns is also one of the guiding principles of Clean Architecture. You see a strong separation between the business logic and the technical decisions.
+
 ## Quotes
 
 "\[Separation of Concerns\], even if not perfectly possible, is yet the only available technique for effective ordering of one's thoughts, that I know of." -- Edsger W. Dijkstra
 
 ## See Also
 
-[Single Responsibility Principle](/principles/single-responsibility-principle)
-
-[Don't Repeat Yourself](/principles/dont-repeat-yourself)
+- [Common Architectural Vision](/practices/common-architectural-vision)
+- [Single Responsibility Principle](/principles/single-responsibility-principle)
+- [Don't Repeat Yourself](/principles/dont-repeat-yourself)
 
 ## References
 
-[Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) from Pluralsight
-
-[Creating N-Tier Applications in C#, Part 1](http://www.pluralsight.com/courses/n-tier-apps-part1) from Pluralsight
-
-[Creating N-Tier Applications in C#, Part 2](https://www.pluralsight.com/courses/n-tier-csharp-part2) from Pluralsight
-
-An excellent article on [Separation of Concerns](http://aspiringcraftsman.com/2008/01/03/art-of-separation-of-concerns/)
-
-[Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) on Wikipedia
+- [Principles of Object Oriented Design](https://www.pluralsight.com/courses/principles-oo-design) from Pluralsight
+- [Creating N-Tier Applications in C#, Part 1](http://www.pluralsight.com/courses/n-tier-apps-part1) from Pluralsight
+- [Creating N-Tier Applications in C#, Part 2](https://www.pluralsight.com/courses/n-tier-csharp-part2) from Pluralsight
+- An excellent article on [Separation of Concerns](http://aspiringcraftsman.com/2008/01/03/art-of-separation-of-concerns/)
+- [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) on Wikipedia
+- [The Importance of Clean Architecture](https://blog.nimblepros.com/blogs/the-importance-of-clean-architecture/)
+- [NimblePros Academy - Clean Architecture Course](https://bit.ly/3WQ8Cvq)
