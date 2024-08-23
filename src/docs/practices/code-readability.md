@@ -1,7 +1,7 @@
 ---
 title: "Code Readability"
-date: "2014-11-26"
-description: Writing code that is readable is critical for any software application that needs to be maintained for any length of time.
+date: "2024-08-21"
+description: Discover the importance of Code Readability in software development. Learn how writing clear, understandable code enhances collaboration, reduces bugs, and makes maintenance easier for everyone on the team.
 featuredImage: "./images/Code-Readability-Dec-2013-400x400.jpg"
 ---
 

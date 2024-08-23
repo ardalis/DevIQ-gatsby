@@ -1,7 +1,7 @@
 ---
 title: "Dependency Injection"
-date: "2014-11-26"
-description: Dependency Injection is a technique that facilitates loosely coupled object-oriented software systems.
+date: "2024-08-21"
+description: Understand the benefits of Dependency Injection in software development. Learn how it helps create flexible, testable, and maintainable code by managing dependencies effectively.
 featuredImage: "./images/dependency-injection.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Know Where You Are Going"
-date: "2014-11-26"
-description: Don't just code with blinders on - understand how what you're building will be used and the problems it's meant to solve.
+date: "2024-08-21"
+description: Explore the principle of 'Know Where You Are Going' in software projects. Understand how setting clear goals and having a vision ensures alignment and guides the development process effectively.
 featuredImage: "./images/Know-Where-Youre-Going-400x400.jpg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Whole Team"
-date: "2014-11-26"
-description: An XP Practice, Whole Team refers to the idea that the team involved in building an application or delivering a project is the whole team.
+date: "2024-08-21"
+description: Understand the 'Whole Team' approach, where every team member's skills and insights are leveraged. Discover how this practice improves project outcomes by encouraging inclusivity and shared responsibility.
 featuredImage: "./images/whole-team.png"
 ---
 
