@@ -1,7 +1,7 @@
 ---
 title: "Fast Beats Right"
-date: "2014-11-27"
-description: The Fast Beats Right antipattern alleges that it is always better to just get something done, regardless of quality, than to invest any effort into doing the job right.
+date: "2024-08-20"
+description: Get into the Fast Beats Right antipattern, where speed is prioritized over quality. Learn why rushing development can lead to long-term issues and how to strike a balance between speed and precision.
 featuredImage: "./images/fast-beats-right-400x400.jpg"
 ---
 

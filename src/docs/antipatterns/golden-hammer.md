@@ -1,7 +1,7 @@
 ---
 title: "Golden Hammer"
-date: "2014-11-27"
-description: The Golden Hammer refers to a language, tool, or platform with which the developer is comfortable and productive, so they are tempted to use it for any problem that presents itself.
+date: "2024-08-20"
+description: Uncover the pitfalls of the Golden Hammer antipattern, where developers use their favorite tool or technology for every problem. Understand why relying too heavily on one solution can limit creativity and effectiveness.
 featuredImage: "./images/golden-hammer2014-400x400.jpg"
 ---
 

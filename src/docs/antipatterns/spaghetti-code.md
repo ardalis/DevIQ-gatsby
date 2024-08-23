@@ -1,7 +1,7 @@
 ---
 title: "Spaghetti Code"
-date: "2014-11-27"
-description: Spaghetti Code refers to code that has a tangled structure, especially one in which following the actual flow of the program is difficult.
+date: "2024-08-20"
+description: Uncover the tangled mess of Spaghetti Code, where poor structure and lack of organization make the code hard to follow and maintain. Learn techniques to write clean, well-organized code.
 featuredImage: "./images/spaghetti-code-400x400.jpg"
 ---
 

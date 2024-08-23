@@ -1,7 +1,7 @@
 ---
 title: "Copy Paste Programming"
-date: "2014-11-27"
-description: Sometimes you need to make a change that's similar to one you've made before, or you have some logic that's performed in more than one location, and it needs to change.
+date: "2024-08-20"
+description: Learn about the pitfalls of Copy-Paste Programming. While convenient, this approach can lead to duplicated code, inconsistencies, and maintenance challenges. Explore better practices for code reuse and efficiency.
 featuredImage: "./images/copy-paste-programming-400x400.jpg"
 ---
 

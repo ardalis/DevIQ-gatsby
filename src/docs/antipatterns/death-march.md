@@ -1,7 +1,7 @@
 ---
 title: "Death March"
-date: "2014-11-26"
-description: The worst part of a Death March project is that virtually everybody involved with it knows it's a death march project.
+date: "2024-08-20"
+description: Understand the Death March antipattern, where projects are doomed from the start yet push teams to work excessive hours. Learn how to recognize and avoid this destructive project management trap.
 featuredImage: "./images/death-march-400x400.jpg"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Assumption Driven Programming"
-date: "2014-11-27"
-description: Assumption Driven Programming refers to the developer practice of assuming all users are like them.
+date: "2024-08-20"
+description: Explore the pitfalls of Assumption Driven Programming, where developers mistakenly assume that all users share their knowledge and experience. Learn why it's crucial to consider diverse user perspectives for more effective software solutions.
 featuredImage: "./images/assumption-driven-programming-400x400.jpg"
 ---
 

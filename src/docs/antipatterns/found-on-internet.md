@@ -1,7 +1,7 @@
 ---
 title: "Found on Internet"
-date: "2014-11-27"
-description: This anti-pattern refers to the practice of taking advice or code samples found on the Internet and immediately applying them to production code without taking the time to consider their effects.
+date: "2024-08-20"
+description: Explore the Found on Internet antipattern, where code or solutions are copied directly from online sources without proper evaluation. Learn the importance of understanding and testing code before integration.
 featuredImage: "./images/found-on-internet-400x400.jpg"
 ---
 
