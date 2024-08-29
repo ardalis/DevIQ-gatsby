@@ -9,5 +9,6 @@ Much like how a house needs a solid foundation in order to stay strong, an appli
 
 ## Architecture
 
+- [Clean Architecture](/architecture/clean-architecture)
 - [Laws of Software Architecture](/laws/laws-software-architecture)
 - [Vertical Slice Architecture](/architecture/vertical-slice-architecture)

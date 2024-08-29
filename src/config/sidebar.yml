@@ -366,5 +366,7 @@
   items:
     - label: Overview
       link: /architecture/architecture-overview
+    - label: Clean Architecture
+      link: /architecture/clean-architecture
     - label: Vertical Slice Architecture
       link: /architecture/vertical-slice-architecture
