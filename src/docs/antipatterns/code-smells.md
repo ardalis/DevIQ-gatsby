@@ -2,6 +2,7 @@
 title: "Code Smells"
 date: "2024-06-28"
 description: Code smells, or bad smells in code, refer to symptoms in code that may indicate deeper problems.
+featuredImage: "./images/code-smells.png"
 ---
 
 Code smells, or bad smells in code, refer to symptoms in code that may indicate deeper problems. They're a diagnostic tool used when considering [refactoring](/practices/refactoring/) software to improve its design. Not all code smells should be "fixed" - sometimes code is perfectly acceptable in its current form. Context is important, so what may be inappropriate in one application or part of an application may be appropriate elsewhere.
