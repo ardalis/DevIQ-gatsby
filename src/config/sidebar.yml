@@ -366,5 +366,9 @@
   items:
     - label: Overview
       link: /architecture/architecture-overview
+    - label: Clean Architecture
+      link: /architecture/clean-architecture
+    - label: Event-Driven Architecture
+      link: /architecture/event-driven-architecture
     - label: Vertical Slice Architecture
       link: /architecture/vertical-slice-architecture
