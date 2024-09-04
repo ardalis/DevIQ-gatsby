@@ -20,8 +20,17 @@ These are things that are related to Test-Driven Development (TDD) and testing i
 - [Pair Programming](/practices/pair-programming)
 - [Test-Driven Development](/practices/test-driven-development)
 
+## Testing Concepts
+
+- [Automated Tests](/testing/automated-tests)
+- [Front-End Tests](/testing/front-end-tests)
+- [Functional Tests](/testing/functional-tests)
+- [Integration Tests](/testing/integration-tests)
+- [The Testing Pyramid](/testing/testing-pyramid)
+- [Unit Tests](/testing/unit-tests)
+
 ## On-Demand Webinars
 
-- [Design Patterns for Testing](https://mailchi.mp/nimblepros/design-patterns-testing-recording)
-- [Enhancing Blazor App Quality with Playwright Testing](https://mailchi.mp/nimblepros/playwright-recording)
-- [From Requirements to Tests - Intro to SpecFlow](https://mailchi.mp/nimblepros/specflow-recording)
+- [Design Patterns for Testing](https://www.youtube.com/watch?v=kB1bb7q7f0A)
+- [Testing Blazor with Playwright](https://www.youtube.com/watch?v=ZZXNPboS0v8)
+- [From Requirements to Tests - Intro to SpecFlow](https://www.youtube.com/watch?v=iEI9Am-rA4M)
