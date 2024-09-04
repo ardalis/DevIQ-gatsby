@@ -11,11 +11,11 @@ The testing pyramid is a framework that guides the distribution of different typ
 
 ## Unit Tests Layer
 
-This layer forms the base of the pyramid and consists of tests that verify the smallest pieces of code, like individual functions or methods. Unit tests are fast, easy to write, and provide immediate feedback on the correctness of code.
+The [unit tests](/testing/unit-tests) layer forms the base of the pyramid and consists of tests that verify the smallest pieces of code, like individual functions or methods. Unit tests are fast, easy to write, and provide immediate feedback on the correctness of code.
 
 ## Integration Tests Layer
 
-Above the unit tests, integration tests focus on testing interactions between different parts of the system. These tests ensure that components or services work together as expected. Integration tests are more complex and slower than unit tests but cover more significant parts of the application.
+Above the unit tests, [integration tests](/testing/integration-tests) focus on testing interactions between different parts of the system. These tests ensure that components or services work together as expected. Integration tests are more complex and slower than unit tests but cover more significant parts of the application.
 
 ## End-to-End Tests Layer
 
