@@ -324,6 +324,18 @@
       link: /testing/testing-overview
     - label: Arrange-Act-Assert
       link: /testing/arrange-act-assert
+    - label: Automated Tests
+      link: /testing/automated-tests
+    - label: Front-End Tests
+      link: /testing/front-end-tests
+    - label: Functional Tests
+      link: /testing/functional-tests
+    - label: Integration Tests
+      link: /testing/integration-tests
+    - label: The Testing Pyramid
+      link: /testing/testing-pyramid
+    - label: Unit Tests
+      link: /testing/unit-tests      
 - label: Laws
   items:
     - label: Overview
