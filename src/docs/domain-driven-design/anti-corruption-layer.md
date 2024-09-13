@@ -32,7 +32,7 @@ Here is a sequence diagram that shows these steps and how the components interac
 ```mermaid
 sequenceDiagram
     participant Domain Model
-    participant Anti-Corruption Layer (ACL)
+    participant ACL as Anti-Corruption Layer (ACL)
     participant External System
     activate Domain Model
     Domain Model->>ACL: Request
