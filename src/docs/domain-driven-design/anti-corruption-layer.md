@@ -33,6 +33,7 @@ Here is a sequence diagram that shows these steps and how the components interac
 sequenceDiagram
     participant Domain Model
     participant ACL as Anti-Corruption Layer (ACL)
+    participant Adapter
     participant External System
     activate Domain Model
     Domain Model->>ACL: Request
