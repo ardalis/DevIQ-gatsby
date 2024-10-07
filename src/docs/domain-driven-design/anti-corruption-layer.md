@@ -32,7 +32,8 @@ Here is a sequence diagram that shows these steps and how the components interac
 ```mermaid
 sequenceDiagram
     participant Domain Model
-    participant Anti-Corruption Layer (ACL)
+    participant ACL as Anti-Corruption Layer (ACL)
+    participant Adapter
     participant External System
     activate Domain Model
     Domain Model->>ACL: Request
@@ -42,6 +43,7 @@ sequenceDiagram
     deactivate ACL
     activate Adapter
     Adapter->>External System: Send Translated Request
+    deactivate Adapter
     activate External System
     External System->>Adapter: Send Response
     deactivate External System
@@ -51,6 +53,8 @@ sequenceDiagram
     activate ACL
     ACL->>Domain Model: Provide Translated Data
     deactivate ACL
+    activate Domain Model
+    deactivate Domain Model
 ```
 
 ## Design Patterns in the ACL
