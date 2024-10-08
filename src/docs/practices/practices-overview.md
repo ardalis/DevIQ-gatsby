@@ -31,6 +31,7 @@ Good coding practices are important to good code. They can help to guide program
 - [Refactoring](/practices/rubber-duck-debugging)
 - [Shipping Is A Feature](/practices/shipping-is-a-feature)
 - [Simple Design](/practices/simple-design)
+- [Single Point of Enforcement](/practices/single-point-of-enforcement)
 - [Test Driven Development](/practices/test-driven-development)
 - [Timeboxing](/practices/timeboxing)
 - [Update the Plan](/practices/update-the-plan)

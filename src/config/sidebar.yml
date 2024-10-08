@@ -104,6 +104,8 @@
       link: /practices/shipping-is-a-feature
     - label: Simple Design
       link: /practices/simple-design
+    - label: Single Point of Enforcement
+      link: /practices/single-point-of-enforcement
     - label: Test Driven Development
       link: /practices/test-driven-development
     - label: Timeboxing
