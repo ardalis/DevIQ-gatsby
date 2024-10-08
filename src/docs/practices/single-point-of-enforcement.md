@@ -44,6 +44,8 @@ The core idea of using a Single Point of Enforcement (SPE) is that any operation
 
 ## Examples of SPE in Action
 
+Below are a couple of examples using Domain-Driven Design patterns. *Every domain operation that mutates state should have a Single Point of Enforcement where its rules are applied.* These patterns demonstrate two ways to achieve this.
+
 ### Example - Aggregates in Domain-Driven Design
 
 In [Domain-Driven Design (DDD)](/domain-driven-design/ddd-overview), an [Aggregate](/domain-driven-design/aggregate-pattern) acts as the Single Point of Enforcement for a cluster of related entities. The aggregate root is the only entry point through which operations can be performed, ensuring that all changes to the internal entities are validated and consistent with business rules.
