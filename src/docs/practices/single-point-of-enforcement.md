@@ -5,6 +5,8 @@ description: We enforce business rules through a Single Point of Enforcement, en
 featuredImage: "./images/single-point-of-enforcement.png"
 ---
 
+![Single Point of Enforcement](./images/single-point-of-enforcement.png)
+
 ## Introduction
 
 In complex software systems, it's critical to ensure that specific operations are consistently handled and that business rules are enforced uniformly. The **Single Point of Enforcement** (SPE) is a design approach that centralizes control over certain operations, acting as a gatekeeper to ensure that all necessary validations, rules, and logic are applied. This prevents duplication of logic, reduces the risk of errors, and maintains consistency across a codebase.
