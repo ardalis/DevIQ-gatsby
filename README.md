@@ -8,6 +8,11 @@ If you don't have Node, NPM, or Gatsby installed locally, don't panic! We have [
 
 The [Dockerfile](./.devcontainer/Dockerfile) starts with a Node image that we need for this repo. It also installs the Gatsby CLI tooling.
 
+Because of the way dev containers work, if you want to run `gatsby serve` or `gatsby develop` and access the site from outside the container, you will need to use `--host 0.0.0.0` with the command to make it accessible outside of the container. So:
+
+- If you prefer the build-and-serve cycle, use `gatsby serve --host 0.0.0.0`
+- If you prefer to use the hot reload features, then use `gatsby develop --host 0.0.0.0`
+
 ## Local Dependencies
 
 If you do want to run this locally and not within a dev container, you will want to have the following installed:
