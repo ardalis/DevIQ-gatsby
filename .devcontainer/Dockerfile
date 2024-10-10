@@ -13,3 +13,7 @@ RUN npm install -g gatsby-cli --unsafe-perm=true --allow-root
 
 # Set `DEVCONTAINER` environment variable to help with orientation
 ENV DEVCONTAINER=true
+# Use this to enable polling when Docker is used
+ENV CHOKIDAR_USEPOLLING=true
+# This is also used for Hot Module Reloading with Gatsby
+ENV INTERNAL_STATUS_PORT=5001
