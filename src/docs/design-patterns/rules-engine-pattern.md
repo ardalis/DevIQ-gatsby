@@ -96,6 +96,7 @@ When implementing the rules engine:
 - [Strategy Pattern](/design-patterns/strategy-pattern) - encapsulate rule execution strategies
 - Command - encapsulate rule actions as discrete commands for testability and separation of concerns
 - Observer - can be used to notify parties when rules are triggered or applied
+- [Mediator Pattern](/design-patterns/mediator-pattern) - acts as the orchestrator between the Rules Engine and its dependent components
 
 ## Frequently Asked Questions
 
