@@ -28,6 +28,8 @@
       link: /design-patterns/factory-method-pattern
     - label: Guard Clause
       link: /design-patterns/guard-clause
+    - label: Mediator
+      link: /design-patterns/mediator-pattern
     - label: Memento
       link: /design-patterns/memento-pattern
     - label: Null Object
