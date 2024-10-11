@@ -57,7 +57,7 @@ There are many benefits that come from using the Mediator pattern.
 
 ### Loose Coupling
 
-Components don’t need to know about each other; they only interact through the Mediator. This promotes modularity and makes the system easier to manage, especially when adding or modifying components.
+Components don't need to know about each other; they only interact through the Mediator. This promotes modularity and makes the system easier to manage, especially when adding or modifying components.
 
 ### Improved Readability and Maintenance
 
