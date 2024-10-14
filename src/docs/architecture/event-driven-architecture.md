@@ -96,3 +96,7 @@ These are some of the drawbacks of EDA:
 - **Data Consistency**: Maintaining consistency across distributed systems and services can be difficult, especially when events are processed out of order or lost.
 - **Latency**: Although EDA supports real-time processing, the asynchronous nature may introduce latency between event production and consumption, affecting performance for time-sensitive operations.
 - **Resource Overhead**: The infrastructure required to manage event routing, storage, and processing (e.g., event buses, brokers, and message queues) can add resource overhead and increase operational costs.
+
+## Additional References
+
+- [Mediator pattern](/design-patterns/mediator-pattern)

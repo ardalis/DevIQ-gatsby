@@ -29,7 +29,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - Interpreter
 - Iterator
 - Lazy Load
-- Mediator
+- [Mediator](/design-patterns/mediator-pattern)
 - [Memento](/design-patterns/memento-pattern)
 - Model-View-Controller (MVC)
 - Model-View-Presenter (MVP)
