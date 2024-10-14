@@ -1,7 +1,7 @@
 ---
 title: "Observer Pattern"
 date: "2024-10-10"
-description: "Explore the Observer pattern, a key design pattern that enables loose coupling and dynamic communication between objects in software development. Learn about its benefits, drawbacks, use cases, and implementation.""
+description: "Explore the Observer pattern, a key design pattern that enables loose coupling and dynamic communication between objects in software development. Learn about its benefits, drawbacks, use cases, and implementation."
 featuredImage: "./images/observer-pattern.png"
 ---
 
