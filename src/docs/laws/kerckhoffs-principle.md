@@ -2,7 +2,7 @@
 title: "Kerckhoffs's Principle (or Law) in Software Engineering"
 date: "2024-10-21"
 description: "Kerckhoffs's Principle (or Law) is a foundational security concept that emphasizes designing systems that remain secure even when their implementation details are publicly known, focusing only on keeping sensitive data like keys secret. This contrasts with security by obscurity, which relies on hiding system details, a fragile and often risky approach."
-featuredImage: "./images/conways-law.png"
+featuredImage: "./images/kerckhoffs-principle.png"
 ---
 
 ![Kerckhoffs's Principle (or Law) in Software Engineering](./images/kerckhoffs-principle.png)
