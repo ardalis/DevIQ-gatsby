@@ -22,7 +22,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Goodhart's Law](/laws/goodharts-law)
 - [Hebb's Law](/laws/hebbs-law)
 - [Hofstadter's Law](/laws/hofstadters-law)
-- Kerchoff's Principle
+- [Kerckhoff's Principle](/laws/kerckhoffs-principle)
 - Knuth's Optimization Principle
 - Law of Large Numbers
 - [Linus's Law](/laws/linus-law)

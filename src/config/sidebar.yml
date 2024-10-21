@@ -368,6 +368,8 @@
       link: /laws/hebbs-law
     - label: Hofstadters's Laws
       link: /laws/hofstadters-law
+    - label: Kerckhoff's Principle
+      link: /laws/kerckhoffs-principle
     - label: Linus's Law
       link: /laws/linus-law
     - label: Murphy's Law
