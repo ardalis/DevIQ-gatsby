@@ -100,9 +100,9 @@ Here, the Money value object acts as the single point of enforcement for all mon
 
 ## Patterns That Support SPE
 
-Aggregates (DDD): Aggregates act as a natural SPE by funneling all operations through the aggregate root, enforcing rules and consistency.
+[Aggregates (DDD)](/domain-driven-design/aggregate-pattern): Aggregates act as a natural SPE by funneling all operations through the aggregate root, enforcing rules and consistency.
 
-Value Objects (DDD): Value Objects enforce consistency and rules at a fine-grained level, ensuring that individual units of data maintain integrity.
+[Value Objects (DDD)](/domain-driven-design/value-object): Value Objects enforce consistency and rules at a fine-grained level, ensuring that individual units of data maintain integrity.
 Command Handlers: In command-based architectures, command handlers centralize the execution of operations, ensuring that validation and business logic are applied in one place.
 
 [Facade Pattern](/design-patterns/facade-pattern): The Facade Pattern provides a simplified interface to complex subsystems, acting as a single gatekeeper through which all operations must pass.
@@ -110,3 +110,7 @@ Command Handlers: In command-based architectures, command handlers centralize th
 ## Conclusion
 
 The Single Point of Enforcement principle is a powerful approach to ensuring that critical business rules and validations are applied consistently across a system. By funneling all relevant operations through a single gatekeeper, you reduce duplication, improve maintainability, and increase the reliability of your codebase. This practice is supported by various design patterns, including DDD aggregates and value objects, which naturally enforce these principles within their bounded contexts.
+
+## References
+
+- [Encapsulation Boundaries Large and Small](https://ardalis.com/encapsulation-boundaries-large-and-small/)
