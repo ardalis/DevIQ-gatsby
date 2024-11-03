@@ -5,6 +5,8 @@ description: Anything that can go wrong...
 featuredImage: "./images/murphys-law.png"
 ---
 
+![murphy's law](./images/murphys-law.png)
+
 Murphy's Law states: "Anything that can go wrong will go wrong."
 
 ## In Software
