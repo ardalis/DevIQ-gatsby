@@ -26,7 +26,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - Knuth's Optimization Principle
 - Law of Large Numbers
 - [Linus's Law](/laws/linus-law)
-- Moore's Law
+- [Moore's Law](/laws/moores-law)
 - [Murphy's Law](/laws/murphys-law)
 - Ninety-Ninety Rule
 - Norvig's Law
@@ -42,4 +42,4 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Software Estimates, 5 Laws of](https://ardalis.com/the-5-laws-of-software-estimates/)
 - Sturgeon's Law
 - Vogels' Law
-- Wirth's Law
+- [Wirth's Law](/laws/wirths-law)
