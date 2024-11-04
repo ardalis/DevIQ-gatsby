@@ -62,4 +62,4 @@ Wirth's Law serves as a cautionary reminder that while hardware continues to evo
 ## References
 
 1. Wirth, N. "A Plea for Lean Software." *IEEE Computer*, vol. 28, no. 2, 1995.
-2. [Moore's Law](./moores-law/)
+2. [Moore's Law](./moores-law)

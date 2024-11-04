@@ -5,7 +5,7 @@ description: "Moore's Law posits that the number of transistors on a microchip d
 featuredImage: "./images/moores-law.png"
 ---
 
-![moores's law](./images/moores-law.png)
+![moore's law](./images/moores-law.png)
 
 Moore's Law is a fundamental observation in the field of computing that has driven technological progress for over half a century. Formulated by Gordon Moore, co-founder of Intel, Moore's Law posits that **the number of transistors on a microchip doubles approximately every two years, effectively doubling processing power while reducing relative costs**. This exponential growth has had a profound impact on hardware, and by extension, has significantly influenced software development practices, architectures, and paradigms.
 
@@ -63,4 +63,4 @@ Moore's Law has profoundly shaped software development by consistently increasin
 ## References
 
 1. Moore, G. E. "Cramming more components onto integrated circuits." *Electronics*, vol. 38, no. 8, 1965.
-2. [Wirth's Law](wirths-law/)
+2. [Wirth's Law](wirths-law)
