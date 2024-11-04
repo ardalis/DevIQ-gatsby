@@ -5,7 +5,7 @@ description: "Wirth's Law, proposed by computer scientist Niklaus Wirth, states 
 featuredImage: "./images/wirths-law.png"
 ---
 
-![wirths's law](./images/wirths-law.png)
+![wirth's law](./images/wirths-law.png)
 
 # Wirth's Law and Its Impact on Software Development
 
