@@ -36,6 +36,8 @@
       link: /design-patterns/null-object-pattern
     - label: Object Mother
       link: /design-patterns/object-mother-pattern
+    - label: Observer
+      link: /design-patterns/observer-pattern
     - label: Proxy
       link: /design-patterns/proxy-pattern
     - label: Repository
@@ -370,14 +372,20 @@
       link: /laws/hebbs-law
     - label: Hofstadters's Laws
       link: /laws/hofstadters-law
+    - label: Kerckhoff's Principle
+      link: /laws/kerckhoffs-principle
     - label: Linus's Law
       link: /laws/linus-law
+    - label: Moore's Law
+      link: /laws/moores-law
     - label: Murphy's Law
       link: /laws/murphys-law
     - label: Postel's Law
       link: /laws/postels-law
-    - label: Laws of Architecture
+    - label: Software Architecture, Laws of
       link: /laws/laws-software-architecture
+    - label: Wirth's Law
+      link: /laws/wirths-law
 - label: Architecture
   items:
     - label: Overview
