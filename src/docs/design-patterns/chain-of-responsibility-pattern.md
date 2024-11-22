@@ -92,7 +92,7 @@ The ASP.NET Core middleware layer is made up of many handlers to process request
 
 There is a defined order for some of the middleware, seen [in this document on the middleware fundamentals for ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0#middleware-order).
 
-### Mediatr and Pipeline Behaviors
+### MediatR and Pipeline Behaviors
 
 MediatR implements the Chain of Responsibility pattern through its use of pipelines. Pipelines are a set of behaviors that are executed before and after a request is handled by its corresponding handler. Each behavior in the pipeline has the opportunity to intercept the request, modify it, or even prevent it from reaching the handler.
 
@@ -119,4 +119,5 @@ public CosmosHelper()
 
 ## References
 
+- [Mediator pattern](/design-patterns/mediator-pattern)
 - [Use the Decorator, Mediator, and Chain of Responsibility Patterns in C#](https://www.youtube.com/watch?v=eSQHpfaYspw)

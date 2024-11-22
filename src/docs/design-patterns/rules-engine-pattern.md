@@ -95,6 +95,7 @@ When implementing the rules engine:
 - [Chain of Responsibility](/design-patterns/chain-of-responsibility-pattern) - used for sequencing the rules for processing
 - [Strategy Pattern](/design-patterns/strategy-pattern) - encapsulate rule execution strategies
 - Command - encapsulate rule actions as discrete commands for testability and separation of concerns
+- [Mediator Pattern](/design-patterns/mediator-pattern) - acts as the orchestrator between the Rules Engine and its dependent components
 - [Observer Pattern](/design-patterns/observer-pattern) - can be used to notify parties when rules are triggered or applied
 
 ## Frequently Asked Questions

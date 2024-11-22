@@ -25,7 +25,7 @@ Pre-persistence events are typically triggered and resolved immediately. Post-pe
 
 ## Code Examples
 
-Let's go through some code examples to understand how to implement Domain Events using [MediatR](https://github.com/jbogard/MediatR) in a C#/.NET application.
+The [Mediator pattern](/design-patterns/mediator-pattern) is commonly used when working with domain events. Let's go through some code examples to understand how to implement Domain Events using [MediatR](https://github.com/jbogard/MediatR) in a C#/.NET application.
 
 First, install the MediatR NuGet package.
 
