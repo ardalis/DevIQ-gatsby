@@ -1,17 +1,20 @@
 // See https://containers.dev/implementors/json_reference/ for configuration reference
 {
 	"name": "DevIQ Gatsby blog",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-  "appPort": [8000,9000],
+	"image": "node:20.10.0",
+  "forwardPorts": [8000,9000],
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "workspaceFolder": "/workspace",
-  "remoteUser": "node",
   "mounts": [
     "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
   ],
+  "containerEnv": {
+    // Use this to enable polling when Docker is used
+    "CHOKIDAR_USEPOLLING":"true",
+    // This is also used for Hot Module Reloading with Gatsby
+    "INTERNAL_STATUS_PORT":"5001"
+  },
   "runArgs": ["--name","deviq_gatsby_devcontainer"],
-    "postCreateCommand": "sudo chown node ${containerWorkspaceFolder}/node_modules && sudo npm install --legacy-peer-deps && sudo npx playwright install-deps",
+  "postCreateCommand": "npm install -g gatsby-cli --unsafe-perm=true --allow-root && npm install --legacy-peer-deps && npx playwright install-deps",
   "postStartCommand": "npx playwright install && gatsby develop --host 0.0.0.0"
 }
