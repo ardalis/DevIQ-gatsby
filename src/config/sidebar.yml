@@ -271,6 +271,7 @@
     - label: Witches' Brew Architecture
       link: /antipatterns/witches-brew-architecture
 - label: Code Smells
+  items:
     - label: Overview
       link: /code-smells/code-smells-overview
     - label: Primitive Obsession
