@@ -270,6 +270,11 @@
       link: /antipatterns/waterfall
     - label: Witches' Brew Architecture
       link: /antipatterns/witches-brew-architecture
+- label: Code Smells
+    - label: Overview
+      link: /code-smells/code-smells-overview
+    - label: Primitive Obsession
+      link: /code-smells/primitive-obsession-code-smell
 - label: Domain Driven Design
   items:
     - label: Overview
