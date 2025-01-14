@@ -14,7 +14,7 @@ Each of these smells is demonstrated, and corrective actions described, in the [
 ### Bloaters
 
 - Long Method
-- Primitive Obsession
+- [Primitive Obsession](../code-smells/primitive-obsession-code-smell)
 - Long Parameter List
 - Data Clumps
 - Combinatorial Explosion
