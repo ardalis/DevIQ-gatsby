@@ -5,6 +5,8 @@ description: Primitive Obsession describes code in which the design relies too h
 featuredImage: "./images/primitive-obsession.png"
 ---
 
+![primitive obsession](./images/primitive-obsession.png)
+
 Primitive Obsession describes code in which the design relies too heavily on primitive types, rather than application-specific abstractions. It often results in more verbose code with more duplication of logic, since logic cannot be embedded with the primitive types used.
 
 Primitives refer to built-in types, like bool, int, string, etc. The primitive obsession code smell refers to overuse of primitive types to represent concepts that aren't a perfect fit, because the primitive supports values that don't make sense for the element they're representing. For example, it's not unusual to use a string to represent a ZIP Code value or a Social Security Number. Many systems will use an int to represent a value that cannot be negative, such as the number of items in a shopping basket. In such a case, if the system even bothers to enforce the invariant stating that shopping basket quantity must be positive, it must do so somewhere other than in the type representing the quantity.
