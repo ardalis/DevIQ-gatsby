@@ -44,4 +44,5 @@ The beauty of the DateTime type is that developers can be confident that it is a
 ## References
 
 - [Parse, don't validate (Alexis King)](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)
+- [Parse, Don't Validate (YouTube)](https://www.youtube.com/watch?v=KQVy0CaB7ds&ab_channel=Ardalis)
 - [Code That Fits in Your Head (Mark Seeman)](https://amzn.to/3xTL8NO)
