@@ -13,7 +13,7 @@ Alexis King describes this eloquently in her original 2019 blog post, [Parse, do
 
 ## Validation
 
-Validation is a point-in-time method that typically returns *true* or *false* (and if false a list of reasons why it's false). It doesn't typically and should not have any side effects, such as mutating the thing it's validating. If the data structure or object is passed between routines within the application, then the system probably cannot assume assume based on its type that the object remains valid from one context to another. Thus you'll often encounter validation taking place at multiple points within an application even for the same instance of a variable or structure (a practice sometimes called *shotgun validation*).
+Validation is a point-in-time method that typically returns *true* or *false* (and if false a list of reasons why it's false). It doesn't typically and should not have any side effects, such as mutating the thing it's validating. If the data structure or object is passed between routines within the application, then the system probably cannot assume based on its type that the object remains valid from one context to another. Thus you'll often encounter validation taking place at multiple points within an application even for the same instance of a variable or structure (a practice sometimes called *shotgun validation*).
 
 Immutable types help, of course, and can be validated once and then assumed to remain valid - *but only if the validation occurs as part of their construction*. That is, types that are able to enforce design invariants as part of their construction, and which are immutable, can be counted on by the system to be valid anywhere they appear.
 
