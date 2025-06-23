@@ -1,6 +1,6 @@
 ---
 title: "Hick's Law: Decision Time and Choice Complexity"
-date: "2024-12-23"
+date: "2025-06-23"
 description: "Understand Hick's Law and its impact on decision-making in software development. Learn how the number of choices affects user experience, interface design, and system complexity, and discover strategies to optimize decision-making processes."
 featuredImage: "./images/hicks-law.png"
 ---
