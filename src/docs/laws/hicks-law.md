@@ -1,6 +1,6 @@
 ---
 title: "Hick's Law: Decision Time and Choice Complexity"
-date: "2025-06-23"
+date: "2024-12-15"
 description: "Understand Hick's Law and its impact on decision-making in software development. Learn how the number of choices affects user experience, interface design, and system complexity, and discover strategies to optimize decision-making processes."
 featuredImage: "./images/hicks-law.png"
 ---
@@ -159,7 +159,7 @@ In an increasingly complex digital world, applying Hick's Law helps create softw
 
 - Hick, W. E. (1952). On the rate of gain of information. *Quarterly Journal of Experimental Psychology*, 4(1), 11-26.
 - Hyman, R. (1953). Stimulus information as a determinant of reaction time. *Journal of Experimental Psychology*, 45(3), 188-196.
-- [Hick's Law - The Decision Lab](https://thedecisionlab.com/reference-guide/design/hicks-law)
+- [Hick's Law - Wikipedia](https://en.wikipedia.org/wiki/Hick%27s_law)
 - Iyengar, S., & Lepper, M. (2000). When choice is demotivating: Can one desire too much of a good thing? *Journal of Personality and Social Psychology*, 79(6), 995-1006.
-- Nielsen, J. (2006). "Participation Inequality: Encouraging More Users to Contribute." Nielsen Norman Group.
-- [Laws of UX - Hick's Law](https://lawsofux.com/hicks-law/)
+- [Choice Overload - Wikipedia](https://en.wikipedia.org/wiki/Overchoice)
+- [User Interface Design - Nielsen Norman Group](https://www.nngroup.com/)
