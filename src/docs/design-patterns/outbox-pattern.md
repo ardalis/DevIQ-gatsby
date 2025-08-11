@@ -13,7 +13,7 @@ In a distributed system, ensuring that messages are delivered reliably and consi
 
 This creates a dual-write problem where you need to perform two operations atomically:
 
-1. Update the domain data in the application database
+1. Update the domain data in the application database (state)
 2. Send a message/notification to external systems
 
 Without a way to mitigate the risk of either operation failing, you run into the possibility of "zombie records" and "ghost messages."
