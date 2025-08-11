@@ -59,11 +59,6 @@ exports.createPages = (
       return;
     }
 
-    createPage({
-      path: basePath,
-      component: homeTemplate,
-    });
-
     // Generate prev/next items based on sidebar.yml file
     const sidebar = result.data.sidebar.edges;
     const listOfItems = [];
