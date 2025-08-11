@@ -37,6 +37,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Null Object](/design-patterns/null-object-pattern)
 - [Object Mother](/design-patterns/object-mother-pattern)
 - [Observer](/design-patterns/observer-pattern)
+- [Outbox](/design-patterns/outbox-pattern)
 - Prototype
 - [Proxy](/design-patterns/proxy-pattern)
 - [Repository](/design-patterns/repository-pattern) (and [CachedRepository](http://ardalis.com/introducing-the-cachedrepository-pattern))

@@ -38,6 +38,8 @@
       link: /design-patterns/object-mother-pattern
     - label: Observer
       link: /design-patterns/observer-pattern
+    - label: Outbox Pattern
+      link: /design-patterns/outbox-pattern
     - label: Proxy
       link: /design-patterns/proxy-pattern
     - label: Repository
