@@ -51,7 +51,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Strategy](/design-patterns/strategy-pattern)
 - [Template Method](https://www.pluralsight.com/courses/c-sharp-design-patterns-template-method)
 - [Token](/design-patterns/memento-pattern)
-- Unit of Work
+- [Unit of Work](/design-patterns/unit-of-work-pattern)
 - [Value Object](/domain-driven-design/value-object)
 - Visitor
 
