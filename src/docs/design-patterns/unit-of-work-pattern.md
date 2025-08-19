@@ -100,7 +100,7 @@ public class OrderService
 
 ### Note about this example
 
-Notice the example `IRepository<T>` interface lacks a `CommitAsync` or `SaveChangesAsync` method. This is intentional for this example as it can be implied the repository implementation is not responsible for managing transactions. Instead, that responsibility lies with the Unit of Work when these two patterns are paired together. Depending on your implementation or ORM, you may choose to handle this separation different or not at all.
+Notice the example `IRepository<T>` interface lacks a `CommitAsync` or `SaveChangesAsync` method. This is intentional for this example as it can be implied the repository implementation is not responsible for managing transactions. Instead, that responsibility lies with the Unit of Work when these two patterns are paired together. Depending on your implementation or ORM, you may choose to handle this separation differently or not at all.
 
 ## Related Patterns
 
@@ -111,7 +111,7 @@ Notice the example `IRepository<T>` interface lacks a `CommitAsync` or `SaveChan
 
 ## References
 
+- [Unit of Work by Martin Fowler](https://martinfowler.com/eaaCatalog/unitOfWork.html)
 - [Microsoft Docs – EF Core Transactions](https://learn.microsoft.com/en-us/ef/core/saving/transactions)
 - [Pluralsight - Domain-Driven Design Fundamentals](https://www.pluralsight.com/courses/fundamentals-domain-driven-design)
 - [Entities, Transactions, and Broken Boundaries by Udi Dahan](https://udidahan.com/2011/03/05/entities-transactions-and-broken-boundaries/)
-- [Unit of Work by Martin Fowler](https://martinfowler.com/eaaCatalog/unitOfWork.html)
