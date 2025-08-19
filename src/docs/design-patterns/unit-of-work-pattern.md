@@ -22,10 +22,10 @@ This can lead to data inconsistencies, duplicated logic for transaction manageme
 
 ## The Solution
 
-The Unit of Work groups a set of operations (often across multiple repositories) into a single transactional boundary:
+The Unit of Work groups a set of operations into a single transactional boundary:
 
 1. Start tracking changes (begin a transaction).
-2. Execute domain/application logic that mutates aggregates.
+2. Execute domain/application logic that mutates domain entities.
 3. Persist all accumulated changes in one atomic commit.
 
 If you're also utilizing a messaging based architecture, you may pair the Unit of Work with an [Outbox Pattern](/design-patterns/outbox-pattern) to ensure reliable message delivery. The messages are stored in an outbox table and only dispatched after the main transaction managed by the Unit of Work commits successfully.
@@ -106,8 +106,8 @@ Notice the example `IRepository<T>` interface lacks a `CommitAsync` or `SaveChan
 
 - [Repository Pattern](/design-patterns/repository-pattern)
 - [Outbox Design Pattern](/design-patterns/outbox-pattern)
-- [Domain Events](/domain-driven-design/domain-events) (often dispatched after commit)
-- [Specification Pattern](/design-patterns/specification-pattern)
+- [Domain Events](/domain-driven-design/domain-events)
+- [Separation of Concerns](/principles/separation-of-concerns)
 
 ## References
 
