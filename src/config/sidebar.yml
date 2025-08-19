@@ -58,6 +58,8 @@
       link: /design-patterns/strangler-fig-pattern
     - label: Strategy
       link: /design-patterns/strategy-pattern
+    - label: Unit of Work
+      link: /design-patterns/unit-of-work-pattern
 - label: Practices
   items:
     - label: Overview
