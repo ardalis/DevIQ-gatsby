@@ -51,8 +51,8 @@ public interface IUnitOfWork
 
 public interface IRepository<T> where T : EntityBase
 {
-  Task<T?> GetByIdAsync(int id, CancellationToken ct = default);
-  Task AddAsync(T entity, CancellationToken ct = default);
+  Task<T?> GetByIdAsync(int id, CancellationToken cancellationToken);
+  Task AddAsync(T entity, CancellationToken cancellationToken);
   Task UpdateAsync(T entity);
   Task RemoveAsync(T entity);
   // No CommitAsync/SaveChangesAsync here
