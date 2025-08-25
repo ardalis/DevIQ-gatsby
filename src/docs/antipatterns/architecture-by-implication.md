@@ -2,6 +2,7 @@
 title: "Architecture by Implication: An Antipattern in Software Design"
 date: "2023-04-24"
 description: The Architecture by Implication (ABI) antipattern is a common issue that arises in software design when developers make design decisions implicitly rather than explicitly, which can lead to a poorly defined and chaotic architecture.
+featuredImage: ./images/architecture-by-implication.png
 ---
 
 ## Introduction

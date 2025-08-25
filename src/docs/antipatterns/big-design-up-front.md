@@ -2,6 +2,7 @@
 title: "Big Design Up Front (BDUF): A Software Development Antipattern"
 date: "2023-04-26"
 description: Big Design Up Front (BDUF) is a software development antipattern that involves creating a comprehensive and detailed design for a software system before starting the actual implementation. While it's essential to have some level of design and planning, the BDUF approach tends to be overly rigid and inflexible, making it difficult to adapt to changing requirements or unforeseen issues.
+featuredImage: ./images/big-design-up-front.png
 ---
 
 ## Introduction

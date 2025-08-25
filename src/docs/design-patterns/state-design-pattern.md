@@ -2,6 +2,7 @@
 title: "State Design Pattern"
 date: "2018-01-03"
 description: The State Design Pattern is used to model changes in the status or state of an object by delegating rules for such changes to individual objects representing each possible state.
+featuredImage: ./images/state-design-pattern.png
 ---
 
 The State Design Pattern is used to model changes in the status or state of an object by delegating rules for such changes to individual objects representing each possible state. You can think of the state pattern as representing a Finite State Machine, like this one for insurance policies:

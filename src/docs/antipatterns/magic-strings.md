@@ -2,6 +2,7 @@
 title: "Magic Strings"
 date: "2015-05-15"
 description: Magic strings are string values that are specified directly within application code that have an impact on the application's behavior.
+featuredImage: ./images/magic-strings.png
 ---
 
 Magic strings are string values that are specified directly within application code that have an impact on the application's behavior. Frequently, such strings will end up being duplicated within the system, and since they cannot automatically be updated using refactoring tools, they become a common source of bugs when changes are made to some strings but not others. Alternately, the string may be associated with some form of external infrastructure or dependency, such as a configuration filename, a web URL, or a setting string. In each of these cases, if the location of the external resource or how it is accessed changes, any magic strings referring to these resources would need to be updated.
