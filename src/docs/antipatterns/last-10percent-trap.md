@@ -2,6 +2,7 @@
 title: "The Last 10% Trap: A Software Architecture Antipattern"
 date: "2023-04-26"
 description: The Last 10% Trap is a software architecture antipattern in which developers underestimate the complexity and effort required to complete the final stages of a software project. As a result, the project's last 10% of development can take a disproportionately long time to complete.
+featuredImage: ./images/last-10percent-trap.png
 ---
 
 ## Introduction
