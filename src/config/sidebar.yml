@@ -158,6 +158,8 @@
       link: /principles/principle-of-least-astonishment
     - label: Liskov Substitution
       link: /principles/liskov-substitution-principle
+    - label: Make Invalid States Unrepresentable
+      link: /principles/make-invalid-states-unrepresentable
     - label: Once and Only Once
       link: /principles/once-and-only-once
     - label: Open-Closed
