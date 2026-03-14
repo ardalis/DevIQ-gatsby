@@ -14,7 +14,7 @@ Design patterns are common approaches to solving similar problems. The [1995 boo
 - [Abstract Factory](/design-patterns/abstract-factory-pattern)
 - [Adapter](/design-patterns/adapter-design-pattern)
 - [Aggregate](/domain-driven-design/aggregate-pattern)
-- Bridge
+- [Bridge](/design-patterns/bridge-pattern)
 - [Builder](/design-patterns/builder-pattern)
 - [Chain of Responsibility](/design-patterns/chain-of-responsibility-pattern)
 - Command

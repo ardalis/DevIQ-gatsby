@@ -12,6 +12,8 @@
       link: /design-patterns/abstract-factory-pattern
     - label: Adapter
       link: /design-patterns/adapter-design-pattern
+    - label: Bridge
+      link: /design-patterns/bridge-pattern
     - label: Builder
       link: /design-patterns/builder-pattern
     - label: Chain of Responsibility
