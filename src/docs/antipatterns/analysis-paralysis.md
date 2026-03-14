@@ -2,6 +2,7 @@
 title: "Analysis Paralysis"
 date: "2023-04-22"
 description: There is such a thing as too much planning and analysis. Remember Shipping is a Feature and a good enough plan executed quickly is always better than the perfect plan executed too late.
+featuredImage: ./images/analysis-paralysis.png
 ---
 
 Analysis Paralysis is an antipattern in software development that occurs when a project becomes stalled or delayed due to excessive analysis, planning, or discussion, resulting in little or no progress. Team members may become overwhelmed with information or get caught in endless debates over potential solutions, preventing them from taking action and delivering results. See also: [Death by Planning](death-by-planning), but also [Fast Beats Right](fast-beats-right). There is a balance that allows for sufficient planning, without exceeding the [law of diminishing returns](/principles/pareto-principle).

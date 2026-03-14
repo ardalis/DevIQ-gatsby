@@ -2,6 +2,7 @@
 title: "Antipatterns"
 date: "2016-06-09"
 description: Antipatterns are simply design patterns that in many cases introduce more problems than they solve.
+featuredImage: ./images/antipatterns-overview.png
 ---
 
 Antipatterns are simply [design patterns](/design-patterns/design-patterns-overview) that in many cases introduce more problems than they solve. Sometimes these are coding patterns, while others describe problems within teams or organizations.

@@ -38,6 +38,8 @@
       link: /design-patterns/object-mother-pattern
     - label: Observer
       link: /design-patterns/observer-pattern
+    - label: Outbox Pattern
+      link: /design-patterns/outbox-pattern
     - label: Proxy
       link: /design-patterns/proxy-pattern
     - label: Repository
@@ -56,6 +58,8 @@
       link: /design-patterns/strangler-fig-pattern
     - label: Strategy
       link: /design-patterns/strategy-pattern
+    - label: Unit of Work
+      link: /design-patterns/unit-of-work-pattern
 - label: Practices
   items:
     - label: Overview
@@ -154,6 +158,8 @@
       link: /principles/principle-of-least-astonishment
     - label: Liskov Substitution
       link: /principles/liskov-substitution-principle
+    - label: Make Invalid States Unrepresentable
+      link: /principles/make-invalid-states-unrepresentable
     - label: Once and Only Once
       link: /principles/once-and-only-once
     - label: Open-Closed
@@ -376,6 +382,8 @@
       link: /laws/goodharts-law
     - label: Hebb's Law
       link: /laws/hebbs-law
+    - label: Hick's Law
+      link: /laws/hicks-law
     - label: Hofstadters's Laws
       link: /laws/hofstadters-law
     - label: Kerckhoff's Principle

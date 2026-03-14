@@ -2,6 +2,7 @@
 title: "Service Locator Antipattern in Software Development"
 date: "2023-04-22"
 description: The Service Locator is a design pattern (some would argue antipattern) often used in software development to manage dependencies between objects. It acts as a central registry where objects can locate and access their dependencies. However, it is considered an antipattern in certain contexts due to its negative impact on maintainability, testability, and the clarity of the code.
+featuredImage: ./images/service-locator.png
 ---
 
 The Service Locator is a design pattern (some would argue antipattern) often used in software development to manage dependencies between objects. It acts as a central registry where objects can locate and access their dependencies. However, it is considered an [antipattern](antipatterns-overview) in certain contexts due to its negative impact on maintainability, testability, and the clarity of the code.

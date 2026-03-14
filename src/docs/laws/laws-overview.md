@@ -21,6 +21,7 @@ Laws of software development, laws of programming, laws of software engineering.
 - [Gall's Law](/laws/galls-law)
 - [Goodhart's Law](/laws/goodharts-law)
 - [Hebb's Law](/laws/hebbs-law)
+- [Hick's Law](/laws/hicks-law)
 - [Hofstadter's Law](/laws/hofstadters-law)
 - [Kerckhoff's Principle](/laws/kerckhoffs-principle)
 - Knuth's Optimization Principle

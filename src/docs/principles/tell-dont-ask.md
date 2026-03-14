@@ -109,6 +109,7 @@ It's not necessary to follow the "don't ask" part of this principle to the extre
 ## See Also
 
 [Anemic Model](/domain-driven-design/anemic-model/)
+[Tell, Don't Ask](https://youtu.be/AcYcbBVmZew)
 
 ## References
 

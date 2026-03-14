@@ -26,7 +26,7 @@ interface IRepository<T> where T : EntityBase
 {
     Task<T> GetByIdAsync(int id);
     Task<List<T>> ListAsync();
-    TaskList<T> ListAsync(Expression<Func<T, bool>> predicate);
+    Task<List<T>> ListAsync(Expression<Func<T, bool>> predicate);
     Task AddAsync(T entity);
     Task DeleteAsync(T entity);
     Task EditAsync(T entity);
