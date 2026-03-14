@@ -2,6 +2,7 @@
 title: "Bridge Design Pattern"
 date: "2026-03-14"
 description: Learn how the Bridge design pattern separates an abstraction from its implementation. Discover how it creates a flexible connection between two independent hierarchies (by using composition over inheritance), allowing them to evolve independantly without causing subclass explosion.
+featuredImage: "./images/bridge-design-pattern.png"
 ---
 
 The Bridge pattern is a structural design pattern, it can be used in situations where two types of hierarchies must remain independent, yet still interact cleanly through a well‑defined connection (the "bridge"). In this pattern, one hierarchy is called the *"abstraction"* and the other - the *"implementor"*. If both are forced into a single inheritance tree, it usually results in a subclass explosion, since each hierarchy can evolve. The Bridge pattern decouples abstraction from it's implementation and avoids subclass explosion.
